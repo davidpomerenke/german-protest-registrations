@@ -1,0 +1,31 @@
+{
+  "template": "https://github.com/radix-ai/poetry-cookiecutter",
+  "commit": "5636490e5fd6a52fd1a7f5a782d4f16c60217c48",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "package_name": "german-protest-registrations",
+      "package_description": "German Protest Registrations Dataset",
+      "package_url": "https://github.com/davidpomerenke/german-protest-registrations",
+      "author_name": "David Pomerenke",
+      "author_email": "john@example.com",
+      "python_version": "3.11",
+      "development_environment": "simple",
+      "with_conventional_commits": "1",
+      "with_fastapi_api": "0",
+      "with_jupyter_lab": "0",
+      "with_pydantic_typing": "0",
+      "with_sentry_logging": "0",
+      "with_streamlit_app": "1",
+      "with_typer_cli": "0",
+      "continuous_integration": "GitHub",
+      "docstring_style": "Google",
+      "private_package_repository_name": "",
+      "private_package_repository_url": "",
+      "__package_name_kebab_case": "german-protest-registrations",
+      "__package_name_snake_case": "german_protest_registrations",
+      "_template": "https://github.com/radix-ai/poetry-cookiecutter"
+    }
+  },
+  "directory": null
+}

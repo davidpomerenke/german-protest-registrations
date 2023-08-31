@@ -1,0 +1,1 @@
+"""german-protest-registrations package."""
