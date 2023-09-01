@@ -6,12 +6,9 @@ reports/
 *.rej
 
 # Data
-*.csv*
 *.dat*
 *.pickle*
-*.xls*
 *.zip*
-data/
 
 # direnv
 .envrc
