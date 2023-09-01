@@ -7,7 +7,7 @@ from pathlib import Path
 def main():
     """Read all files from data/raw and if they are already tabular, create symlinks to data/interim/tabular."""
     for file in Path("data/raw").glob("*/*"):
-        table_formats = [".csv", ".tsv", ".xlsx", ".xsl", ".ods"]
+        table_formats = [".csv", ".tsv", ".xlsx", ".xls", ".ods"]
         if file.is_file() and file.suffix in table_formats:
             with contextlib.suppress(FileExistsError):
                 symlink = Path("data/interim/tabular") / file.relative_to("data/raw")
