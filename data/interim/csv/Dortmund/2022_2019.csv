@@ -1,0 +1,669 @@
+Datum,Ort,Art
+2019-01-03 00:00:00,Friedensplatz  ,Stationär
+2019-01-05 00:00:00,Katharinenstr. - Innenstadt - Katharinenstr.,Aufzug
+2019-01-07 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-01-10 00:00:00,Friedensplatz,Stationär
+2019-01-12 00:00:00,Katharinenstr. - Innenstadt - Katharinenstr.,Aufzug
+2019-01-12 00:00:00,Platz von Netanya,Stationär
+2019-01-12 00:00:00,Brackeler Straße 17,Stationär
+2019-01-12 00:00:00,Platz von Netanya Westenhellweg Platz von Netanya,Aufzug
+2019-01-14 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-01-14 00:00:00,Betenstraße,Stationär
+2019-01-15 00:00:00,Innenstadt  ,Aufzug
+2019-01-17 00:00:00,Friedensplatz,Stationär
+2019-01-18 00:00:00,Friedensplatz,Stationär
+2019-01-19 00:00:00,Katharinenstr. - Innenstadt - Katharinenstr.,Aufzug
+2019-01-19 00:00:00,U-Turm - Friedensplatz,Aufzug
+2019-01-21 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-01-21 00:00:00,Brückstraße,Stationär
+2019-01-24 00:00:00,Friedensplatz,Stationär
+2019-01-25 00:00:00,Heiliger Weg/Südbahnhof,Stationär
+2019-01-25 00:00:00,Friedensplatz,Stationär
+2019-01-26 00:00:00,Katharinenstr. - Innenstadt - Katharinenstr.,Aufzug
+2019-01-26 00:00:00,Platz von Netanya,Stationär
+2019-01-26 00:00:00,Katharinenstraße,Stationär
+2019-01-26 00:00:00,Reinoldikirchplatz,Stationär
+2019-01-27 00:00:00,Ostfriedhof,Stationär
+2019-01-27 00:00:00,Wambel - Dorstfeld Wilhelmplatz,Aufzug
+2019-01-28 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-01-29 00:00:00,Westfalenhalle,Stationär
+2019-01-31 00:00:00,Friedensplatz,Stationär
+2019-02-01 00:00:00,Aufzug Innenstadt,Aufzug
+2019-02-01 00:00:00,Willy-Brandt-Platz,Stationär
+2019-02-02 00:00:00,Westfalenhalle,Stationär
+2019-02-02 00:00:00,Platz von Netanya,Stationär
+2019-02-02 00:00:00,Aufzug Innenstadt,Aufzug
+2019-02-02 00:00:00,Katharinenstraße,Stationär
+2019-02-04 00:00:00,Oesterholzstraße 125,Stationär
+2019-02-04 00:00:00,Europabrunnen,Stationär
+2019-02-05 00:00:00,RWE Tower,Aufzug
+2019-02-07 00:00:00,Friedensplatz,Stationär
+2019-02-08 00:00:00,Barichstraße,Stationär
+2019-02-08 00:00:00,Aufzug Innenstadt,Stationär
+2019-02-09 00:00:00,Platz von Netanya ,Stationär
+2019-02-09 00:00:00,Aufzug Innenstadt,Aufzug
+2019-02-09 00:00:00,Gleiwitzstraße,Stationär
+2019-02-09 00:00:00,Köln-Berliner-Straße ,Stationär
+2019-02-09 00:00:00,Schlanke Mathilde,Stationär
+2019-02-09 00:00:00,Lütgendortmunder Straße 146 ,Stationär
+2019-02-09 00:00:00,Ecke Germaniastraße / Martener Straße,Stationär
+2019-02-09 00:00:00,Westerfilder Straße / Speckestraße,Stationär
+2019-02-10 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-02-11 00:00:00,Reinoldikirchplatz,Stationär
+2019-02-11 00:00:00,Europabrunnen,Stationär
+2019-02-11 00:00:00,Betenstraße,Stationär
+2019-02-11 00:00:00,Körner-Hellweg,Stationär
+2019-02-12 00:00:00,Brackeler Hellweg,Stationär
+2019-02-13 00:00:00,Aufzug Innenstadt,Stationär
+2019-02-13 00:00:00,Wickeder Hellweg,Stationär
+2019-02-14 00:00:00,Friedensplatz,Stationär
+2019-02-14 00:00:00,Kampstraße,Stationär
+2019-02-14 00:00:00,Willy-Brandt-Platz,Stationär
+2019-02-15 00:00:00,Friedensplatz,Aufzug
+2019-02-15 00:00:00,Wittener Straße (ggü. Wilhelmsplatz),Stationär
+2019-02-15 00:00:00,Lünen Fußgängerzone,Stationär
+2019-02-16 00:00:00,Aufzug Innenstadt,Stationär
+2019-02-16 00:00:00,Katharinenstraße,Stationär
+2019-02-18 00:00:00,Europabrunnen,Stationär
+2019-02-21 00:00:00,Friedensplatz,Stationär
+2019-02-22 00:00:00,Platz von Netanya,Stationär
+2019-02-22 00:00:00,Friedensplatz,Aufzug
+2019-02-23 00:00:00,Aufzug Innenstadt,Aufzug
+2019-02-23 00:00:00,Reinoldikirchplatz,Stationär
+2019-02-23 00:00:00,Platz von Netanya,Stationär
+2019-02-25 00:00:00,DSW 21 Kundencenter,Stationär
+2019-02-26 00:00:00,Aufzug Innenstadt,Aufzug
+2019-02-28 00:00:00,Friedensplatz,Stationär
+2019-03-01 00:00:00,Aufzug Innenstadt,Aufzug
+2019-03-02 00:00:00,Aufzug Innenstadt,Aufzug
+2019-03-02 00:00:00,Platz von Netanya,Stationär
+2019-03-07 00:00:00,Friedensplatz,Stationär
+2019-03-08 00:00:00,Katharinenstraße,Stationär
+2019-03-08 00:00:00,Platz von Netanya,Stationär
+2019-03-08 00:00:00,Aufzug Innenstadt,Aufzug
+2019-03-09 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-03-09 00:00:00,Cinestar Vorplatz,Stationär
+2019-03-10 00:00:00,Aufzug Westerfilde,Aufzug
+2019-03-10 00:00:00,Cinestar Vorplatz,Stationär
+2019-03-11 00:00:00,Reinoldikirchplatz,Stationär
+2019-03-11 00:00:00,Reinoldikirchplatz,Stationär
+2019-03-11 00:00:00,Betenstraße,Stationär
+2019-03-11 00:00:00,Oesterholzstraße 125,Stationär
+2019-03-13 00:00:00,Reinoldikirchplatz,Stationär
+2019-03-14 00:00:00,Friedensplatz,Stationär
+2019-03-15 00:00:00,Reinoldikirchplatz,Stationär
+2019-03-15 00:00:00,Aufzug Innenstadt,Aufzug
+2019-03-15 00:00:00,Lütgendortmund,Stationär
+2019-03-15 00:00:00,Europaplatz Lünen,Stationär
+2019-03-16 00:00:00,Platz von Netanya,Stationär
+2019-03-16 00:00:00,Reinoldikirchplatz,Stationär
+2019-03-16 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-03-16 00:00:00,Aufzug Innenstadt,Aufzug
+2019-03-16 00:00:00,DSW 21 Kundencenter,Stationär
+2019-03-16 00:00:00,Reinoldikirchplatz,Stationär
+2019-03-17 00:00:00,Aufzug Westerfilde,Aufzug
+2019-03-17 00:00:00,Cinestar Vorplatz,Stationär
+2019-03-18 00:00:00,Reinoldikirchplatz,Stationär
+2019-03-18 00:00:00,Friedensplatz - City - Friedensplatz,Aufzug
+2019-03-21 00:00:00,Wittener Straße/Im Rode,Stationär
+2019-03-21 00:00:00,Friedensplatz,Stationär
+2019-03-22 00:00:00,Aufzug Katharinenstr. - Bornstraße,Stationär
+2019-03-22 00:00:00,Aufzug Innenstadt,Aufzug
+2019-03-22 00:00:00,Westerfilder Straße / Speckestraße,Stationär
+2019-03-23 00:00:00,Aufzug Westerfilde,Aufzug
+2019-03-23 00:00:00,Europabrunnen,Stationär
+2019-03-23 00:00:00,Aufzug Innenstadt,Aufzug
+2019-03-23 00:00:00,Kupferdach Lünen,Stationär
+2019-03-23 00:00:00,Aufzug Innenstadt,Aufzug
+2019-03-23 00:00:00,Reinoldikirche / Friedhofstraße,Stationär
+2019-03-25 00:00:00,Europabrunnen,Stationär
+2019-03-28 00:00:00,Aufzug Marten,Aufzug
+2019-03-28 00:00:00,Friedensplatz,Stationär
+2019-03-29 00:00:00,Aufzug Innenstadt,Aufzug
+2019-03-30 00:00:00,Hansaplatz,Stationär
+2019-03-30 00:00:00,Aufzug Innenstadt,Aufzug
+2019-03-30 00:00:00,Reindoldikirchplatz,Stationär
+2019-03-30 00:00:00,Cinestar Vorplatz,Stationär
+2019-03-31 00:00:00,Cinestar Vorplatz,Stationär
+2019-04-01 00:00:00,Reinoldikirchplatz,Stationär
+2019-04-01 00:00:00,Reinoldikirchplatz,Stationär
+2019-04-01 00:00:00,Lange Str. Lünen,Stationär
+2019-04-04 00:00:00,Aufzug Nordstadt,Aufzug
+2019-04-04 00:00:00,Friedensplatz,Stationär
+2019-04-05 00:00:00,Europaplatz Lünen,Stationär
+2019-04-05 00:00:00,Aufzug Innenstadt,Aufzug
+2019-04-05 00:00:00,Aufzug Innenstadt,Aufzug
+2019-04-06 00:00:00,Aufzug Innenstadt,Aufzug
+2019-04-06 00:00:00,Platz von Netanya,Stationär
+2019-04-06 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-04-06 00:00:00,Platz von Netanya,Stationär
+2019-04-08 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-04-08 00:00:00,Betenstraße,Stationär
+2019-04-09 00:00:00,Wittener Straße,Stationär
+2019-04-09 00:00:00,Aufzug Innenstadt,Stationär
+2019-04-10 00:00:00,Aufzug Innenstadt,Aufzug
+2019-04-10 00:00:00,Reinoldikirche,Stationär
+2019-04-11 00:00:00,Centrum Propsteihof/Westerbleichstraße,Aufzug
+2019-04-11 00:00:00,Reinoldikirche,Stationär
+2019-04-11 00:00:00,Gerichtsstraße,Stationär
+2019-04-11 00:00:00,Friedensplatz,Stationär
+2019-04-12 00:00:00,Aufzug Innenstadt,Aufzug
+2019-04-12 00:00:00,Reinoldikirche,Stationär
+2019-04-12 00:00:00,Wittener Straße,Stationär
+2019-04-13 00:00:00,Platz von Netanya,Stationär
+2019-04-13 00:00:00,Aufzug Innenstadt,Aufzug
+2019-04-13 00:00:00,Aufzug Innenstadt,Aufzug
+2019-04-15 00:00:00,Europabrunnen,Stationär
+2019-04-17 00:00:00,Aufzug Innenstadt,Aufzug
+2019-04-18 00:00:00,Wittener Straße,Stationär
+2019-04-18 00:00:00,Friedensplatz,Stationär
+2019-04-18 00:00:00,Platz von Netanya,Stationär
+2019-04-19 00:00:00,Aufzug Innenstadt,Aufzug
+20.04. - 22.04.2019,Ostermarsch 2019,Aufzug
+2019-04-20 00:00:00,Aufzug Innenstadt,Aufzug
+2019-04-20 00:00:00,Aufzug Innenstadt,Aufzug
+2019-04-25 00:00:00,Friedensplatz,Stationär
+2019-04-26 00:00:00,Aufzug Innenstadt,Aufzug
+2019-04-26 00:00:00,Reinoldikirchplatz,Stationär
+2019-04-27 00:00:00,Platz von Netanya,Stationär
+2019-04-27 00:00:00,Platz von Netanya,Stationär
+2019-04-27 00:00:00,Aufzug Innenstadt,Aufzug
+2019-04-27 00:00:00,Reinoldikirchplatz,Stationär
+2019-04-28 00:00:00,Flurstr. 39,Aufzug
+2019-04-29 00:00:00,Reinoldikirchplatz,Stationär
+2019-04-30 00:00:00,Reindoldikirchplatz,Stationär
+2019-05-01 00:00:00,Aufzug Westpark - Innenstadt - Scharnhorststr.,Aufzug
+2019-05-01 00:00:00,Innenstadt - Westfalenpark,Aufzug
+2019-05-02 00:00:00,Reinoldikirchplatz,Stationär
+2019-05-02 00:00:00,Friedensplatz,Stationär
+03.05.-05.05.2019,Aufzug Innenstadt - Westfalenhalle,Aufzug
+2019-05-03 00:00:00,Aufzug Do-Dorstfeld,Aufzug
+2019-05-03 00:00:00,Reinoldikirchplatz,Stationär
+2019-05-03 00:00:00,Wilhelmplatz,Stationär
+2019-05-04 00:00:00,Aufzug Innenstadt - Westfalenhalle,Aufzug
+2019-05-04 00:00:00,Reinoldikirchplatz,Stationär
+2019-05-04 00:00:00,Reinoldikirchplatz,Stationär
+2019-05-04 00:00:00,Platz von Netanya,Stationär
+2019-05-04 00:00:00,Platz von Netanya,Stationär
+2019-05-04 00:00:00,Aufzug Innenstadt,Aufzug
+2019-05-05 00:00:00,Platz von Netanya,Stationär
+2019-05-06 00:00:00,Reinoldikirchplatz,Stationär
+2019-05-06 00:00:00,Betenstraße,Stationär
+2019-05-08 00:00:00,Dortmund-Hörde,Stationär
+2019-05-09 00:00:00,Platz von Netanya,Stationär
+2019-05-10 00:00:00,Barichstraße,Stationär
+2019-05-10 00:00:00,Aufzug Innenstadt,Aufzug
+2019-05-11 00:00:00,Aufzug Innenstadt,Aufzug
+2019-05-11 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-05-11 00:00:00,Platz von Netanya,Stationär
+2019-05-12 00:00:00,Platz von Netanya,Stationär
+2019-05-13 00:00:00,Speckestraße,Stationär
+2019-05-13 00:00:00,Europabrunnen,Stationär
+2019-05-13 00:00:00,Barichstraße,Stationär
+2019-05-15 00:00:00,Phönixinsel Do-Hörde,Stationär
+2019-05-15 00:00:00,Rahmer Straße,Stationär
+2019-05-15 00:00:00,Evinger Straße,Stationär
+2019-05-16 00:00:00,Aufzug Innenstadt,Aufzug
+2019-05-16 00:00:00,Friedensplatz,Stationär
+2019-05-17 00:00:00,Aufzug Innenstadt,Aufzug
+2019-05-17 00:00:00,Aufzug Innenstadt,Aufzug
+2019-05-17 00:00:00,Reinoldikirche,Stationär
+2019-05-18 00:00:00,Katharinenstraße,Stationär
+2019-05-18 00:00:00,Europabrunnen,Stationär
+2019-05-18 00:00:00,Reindoldikirchplatz,Stationär
+2019-05-18 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-05-20 00:00:00,Europabrunnen,Stationär
+2019-05-21 00:00:00,Am alten Markt,Stationär
+2019-05-22 00:00:00,Marktplatz Lünen,Stationär
+2019-05-22 00:00:00,DSW 21 Kundencenter,Stationär
+2019-05-23 00:00:00,Friedensplatz,Stationär
+2019-05-23 00:00:00,Reinoldikirche,Stationär
+2019-05-23 00:00:00,Friedensplatz,Stationär
+2019-05-24 00:00:00,Aufzug Innenstadt,Aufzug
+2019-05-24 00:00:00,Aufzug Kreuzviertel - Innenstadt,Aufzug
+2019-05-24 00:00:00,Lange Str. Lünen,Stationär
+2019-05-24 00:00:00,Europaplatz Lünen,Stationär
+2019-05-24 00:00:00,Kampstraße - Petrikirche,Stationär
+2019-05-24 00:00:00,Katharinentreppe,Stationär
+2019-05-25 00:00:00,Haltestelle Reinoldikirche,Stationär
+2019-05-25 00:00:00,Platz von Netanya,Stationär
+2019-05-25 00:00:00,Wilhelmplatz,Stationär
+2019-05-25 00:00:00,Aufzug Innenstadt - Nordstadt,Aufzug
+2019-05-25 00:00:00,Aufzug Innenstadt - Körne - Brackel,Aufzug
+2019-05-25 00:00:00,Aufzug Innenstadt - Marten,Aufzug
+2019-05-25 00:00:00,Borsigplatz,Stationär
+2019-05-25 00:00:00,Weißenburger/Gronaustr.,Stationär
+2019-05-25 00:00:00,Dortmund-Hörde,Aufzug
+2019-05-25 00:00:00,Aufzug Kreuzviertel - Innenstadt,Aufzug
+2019-05-25 00:00:00,Sonnenplatz,Stationär
+2019-05-25 00:00:00,Willy-Brandt-Platz,Stationär
+2019-05-25 00:00:00,Clarenberg - Do Hörde,Stationär
+2019-05-25 00:00:00,Piepenstockplatz - Do Hörde,Stationär
+2019-05-25 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-05-25 00:00:00,Hörde,Aufzug
+2019-05-25 00:00:00,Hintere Schildstraße,Stationär
+2019-05-25 00:00:00,St. Petrikirche,Stationär
+2019-05-25 00:00:00,Scharnhorststr.,Stationär
+2019-05-25 00:00:00,Katharinenstraße,Stationär
+2019-05-26 00:00:00,Aufzug Innenstadt,Stationär
+2019-05-26 00:00:00,Reinoldikirche,Stationär
+2019-05-27 00:00:00,Europabrunnen,Stationär
+2019-05-30 00:00:00,Platz von Netanya,Stationär
+2019-05-30 00:00:00,Rennweg 70,Stationär
+2019-05-30 00:00:00,Friedensplatz,Stationär
+2019-05-30 00:00:00,Westpark,Stationär
+2019-05-31 00:00:00,Aufzug Innenstadt,Aufzug
+2019-05-31 00:00:00,Westpark,Stationär
+2019-06-01 00:00:00,Platz von Netanya,Stationär
+2019-06-01 00:00:00,Platz von Netanya,Stationär
+2019-06-02 00:00:00,Park der Partnerstädte,Stationär
+2019-06-03 00:00:00,Europabrunnen,Stationär
+2019-06-04 00:00:00,Niedersachsenweg 20,Stationär
+2019-06-04 00:00:00,Wittekindstraße 99,Stationär
+2019-06-05 00:00:00,Europabrunnen,Stationär
+2019-06-06 00:00:00,Friedensplatz,Stationär
+2019-06-07 00:00:00,Innenstadt,Aufzug
+2019-06-08 00:00:00,Platz der Deutschen Einheit - RKP,Aufzug
+2019-06-08 00:00:00,Platz von Netanya,Stationär
+2019-06-08 00:00:00,St. Petrikirche,Stationär
+2019-06-11 00:00:00,Platz von Netanya,Stationär
+2019-06-11 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-06-13 00:00:00,Marktplatz Hombruch,Stationär
+2019-06-14 00:00:00,Friedensplatz bis Friedensplatz,Aufzug
+2019-06-14 00:00:00,Ritterstraße - Friedensplatz,Aufzug
+2019-06-15 00:00:00,Reinoldikirchplatz,Stationär
+2019-06-15 00:00:00,Aufzug Innenstadt,Aufzug
+2019-06-17 00:00:00,Platz der Deutschen Einheit,Stationär
+18.06.-22.06.2019,Willy-Brandt-Platz,Stationär
+19.06.-22.06.2019,Willy-Brandt-Platz,Stationär
+2019-06-19 00:00:00,Aufzug Unna Dortmund,Aufzug
+2019-06-19 00:00:00,Steinwache ,Stationär
+2019-06-20 00:00:00,Marktplatz Hombruch,Stationär
+2019-06-20 00:00:00,Platz der Alten Synagoge - Hiltropwall,Aufzug
+2019-06-20 00:00:00,Petergasse,Stationär
+21.06.-22.06.2019,Aufzug Innenstadt,Aufzug
+2019-06-21 00:00:00,Platz der Alten Synagoge - Hiltropwall,Aufzug
+2019-06-21 00:00:00,Petergasse,Stationär
+2019-06-21 00:00:00,Friedensplatz,Stationär
+2019-06-22 00:00:00,Platz von Netanya,Stationär
+2019-06-22 00:00:00,Westfalenhalle und Stadtgarten,Stationär
+2019-06-22 00:00:00,Aufzug Innenstadt,Aufzug
+2019-06-22 00:00:00,Hansaplatz,Stationär
+2019-06-22 00:00:00,Platz der Alten Synagoge - Hiltropwall,Aufzug
+2019-06-22 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-06-22 00:00:00,Kampstraße 38,Stationär
+2019-06-22 00:00:00,Petergasse,Stationär
+2019-06-22 00:00:00,Friedensplatz,Stationär
+2019-06-23 00:00:00,Rennweg 70,Stationär
+2019-06-24 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-06-25 00:00:00,Aufzug Betenstr. - Ritterstr. ,Aufzug
+2019-06-26 00:00:00,Friedensplatz,Stationär
+2019-06-27 00:00:00,Friedensplatz,Stationär
+2019-06-28 00:00:00,Aufzug Lünen,Aufzug
+2019-06-28 00:00:00,Lünen ,Aufzug
+2019-06-28 00:00:00,Aufzug Friedensplatz - Nordstadt,Aufzug
+2019-06-28 00:00:00,Friedensplatz - City - Friedensplatz,Aufzug
+2019-06-28 00:00:00,Westenhellweg Potgasse Ruhrnachrichten,Stationär
+2019-06-28 00:00:00,Westenhellweg Potgasse Ruhrnachrichten,Stationär
+2019-06-29 00:00:00,Diverse in Dortmund,Stationär
+2019-06-29 00:00:00,Cinestar Vorplatz,Stationär
+2019-07-01 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-07-03 00:00:00,Katharinenstraße,Stationär
+2019-07-03 00:00:00,Goebenstraße 12-14 Ital. Konsulat,Stationär
+2019-07-04 00:00:00,Sonnenplatz,Stationär
+2019-07-04 00:00:00,Friedensplatz ,Stationär
+2019-07-04 00:00:00,Friedensplatz,Stationär
+2019-07-05 00:00:00,Friedensplatz - City - Friedensplatz,Aufzug
+2019-07-06 00:00:00,Reinoldikirchplatz,Stationär
+2019-07-06 00:00:00,Aufzug Innenstadt,Aufzug
+2019-07-06 00:00:00,Europabrunnen,Aufzug
+2019-07-06 00:00:00,Münsterstr. - RKP,Aufzug
+2019-07-06 00:00:00,Westenhellweg ggü Saturn,Stationär
+2019-07-08 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-07-08 00:00:00,Betenstraße,Stationär
+2019-07-11 00:00:00,Evinger Straße,Stationär
+2019-07-11 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-07-12 00:00:00,Aufzug Innenstadt,Aufzug
+2019-07-13 00:00:00,Platz von Netanya ,Stationär
+2019-07-13 00:00:00,U-Turm - Friedensplatz,Aufzug
+2019-07-13 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-07-15 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-07-17 00:00:00,Platz von Netanya,Stationär
+2019-07-18 00:00:00,Friedensplatz,Stationär
+2019-07-18 00:00:00,Platz von Netanya,Stationär
+2019-07-19 00:00:00,Aufzug Innnenstadt,Aufzug
+2019-07-20 00:00:00,Platz von Netanya,Stationär
+2019-07-20 00:00:00,Hbf - Hbf,Aufzug
+2019-07-20 00:00:00,Kampstr./DSW21 Center,Stationär
+2019-07-20 00:00:00,U-Bahn Westfalenhallen,Stationär
+2019-07-20 00:00:00,Platz Rostow am Don,Stationär
+2019-07-20 00:00:00,Europabrunnen RKP,Stationär
+2019-07-20 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-07-21 00:00:00,Stadtgarten  ,Stationär
+2019-07-21 00:00:00,U-Bahn Westfalenhallen,Stationär
+2019-07-22 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-07-22 00:00:00,Platz von Netanya,Stationär
+2019-07-23 00:00:00,Kampstr. oder RKP,Stationär
+2019-07-24 00:00:00,Platz von Netanya,Stationär
+2019-07-25 00:00:00,Friedensplatz,Stationär
+2019-07-25 00:00:00,Platz von Netanya,Stationär
+2019-07-26 00:00:00,Friedensplatz,Stationär
+2019-07-27 00:00:00,Platz von Netanya,Stationär
+2019-07-28 00:00:00,Westfalenhalle,Stationär
+2019-07-29 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-07-30 00:00:00,Platz von Netanya,Stationär
+2019-08-01 00:00:00,Hombrucher Marktplatz,Stationär
+2019-08-02 00:00:00,Innenstadt,Aufzug
+2019-08-02 00:00:00,Südwall 2- 4,Stationär
+2019-08-02 00:00:00,Schwarze-Brüder-Str. 7,Stationär
+2019-08-02 00:00:00,Kampstr. 102,Stationär
+2019-08-02 00:00:00,Hansaplatz,Stationär
+2019-08-02 00:00:00,Kampstr. 5,Stationär
+2019-08-02 00:00:00,Betenstraße,Stationär
+2019-08-02 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-08-02 00:00:00,Kampstr. 46,Stationär
+2019-08-02 00:00:00,Freistuhl 7,Stationär
+2019-08-02 00:00:00,Friedensplatz,Stationär
+2019-08-02 00:00:00,Freistuhl 2,Stationär
+2019-08-02 00:00:00,Betenstraße,Stationär
+2019-08-02 00:00:00,Westenhellweg 102 - 106,Stationär
+2019-08-02 00:00:00,Westenhellweg 11 - 13,Stationär
+2019-08-02 00:00:00,Westenhellweg 30 - 36,Stationär
+2019-08-02 00:00:00,Westenhellweg 37 - 41,Stationär
+2019-08-02 00:00:00,Westenhellweg 65,Stationär
+2019-08-02 00:00:00,Westenhellweg 70 - 84,Stationär
+2019-08-02 00:00:00,Kuhstr. 12,Stationär
+2019-08-02 00:00:00,Südwall 37 - 41,Stationär
+2019-08-03 00:00:00,Kampstraße DSW21Center,Stationär
+2019-08-03 00:00:00,Westenhellweg Petrikirche,Stationär
+2019-08-03 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-08-03 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-08-05 00:00:00,Europabrunnen,Stationär
+2019-08-06 00:00:00,Platz von Hiroshima - Friedensplatz,Aufzug
+2019-08-06 00:00:00,Platz von Netanya,Stationär
+2019-08-06 00:00:00,Kampstraße DSW21Center,Stationär
+2019-08-09 00:00:00,Platz von Netanya,Stationär
+2019-08-09 00:00:00,Hoeschpark - Hoeschpark,Aufzug
+2019-08-09 00:00:00,Friedensplatz,Stationär
+2019-08-09 00:00:00,Platz von Leeds,Stationär
+2019-08-10 00:00:00,Platz von Netanya,Stationär
+2019-08-10 00:00:00,Balkenstr. - Westpark,Aufzug
+2019-08-10 00:00:00,Friedensplatz,Stationär
+2019-08-10 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-08-11 00:00:00,Greveler Str. 168,Stationär
+2019-08-11 00:00:00,Kattenstert 20,Stationär
+2019-08-12 00:00:00,Europabrunnen,Stationär
+2019-08-12 00:00:00,Platz von Netanya,Stationär
+2019-08-13 00:00:00,Platz von Netanya,Stationär
+2019-08-13 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-08-14 00:00:00,Platz von Netanya,Stationär
+2019-08-16 00:00:00,Friedensplatz,Stationär
+2019-08-17 00:00:00,Friedensplatz,Stationär
+2019-08-17 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-08-17 00:00:00,Petrikirche Westenhellweg,Stationär
+2019-08-19 00:00:00,Europabrunnen,Stationär
+2019-08-19 00:00:00,Reinoldikirchplatz,Stationär
+2019-08-22 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-08-23 00:00:00,Katharinenstraße,Stationär
+2019-08-23 00:00:00,Katharinenstraße,Stationär
+2019-08-23 00:00:00,Katharinenstraße,Stationär
+2019-08-23 00:00:00,Cinestar Vorplatz,Stationär
+2019-08-24 00:00:00,Evinger Straße,Stationär
+2019-08-24 00:00:00,Hombruch Hartkort/Domänen,Stationär
+2019-08-24 00:00:00,Lünen ,Aufzug
+2019-08-24 00:00:00,Katharinenstraße,Stationär
+2019-08-26 00:00:00,Europabrunnen,Stationär
+2019-08-27 00:00:00,Platz von Netanya,Stationär
+2019-08-27 00:00:00,Friedensplatz,Stationär
+2019-08-27 00:00:00,Reinoldikirchplatz,Stationär
+2019-08-29 00:00:00,Friedensplatz,Stationär
+2019-08-30 00:00:00,Aufzug Innenstadt,Aufzug
+2019-08-31 00:00:00,Kampstraße DSW21Center,Stationär
+2019-08-31 00:00:00,Hombruch Hartkort/Domänen,Stationär
+2019-08-31 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-08-31 00:00:00,Platz von Leeds,Stationär
+2019-09-02 00:00:00,Europabrunnen,Stationär
+2019-09-02 00:00:00,Brüderweg,Stationär
+2019-09-06 00:00:00,Friedensplatz,Aufzug
+2019-09-07 00:00:00,Kampstr./Katharinenstr.,Aufzug
+2019-09-07 00:00:00,Hombruch Hartkort/Domänen,Stationär
+2019-09-07 00:00:00,Brauhausstraße,Stationär
+2019-09-07 00:00:00,Platz von Leeds,Stationär
+2019-09-08 00:00:00,Aplerbeck - Halde Schleswig,Stationär
+2019-09-09 00:00:00,Europabrunnen,Stationär
+2019-09-09 00:00:00,Betenstraße,Stationär
+2019-09-09 00:00:00,Schlanke Mathilde,Stationär
+2019-09-09 00:00:00,Brüderweg,Stationär
+2019-09-11 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-09-12 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-09-13 00:00:00,Nordmarkt,Stationär
+2019-09-13 00:00:00,Friedensplatz,Aufzug
+2019-09-14 00:00:00,Aufzug Nordstadt,Aufzug
+2019-09-14 00:00:00,Platz von Netanya,Stationär
+2019-09-14 00:00:00,Hombruch Hartkort/Domänen,Stationär
+2019-09-14 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-09-14 00:00:00,Sonnenplatz,Stationär
+2019-09-14 00:00:00,Kampstraße DSW21Center,Stationär
+2019-09-14 00:00:00,Sonnenplatz,Stationär
+2019-09-15 00:00:00,Innenstadt,Aufzug
+2019-09-16 00:00:00,Europabrunnen,Stationär
+2019-09-16 00:00:00,Ostwall - Wall - Ostwall,Aufzug
+2019-09-16 00:00:00,Brüderweg,Stationär
+2019-09-16 00:00:00,FZW - Hiltropwall,Aufzug
+2019-09-18 00:00:00,Dietrich Keuning Haus,Stationär
+2019-09-18 00:00:00,Leopoldstr. 50 - 58 Dietrich-Keuning-Haus,Stationär
+2019-09-19 00:00:00,Friedhof,Stationär
+2019-09-20 00:00:00,Friedensplatz,Aufzug
+2019-09-20 00:00:00,Lünen Europaplatz,Stationär
+2019-09-20 00:00:00,Platz von Netanya,Stationär
+2019-09-20 00:00:00,Hbf - U-Bahn Brügmannplatz,Aufzug
+2019-09-20 00:00:00,Reinoldikirchplatz,Stationär
+2019-09-21 00:00:00,Platz von Netanya,Stationär
+2019-09-21 00:00:00,Hombruch Hartkort/Domänen,Stationär
+2019-09-21 00:00:00,Platz von Netanya,Stationär
+2019-09-21 00:00:00,Petrikirche Westenhellweg,Stationär
+2019-09-21 00:00:00,Katharinentreppe,Stationär
+2019-09-21 00:00:00,Brauhausstraße/Ecke Hansaplatz,Stationär
+2019-09-21 00:00:00,Platz an der Schlanken Mathilde,Stationär
+2019-09-23 00:00:00,Europabrunnen,Stationär
+2019-09-23 00:00:00,Brüderweg,Stationär
+2019-09-25 00:00:00,RKP oder Katharinenstraße,Stationär
+2019-09-25 00:00:00,Rathausplatz Lünen,Stationär
+2019-09-26 00:00:00,U-Bahn Wittenerstraße,Stationär
+2019-09-27 00:00:00,Friedensplatz,Aufzug
+2019-09-28 00:00:00,Reinoldikirchplatz,Stationär
+2019-09-28 00:00:00,Friedensplatz,Stationär
+2019-09-28 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-09-30 00:00:00,Europabrunnen,Stationär
+2019-09-30 00:00:00,Brüderweg,Stationär
+2019-09-30 00:00:00,Arbeitsamt - Haltestelle Lortzingstraße,Aufzug
+2019-10-02 00:00:00,Postbankgebäude - FZW,Aufzug
+2019-10-03 00:00:00,Park am Externberg Eving,Stationär
+2019-10-04 00:00:00,Friedensplatz - Datteln,Aufzug
+2019-10-04 00:00:00,Bergstraße in Eving,Stationär
+2019-10-04 00:00:00,Friedensplatz,Aufzug
+2019-10-05 00:00:00,Platz von Netanya,Stationär
+2019-10-05 00:00:00,Friedensplatz,Stationär
+2019-10-05 00:00:00,Platz von Netanya,Stationär
+2019-10-05 00:00:00,Brauhausstraße,Stationär
+2019-10-07 00:00:00,Europabrunnen,Stationär
+2019-10-07 00:00:00,Brüderweg,Stationär
+2019-10-07 00:00:00,Platz von Netanya,Stationär
+2019-10-07 00:00:00,Arbeitsamt - Haltestelle Lortzingstraße,Aufzug
+2019-10-07 00:00:00,Aufzug Nordstadt,Aufzug
+2019-10-07 00:00:00,Scharnhorststr.,Stationär
+2019-10-09 00:00:00,Katharinenstraße,Aufzug
+2019-10-10 00:00:00,Katharinenstraße,Aufzug
+2019-10-11 00:00:00,Bergstraße in Eving,Stationär
+2019-10-11 00:00:00,Arbeitsamt - Kampstraße,Aufzug
+2019-10-11 00:00:00,Friedensplatz,Aufzug
+2019-10-12 00:00:00,Friedensplatz,Aufzug
+2019-10-12 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-10-12 00:00:00,Reinoldikirchplatz,Stationär
+2019-10-12 00:00:00,Reinoldikirchplatz,Stationär
+2019-10-12 00:00:00,Hombruch Hartkort/Domänen,Stationär
+2019-10-12 00:00:00,Westenhellweg,Aufzug
+2019-10-12 00:00:00,Platz von Leeds,Stationär
+2019-10-12 00:00:00,Reinoldikirchplatz,Stationär
+2019-10-12 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-10-13 00:00:00,Nordmarkt,Stationär
+2019-10-13 00:00:00,Lünen,Stationär
+2019-10-14 00:00:00,Europabrunnen,Stationär
+2019-10-14 00:00:00,Brüderweg,Stationär
+2019-10-14 00:00:00,Arbeitsamt - Haltestelle Brügmannplatz,Aufzug
+2019-10-14 00:00:00,Hamburger Straße - Ostentor,Aufzug
+2019-10-14 00:00:00,Betenstraße,Stationär
+2019-10-14 00:00:00,Platz von Netanya ,Stationär
+2019-10-14 00:00:00,Baumstraße,Stationär
+2019-10-14 00:00:00,Kurfürstenstraße,Aufzug
+2019-10-14 00:00:00,Steinstraße,Aufzug
+2019-10-14 00:00:00,Borsigplatz - Steinwache,Aufzug
+2019-10-14 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-10-14 00:00:00,Reinoldikirchplatz,Aufzug
+2019-10-14 00:00:00,NSU Denkmal,Aufzug
+2019-10-15 00:00:00,Friedhof,Aufzug
+2019-10-15 00:00:00,Friedhof,Stationär
+2019-10-16 00:00:00,Platz von Netanya ,Stationär
+2019-10-16 00:00:00,Friedhof,Stationär
+2019-10-17 00:00:00,Friedensplatz,Stationär
+2019-10-17 00:00:00,Friedhof,Stationär
+2019-10-18 00:00:00,Friedensplatz - RKP,Aufzug
+2019-10-18 00:00:00,Friedhof,Stationär
+2019-10-19 00:00:00,Innenstadt,Aufzug
+2019-10-19 00:00:00,Reinoldikirchplatz,Stationär
+2019-10-19 00:00:00,Hombruch Hartkort/Domänen,Stationär
+2019-10-19 00:00:00,DSW 21 Kundencenter,Stationär
+2019-10-21 00:00:00,Europabrunnen,Stationär
+2019-10-21 00:00:00,Brüderweg,Stationär
+2019-10-21 00:00:00,Arbeitsamt - Haltestelle Münsterstraße,Aufzug
+2019-10-21 00:00:00,Platz von Netanya ,Stationär
+2019-10-21 00:00:00,Steinstraße,Stationär
+2019-10-21 00:00:00,Mehmet-Kubasik Platz,Stationär
+2019-10-21 00:00:00,Mallinckrodtstraße,Stationär
+2019-10-21 00:00:00,Friedhof,Stationär
+2019-10-22 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-10-23 00:00:00,Platz von Netanya ,Stationär
+2019-10-24 00:00:00,Friedhof,Stationär
+2019-10-25 00:00:00,Evinger Straße,Stationär
+2019-10-25 00:00:00,Platz der Deutschen Einheit,Aufzug
+2019-10-25 00:00:00,Kampstr.  -  Friedhof,Aufzug
+2019-10-26 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-10-26 00:00:00,Platz von Netanya,Stationär
+2019-10-26 00:00:00,Friedensplatz,Stationär
+2019-10-26 00:00:00,Reinoldikirchplatz,Stationär
+2019-10-26 00:00:00,Platz von Netanya ,Stationär
+2019-10-26 00:00:00,Europabrunnen,Stationär
+2019-10-27 00:00:00,Friedensplatz,Aufzug
+2019-10-27 00:00:00,Friedensplatz,Stationär
+2019-10-28 00:00:00,Europabrunnen,Stationär
+2019-10-28 00:00:00,Brüderweg,Stationär
+2019-10-28 00:00:00,Arbeitsamt - Haltestelle Münsterstraße,Aufzug
+2019-10-28 00:00:00,Scharnhorststr.,Stationär
+2019-10-28 00:00:00,Steinstraße,Stationär
+2019-10-28 00:00:00,Nordmarkt,Stationär
+2019-10-28 00:00:00,Mehmet-Kubasik Platz,Stationär
+2019-10-29 00:00:00,Platz von Netanya ,Stationär
+2019-10-31 00:00:00,Körner Hellweg ,Stationär
+2019-11-01 00:00:00,Katharinenstraße - Platz der Deutschen Einheit,Aufzug
+2019-11-02 00:00:00,Platz von Leeds,Stationär
+2019-11-02 00:00:00,Friedensplatz,Aufzug
+2019-11-02 00:00:00,Platz von Leeds,Stationär
+2019-11-02 00:00:00,Hörde Platz an der schlanken Mathilde,Stationär
+2019-11-02 00:00:00,Hombruch Hartkort/Domänen,Stationär
+2019-11-02 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-11-02 00:00:00,Platz der Deutschen Einheit - RKP,Stationär
+2019-11-04 00:00:00,Arbeitsamt - Haltestelle Brügmannplatz ,Aufzug
+2019-11-04 00:00:00,Kampstraße DSW21Center,Stationär
+2019-11-04 00:00:00,Brüderweg,Stationär
+2019-11-04 00:00:00,Aufzug Nordstadt,Aufzug
+2019-11-05 00:00:00,Evinger Straße,Stationär
+2019-11-08 00:00:00,"Dorstfeld, jüd. Mahnmahl",Stationär
+2019-11-08 00:00:00,Westfalenhalle,Stationär
+2019-11-08 00:00:00,Stadtgarten,Aufzug
+2019-11-09 00:00:00,Friedensplatz,Stationär
+2019-11-09 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-11-09 00:00:00,Platz von Netanya,Stationär
+2019-11-09 00:00:00,Platz an der Schlanken Mathilde,Stationär
+2019-11-11 00:00:00,Arbeitsamt - Haltestelle Münsterstraße,Aufzug
+2019-11-11 00:00:00,Rewe Körner Hellweg,Stationär
+2019-11-11 00:00:00,Kleppingstr./Ostenhellweg,Stationär
+2019-11-11 00:00:00,Emil-Moog-Platz,Stationär
+2019-11-11 00:00:00,Brüderweg,Stationär
+2019-11-15 00:00:00,Stadtgarten,Aufzug
+2019-11-16 00:00:00,Propsteikirche,Aufzug
+2019-11-16 00:00:00,Kampstraße Höhe DSW 21,Stationär
+2019-11-16 00:00:00,Platz von Hiroshima,Stationär
+2019-11-16 00:00:00,Petrikirchplatz,Aufzug
+2019-11-16 00:00:00,Hombruch Hartkort/Domänen,Stationär
+2019-11-16 00:00:00,Hombruch Hartkort/Domänen,Stationär
+2019-11-16 00:00:00,Marktplatz Huckarde,Stationär
+2019-11-18 00:00:00,Arbeitsamt - Haltestelle Münsterstraße,Aufzug
+2019-11-18 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-11-18 00:00:00,Brüderweg,Stationär
+2019-11-22 00:00:00,Europaplatz Lünen,Aufzug
+2019-11-22 00:00:00,Stadtgarten,Aufzug
+2019-11-22 00:00:00,Platz an der Schlanken Mathilde,Stationär
+2019-11-23 00:00:00,Cinestar Vorplatz - Kampstraße,Aufzug
+2019-11-23 00:00:00,Katharinenstraße oberhalb,Stationär
+2019-11-23 00:00:00,Kampstraße DSW21Center,Stationär
+2019-11-23 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-11-23 00:00:00,Hombruch Hartkort/Domänen,Stationär
+2019-11-23 00:00:00,Hombruch Hartkort/Domänen,Stationär
+2019-11-25 00:00:00,Arbeitsamt - Haltestelle Enscheder Straße,Aufzug
+2019-11-25 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-11-25 00:00:00,Brüderweg,Stationär
+2019-11-25 00:00:00,Parklätze Westfalendamm E1 + E2,Aufzug
+2019-11-25 00:00:00,Park der Partnerstädte,Stationär
+2019-11-27 00:00:00,Cinestarvorplatz - Bornstraße,Aufzug
+2019-11-29 00:00:00,Friedensplatz,Aufzug
+2019-11-29 00:00:00,Europaplatz Lünen,Aufzug
+2019-11-30 00:00:00,Platz von Hiroshima,Stationär
+2019-11-30 00:00:00,Katharinenstraße oberhalb,Stationär
+2019-11-30 00:00:00,Kampstraße DSW21Center,Stationär
+2019-11-30 00:00:00,Platz von Hiroshima,Stationär
+2019-11-30 00:00:00,EKS Dortmund Scharnhorst,Stationär
+2019-11-30 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-11-30 00:00:00,Hombruch Hartkort/Domänen,Stationär
+2019-12-01 00:00:00,Stadtgarten - Gnadenort,Aufzug
+2019-12-02 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-12-02 00:00:00,Arbeitsamt - Haltestelle Brügmannplatz,Aufzug
+2019-12-02 00:00:00,Scharnhorst EKS,Stationär
+2019-12-03 00:00:00,Katharinenstraße,Stationär
+2019-12-04 00:00:00,Münsterstraße,Stationär
+2019-12-06 00:00:00,Westfalenforum Kampstraße,Stationär
+2019-12-06 00:00:00,Goebenstraße 25,Stationär
+2019-12-07 00:00:00,Platz von Hiroshima,Stationär
+2019-12-07 00:00:00,Platz von Hiroshima,Stationär
+2019-12-09 00:00:00,Arbeitsamt - Arbeitsamt ,Aufzug
+2019-12-09 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-12-09 00:00:00,Betenstraße,Stationär
+2019-12-09 00:00:00,Vorplatz Hbf Lünen,Stationär
+2019-12-11 00:00:00,Schützenstraße St. Pauluskirche,Stationär
+2019-12-12 00:00:00,Friedensplatz,Stationär
+2019-12-14 00:00:00,Platz von Hiroshima,Stationär
+2019-12-14 00:00:00,Platz der Alten Synagoge,Stationär
+2019-12-14 00:00:00,Hombruch Hartkort/Domänen,Stationär
+2019-12-16 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-12-16 00:00:00,Arbeitsamt - Haltestelle Brügmannplatz,Aufzug
+2019-12-18 00:00:00,Westenhellweg,Aufzug
+2019-12-19 00:00:00,Brackeler Hellweg,Stationär
+2019-12-20 00:00:00,Platz der Deutschen Einheit,Aufzug
+2019-12-20 00:00:00,Westenhellweg/Hansaplatz,Stationär
+2019-12-20 00:00:00,Brackeler Hellweg,Stationär
+2019-12-21 00:00:00,Platz von Hiroshima,Stationär
+2019-12-21 00:00:00,Hombruch Hartkort/Domänen,Stationär
+2019-12-21 00:00:00,Westfalenhallen,Stationär
+2019-12-21 00:00:00,Westenhellweg/Hansaplatz,Stationär
+2019-12-21 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-12-21 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-12-21 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-12-22 00:00:00,Katharinenstraße,Stationär
+2019-12-22 00:00:00,Westfalenhallen,Stationär
+2019-12-23 00:00:00,Arbeitsamt - Haltestelle Lortzingstraße,Aufzug
+2019-12-23 00:00:00,Nordmarkt,Stationär
+2019-12-23 00:00:00,Schützenstraße,Stationär
+2019-12-23 00:00:00,Kurfüstenstr./Steinstr. Arbeitsamt,Stationär
+2019-12-28 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-12-28 00:00:00,Platz von Hiroshima,Stationär
+2019-12-29 00:00:00,Platz der Deutschen Einheit,Stationär
+2019-12-30 00:00:00,Platz der Deutschen Einheit,Stationär

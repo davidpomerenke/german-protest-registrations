@@ -1,6 +1,5 @@
 """Create the `cleaned` directory."""
 
-from collections import defaultdict
 from pathlib import Path
 
 import pandas as pd
@@ -8,7 +7,6 @@ import pandas as pd
 
 def main():
     """Read all files from data/tabular."""
-    dfs = defaultdict(list)
     for file in Path("data/raw").glob("*/*"):
         table_formats = [".csv", ".tsv", ".xlsx", ".xls", ".ods"]
         print(file.absolute())
@@ -27,19 +25,21 @@ def main():
                             delimiter = ","
                     if delimiter is None:
                         raise ValueError(f"Could not detect delimiter for {file}")
-                    # read file
-                    dfs_ = [pd.read_csv(file, delimiter=delimiter)]
+                    dfs = {file.stem: pd.read_csv(file, delimiter=delimiter)}
                 case ".tsv":
-                    dfs_ = [pd.read_csv(file, delimiter="\t")]
+                    dfs = {file.stem: pd.read_csv(file, delimiter="\t")}
                 case ".xlsx" | ".xls":
-                    # read every sheet
-                    dic = pd.read_excel(file, sheet_name=None)
-                    dfs_ = list(dic.values())
+                    dfs = pd.read_excel(file, sheet_name=None)
+                    dfs = {f"{file.stem}_{k}": v for k, v in dfs.items()}
                 case ".ods":
-                    dic = pd.read_excel(file, engine="odf", sheet_name=None)
-                    dfs_ = list(dic.values())
-            dfs[file.parent.name].extend(dfs_)
-    print([(k, len(v)) for k, v in dfs.items()])
+                    dfs = pd.read_excel(file, engine="odf", sheet_name=None)
+                    dfs = {f"{file.stem}_{k}": v for k, v in dfs.items()}
+            for name, df in dfs.items():
+                if len(df) == 0:
+                    continue
+                folder = Path("data/interim/csv") / file.parent.stem
+                folder.mkdir(parents=True, exist_ok=True)
+                df.to_csv(folder / f"{name}.csv", index=False)
 
 
 if __name__ == "__main__":

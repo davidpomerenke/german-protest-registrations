@@ -1,0 +1,613 @@
+Datum,Ort,Art,ang. TN-Zahl
+2021-01-07 00:00:00,Dortmund Eving,Stationär,10-20
+2021-01-07 00:00:00,Dortmund Eving,Stationär,10-20
+2021-01-09 00:00:00,Phoenixsee,Aufzug,50
+2021-01-10 00:00:00,Phoenixsee,Aufzug,50
+2021-01-11 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-01-14 00:00:00,Ruhrallee/ Arbeitsgericht DO,Stationär,10
+2021-01-16 00:00:00,"Hombruch, Harkortstraße",Stationär,20
+2021-01-16 00:00:00,Platz der Deutschen Einheit,Stationär,40-50
+2021-01-17 00:00:00,Aplerbeck,Aufzug,99
+2021-01-18 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-01-23 00:00:00,"Hombruch, Harkortstraße",Stationär,20
+2021-01-23 00:00:00,Dortmund - Herdecke ,Aufzug,20
+2021-01-23 00:00:00,Dortmunder Hauptbahnhof,Stationär,7
+2021-01-23 00:00:00,Westenhellweg,Stationär,3-8
+2021-01-24 00:00:00,Hansaplatz - Innenstadt - Hansaplatz,Aufzug,99
+2021-01-25 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-01-27 00:00:00,Katharinenstraße,Stationär,5 - 10
+2021-01-27 00:00:00,Weißenburger/ Gronaustraße,Stationär,30
+2021-01-29 00:00:00,Münsterstr. St. Josephs Kirche,Stationär,20
+2021-01-30 00:00:00,Reinoldikirchplatz,Stationär,20
+2021-01-30 00:00:00,Dortmunder Hauptbahnhof,Stationär,7
+2021-01-30 00:00:00,Cinestar-Vorplatz - Katharinenstraße,Aufzug,100
+2021-02-01 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-02-03 00:00:00,Westfalenhallen,Stationär,20-30
+2021-02-06 00:00:00,Reinoldikirchplatz,Stationär,20
+2021-02-06 00:00:00,Dortmunder Hauptbahnhof,Stationär,7
+2021-02-06 00:00:00,Katharinenstraße,Stationär,50-70
+2021-02-06 00:00:00,Westenhellweg,Stationär,3-8
+2021-02-08 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-02-11 00:00:00,Westfalenhallen,Stationär,50
+2021-02-11 00:00:00,Westfalenhallen,Stationär,100
+2021-02-13 00:00:00,Dortmunder Hauptbahnhof,Stationär,7
+2021-02-15 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-02-18 00:00:00,Platz der Deutschen Einheit,Stationär,10-15
+2021-02-18 00:00:00,Katharinenstraße,Stationär,25 - 30
+2021-02-19 00:00:00,"Willy-Brandt-Platz, Dortmund",Stationär,50
+2021-02-19 00:00:00,Ruhrallee/ Arbeitsgericht DO,Stationär,10
+2021-02-20 00:00:00,Friedensplatz,Stationär,50-100
+2021-02-20 00:00:00,Phoenixsee,Aufzug,70
+2021-02-20 00:00:00,Westenhellweg/Petrikirche,Stationär,3 - 8
+2021-02-21 00:00:00,Westfalenhallen - Wall,Aufzug,600-800
+2021-02-21 00:00:00,Fredenbaumpark,Stationär,5-10
+2021-02-22 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-02-23 00:00:00,Innenstadt,Aufzug,250
+2021-02-24 00:00:00,Viktoriastraße 30,Stationär,10
+2021-02-27 00:00:00,Dortmund Hörde,Stationär,3-6
+2021-02-27 00:00:00,Innenstadt und Wall,Stationär,40
+2021-02-27 00:00:00,Platz von Netanya,Stationär,3-8
+2021-02-28 00:00:00,Süggelweg (Eving),Stationär,16
+2021-03-01 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-03-01 00:00:00,Innenstadt,Aufzug,150
+2021-03-02 00:00:00,Innenstadt,Aufzug,200
+2021-03-02 00:00:00,Westfalenhallen,Stationär,250
+2021-03-02 00:00:00,Platz der Deutschen Einheit,Stationär,2-15
+2021-03-03 00:00:00,Platz der Deutschen Einheit,Stationär,2-15
+2021-03-05 00:00:00,Münsterstr. ,Stationär,12
+2021-03-05 00:00:00,Hagen - Dortmund,Aufzug,50
+2021-03-06 00:00:00,Reinoldikirche - Nordmarkt,Aufzug,500
+2021-03-06 00:00:00,Platz von Netanya,Stationär,12
+2021-03-06 00:00:00,Platz von Netanya,Stationär,3 - 8
+2021-03-06 00:00:00,Katharinenstraße,Stationär,10 - 25
+2021-03-08 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-03-08 00:00:00,Münsterstr.,Stationär,3-4
+2021-03-08 00:00:00,Beurhausstraße U-Bahn,Stationär,5
+2021-03-08 00:00:00,Lünen Brambauer,Stationär,15
+2021-03-08 00:00:00,Innenstadt,Aufzug,25-30
+2021-03-08 00:00:00,Stefan-Engel-Platz,Stationär,20
+2021-03-09 00:00:00,Emil-Figge-Straße - Westfalenhallen,Aufzug,200
+2021-03-09 00:00:00,Park der Partnerstädte,Stationär,50
+2021-03-09 00:00:00,Semerteichstr./Willem van Vloten Str.,Stationär,2
+2021-03-10 00:00:00,Dietrich Keuning Haus,Stationär,15
+2021-03-10 00:00:00,Semerteichstr./Willem van Vloten Str.,Stationär,2
+2021-03-12 00:00:00,Semerteichstr./Willem van Vloten Str.,Stationär,2
+2021-03-12 00:00:00,Friedensplatz,Stationär,30
+2021-03-13 00:00:00,Platz von Hiroshima,Stationär,5
+2021-03-13 00:00:00,Katharinenstraße,Stationär,10 - 25
+2021-03-13 00:00:00,Platz von Netanya,Stationär,3-8
+2021-03-13 00:00:00,Möllerbrücke,Stationär,3 - 6
+2021-03-13 00:00:00,Reinoldikirchplatz,Stationär,3 - 5
+2021-03-13 00:00:00,Friedhof bis Markgrafnestraße,Aufzug,150
+2021-03-14 00:00:00,Nordmarkt,Stationär,/
+2021-03-14 00:00:00,Platz der Deutschen Einheit,Stationär,25
+2021-03-15 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-03-15 00:00:00,Platz der Deutschen Einheit,Stationär,30
+2021-03-15 00:00:00,RKP,Stationär,80-100
+2021-03-16 00:00:00,Nordstadt und Wall,Aufzug,50
+2021-03-16 00:00:00,Innenstadt,Stationär,10-12
+2021-03-16 00:00:00,Katharinenstraße,Stationär,100
+2021-03-18 00:00:00,Münsterstr. 54,Stationär,15
+2021-03-19 00:00:00,Reinoldikirche,Stationär,5
+2021-03-19 00:00:00,Friedhof,Stationär,100
+2021-03-19 00:00:00,Lünen ,Aufzug,60
+2021-03-19 00:00:00,Reinoldikirche bis Kulturzentrum,Aufzug,120
+2021-03-19 00:00:00,Friedhof,Stationär,3-6
+2021-03-19 00:00:00,Hansaplatz - Innenstadt - Hansaplatz,Aufzug,100
+2021-03-19 00:00:00,Europabrunnen,Stationär,30-50
+2021-03-19 00:00:00,Semerteichstr./Willem van Vloten Str.,Stationär,2
+2021-03-20 00:00:00,Platz der Deutschen Einheit,Stationär,/
+2021-03-20 00:00:00,Nordfriedhof,Stationär,20
+2021-03-20 00:00:00,Friedensplatz,Stationär,30
+2021-03-20 00:00:00,Hombruch Marktplatz,Stationär,5
+2021-03-21 00:00:00,Nordmarkt,Stationär,/
+2021-03-21 00:00:00,Friedhof,Stationär,350
+2021-03-21 00:00:00,Hoeschpark,Stationär,/
+2021-03-21 00:00:00,Hoeschpark,Stationär,/
+2021-03-22 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-03-22 00:00:00,RKP,Stationär,30
+2021-03-23 00:00:00,Innenstadt,Aufzug,150
+2021-03-23 00:00:00,Westfalenhallen,Stationär,30
+2021-03-23 00:00:00,Feineistenstr. 5,Stationär,40
+2021-03-24 00:00:00,Kampstr./Kaharinenstraße,Stationär,5
+2021-03-25 00:00:00,Münsterstraße ,Stationär,30
+2021-03-27 00:00:00,Möllerbrücke,Stationär,5
+2021-03-27 00:00:00,Hörde/Phoenixsee,Stationär,10
+2021-03-27 00:00:00,Friedhof,Stationär,200
+2021-03-28 00:00:00,Kampstraße,Stationär,150
+2021-03-28 00:00:00,Phoenix-West,Stationär,10-20
+2021-03-28 00:00:00,Lünen,Stationär,/
+2021-03-29 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-03-29 00:00:00,Möllerbrücke,Stationär,5
+2021-03-30 00:00:00,Hohensyburgstr. - Eberstraße ,Aufzug,150
+2021-03-30 00:00:00,Platz der Deutschen Einheit,Stationär,30
+2021-03-30 00:00:00,Hörde,Stationär,10
+2021-03-30 00:00:00,Platz der Deutschen Einheit,Stationär,50
+2021-03-31 00:00:00,Platz der Deutschen Einheit,Stationär,20
+2021-03-31 00:00:00,Blücherpark (Feldherren/Gneisenaustraße),Stationär,10-20
+2021-03-31 00:00:00,Platz der Deutschen Einheit,Stationär,20
+2021-03-31 00:00:00,RKP oder Katharinenstraße,Stationär,50 - 80
+2021-03-31 00:00:00,JVA Gerichtsstraße,Stationär,15-20
+2021-04-02 00:00:00,Kirchhörderstr./Mahnmal Bittermark,Stationär,5
+2021-04-02 00:00:00,Bittermark,Stationär,2
+03.04. - 05.04.2021,"Dorstfeld + Hansaplatz (über DU, DD, E, GE, WS, HER, BO)",Aufzug,400
+2021-04-03 00:00:00,Friedhof -Hansaplatz,Aufzug,200
+2021-04-04 00:00:00,Quadbeckstaße/Auslandsgesellschaft,Stationär,200
+2021-04-06 00:00:00,Hohensyburgstr. - Eberstraße ,Aufzug,150
+2021-04-06 00:00:00,Bornstr./Missundestr.,Stationär,30
+2021-04-06 00:00:00,Platz der Deutschen Einheit,Stationär,50
+2021-04-06 00:00:00,Alsenstr./Heroldstr.,Stationär,25
+2021-04-07 00:00:00,Möllerbrücke/Hollestraße,Stationär,3 - 6
+2021-04-08 00:00:00,Platz der Alten Synagoge,Stationär,40-50
+2021-04-12 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-04-12 00:00:00,Beurhausstraße U-Bahn,Stationär,15
+2021-04-13 00:00:00,Friedensplatz,Stationär,15
+2021-04-13 00:00:00,Alsenstr./Heroldstr.,Stationär,25
+2021-04-14 00:00:00,Gerichtsstraße,Stationär,20
+2021-04-14 00:00:00,Arbeitsgericht,Stationär,5 - 10
+2021-04-16 00:00:00,Buddenacker,Stationär,30
+2021-04-17 00:00:00,"Harkortstraße 54, Hombruch",Stationär,20
+2021-04-17 00:00:00,Platz von Netanya,Stationär,8
+2021-04-17 00:00:00,Platz der Deutschen Einheit,Stationär,50-100
+2021-04-17 00:00:00,Beethovenstr./Schützenstr. Westpark,Stationär,15 - 19
+2021-04-18 00:00:00,Fredenbaumpark,Stationär,7 - 10
+2021-04-19 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-04-19 00:00:00,Hansaplatz,Stationär,30
+2021-04-20 00:00:00,Friedensplatz,Stationär,15
+2021-04-20 00:00:00,Borsigplaz - Nordstadt - Innenstadt - PdDE,Aufzug,80
+2021-04-20 00:00:00,Sonnenplatz,Stationär,50
+2021-04-22 00:00:00,Alter Markt,Stationär,250
+2021-04-23 00:00:00,Reinoldikirchplatz,Stationär,50
+2021-04-23 00:00:00,Möllerbrücke,Stationär,5
+2021-04-23 00:00:00,Möllerbrücke,Stationär,5 - 10
+2021-04-24 00:00:00,"Harkortstraße 54, Hombruch",Stationär,21
+2021-04-24 00:00:00,Platz von Netanya,Stationär,20-30
+2021-04-24 00:00:00,Katharinenstraße,Stationär,25
+2021-04-24 00:00:00,Kaiserstraße 58,Stationär,3 - 8
+2021-04-24 00:00:00,Möllerbrücke,Stationär,3 - 6
+2021-04-24 00:00:00,Friedensplatz,Stationär,4
+2021-04-25 00:00:00,Hansaplatz  ,Stationär,500 - 1000
+2021-04-25 00:00:00,Friedensplatz,Stationär,200
+2021-04-25 00:00:00,Hansaplatz,Stationär,30
+2021-04-25 00:00:00,Reinoldikirchplatz,Stationär,25
+2021-04-26 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-04-26 00:00:00,Friedensplatz,Stationär,4
+2021-04-28 00:00:00,Katharinenstraße,Stationär,5
+2021-04-28 00:00:00,Friedensplatz,Stationär,15
+2021-04-28 00:00:00,Gerichtsstraße,Stationär,15
+2021-04-28 00:00:00,Friedensplatz,Stationär,4
+2021-04-29 00:00:00,RKP Europabrunnen,Stationär,10
+2021-04-30 00:00:00,Scharnhorst EKS,Stationär,3 - 5
+2021-04-30 00:00:00,Buddenacker,Stationär,20
+2021-05-01 00:00:00,Friedensplatz,Stationär,500
+2021-05-01 00:00:00,Reinoldikirchplatz,Stationär,20
+2021-05-01 00:00:00,Nordstadt,Aufzug,150
+2021-05-01 00:00:00,Wilhelmplatz,Stationär,20
+2021-05-01 00:00:00,Platz der Alten Synagoge,Stationär,100
+2021-05-01 00:00:00,Innenstadt,Aufzug,100
+2021-05-01 00:00:00,Friedhof,Stationär,50 - 75
+2021-05-01 00:00:00,Hansaplatz,Stationär,250
+2021-05-01 00:00:00,Wilhelmplatz,Stationär,60
+2021-05-01 00:00:00,Arminiusstraße ,Stationär,75
+2021-05-01 00:00:00,Scharnhorststraße 50,Stationär,50
+2021-05-01 00:00:00,Speicherstraße,Stationär,150
+2021-05-01 00:00:00,Speicherstraße,Stationär,80
+2021-05-01 00:00:00,Cinestar-Vorplatz ,Stationär,80
+2021-05-01 00:00:00,Katharinenstraße,Stationär,300
+2021-05-01 00:00:00,Emil-Moog-Platz,Stationär,100
+2021-05-01 00:00:00,Im Dorf Lünen,Stationär,7
+2021-05-02 00:00:00,Möllerbrücke,Stationär,10 - 20
+2021-05-03 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-05-03 00:00:00,Borsigplatz Nr. 2,Stationär,2
+2021-05-04 00:00:00,Prinz-Friedrich-Karl Straße 26,Stationär,10
+2021-05-05 00:00:00,Aplerbecker Straße,Aufzug,150
+2021-05-05 00:00:00,Münsterstraße ,Stationär,2 - 4
+2021-05-07 00:00:00,Konrad-Zuse-Straße; Höhe: Spanische Treppe/Haltestelle Phoenix-Halle,Stationär,10
+2021-05-08 00:00:00,Reinoldikirchplatz,Stationär,20
+2021-05-08 00:00:00,Platz der Alten Synagoge,Stationär,50
+2021-05-08 00:00:00,Friedensplatz,Stationär,12
+2021-05-08 00:00:00,Platz der Alten Synagoge,Stationär,50
+2021-05-08 00:00:00,Wilhelmplatz,Stationär,100
+2021-05-08 00:00:00,Wambel,Stationär,50
+2021-05-08 00:00:00,Jüdischer Friedhof Rennweg,Stationär,30-40
+2021-05-08 00:00:00,Wilhelmplatz,Stationär,50
+2021-05-10 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-05-11 00:00:00,Eberplatz - Eberplatz,Aufzug,150
+2021-05-11 00:00:00,Platz der Deutschen Einheit,Stationär,30
+2021-05-12 00:00:00,Stefan-Engel-Platz,Stationär,15-19
+2021-05-12 00:00:00,Gerichtsstraße,Stationär,10-20
+2021-05-12 00:00:00,Klinikum Dortmund Beurhausstraße,Stationär,20-30
+2021-05-12 00:00:00,Platz der Deutschen Einheit,Stationär,10-15
+2021-05-12 00:00:00,Konzerthaus Brückstraße,Stationär,20
+2021-05-13 00:00:00,Hörder Burgstraße,Stationär,10
+2021-05-14 00:00:00,Hansaplatz 2,Stationär,100
+2021-05-14 00:00:00,Friedensplatz,Stationär,200
+2021-05-14 00:00:00,Möllerbrücke,Stationär,5 - 10
+2021-05-15 00:00:00,Platz von Hiroshima,Stationär,5 - 50
+2021-05-15 00:00:00,Platz von Netanya,Stationär,4-8
+2021-05-16 00:00:00,Hansaplatz DO - Neumarkt Datteln,Aufzug,50
+2021-05-17 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-05-17 00:00:00,Borsigplatz Nr. 2,Stationär,6-7
+2021-05-19 00:00:00,Reinoldikirche (Friedhof),Stationär,100
+2021-05-20 00:00:00,Westfalenfallen,Stationär,10
+2021-05-20 00:00:00,Westfalenhallen,Stationär,50
+2021-05-21 00:00:00,Aplerbecker Marktplatz - Aplerbecker Marktplatz,Aufzug,60-80
+2021-05-22 00:00:00,"Willy-Brandt-Platz, Lünen",Stationär,200
+2021-05-22 00:00:00,Platz der Deutschen Einheit,Stationär,10
+2021-05-22 00:00:00,Platz von Netanya,Stationär,8
+2021-05-22 00:00:00,Katharinenstraße,Stationär,200
+2021-05-22 00:00:00,Möllerbrücke,Stationär,5
+2021-05-26 00:00:00,Gerichtsstraße,Stationär,20
+2021-05-26 00:00:00,Katharinenstraße/Kampstraße,Stationär,5 - 10
+2021-05-27 00:00:00,Münsterstraße,Stationär,3-10
+2021-05-28 00:00:00,Münsterstraße ,Stationär,5 - 6
+2021-05-28 00:00:00,Westpark,Stationär,20
+2021-05-28 00:00:00,Friedhof,Stationär,40
+2021-05-29 00:00:00,Friedensplatz,Stationär,15
+2021-05-29 00:00:00,Katharinenstraße,Stationär,200
+2021-05-29 00:00:00,Platz von Netanya,Stationär,8
+2021-05-29 00:00:00,Westenhellweg,Stationär,10-19
+2021-05-29 00:00:00,Sonnenplatz,Stationär,5
+2021-05-30 00:00:00,Brackeler Hellweg 144 - Reinoldikirche/Petrikirche,Aufzug,10
+2021-05-30 00:00:00,Evinger Straße U-Bahnstation Waldesruh,Aufzug,10
+2021-05-30 00:00:00,Pauluskirche,Stationär,20
+2021-05-30 00:00:00,Petrikirche,Stationär,20
+2021-05-31 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-06-02 00:00:00,Platz der Deutschen Einheit,Stationär,15
+2021-06-03 00:00:00,Hörder Burgstraße,Stationär,10
+2021-06-03 00:00:00,Münsterstraße/Bornstraße,Aufzug,150
+2021-06-03 00:00:00,Möllerbrücke,Stationär,5
+2021-06-05 00:00:00,Hansaplatz - Innenstadt - Hansaplatz,Aufzug,200
+2021-06-05 00:00:00,Rodenberg Aplerbeck,Stationär,45
+2021-06-05 00:00:00,Platz von Netanya,Stationär,5
+2021-06-05 00:00:00,RKP,Stationär,15 - 19
+2021-06-07 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-06-11 00:00:00,Münsterstraße St. Josephs Kirche,Stationär,5
+2021-06-12 00:00:00,Reinoldikirche,Stationär,35
+2021-06-12 00:00:00,"Harkortstraße 55, Hombruch",Stationär,3-6
+2021-06-12 00:00:00,Harkortstraße 35,Stationär,15
+2021-06-12 00:00:00,Platz von Netanya,Stationär,8
+2021-06-14 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-06-14 00:00:00,Stefan-Engel-Platz,Stationär,10
+2021-06-14 00:00:00,Europabrunnen,Stationär,10-20
+2021-06-15 00:00:00,Fußgängerbrücken B 1,Stationär,50
+2021-06-16 00:00:00,Friedensplatz,Stationär,600
+2021-06-18 00:00:00,Reinoldikirchplatz,Stationär,50
+2021-06-18 00:00:00,Kampstraße/Katharinenstraße,Stationär,50
+2021-06-19 00:00:00,Friedensplatz - Friedensplatz,Aufzug,/
+2021-06-19 00:00:00,Westpark - Hansaplatz,Aufzug,300
+2021-06-19 00:00:00,Westpark - Reinoldikirche,Aufzug,500
+2021-06-19 00:00:00,Phoenixsee,Stationär,40
+2021-06-19 00:00:00,Nordmarkt,Stationär,40
+2021-06-19 00:00:00,Reinoldikirche,Stationär,40
+2021-06-19 00:00:00,Münsterstraße 54,Stationär,20-30
+2021-06-19 00:00:00,Reinoldikirchplatz,Stationär,15-19
+2021-06-21 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-06-21 00:00:00,Dorstfelder Hellweg/ Arminiusstraße,Stationär,40
+2021-06-21 00:00:00,Hörder Burgstraße,Stationär,15 - 20
+2021-06-22 00:00:00,Westfalenhallen,Stationär,50-100
+2021-06-24 00:00:00,RKP,Stationär,25
+2021-06-25 00:00:00,Brackeler Hellweg/Berliner Straße,Stationär,5 - 6
+2021-06-25 00:00:00,Lippebrücke- Innenstadt Lünen,Aufzug,120
+2021-06-26 00:00:00,Platz der Deutschen Einheit,Stationär,20
+2021-06-26 00:00:00,Platz von Netanya,Stationär,8
+2021-06-26 00:00:00,Schlanke Mathilde Hörde,Stationär,10 - 19
+2021-06-28 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-06-29 00:00:00,Möllerbrücke,Stationär,15-20
+2021-06-30 00:00:00,Kampstraße/Katharinenstraße,Stationär,10-20
+2021-06-30 00:00:00,Limbeckerstraße/ Werner Straße,Stationär,15
+2021-06-30 00:00:00,Mengeder Marktplatz,Stationär,15
+2021-06-30 00:00:00,Westpark,Stationär,20
+2021-07-02 00:00:00,Kuckelke/ Alter Burgwall,Stationär,100
+2021-07-03 00:00:00,Platz von Netanya,Stationär,8
+2021-07-03 00:00:00,Schlanke Mathilde Hörde,Stationär,6
+2021-07-03 00:00:00,Hörder Burgstraße,Stationär,50
+2021-07-04 00:00:00,Wilhelmplatz,Stationär,250
+2021-07-04 00:00:00,Nordmarkt,Stationär,30-50
+2021-07-04 00:00:00,Nordmarkt,Stationär,50
+2021-07-04 00:00:00,Nordmarkt,Stationär,30-40
+2021-07-04 00:00:00,Wilhelmplatz - Nordmarkt,Aufzug,250
+2021-07-05 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-07-07 00:00:00,Friedensplatz - Innenstadt,Aufzug,1500
+2021-07-08 00:00:00,Platz der Deutschen Einheit,Stationär,4 - 15
+2021-07-09 00:00:00,Mehmet-Kubasik-Platz,Stationär,70
+2021-07-09 00:00:00,Kuckelke/ Alter Burgwall,Stationär,30
+2021-07-09 00:00:00,Platz der Deutschen Einheit,Stationär,4 - 15
+2021-07-10 00:00:00,Reinoldikirchplatz,Aufzug,200 - 300
+2021-07-10 00:00:00,Kampstraße/ DSW21-Center,Stationär,50-80
+2021-07-11 00:00:00,Westpark,Stationär,20-30
+2021-07-12 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-07-17 00:00:00,Potgasse/ Ecke Westenhellweg,Stationär,20
+2021-07-17 00:00:00,Möllerbrücke Hollestraße,Stationär,10
+2021-07-17 00:00:00,RKP 1,Stationär,15
+2021-07-17 00:00:00,RKP 2,Stationär,15
+2021-07-17 00:00:00,Kampstraße/ Ecke Katharinenstraße,Stationär,50
+2021-07-17 00:00:00,"Harkortstraße 55, Hombruch",Stationär, 3-6
+2021-07-19 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-07-20 00:00:00,Eberstr. - Eberstr. ,Aufzug,150
+2021-07-20 00:00:00,Greveler Straße 168/Schäferei Hibbeln,Stationär,4
+2021-07-21 00:00:00,Stadtgarten,Stationär,50
+2021-07-21 00:00:00,Platz der Deutschen Einheit,Stationär, 10-15
+2021-07-22 00:00:00,Kuckelke/ Alter Burgwall,Stationär,50
+2021-07-23 00:00:00,Münsterstraße,Stationär, 5-10
+2021-07-24 00:00:00,Reinoldikirchplatz,Stationär,70
+2021-07-24 00:00:00,Platz der Deutschen Einheit,Stationär,10
+25.07.-01.08.2021,Lünen-Garzweiler,Aufzug,/
+2021-07-26 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-07-27 00:00:00,Katharinenstraße,Stationär,50
+2021-07-28 00:00:00,Alter Burgwall 9,Stationär,101
+2021-07-29 00:00:00,Westenhellweg 40-42,Stationär,5
+2021-07-30 00:00:00,Lünen Innenstadt,Aufzug,20-30
+2021-07-30 00:00:00,Innenstadt,Aufzug,300
+2021-07-30 00:00:00,Möllerbrücke,Stationär, 5-10
+2021-07-31 00:00:00,Platz von Netanya,Stationär,5
+2021-07-31 00:00:00,Friedensplatz,Stationär,50
+2021-07-31 00:00:00,Platz der Deutschen Einheit,Stationär,100-150
+2021-08-01 00:00:00,Westfalenhalle - Stadt -Westfalenhalle,Aufzug,3000
+2021-08-01 00:00:00,Platz der Deutschen Einheit,Stationär,100
+2021-08-02 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-08-02 00:00:00,Weißenburger/ Gronaustraße,Stationär,100
+2021-08-03 00:00:00,Westfalenhallen - Platz von Hiroshima,Aufzug,20-40
+2021-08-03 00:00:00,Platz der Deutschen Einheit,Stationär,80-100
+2021-08-04 00:00:00,Westenhellweg,Stationär, 10-20
+2021-08-06 00:00:00,Platz von Hiroshima,Aufzug,30 - 50
+2021-08-06 00:00:00,Friedensplatz - Friedensplatz,Aufzug,200
+2021-08-06 00:00:00,Nordmarkt,Stationär,5
+2021-08-07 00:00:00,Platz der Deutschen Einheit,Stationär,100
+2021-08-07 00:00:00,Reinoldikirchplatz,Stationär,15-19
+2021-08-09 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-08-10 00:00:00,Nordmarkt,Stationär,5
+2021-08-10 00:00:00,Westpark,Stationär, 5-10
+2021-08-11 00:00:00,Reinoldikirchplatz,Stationär,15
+2021-08-12 00:00:00,Mehmet-Kubasik-Platz,Stationär,40
+2021-08-12 00:00:00,Brackeler Marktplatz,Stationär,5
+2021-08-13 00:00:00,Mehmet-Kubasik-Platz - Elisabethstraße 8-10,Aufzug,300
+2021-08-13 00:00:00,Unna - Bochum,Aufzug,50
+2021-08-14 00:00:00,Cinestar-Vorplatz - Nordstadt - Cinestar-Vorplatz,Aufzug,40
+2021-08-14 00:00:00,Katharinenstraße,Stationär,20
+2021-08-14 00:00:00,Westpark,Stationär,15 - 19
+2021-08-14 00:00:00,Rheinische Str./Adlerstr.,Stationär,25
+2021-08-16 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-08-17 00:00:00,Innenstadt,Aufzug,150
+2021-08-17 00:00:00,Katharinenstraße oder RKP,Stationär,50 - 80
+2021-08-18 00:00:00,Westenhellweg/Kolpingstraße,Stationär,20
+2021-08-18 00:00:00,Platz der Deutschen Einheit,Stationär,400
+2021-08-20 00:00:00,Mallinckrodtbrücke/ Huckarder Straße,Stationär,300
+2021-08-20 00:00:00,Innenstadt,Aufzug,150
+2021-08-21 00:00:00,Platz der Deutschen Einheit,Stationär,10
+2021-08-21 00:00:00,Harkortstr.; Hansastraße; Westenhellweg; Kleppingstraße,Stationär, 10-20
+2021-08-21 00:00:00,Blücherpark (Feldherren/Gneisenaustraße),Stationär,150-175
+2021-08-21 00:00:00,DSW21-Kundencenter,Stationär,200
+2021-08-21 00:00:00,Reinoldikirchplatz ,Stationär, 5-10
+2021-08-21 00:00:00,Münsterstraße,Stationär,/
+2021-08-21 00:00:00,Hansastraße,Stationär,6
+2021-08-22 00:00:00,Westentor - Dortmund Dorstfeld,Aufzug,500
+2021-08-22 00:00:00,Schleswigerstraße/Misundestraße,Stationär,50
+2021-08-22 00:00:00,Kleine Beurhausstraße,Stationär,80
+2021-08-22 00:00:00,Nordmarkt,Stationär,20 - 40
+2021-08-23 00:00:00,Platz der Deutschen Einheit,Stationär,100
+2021-08-23 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-08-23 00:00:00,Platz der Deutschen Einheit,Stationär,20 - 30
+2021-08-24 00:00:00,Friedensplatz,Stationär,10
+2021-08-25 00:00:00,Kuckelke/ Alter Burgwall,Stationär,30
+2021-08-25 00:00:00,Katharinenstr./Kampstr.,Stationär,10
+2021-08-26 00:00:00,RKP,Stationär,20
+2021-08-27 00:00:00,Mallinckrodtbrücke/ Huckarder Straße,Stationär,200
+2021-08-27 00:00:00,Hombrucher Markt,Stationär,15
+2021-08-28 00:00:00,Platz von Netanya,Stationär,8
+2021-08-29 00:00:00,Landgrafenstraße 127-135,Stationär,80
+2021-08-29 00:00:00,Friedensplatz,Stationär,50
+2021-08-29 00:00:00,Westpark - betonnierte Tanzfläche,Stationär,50
+2021-08-29 00:00:00,Friedensplatz - Werl,Aufzug,30
+2021-08-30 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-08-31 00:00:00,"Langestraße 50-52, Lünen",Stationär,50
+2021-08-31 00:00:00,Friedensplatz,Stationär,10
+2021-09-01 00:00:00,Friedensplatz,Stationär,50
+2021-09-01 00:00:00,Friedensplatz,Stationär,50
+2021-09-01 00:00:00,Gedenkstätte Steinwache,Stationär,100
+2021-09-02 00:00:00,Kuckelke/ Alter Burgwall,Stationär,20
+2021-09-02 00:00:00,Westenhellweg - Hansaplatz - RKP,Aufzug,25
+2021-09-03 00:00:00,Mehmet-Kubasik-Platz,Stationär,50
+2021-09-03 00:00:00,Mallinckrodtbrücke/ Huckarder Straße,Stationär,300
+2021-09-03 00:00:00,Mehmet-Kubasik-Platz - Reinoldikirchplatz,Aufzug,100
+2021-09-04 00:00:00,Friedensplatz,Stationär,1000
+2021-09-04 00:00:00,Platz der Deutschen Einheit,Stationär,10
+2021-09-04 00:00:00,Katharinenstraße,Stationär,50/60
+2021-09-04 00:00:00,Rahmer Straße,Stationär,50
+2021-09-04 00:00:00,Reinoldikirchplatz,Stationär,ca. 20
+2021-09-05 00:00:00,Haydnstraße 21-27,Stationär,40-50
+2021-09-05 00:00:00,Platz der Alten Synagoge - Prinz Friedrich-Karl-Straße,Aufzug,100
+2021-09-05 00:00:00,Westpark,Stationär,50
+2021-09-06 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-09-09 00:00:00,Westenhellweg - Hansaplatz - RKP,Aufzug,25
+2021-09-09 00:00:00,Innenstadt - FP - City - FP,Aufzug,2000
+2021-09-09 00:00:00,Mehmet-Kubasik-Platz,Stationär,40
+2021-09-09 00:00:00,Alter Hellweg Kirchlinde,Stationär,40
+2021-09-10 00:00:00,Westpark - P&R Hafen,Aufzug,400
+2021-09-10 00:00:00,Mallinckrodtbrücke/ Huckarder Straße,Stationär,300
+2021-09-11 00:00:00,Nordstadt - Friedensplatz,Aufzug,2000
+2021-09-11 00:00:00,Stolzestraße,Stationär,60-80
+2021-09-11 00:00:00,RKP,Stationär,80
+2021-09-12 00:00:00,Phoenixseestraße,Stationär,80
+2021-09-12 00:00:00,Flughafen,Stationär,150-200
+2021-09-13 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-09-13 00:00:00,Alter Hellweg Kirchlinde,Stationär,40
+2021-09-14 00:00:00,Hansastr/Westenhellweg,Stationär,40
+2021-09-14 00:00:00,Kuckelke/ Alter Burgwall,Stationär,50
+2021-09-15 00:00:00,Westpark,Stationär,15
+2021-09-16 00:00:00,Schlanke Mathilde Hörde,Stationär,8
+2021-09-16 00:00:00,Ruhrallee/Landesbehördenhaus,Stationär,30
+2021-09-16 00:00:00,Innenstadt,Aufzug,250
+2021-09-17 00:00:00,Goebenstraße - Kaiserbrunnen,Aufzug,80-100
+2021-09-17 00:00:00,Alter Hellweg Kirchlinde,Stationär,40
+2021-09-17 00:00:00,Mallinckrodtstraße,Stationär,25
+2021-09-17 00:00:00,Essener Straße,Stationär,10
+2021-09-18 00:00:00,Friedensplatz - Westpark,Aufzug,800
+2021-09-18 00:00:00,Westpark - Hansaplatz,Aufzug,150
+2021-09-18 00:00:00,Schlanke Mathilde - Friedensplatz,Aufzug,50
+2021-09-18 00:00:00,Haumannstraße - Friedensplatz,Aufzug,30
+2021-09-18 00:00:00,Evinger Platz - Friedensplatz,Aufzug,50
+2021-09-18 00:00:00,Pothecke - Friedensplatz,Aufzug,100
+2021-09-18 00:00:00,Platz von Netanya,Stationär,8
+2021-09-19 00:00:00,Witten - Dortmund,Aufzug,2000
+2021-09-19 00:00:00,Oberrader Straße 20 - 34,Stationär,40-50
+2021-09-19 00:00:00,Siegfriedstraße ,Stationär,80
+2021-09-20 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-09-20 00:00:00,Platz von Netanya,Stationär,30
+2021-09-22 00:00:00,Kampstraße/Katharinenstraße,Stationär,10
+2021-09-22 00:00:00,Kaiserstraße 34,Stationär,30
+2021-09-23 00:00:00,Kuckelke/ Alter Burgwall,Stationär,30
+2021-09-24 00:00:00,Westpark - Hansaplatz,Aufzug,50
+2021-09-24 00:00:00,Hansaplatz oder Friedensplatz,Stationär,2600
+2021-09-24 00:00:00,Witten - Dortmund Hansaplatz,Aufzug,100
+2021-09-24 00:00:00,Vinckeplatz - Hansaplatz,Aufzug,400
+2021-09-24 00:00:00,Münsterstraße - Hansaplatz,Aufzug,300
+2021-09-24 00:00:00,Unna Rathausplatz - Hansaplatz,Aufzug,150
+2021-09-24 00:00:00,Lünen,Aufzug,600
+2021-09-24 00:00:00,Huckarde - Südwall,Aufzug,100
+2021-09-24 00:00:00,Lanstrop-Brackel,Aufzug,50
+2021-09-24 00:00:00,Westpark,Stationär,5
+2021-09-24 00:00:00,Platz von Hiroshima,Stationär,5
+2021-09-24 00:00:00,Platz von Netanya,Stationär,50
+2021-09-24 00:00:00,Alter Hellweg Kirchlinde,Stationär,15-20
+2021-09-25 00:00:00,Platz von Netanya,Stationär,50 - 70
+2021-09-27 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-09-27 00:00:00,Gerichtsstraße,Stationär,50
+2021-09-28 00:00:00,Alter Markt,Stationär,15
+2021-09-28 00:00:00,Ruhrallee 1 - 3 Bergbauamt,Stationär,40
+2021-09-29 00:00:00,Reinoldikirchplatz,Stationär,30
+2021-10-01 00:00:00,Reinoldikirchplatz,Stationär,20
+2021-10-01 00:00:00,Do-Jungferntal,Aufzug,30
+2021-10-02 00:00:00,Harkortstraße,Stationär,20
+2021-10-02 00:00:00,Platz der Deutschen Einheit,Stationär,18
+2021-10-02 00:00:00,Katharinenstraße,Stationär,15
+2021-10-02 00:00:00,Reinoldikirchplatz,Stationär,8
+2021-10-04 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-10-05 00:00:00,Dietrich Keuning Haus,Stationär,10
+2021-10-05 00:00:00,RKP,Stationär,30
+2021-10-05 00:00:00,Kaltbandstraße 1,Stationär,80
+2021-10-06 00:00:00,Kuckelke/ Alter Burgwall,Stationär,15
+2021-10-08 00:00:00,E 2 - Innenstadt - Unna - Holzwickede,Aufzug,150
+2021-10-08 00:00:00,E 2 - Innenstadt - Nordstadt - E 2,Aufzug,30
+2021-10-09 00:00:00,Harkortstraße,Stationär,20
+2021-10-09 00:00:00,Katharinenstraße,Stationär,15
+2021-10-09 00:00:00,Katharinenstraße - Wall - Reinische Str. - Dorstfeld,Aufzug,250
+2021-10-09 00:00:00,Harkortstraße,Stationär,10
+2021-10-09 00:00:00,Kampstraße/U-Bahn Westentor,Stationär,100
+2021-10-09 00:00:00,Wall Höhe Rheinische Straße,Stationär,30
+2021-10-09 00:00:00,Huckarder Straße/ Rheinische Straße,Stationär,100
+2021-10-10 00:00:00,Feldherrnstraße,Stationär,50
+2021-10-10 00:00:00,Hansaplatz - Innenstadt - Hansaplatz,Aufzug,250
+2021-10-11 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-10-11 00:00:00,Italienisches Konsulat,Stationär,5
+2021-10-13 00:00:00,Reinoldkirchplatz,Stationär,30
+2021-10-14 00:00:00,Mehmet-Kubasik-Platz,Stationär,40
+2021-10-15 00:00:00,Vinckeplatz - Westpark,Aufzug,100
+2021-10-16 00:00:00,RKP,Stationär,20
+2021-10-16 00:00:00,Nordmarkt,Stationär,40
+2021-10-16 00:00:00,Reinoldikirchplatz,Stationär,8
+2021-10-16 00:00:00,Potgasse/ Ecke Westenhellweg,Stationär,20
+2021-10-17 00:00:00,Friedensplatz,Stationär,300
+2021-10-18 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-10-20 00:00:00,Reinoldikirchplatz,Stationär,30
+2021-10-21 00:00:00,Hansaplatz,Stationär,20
+2021-10-22 00:00:00,Innenstadt,Aufzug,300
+2021-10-22 00:00:00,Beurhausstraße U-Bahn,Stationär,7
+2021-10-23 00:00:00,RKP,Stationär,20
+2021-10-24 00:00:00,Mosselde 149 ,Stationär,15
+2021-10-24 00:00:00,Flughafen,Aufzug,20
+2021-10-24 00:00:00,RKP,Stationär,20
+2021-10-25 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-10-26 00:00:00,Max-Ophüls-Platz - Westfalenhallen,Aufzug,30
+2021-10-27 00:00:00,Kampstr/Katharinenstr.,Stationär,10
+2021-10-27 00:00:00,RKP,Stationär,30
+2021-10-29 00:00:00,Platz der Deutschen Einheit,Stationär,25
+2021-10-29 00:00:00,Beurhausstraße U-Bahn,Stationär,7
+2021-10-30 00:00:00,Herderstraße,Stationär,40-50
+2021-10-30 00:00:00,Platz der Deutschen Einheit,Stationär,10
+2021-10-31 00:00:00,Stahlwerkstraße,Stationär,40-50
+2021-11-01 00:00:00,Platz der Deutschen Einheit,Stationär,50-80
+2021-11-03 00:00:00,RKP,Stationär,30
+2021-11-03 00:00:00,Kuckelke/ Alter Burgwall,Stationär,50
+2021-11-04 00:00:00,Platz der Deutschen Einheit,Stationär, 10-15
+2021-11-04 00:00:00,Platz der Deutschen Einheit,Stationär,100
+2021-11-05 00:00:00,U-Bahn Haltestelle Wittener Straße,Stationär, 3-5
+2021-11-06 00:00:00,Platz der Deutschen Einheit,Stationär,150
+2021-11-06 00:00:00,Platz der Deutschen Einheit,Stationär, 2-3
+2021-11-07 00:00:00,Friedensplatz - Westfalenhallen,Aufzug,100
+2021-11-07 00:00:00,Vinckeplatz - Westfalenhallen,Aufzug,200
+2021-11-08 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-11-09 00:00:00,Dorstfeld,Stationär,400
+2021-11-10 00:00:00,RKP,Stationär,30
+2021-11-10 00:00:00,Reinoldikirchplatz,Stationär,30
+2021-11-10 00:00:00,Ostenhellweg 23,Stationär,5
+2021-11-10 00:00:00,DSW 21- Kundencenter,Stationär,100 - 200 
+2021-11-11 00:00:00,Fritz-Henßler-Haus - DSW21-Kundencenter,Aufzug,300
+2021-11-11 00:00:00,Gerichtsstraße - Platz der Deutschen Einheit,Aufzug,120-180
+2021-11-12 00:00:00,Aplerbeck,Aufzug,400
+2021-11-13 00:00:00,Reinoldikirche - Friedensplatz,Aufzug,500-1000
+2021-11-13 00:00:00,Platz vor dem DSW21 Kundencenter an der Kampstraße,Stationär,2
+2021-11-14 00:00:00,Frohlinder Straße 12 - Ehrenmal Kirchlinde Westerwikstraße,Aufzug,50
+2021-11-15 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-11-15 00:00:00,Platz der Deutschen Einheit - unterhalb der Katharinentreppe,Stationär,15 - 20
+2021-11-17 00:00:00,RKP,Stationär,30
+2021-11-17 00:00:00,Gerichtsstraße 22,Stationär, 10-15
+2021-11-18 00:00:00,Westfalenhallen,Stationär,30
+2021-11-19 00:00:00,Platz der Deutschen Einheit,Stationär, 8-25
+2021-11-20 00:00:00,Platz von Xian,Stationär,100 - 400
+2021-11-20 00:00:00,Kampstraße,Stationär, 4-20
+2021-11-20 00:00:00,Platz der Alten Synagoge,Stationär,50
+2021-11-20 00:00:00,Kampstraße,Stationär,50-80
+2021-11-20 00:00:00,DSW21-Kundencenter,Stationär,2
+2021-11-20 00:00:00,Platz der Deutschen Einheit,Stationär, 3-5
+2021-11-20 00:00:00,In der Meile/ Martener Straße,Stationär, 3-5
+2021-11-20 00:00:00,Westerfilderstraße 38,Stationär, 3-5
+2021-11-20 00:00:00,Deutsche Straße 4,Stationär, 3-5
+2021-11-20 00:00:00,Petrikirche,Stationär,8
+2021-11-22 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-11-24 00:00:00,RKP,Stationär,30
+2021-11-24 00:00:00,Möllerbrücke,Stationär,10
+2021-11-24 00:00:00,"Katharinenstraße, Nähe Katharinentreppe",Stationär,10
+2021-11-25 00:00:00,Cinestar - Katharinenstraße,Aufzug,150
+2021-11-25 00:00:00,Nordmarkt,Stationär,100
+2021-11-26 00:00:00,Lünen,Aufzug,80
+2021-11-27 00:00:00,Platz der Deutschen Einheit,Stationär,10
+2021-11-27 00:00:00,Platz der Partnerstädte - Friedensplatz,Aufzug,300
+2021-11-27 00:00:00,Kampstraße,Stationär,2
+2021-11-28 00:00:00,Cinestar-Vorplatz,Stationär,50
+2021-11-29 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-11-30 00:00:00,Hörder Burgstraße,Stationär,100
+2021-11-30 00:00:00,Hörder Burgstraße,Stationär,20
+2021-12-01 00:00:00,RKP,Stationär,30
+2021-12-02 00:00:00,Westfalenhallen vor Halle 1U,Stationär,20
+2021-12-04 00:00:00,Platz der Deutschen Einheit,Stationär,10
+2021-12-04 00:00:00,Kampstraße,Stationär, 4-20
+2021-12-06 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-12-08 00:00:00,RKP,Stationär,30
+2021-12-10 00:00:00,Platz der Deutschen Einheit,Stationär, 10-15
+2021-12-10 00:00:00,Platz der Deutschen Einheit,Stationär,30
+2021-12-11 00:00:00,Platz der Deutschen Einheit,Stationär,10
+2021-12-11 00:00:00,Kampstraße,Stationär, 4-20
+2021-12-11 00:00:00,Münsterstraße,Stationär,4
+2021-12-13 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-12-15 00:00:00,RKP,Stationär,30
+2021-12-15 00:00:00,Kuckelke/ Alter Burgwall,Stationär,60
+2021-12-15 00:00:00,Ritterstraße/ Ecke Benno-Elkan-Allee,Stationär,20
+2021-12-17 00:00:00,Platz der Deutschen Einheit,Stationär,50 - 100
+2021-12-18 00:00:00,Platz der Deutschen Einheit,Stationär,10
+2021-12-18 00:00:00,Park der Partnerstädte - Platz der Deutschen Einheit,Aufzug,150
+2021-12-18 00:00:00,Münsterstraße,Stationär,4
+2021-12-18 00:00:00,Katharinenstraße,Stationär,50
+2021-12-18 00:00:00,Katharinenstraße,Stationär,10
+2021-12-18 00:00:00,"Busbahnhof Wittener Straße, gegenüber des Wilhelmplatzes",Stationär,5-10
+2021-12-18 00:00:00,Platz von Buffalo,Stationär,70
+2021-12-19 00:00:00,Westfalenhallen,Stationär, 10-20
+2021-12-20 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-12-20 00:00:00,Kuckelke/ Alter Burgwall,Stationär,15
+2021-12-22 00:00:00,RKP,Stationär,30
+2021-12-22 00:00:00,Möllerbrücke Hollestraße,Stationär, 5-10
+2021-12-22 00:00:00,Amtsgericht,Stationär,10-15
+2021-12-27 00:00:00,Kleppingstraße/Ostenhellweg,Stationär,40
+2021-12-27 00:00:00,Friedensplatz - Wall,Aufzug,200
+2021-12-27 00:00:00,Westenhellweg 112,Stationär,2
+2021-12-29 00:00:00,RKP,Stationär,30

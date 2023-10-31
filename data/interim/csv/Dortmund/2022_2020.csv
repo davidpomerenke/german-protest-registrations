@@ -1,0 +1,688 @@
+Datum,Ort,Art
+2020-01-04 00:00:00,Westfalenhallen,Stationär
+2020-01-04 00:00:00,Platz von Netanya,Stationär
+2020-01-06 00:00:00,Kleppingstraße Europabrunnen,Stationär
+2020-01-09 00:00:00,Friedensplatz,Stationär
+2020-01-10 00:00:00,Märkische Straße 8-14,Stationär
+2020-01-11 00:00:00,Friedensplatz - Kampstraße DSW21,Aufzug
+2020-01-11 00:00:00,Europaplatz,Stationär
+2020-01-11 00:00:00,Platz von Netanya,Stationär
+2020-01-11 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-01-11 00:00:00,Platz von Netanya,Stationär
+2020-01-13 00:00:00,Kleppingstraße Europabrunnen,Stationär
+2020-01-13 00:00:00,Betenstraße,Stationär
+2020-01-13 00:00:00,Reinoldikirchplatz,Stationär
+2020-01-13 00:00:00,Märkische Straße 8-12,Stationär
+2020-01-15 00:00:00,Ostenhellweg,Stationär
+2020-01-16 00:00:00,Friedensplatz,Stationär
+2020-01-16 00:00:00,Europabrunnen,Stationär
+2020-01-17 00:00:00,Friedensplatz - Innenstadt,Aufzug
+2020-01-18 00:00:00,Katharinenstraße,Stationär
+2020-01-20 00:00:00,Kleppingstraße Europabrunnen,Stationär
+2020-01-23 00:00:00,Friedensplatz,Stationär
+2020-01-24 00:00:00,Platz an der Schlanken Mathilde,Stationär
+2020-01-24 00:00:00,Reinoldikirchplatz,Stationär
+2020-01-25 00:00:00,Platz von Netanya,Stationär
+2020-01-25 00:00:00,Ritterhausstr./Möllerstr.,Stationär
+2020-01-25 00:00:00,Europabrunnen,Stationär
+2020-01-25 00:00:00,Hohe Straße 28 A,Stationär
+2020-01-27 00:00:00,Kleppingstraße Europabrunnen,Stationär
+2020-01-27 00:00:00,Heiliger Weg Ecke Südbahnhof,Stationär
+2020-01-27 00:00:00,Weißenburgerstr./Gronau Straße,Stationär
+2020-01-28 00:00:00,Westfalenhallen Halle 5,Stationär
+2020-01-30 00:00:00,Friedensplatz,Stationär
+2020-01-31 00:00:00,Reinoldikirchplatz,Stationär
+2020-02-01 00:00:00,Westfalenhallen,Stationär
+2020-02-01 00:00:00,Reinoldikirchplatz,Stationär
+2020-02-01 00:00:00,Hauptbahnhof Lünen,Stationär
+2020-02-01 00:00:00,Willy-Brandt-Platz,Stationär
+2020-02-01 00:00:00,Willy-Brandt-Platz,Stationär
+2020-02-03 00:00:00,Europabrunnen,Stationär
+2020-02-04 00:00:00,Ostenhellweg,Stationär
+2020-02-05 00:00:00,Europabrunnen,Stationär
+2020-02-06 00:00:00,Friedensplatz,Stationär
+2020-02-06 00:00:00,Reinoldikirche - Petrikirche,Aufzug
+2020-02-08 00:00:00,Friedensplatz - Petrikirche,Aufzug
+2020-02-08 00:00:00,Platz von Netanya,Stationär
+2020-02-08 00:00:00,Europabrunnen,Stationär
+2020-02-08 00:00:00,Platz von Netanya,Stationär
+2020-02-08 00:00:00,Gutenbergstr. - RKP,Aufzug
+2020-02-08 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-02-10 00:00:00,Europabrunnen,Stationär
+2020-02-10 00:00:00,Betenstraße,Stationär
+2020-02-11 00:00:00,Petrikirchhof,Stationär
+2020-02-13 00:00:00,Friedensplatz,Stationär
+2020-02-14 00:00:00,Willy-Brandt-Platz,Stationär
+2020-02-14 00:00:00,Friedensplatz - Innenstadt,Aufzug
+2020-02-15 00:00:00,Reinoldikirchplatz,Stationär
+2020-02-15 00:00:00,Schlanke Mathilde Hörde,Stationär
+2020-02-15 00:00:00,Petrikirchhof ,Stationär
+2020-02-15 00:00:00,Reinoldikirchplatz Stand 4,Stationär
+2020-02-15 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-02-16 00:00:00,Petrikirchhof ,Stationär
+2020-02-17 00:00:00,Europabrunnen,Stationär
+2020-02-18 00:00:00,Königswall - AOK,Aufzug
+2020-02-18 00:00:00,Petrikirchhof ,Stationär
+2020-02-19 00:00:00,Europabrunnen,Stationär
+2020-02-20 00:00:00,Friedensplatz,Stationär
+2020-02-20 00:00:00,Petrikirchhof ,Stationär
+2020-02-20 00:00:00,Katharinenstraße,Stationär
+2020-02-20 00:00:00,Nordstadt - Innenstadt,Aufzug
+2020-02-21 00:00:00,Kampstraße DSW 21,Stationär
+2020-02-21 00:00:00,Kampstraße DSW 22,Stationär
+2020-02-22 00:00:00,Platz von Netanya,Stationär
+2020-02-22 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-02-22 00:00:00,Platz von Netanya,Stationär
+2020-02-22 00:00:00,Kampstraße DSW 21,Stationär
+2020-02-22 00:00:00,Kampstraße DSW 21,Stationär
+2020-02-23 00:00:00,Petrikirchhof ,Stationär
+2020-02-23 00:00:00,Kampstraße DSW 21,Stationär
+2020-02-25 00:00:00,Petrikirchhof ,Stationär
+2020-02-26 00:00:00,Reinoldikirche,Stationär
+2020-02-27 00:00:00,Friedensplatz,Stationär
+2020-02-27 00:00:00,Petrikirchhof ,Stationär
+2020-02-27 00:00:00,Kleyer Weg/Brandschachtstraße,Stationär
+2020-02-27 00:00:00,DSW21-Kampstraße,Stationär
+2020-02-29 00:00:00,Reinoldikirchplatz,Stationär
+2020-02-29 00:00:00,Mehmet Kubsik Platz - Freiherr-vom-Stein-Platz,Aufzug
+2020-02-29 00:00:00,Platz von Netanya,Stationär
+2020-02-29 00:00:00,Platz von Netanya,Stationär
+2020-02-29 00:00:00,Innenstadt,Aufzug
+2020-03-01 00:00:00,Petrikirchhof,Stationär
+2020-03-02 00:00:00,Europabrunnen,Stationär
+2020-03-03 00:00:00,Reinoldikirchplatz,Stationär
+2020-03-04 00:00:00,Reinoldikirchplatz,Stationär
+2020-03-04 00:00:00,Reinoldikirchplatz,Stationär
+2020-03-05 00:00:00,Friedensplatz,Stationär
+2020-03-05 00:00:00,Petrikirchhof,Stationär
+2020-03-07 00:00:00,Reinoldikirchplatz,Stationär
+2020-03-07 00:00:00,Reinoldikirchplatz,Stationär
+2020-03-07 00:00:00,Europabrunnen,Stationär
+2020-03-07 00:00:00,Cinestar - RKP,Aufzug
+2020-03-07 00:00:00,Reinoldikirchplatz,Stationär
+2020-03-07 00:00:00,Kampstraße DSW 21,Stationär
+2020-03-08 00:00:00,Friedensplatz,Aufzug
+2020-03-09 00:00:00,Europabrunnen,Stationär
+2020-03-11 00:00:00,"Lippebrücke, Lünen",Stationär
+2020-03-11 00:00:00,Reinoldikirchplatz,Stationär
+2020-03-12 00:00:00,Friedensplatz,Stationär
+2020-03-13 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-03-14 00:00:00,Friedensplatz - Innenstadt,Stationär
+2020-03-14 00:00:00,DSW21-Kampstraße,Stationär
+2020-03-14 00:00:00,Platz von Netanya,Stationär
+2020-03-14 00:00:00,Platz der Deutschen Einheit ,Stationär
+2020-03-16 00:00:00,Europabrunnen,Stationär
+2020-03-17 00:00:00,Friedensplatz - Friedensplatz,Aufzug
+2020-03-18 00:00:00,Friedensplatz,Stationär
+2020-03-18 00:00:00,Reinoldikirchplatz,Stationär
+2020-03-19 00:00:00,Friedensplatz,Stationär
+2020-03-20 00:00:00,Europabrunnen,Stationär
+2020-03-20 00:00:00,Friedensplatz - Innenstadt,Aufzug
+2020-03-20 00:00:00,DSW21 bis Körnebachstraße,Aufzug
+2020-03-20 00:00:00,Schlanke Mathilde Hörde,Stationär
+2020-03-21 00:00:00,Europabrunnen,Stationär
+2020-03-21 00:00:00,Platz von Netanya,Stationär
+2020-03-21 00:00:00,Sonnenplatz,Stationär
+2020-03-21 00:00:00,Platz der Deutschen Einheit - Platz von Netanya,Aufzug
+2020-03-22 00:00:00,Friedensplatz - Westpark,Aufzug
+2020-03-23 00:00:00,Europabrunnen,Stationär
+2020-03-25 00:00:00,Reinoldikirchplatz,Stationär
+2020-03-26 00:00:00,Friedensplatz,Stationär
+2020-03-27 00:00:00,Aplerbecker Grundschule - Aplerbecker Marktplatz,Aufzug
+2020-03-28 00:00:00,U-Bahnhaltestelle Kampstraße,Stationär
+2020-03-28 00:00:00,U-Bahnhaltestelle Kampstraße,Stationär
+2020-03-28 00:00:00,Kampstraße - Platz der Alten Synagoge,Aufzug
+2020-03-28 00:00:00,Westenhellweg,Stationär
+2020-03-30 00:00:00,Europabrunnen,Stationär
+2020-04-02 00:00:00,Propsteihof - Platz von Netanya,Aufzug
+2020-04-04 00:00:00,Europabrunnen,Stationär
+2020-04-04 00:00:00,Platz von Netanya,Stationär
+2020-04-06 00:00:00,Europabrunnen,Stationär
+11.04. - 13.04.2020,Wilhelmplatz - Stollenstraße,Aufzug
+2020-04-11 00:00:00,Ostwall/Brüderweg ,Aufzug
+2020-04-18 00:00:00,Europabrunnen,Stationär
+2020-04-18 00:00:00,Platz von Netanya,Stationär
+2020-04-20 00:00:00,Europabrunnen,Stationär
+2020-04-24 00:00:00,Friedensplatz,Stationär
+2020-04-24 00:00:00,Platz von Netanya,Stationär
+2020-04-24 00:00:00,Schlanke Mathilde Hörde,Stationär
+2020-04-24 00:00:00,Friedensplatz,Stationär
+2020-04-25 00:00:00,Friedensplatz,Stationär
+2020-04-27 00:00:00,Europabrunnen,Stationär
+2020-04-29 00:00:00,Friedensplatz,Stationär
+2020-05-01 00:00:00,Alte Synagoge - Westfallenpark,Aufzug
+2020-05-01 00:00:00,Dorstfeld- Felherrenstraße,Aufzug
+2020-05-01 00:00:00,Platz der Alten Synagoge,Stationär
+2020-05-01 00:00:00,Katharinenstraße,Stationär
+2020-05-01 00:00:00,Sonnenplatz,Stationär
+2020-05-02 00:00:00,Friedensplatz - Hoeschpark,Aufzug
+2020-05-02 00:00:00,Kleppingstraße ,Stationär
+2020-05-03 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-05-03 00:00:00,Freistuhl,Stationär
+2020-05-06 00:00:00,Friedensplatz,Stationär
+2020-05-07 00:00:00,Hansaplatz,Stationär
+2020-05-08 00:00:00,St. Josephkirche/Münsterstraße ,Stationär
+2020-05-08 00:00:00,Friedensplatz,Stationär
+2020-05-08 00:00:00,Rombergpark/Hörde/Phönixsee,Stationär
+2020-05-08 00:00:00,Friedensplatz,Stationär
+2020-05-08 00:00:00,Reinoldikirchplatz,Stationär
+2020-05-08 00:00:00,Reinoldikirchplatz,Stationär
+2020-05-09 00:00:00,Brauhausstraße/Hansaplatz,Stationär
+2020-05-09 00:00:00,Friedensplatz,Stationär
+2020-05-09 00:00:00,"Lippebrücke, Lünen",Stationär
+2020-05-09 00:00:00,Alter Markt o. Friedensplatz,Stationär
+2020-05-09 00:00:00,Alter Markt  ,Stationär
+2020-05-11 00:00:00,Europabrunnen,Stationär
+2020-05-12 00:00:00,Klinikzentrum Nord,Stationär
+2020-05-13 00:00:00,Friedensplatz,Stationär
+2020-05-13 00:00:00,Reinoldikirchplatz,Stationär
+2020-05-15 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-05-16 00:00:00,Europabrunnen,Stationär
+2020-05-16 00:00:00,Friedensplatz,Stationär
+2020-05-16 00:00:00,"Willy-Brandt-Platz, Lünen",Stationär
+2020-05-16 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-05-16 00:00:00,Europabrunnen,Stationär
+2020-05-16 00:00:00,Alter Markt,Stationär
+2020-05-18 00:00:00,Europabrunnen,Stationär
+2020-05-19 00:00:00,Heiliger Weg,Aufzug
+2020-05-19 00:00:00,Eving Real,Stationär
+2020-05-19 00:00:00,Stefan-Engel-Platz/Wilhelmstraße,Stationär
+2020-05-20 00:00:00,Wallring,Aufzug
+2020-05-22 00:00:00,Europabrunnen,Stationär
+2020-05-23 00:00:00,Reinoldikirchplatz,Stationär
+2020-05-23 00:00:00,Reinoldikirchplatz,Stationär
+2020-05-23 00:00:00,Europabrunnen,Stationär
+2020-05-23 00:00:00,Kaiserstraße bis Am Zippen,Aufzug
+2020-05-23 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-05-23 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-05-23 00:00:00,Friedensplatz,Stationär
+2020-05-23 00:00:00,"Willy-Brandt-Platz, Lünen",Stationär
+2020-05-24 00:00:00,Phönixsee,Aufzug
+2020-05-25 00:00:00,Europabrunnen,Stationär
+2020-05-25 00:00:00,Friedensplatz,Stationär
+2020-05-25 00:00:00,Sonnenplatz,Stationär
+2020-05-26 00:00:00,Aplerbecker Marktplatz,Stationär
+2020-05-28 00:00:00,Hansaplatz,Stationär
+2020-05-29 00:00:00,Friedensplatz - Friedensplatz über den Wall,Aufzug
+2020-05-30 00:00:00,Europabrunnen,Stationär
+2020-05-30 00:00:00,Platz von Netanya,Stationär
+2020-05-30 00:00:00,Reinoldikirchplatz,Stationär
+2020-05-30 00:00:00,"Willy-Brandt-Platz, Lünen",Stationär
+2020-05-30 00:00:00,Katharinenstraße,Stationär
+2020-05-30 00:00:00,Reinoldikirchplatz,Stationär
+2020-05-30 00:00:00,Friedhof,Stationär
+2020-05-30 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-05-30 00:00:00,Hbf ,Stationär
+2020-05-30 00:00:00,Hbf ,Stationär
+2020-05-30 00:00:00,Friedensplatz bis Datteln,Aufzug
+2020-05-30 00:00:00,Reinoldikirchplatz,Stationär
+2020-06-02 00:00:00,Reinoldikirchplatz,Stationär
+2020-06-03 00:00:00,Schlanke Mathilde Hörde,Stationär
+2020-06-04 00:00:00,Johannesstraße/Poststraße,Stationär
+2020-06-05 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-06-06 00:00:00,Reinoldikirchplatz,Stationär
+2020-06-06 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-06-06 00:00:00,Katharinenstraße bis Petrikirche,Stationär
+2020-06-06 00:00:00,Friedhof,Stationär
+2020-06-06 00:00:00,"Willy-Brandt-Platz, Lünen",Stationär
+2020-06-06 00:00:00,Friedensplatz,Stationär
+2020-06-06 00:00:00,Reinoldikirchplatz,Stationär
+2020-06-06 00:00:00,Platz von Netanya,Stationär
+2020-06-06 00:00:00,Reinoldikirchplatz,Stationär
+2020-06-06 00:00:00,Hansaplatz bis Katharienentreppe,Stationär
+2020-06-06 00:00:00,Reinoldikirchplatz,Stationär
+2020-06-06 00:00:00,Hansaplatz,Stationär
+2020-06-06 00:00:00,Rahmer Str. (Huckarde),Stationär
+2020-06-08 00:00:00,Europabrunnen,Stationär
+2020-06-08 00:00:00,Max-von-der-Grün-Platz,Stationär
+2020-06-08 00:00:00,DSW21-Kundencenter,Stationär
+2020-06-09 00:00:00,Friedensplatz über Wall,Aufzug
+2020-06-10 00:00:00,Huckharder Marktplatz,Stationär
+2020-06-12 00:00:00,Berghofen,Stationär
+2020-06-12 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-06-13 00:00:00,Friedhof,Stationär
+2020-06-13 00:00:00,Platz von Netanya,Stationär
+2020-06-13 00:00:00,Friedhof/Willy-Brandt-Platz,Stationär
+2020-06-13 00:00:00,"Willy-Brandt-Platz, Lünen",Stationär
+2020-06-13 00:00:00,Reinoldikirchplatz,Stationär
+2020-06-13 00:00:00,"Willy-Brandt-Platz, Lünen",Stationär
+2020-06-13 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-06-13 00:00:00,Katharinenstraße,Stationär
+2020-06-15 00:00:00,Europabrunnen,Stationär
+2020-06-15 00:00:00,Grüne Straße,Aufzug
+2020-06-15 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-06-17 00:00:00,Reinoldikirchplatz,Stationär
+2020-06-17 00:00:00,Scharnhorst Zentrum Haltestelle,Stationär
+2020-06-17 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-06-18 00:00:00,Westfalenhalle 2,Stationär
+2020-06-18 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-06-19 00:00:00,"Lippebrücke, Lünen",Stationär
+2020-06-19 00:00:00,Platz von Netanya,Stationär
+2020-06-19 00:00:00,Klinikzentrum Nord,Stationär
+2020-06-19 00:00:00,Marten,Stationär
+2020-06-20 00:00:00,Do-Eving,Aufzug
+2020-06-20 00:00:00,Katharinenstraße - Reinoldikirchplatz,Stationär
+2020-06-20 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-06-20 00:00:00,Friedhof,Stationär
+2020-06-20 00:00:00,Friedensplatz,Stationär
+2020-06-20 00:00:00,Alter Markt,Stationär
+2020-06-20 00:00:00,"Willy-Brandt-Platz, Lünen",Stationär
+2020-06-20 00:00:00,Platz von Netanya,Stationär
+2020-06-20 00:00:00,Reinoldikirchplatz,Stationär
+2020-06-20 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-06-20 00:00:00,Innenstadt,Stationär
+2020-06-20 00:00:00,Rombergpark Nordeingang,Stationär
+2020-06-21 00:00:00,Hansaplatz - Datteln,Aufzug
+2020-06-21 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-06-22 00:00:00,Europabrunnen,Stationär
+2020-06-22 00:00:00,Westfalenhalle,Stationär
+2020-06-23 00:00:00,Hombruch Marktplatz,Stationär
+2020-06-23 00:00:00,Hansaplatz,Stationär
+2020-06-24 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-06-25 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-06-26 00:00:00,Wittekindstraße 100a,Aufzug
+2020-06-26 00:00:00,Aufzug Innenstadt,Aufzug
+2020-06-26 00:00:00,RKP,Stationär
+2020-06-26 00:00:00,Brückstraße/Ludwigstraße,Stationär
+2020-06-27 00:00:00,Friedhof,Stationär
+2020-06-27 00:00:00,Platz von Netanya,Stationär
+2020-06-27 00:00:00,Hansaplatz,Stationär
+2020-06-27 00:00:00,RKP 1,Stationär
+2020-06-27 00:00:00,RKP,Stationär
+2020-06-27 00:00:00,"Lippebrücke, Lünen",Aufzug
+2020-06-27 00:00:00,Katharinenstraße,Stationär
+2020-06-29 00:00:00,RKP 4 Europabrunnen,Stationär
+2020-06-29 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-06-30 00:00:00,Heinrich-Sondermann-Platz,Stationär
+2020-07-01 00:00:00,RKP 4 Europabrunnen,Stationär
+02.-03.07.2020,Brüderweg 10-12,Stationär
+2020-07-02 00:00:00,Platz der Deutschen Einhheit,Stationär
+2020-07-04 00:00:00,Friedhof,Stationär
+2020-07-04 00:00:00,RKP 4,Stationär
+2020-07-04 00:00:00,RKP 1,Stationär
+2020-07-04 00:00:00,Lütgendortmund,Stationär
+2020-07-04 00:00:00,Hansaplatz,Stationär
+2020-07-04 00:00:00,Reinoldikirchplatz,Stationär
+2020-07-04 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-07-04 00:00:00,"Willy-Brandt-Platz, Lünen",Stationär
+2020-07-04 00:00:00,Platz von Netanya,Stationär
+2020-07-04 00:00:00,Rewe Berghofen,Stationär
+2020-07-05 00:00:00,Kanalbrücke Lünen,Aufzug
+2020-07-06 00:00:00,RKP 4 Europabrunnen,Stationär
+2020-07-07 00:00:00,Speckestraße/Westerfilder Straße,Stationär
+2020-07-09 00:00:00,S-Bahn Möllerbrücke,Stationär
+2020-07-09 00:00:00,Lünen Willy-Brandt-Platz,Stationär
+2020-07-11 00:00:00,Reinoldikirchplatz,Stationär
+2020-07-11 00:00:00,Friedhof,Stationär
+2020-07-11 00:00:00,RKP 1,Stationär
+2020-07-11 00:00:00,Platz von Netanya,Stationär
+2020-07-11 00:00:00,Reinoldikirchplatz,Stationär
+2020-07-11 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-07-11 00:00:00,Katharinenstraße,Stationär
+2020-07-11 00:00:00,Frohlinder Straße 12,Stationär
+2020-07-11 00:00:00,Overgünne 141,Stationär
+2020-07-12 00:00:00,Hörder Burgplatz,Stationär
+2020-07-13 00:00:00,RKP 4 Europabrunnen,Stationär
+2020-07-13 00:00:00,Flautweg,Stationär
+2020-07-14 00:00:00,Friedensplatz über Wall,Aufzug
+2020-07-14 00:00:00,Schlanke Mathilde Hörde,Stationär
+2020-07-15 00:00:00,Mehmet Kubsik Platz - Freiherr-vom-Stein-Platz,Stationär
+2020-07-15 00:00:00,Westenhellweg,Stationär
+2020-07-15 00:00:00,Westenhellweg,Stationär
+2020-07-15 00:00:00,Innenstadt,Stationär
+2020-07-17 00:00:00,Aufzug-Innenstadt,Aufzug
+2020-07-17 00:00:00,Husener Straße,Stationär
+2020-07-18 00:00:00,Reinoldikirchplatz - Innenstadt ,Aufzug
+2020-07-18 00:00:00,Friedhof,Stationär
+2020-07-18 00:00:00,RKP 1,Stationär
+2020-07-18 00:00:00,Alter Markt,Stationär
+2020-07-18 00:00:00,Dortmund Höchsten,Stationär
+2020-07-18 00:00:00,Evinger Straße,Stationär
+2020-07-18 00:00:00,Hansaplatz,Stationär
+2020-07-19 00:00:00,Flughafen Dortmund,Aufzug
+2020-07-19 00:00:00,Westpark,Stationär
+2020-07-19 00:00:00,Westpark,Stationär
+2020-07-20 00:00:00,RKP 4 Europabrunnen,Stationär
+2020-07-21 00:00:00,Haltestelle Stadtgarten,Stationär
+2020-07-21 00:00:00,RKP 4,Stationär
+2020-07-21 00:00:00,Sonnenplatz,Stationär
+2020-07-23 00:00:00,S-Bahn Möllerbrücke,Stationär
+2020-07-25 00:00:00,Friedhof,Stationär
+2020-07-25 00:00:00,RKP 1,Stationär
+2020-07-25 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-07-25 00:00:00,Reinoldikirchplatz,Stationär
+2020-07-25 00:00:00,Platz von Netanya,Stationär
+2020-07-26 00:00:00,Innenstadt,Aufzug
+2020-07-26 00:00:00,Westpark,Stationär
+2020-07-27 00:00:00,RKP 4 Europabrunnen,Stationär
+2020-07-28 00:00:00,Markt Eving,Stationär
+2020-07-29 00:00:00,RKP Nr. 1,Stationär
+2020-07-30 00:00:00,Hansaplatz,Stationär
+2020-07-30 00:00:00,Kuckelke,Stationär
+2020-07-31 00:00:00,Hansaplatz - Stadt- Hansaplatz,Aufzug
+2020-07-31 00:00:00,Grevelerstraße,Stationär
+2020-07-31 00:00:00,Kattenstert,Stationär
+2020-08-01 00:00:00,Friedhof,Stationär
+2020-08-01 00:00:00,Lünen  ,Stationär
+2020-08-01 00:00:00,Platz von Netanya Nr.1+2,Stationär
+2020-08-01 00:00:00,Münsterstr./Heroldstr.,Stationär
+2020-08-02 00:00:00,Standkundgebung Kulturinsel Phönixsee,Stationär
+2020-08-03 00:00:00,RKP 4 Europabrunnen,Stationär
+2020-08-03 00:00:00,Reinoldikirchplatz,Stationär
+2020-08-04 00:00:00,"Aplerbeck, Köln-Berliner-Straße",Stationär
+2020-08-04 00:00:00,Brackeler Hellweg,Stationär
+2020-08-06 00:00:00,Platz von Hiroshima - Gedenkstätte/Gingkobaum,Aufzug
+2020-08-06 00:00:00,Friedensplatz,Stationär
+2020-08-06 00:00:00,Kuckelke,Stationär
+2020-08-06 00:00:00,Dortmund Marten,Aufzug
+2020-08-08 00:00:00,Friedhof,Stationär
+2020-08-08 00:00:00,RKP Nr. 1-3,Stationär
+2020-08-08 00:00:00,Reinoldikirchplatz,Stationär
+2020-08-08 00:00:00,Katharinenstraße Standplatz Nr. 4,Stationär
+2020-08-08 00:00:00,Märkische Straße,Stationär
+2020-08-08 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-08-08 00:00:00,Platz von Netanya,Stationär
+2020-08-09 00:00:00,Hörder Burgplatz,Stationär
+2020-08-10 00:00:00,RKP 4 Europabrunnen,Stationär
+2020-08-11 00:00:00,Lünen Wethmarheide,Stationär
+2020-08-11 00:00:00,Dortmund Lanstrop,Stationär
+2020-08-11 00:00:00,Scharnhorst Zentrum ,Stationär
+2020-08-12 00:00:00,Friedensplatz,Stationär
+2020-08-12 00:00:00,Reinoldikirchplatz,Stationär
+2020-08-13 00:00:00,Brüderweg,Stationär
+2020-08-13 00:00:00,Freiherr-vom-Stein-Platz,Stationär
+2020-08-13 00:00:00,Brackeler Hellweg,Stationär
+2020-08-15 00:00:00,Friedhof,Stationär
+2020-08-15 00:00:00,RKP 4,Stationär
+2020-08-15 00:00:00,Do-Brackel,Aufzug
+2020-08-15 00:00:00,Lütgendortmund- Bochum,Aufzug
+2020-08-15 00:00:00,Katharinenstraße Platz Nr. 4,Stationär
+2020-08-15 00:00:00,RKP,Stationär
+2020-08-16 00:00:00,Alter Markt,Stationär
+2020-08-16 00:00:00,Westpark,Stationär
+2020-08-16 00:00:00,Dortmund Flughafen,Stationär
+2020-08-16 00:00:00,Flughafen Dortmund,Aufzug
+2020-08-16 00:00:00,Park der Partnerstädte (U-Turm),Stationär
+2020-08-17 00:00:00,RKP 4 Europabrunnen,Stationär
+2020-08-18 00:00:00,Kirchlinder Straße,Stationär
+2020-08-18 00:00:00,Barichstraße ,Stationär
+2020-08-18 00:00:00,Wittenerstraße,Stationär
+2020-08-19 00:00:00,Friedensplatz,Stationär
+2020-08-20 00:00:00,DSW21-Kundencenter,Stationär
+2020-08-21 00:00:00,Im Defdahl - Westfalendamm,Aufzug
+2020-08-21 00:00:00,Kuckelke,Stationär
+2020-08-21 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-08-22 00:00:00,Friedhof,Stationär
+2020-08-22 00:00:00,RKP Nr. 1-3,Stationär
+2020-08-22 00:00:00,Friedhof,Stationär
+2020-08-22 00:00:00,Potgasse,Stationär
+2020-08-22 00:00:00,Hörder Markt,Stationär
+2020-08-22 00:00:00,Hombruch Marktplatz,Stationär
+2020-08-22 00:00:00,RKP,Stationär
+2020-08-22 00:00:00,Hbf ,Stationär
+2020-08-23 00:00:00,Braunschweigerstraße,Stationär
+2020-08-23 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-08-23 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-08-23 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-08-24 00:00:00,RKP 4 Europabrunnen,Stationär
+2020-08-25 00:00:00,Reinoldikirchplatz,Stationär
+2020-08-26 00:00:00,Westenhellweg,Stationär
+2020-08-26 00:00:00,Kuckelke,Stationär
+2020-08-27 00:00:00,Brackeler Hellweg,Stationär
+2020-08-28 00:00:00,Friedhof,Stationär
+2020-08-28 00:00:00,In der Meile,Stationär
+2020-08-28 00:00:00,Willy-Brandt-Platz - Westenhellweg,Aufzug
+2020-08-28 00:00:00,Reinoldikirchplatz,Stationär
+2020-08-28 00:00:00,Haltestelle Wittener Straße,Stationär
+2020-08-29 00:00:00,Friedhof,Stationär
+2020-08-29 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-08-29 00:00:00,Friedensplatz - Stadt - Friedensplatz,Aufzug
+2020-08-29 00:00:00,Lütgendortmund/Huckarde,Aufzug
+2020-08-29 00:00:00,Rathausvorplatz Aplerbeck,Stationär
+2020-08-29 00:00:00,Steinsweg,Stationär
+2020-08-29 00:00:00,Potgasse,Stationär
+2020-08-29 00:00:00,Gegenüber Hansaplatz,Stationär
+2020-08-29 00:00:00,Marktplatz Hombruch,Stationär
+2020-08-29 00:00:00,Reinoldikirchplatz,Stationär
+2020-08-30 00:00:00,Kleine Beurhausstr,Stationär
+2020-08-30 00:00:00,Barmer Straße,Stationär
+2020-08-31 00:00:00,RKP 4 Europabrunnen,Stationär
+2020-09-01 00:00:00,Steinwache,Stationär
+2020-09-01 00:00:00,U 47 Aplerbeck,Stationär
+2020-09-01 00:00:00,Körner Hellweg,Stationär
+2020-09-02 00:00:00,Mallinckrodtstraße ,Stationär
+2020-09-02 00:00:00,Rheinische Straße ,Stationär
+2020-09-02 00:00:00,Möllerbrücke,Stationär
+2020-09-03 00:00:00,Parkplatz F2,Stationär
+2020-09-03 00:00:00,Kuckelke,Stationär
+2020-09-03 00:00:00,Leonie-Reygers-Terrasse,Stationär
+2020-09-04 00:00:00,Südwall,Stationär
+2020-09-04 00:00:00,Buschmühle 1,Stationär
+2020-09-04 00:00:00,Haltestelle Wittener Straße,Stationär
+05.09. - 10.09.2020,"Dortmund - Kamen - Hamm - Gütersloh
+ - Bielefeld - Herford - Bad Oeynhausen - Minden",Aufzug
+2020-09-05 00:00:00,Friedhof,Stationär
+2020-09-05 00:00:00,Platz von Netanya,Stationär
+2020-09-05 00:00:00,Reinoldikirchplatz,Stationär
+2020-09-05 00:00:00,Potgasse,Stationär
+2020-09-05 00:00:00,Marktplatz Hombruch,Stationär
+2020-09-05 00:00:00,Brauhausstraße/Hansaplatz,Stationär
+2020-09-05 00:00:00,Friedensplatz,Stationär
+2020-09-05 00:00:00,Huckarder Marktplatz,Stationär
+2020-09-05 00:00:00,Westerfilder Straße/ Speckestraße,Stationär
+2020-09-05 00:00:00,Brackeler Hellweg,Stationär
+2020-09-05 00:00:00,Wickeder Hellweg/ Blitzstraße,Stationär
+2020-09-05 00:00:00,Phoenix-See,Stationär
+2020-09-05 00:00:00,Körner Hellweg,Stationär
+2020-09-05 00:00:00,Huckarder Marktplatz,Stationär
+2020-09-06 00:00:00,Landgrafenstraße,Stationär
+2020-09-06 00:00:00,Flughafen Dortmund,Stationär
+2020-09-06 00:00:00,Westpark,Stationär
+2020-09-06 00:00:00,"Kreuzstraße und Bergstraße, Lünen",Aufzug
+2020-09-07 00:00:00,RKP 4 Europabrunnen,Stationär
+2020-09-08 00:00:00,Flautweg,Stationär
+2020-09-08 00:00:00,Lütgendortmunder Straße,Stationär
+2020-09-08 00:00:00,Eving,Stationär
+2020-09-09 00:00:00,Alter Markt,Stationär
+2020-09-09 00:00:00,Kuckelke,Stationär
+2020-09-09 00:00:00,Warmbreitbandstraße ,Stationär
+2020-09-09 00:00:00,Stefan-Engel-Platz,Stationär
+2020-09-10 00:00:00,RKP,Stationär
+2020-09-10 00:00:00,Friedhof,Aufzug
+2020-09-10 00:00:00,Revierstraße,Stationär
+2020-09-11 00:00:00,Revierstraße,Stationär
+2020-09-11 00:00:00,Scharnhorst ,Stationär
+2020-09-11 00:00:00,Kaiserstraße  ,Stationär
+2020-09-11 00:00:00,Wittenerstraße,Stationär
+2020-09-12 00:00:00,Friedhof,Stationär
+2020-09-12 00:00:00,RKP,Stationär
+2020-09-12 00:00:00,Rheinische Straße - Platz von Xian,Aufzug
+2020-09-12 00:00:00,Lünen,Aufzug
+2020-09-12 00:00:00,Niergartenstraße,Stationär
+2020-09-12 00:00:00,Hauptbahnhof,Stationär
+2020-09-12 00:00:00,Brauhausstraße/Hansaplatz,Stationär
+2020-09-12 00:00:00,RKP - Westpark,Aufzug
+2020-09-12 00:00:00,Hombruch Marktplatz,Stationär
+2020-09-12 00:00:00,Hörde,Stationär
+2020-09-12 00:00:00,Mengede,Stationär
+2020-09-12 00:00:00,Westerfilde ,Stationär
+2020-09-12 00:00:00,RKP,Stationär
+2020-09-13 00:00:00,Friedensplatz,Stationär
+2020-09-14 00:00:00,RKP 4 Europabrunnen,Stationär
+2020-09-16 00:00:00,Kuckelke,Stationär
+2020-09-17 00:00:00,Westenhellweg Ecke Potgasse,Stationär
+2020-09-18 00:00:00,Parplatz Landgericht - Kaiserbrunnen,Aufzug
+2020-09-18 00:00:00,Lange Straße 11,Stationär
+2020-09-19 00:00:00,Friedhof,Stationär
+2020-09-19 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-09-19 00:00:00,RKP,Stationär
+2020-09-20 00:00:00,Friedensplatz-Hoeschpark,Aufzug
+2020-09-20 00:00:00,Do-Wambel bis Hansaplatz,Aufzug
+2020-09-21 00:00:00,RKP 4 Europabrunnen,Stationär
+2020-09-22 00:00:00,Flautweg,Stationär
+2020-09-24 00:00:00,Kuckelke/Alter Burgwall,Stationär
+2020-09-24 00:00:00,Friedhof,Stationär
+2020-09-25 00:00:00,Reinoldikirchplatz,Stationär
+2020-09-25 00:00:00,Südwall,Stationär
+2020-09-25 00:00:00,Westpark - Südwall,Aufzug
+2020-09-25 00:00:00,Nordstadt - Südwall,Aufzug
+2020-09-25 00:00:00,Kreuzviertel - Südwall,Aufzug
+2020-09-25 00:00:00,Huckarde- Südwall,Aufzug
+2020-09-25 00:00:00,Aplerbeck - Südwall,Aufzug
+2020-09-25 00:00:00,RKP,Stationär
+2020-09-25 00:00:00,RKP,Stationär
+2020-09-25 00:00:00,Willy-Brandt-Platz Lünen ,Aufzug
+2020-09-25 00:00:00,Reinoldikirchplatz,Stationär
+2020-09-26 00:00:00,Friedhof,Stationär
+2020-09-26 00:00:00,DSW21-Kundencenter,Stationär
+2020-09-26 00:00:00,Potgasse,Stationär
+2020-09-28 00:00:00,RKP 4 Europabrunnen,Stationär
+2020-09-29 00:00:00,Körner Platz ,Stationär
+2020-09-30 00:00:00,Kampstr./Katharinenstr.,Stationär
+2020-09-30 00:00:00,Kronprinzenstraße,Stationär
+2020-09-30 00:00:00,Klinikum Westfalen Lütgendortmund,Aufzug
+2020-09-30 00:00:00,Kuckelke/Alter Burgwall,Stationär
+2020-09-30 00:00:00,Klinikum Nord,Stationär
+2020-09-30 00:00:00,Klinikum Mitte,Aufzug
+2020-09-30 00:00:00,Stefan-Engel-Platz,Stationär
+2020-09-30 00:00:00,Stefan-Engel-Platz,Stationär
+2020-10-01 00:00:00,Phoenix-See - Friedensplatz,Aufzug
+2020-10-01 00:00:00,TU Dortmund - Friedensplatz,Aufzug
+2020-10-01 00:00:00,Höschpark - Friedensplatz,Aufzug
+2020-10-01 00:00:00,Naturmuseum - Friedensplatz,Aufzug
+2020-10-01 00:00:00,Platz von Xian - Friedensplatz,Aufzug
+2020-10-01 00:00:00,Marktplatz Lünen ,Aufzug
+2020-10-01 00:00:00,Katharinenstraße,Stationär
+2020-10-02 00:00:00,Adlerturm DEW 21,Stationär
+2020-10-02 00:00:00,Katharinenstraße,Stationär
+2020-10-02 00:00:00,Potgasse,Stationär
+2020-10-03 00:00:00,Friedhof,Stationär
+2020-10-03 00:00:00,Platz der Deutschen Einheit - Platz der Deutschen Einheit,Aufzug
+2020-10-03 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-10-05 00:00:00,Max-Eyth-Straße - Brücke,Stationär
+2020-10-05 00:00:00,Lübkestraße - Brücke,Stationär
+2020-10-05 00:00:00,Hermann-Löns-Straße - Brücke,Stationär
+2020-10-05 00:00:00,Europabrunnen,Stationär
+2020-10-05 00:00:00,RKP 1,Stationär
+2020-10-07 00:00:00,Kuckelke/Alter Burgwall,Stationär
+2020-10-08 00:00:00,Friedhof,Stationär
+2020-10-10 00:00:00,Friedhof,Stationär
+2020-10-10 00:00:00,Harkortstraße,Stationär
+2020-10-10 00:00:00,Potgasse,Stationär
+2020-10-12 00:00:00,Europabrunnen,Stationär
+2020-10-13 00:00:00,Klinikum - Westpark,Aufzug
+2020-10-14 00:00:00,Innenstadt - FP,Aufzug
+2020-10-15 00:00:00,Südwall,Aufzug
+2020-10-15 00:00:00,Günter-Samtlebe-Platz,Stationär
+2020-10-15 00:00:00,Kuckelke,Stationär
+2020-10-15 00:00:00,Körner Platz/ Am Bertholdshof,Stationär
+2020-10-16 00:00:00,"Gedenkstein ""Schlacht am Nordmarkt""",Stationär
+2020-10-17 00:00:00,Friedhof,Stationär
+2020-10-17 00:00:00,Harkortstraße,Stationär
+2020-10-17 00:00:00,Friedensplatz,Stationär
+2020-10-17 00:00:00,Platz von Netanya,Stationär
+2020-10-18 00:00:00,Hansaplatz - Wall,Aufzug
+2020-10-19 00:00:00,Europabrunnen,Stationär
+2020-10-19 00:00:00,Westfalenhallen,Stationär
+2020-10-20 00:00:00,Friedensplatz + Südwall,Stationär
+2020-10-20 00:00:00,Günter-Samtlebe-Platz,Stationär
+2020-10-20 00:00:00,Willy-Brandt-Platz,Stationär
+2020-10-23 00:00:00,Kuckelke ,Stationär
+2020-10-23 00:00:00,RKP - RKP,Aufzug
+2020-10-24 00:00:00,Reinoldikirchplatz,Stationär
+2020-10-24 00:00:00,Hansaplatz,Stationär
+2020-10-24 00:00:00,Katharinenstraße,Stationär
+2020-10-24 00:00:00,Friedensplatz,Stationär
+2020-10-24 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-10-24 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-10-24 00:00:00,Reinoldikirchplatz,Stationär
+2020-10-25 00:00:00,"Gedenkstein ""Schlacht am Nordmarkt""",Stationär
+2020-10-25 00:00:00,Möllerbrücke,Stationär
+2020-10-26 00:00:00,Europabrunnen,Stationär
+2020-10-27 00:00:00,Friedensplatz - Friedensplatz,Aufzug
+2020-10-27 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-10-28 00:00:00,Friedhof,Stationär
+2020-10-30 00:00:00,Platz von Netanya,Stationär
+2020-10-31 00:00:00,Reinodikirchplatz,Stationär
+2020-10-31 00:00:00,Platz von Netanya,Stationär
+2020-10-31 00:00:00,Friedhof - RKP - City,Aufzug
+2020-10-31 00:00:00,Platz von Netanya,Stationär
+2020-10-31 00:00:00,Alter Burgwall,Stationär
+2020-10-31 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-11-02 00:00:00,Europabrunnen,Stationär
+2020-11-02 00:00:00,Friedensplatz,Stationär
+2020-11-04 00:00:00,Alter Burgwall,Stationär
+2020-11-04 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-11-05 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-11-06 00:00:00,Reinoldikirchplatz,Stationär
+2020-11-06 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-11-07 00:00:00,Paulinenstraße - Westpark,Aufzug
+2020-11-07 00:00:00,RKP,Stationär
+2020-11-07 00:00:00,Huckarde Marktplatz,Stationär
+2020-11-07 00:00:00,Katharinenstraße,Stationär
+2020-11-07 00:00:00,Reinoldikirchplatz,Stationär
+2020-11-08 00:00:00,Dortmunder U ,Stationär
+2020-11-09 00:00:00,Dorstfeld ,Stationär
+2020-11-09 00:00:00,Europabrunnen,Stationär
+2020-11-09 00:00:00,Platz der Alten Synagoge,Stationär
+2020-11-11 00:00:00,Kuckelke/Alter Burgwall,Stationär
+2020-11-14 00:00:00,Katharinentreppe,Stationär
+2020-11-14 00:00:00,RKP,Stationär
+2020-11-15 00:00:00,Hauptfriedhof Dortmund,Stationär
+2020-11-15 00:00:00,Friedhof,Stationär
+2020-11-16 00:00:00,Europabrunnen,Stationär
+2020-11-18 00:00:00,Katharinenstraße,Stationär
+2020-11-19 00:00:00,Kampstraße DSW21,Stationär
+2020-11-20 00:00:00,Alter Burgwall,Stationär
+2020-11-21 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-11-21 00:00:00,Reinoldikirchplatz,Stationär
+2020-11-22 00:00:00,Duisburg - Dortmund,Aufzug
+2020-11-23 00:00:00,Europabrunnen,Stationär
+2020-11-23 00:00:00,Hansaplatz,Stationär
+2020-11-23 00:00:00,Alter Markt,Stationär
+2020-11-23 00:00:00,Kleppingstraße,Stationär
+2020-11-23 00:00:00,Reinoldikirchplatz,Stationär
+2020-11-23 00:00:00,Willy-Brandt-Platz,Stationär
+2020-11-23 00:00:00,Kampstraße,Stationär
+2020-11-23 00:00:00,Platz von Netanya,Stationär
+2020-11-23 00:00:00,Petrikirchplatz,Stationär
+2020-11-23 00:00:00,Platz von Leeds,Stationär
+2020-11-23 00:00:00,Katharinenstraße,Stationär
+2020-11-24 00:00:00,Katharinenstraße 4+5,Stationär
+2020-11-25 00:00:00,Friedensplatz,Stationär
+2020-11-25 00:00:00,Platz von Netanya,Stationär
+2020-11-25 00:00:00,Katharinenstraße,Stationär
+2020-11-25 00:00:00,Friedensplatz,Stationär
+2020-11-25 00:00:00,Reinoldikirchplatz,Stationär
+2020-11-27 00:00:00,Kuckelke/Alter Burgwall,Stationär
+2020-11-28 00:00:00,Cinestar - Bornstraße,Stationär
+2020-11-28 00:00:00,Phoenixgelände Hörde,Stationär
+2020-11-30 00:00:00,Europabrunnen,Stationär
+2020-11-30 00:00:00,Semerteichstraße,Stationär
+2020-12-03 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-12-04 00:00:00,Kuckelke/Alter Burgwall,Stationär
+2020-12-05 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-12-05 00:00:00,Katharinenstraße,Stationär
+2020-12-05 00:00:00,Reinoldikirchplatz 2,Stationär
+2020-12-05 00:00:00,Platz von Hiroshima - Gedenkstätte/Gingkobaum,Stationär
+2020-12-05 00:00:00,Reinoldikirchplatz,Stationär
+2020-12-06 00:00:00,Innenstadt Nord,Aufzug
+2020-12-07 00:00:00,Europabrunnen,Stationär
+2020-12-09 00:00:00,Hansaplatz,Stationär
+2020-12-10 00:00:00,Potgasse,Stationär
+2020-12-11 00:00:00,Kuckelke/Alter Burgwall,Stationär
+2020-12-12 00:00:00,Katharinenstraße,Stationär
+2020-12-12 00:00:00,Huckarde,Stationär
+2020-12-13 00:00:00,Marienkirche Lünen - RKP Dortmund,Aufzug
+2020-12-13 00:00:00,Rombergpark,Aufzug
+2020-12-14 00:00:00,Europabrunnen,Stationär
+2020-12-14 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-12-16 00:00:00,RKP - Westenhellweg - RKP,Aufzug
+2020-12-18 00:00:00,Kuckelke/Alter Burgwall,Stationär
+2020-12-19 00:00:00,Reinoldikirchplatz,Stationär
+2020-12-19 00:00:00,Katharinenstraße,Stationär
+2020-12-21 00:00:00,Europabrunnen,Stationär
+2020-12-23 00:00:00,Katharinenstraße 4+5,Stationär
+2020-12-26 00:00:00,Platz der Deutschen Einheit,Stationär
+2020-12-28 00:00:00,Europabrunnen,Stationär
+2020-12-31 00:00:00,Reinoldikirchplatz,Stationär
