@@ -44,7 +44,7 @@ def saarbruecken():
     )
     # only keep records after 2021-05-21, prior records contain no topics
     df = df[df["event_date"] >= "2021-05-21"]
-    df = df[["event_date", "event_date", "topic", "location", "participants_registered"]]
+    df = df[["event_date", "topic", "location", "participants_registered"]]
     df["city"] = "Saarbrücken"
     return df
 

@@ -15,9 +15,16 @@ def erfurt():
                 "Datum der\nVersammlung": "event_date",
                 "Thema": "topic",
                 "Versammlungsort": "location",
+                "Ort der Versammlung / Aufzugsstrecke": "location",
+                "Ort der Versammlung / Aufzuggstrecke": "location",
+                "Ort d. Versammlung / Aufzugsstrecke": "location",
+                "Ort der Versammlung /": "location",
                 "Veranstalter/Vertreter": "organizer",
+                "Versammlungsanmelder": "organizer",
+                "Versammlungsmelder": "organizer",
             },
         )
+        df = df.dropna(subset=["event_date", "organizer", "topic", "location"], how="all")
         # convert 04.01. - 25.01.2021 (montags) to 2021-01-04
         df["event_date"] = df["event_date"].str.replace(
             r"(\d{2})\.(\d{2}\.)?(\d{2,4})?\s*(-|\+)\s*(\d{2})\.-?(\d{2})\.(\d{4}).*",

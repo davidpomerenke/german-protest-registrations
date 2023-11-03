@@ -30,7 +30,7 @@ def muenchen():
         )
         cancelled = pd.Series([isinstance(cell.font.color.rgb, str) for cell in sheet["A:A"][3:]])
         df_ = df[~cancelled]
-        print(len(df), len(df_))
+        # print(len(df), len(df_))
         dfs.append(df_)
     df = pd.concat(dfs)
     df["event_date"] = pd.to_datetime(df["event_date"], errors="coerce")
