@@ -92,7 +92,7 @@ Datum Versammlung,Örtlichkeit (ink. AKG + SKG),Stationär / sfv,Organisation,Th
 2018-02-10 00:00:00,Sendlinger Str. 8,stationär,PETA,gegen Pelz,15
 2018-02-11 00:00:00,Königsplatz,stationär,Verein der Makedonier in München,Friedliche Lösung im Namensstreit zwischen Griechenland und EVROM,200
 2018-02-12 00:00:00,Irmonherstraße 1,stationär,,gegen Sea World,30-40
-14.02.-25.03.18,Hans-Stützle-Straße 20,stationär,EuroProLife e.V. ,40 Tage für das Leben,2-80
+14.02.-25.03.18,Hans-Stützle-Straße 20,stationär,EuroProLife e.V.,40 Tage für das Leben,2-80
 2018-02-14 00:00:00,Marsstraße 43,stationär,,Tierhaltung,2
 2018-02-14 00:00:00,Karlsplatz,stationär,Pegida München e.V.,Islamkritik,wechselnd
 2018-02-14 00:00:00,Marienplatz,stationär,One Billion Rising (Vorverein),One Billion Rising,300
@@ -369,7 +369,7 @@ Datum Versammlung,Örtlichkeit (ink. AKG + SKG),Stationär / sfv,Organisation,Th
 2018-04-25 00:00:00,Max-Joseph-Platz,stationär,,Dein Tod ist uns Fanal,10-20
 2018-04-25 00:00:00,Odeonsplatz,stationär,,Anonymous for the Voiceless,15-30
 2018-04-25 00:00:00,St.-Pauls-Platz bis Geschwister-Scholl-Platz,sfv,Helfer Deutschland e.V.,Lebensschutz,35
-2018-04-25 00:00:00,Am Messesee ,stationär,urgewald e. V.,Protest gegen die Absicherung von polnischen Kohleunternehmen,10-15
+2018-04-25 00:00:00,Am Messesee,stationär,urgewald e. V.,Protest gegen die Absicherung von polnischen Kohleunternehmen,10-15
 2018-04-25 00:00:00,Marienplatz,stationär,,,50-60
 2018-04-25 00:00:00,"Marstallplatz 1, in der Alfons-Goppel-Str.",stationär,,Protest gegen die Firma Palatir,10
 2018-04-25 00:00:00,Karlsplatz,stationär,Pegida München e.V.,Islamkritik,wechselnd
@@ -439,7 +439,7 @@ Datum Versammlung,Örtlichkeit (ink. AKG + SKG),Stationär / sfv,Organisation,Th
 2018-05-12 00:00:00,Karlsplatz 11 bis 12 vor Hugendubel,stationär,,Tarifrunde Buchhandel,5
 2018-05-12 00:00:00,Marienplatz,stationär,,Wurzeln unserer christlichen Grundwerte,70
 2018-05-12 00:00:00,Sendlinger Str. 8,stationär,Falun Gong Gruppe München,Beendigung der Verfolgung FalunGong,30
-2018-05-12 00:00:00,Königsplatz ,sfv,DHV OG München,Global Marijuana March,500-1000
+2018-05-12 00:00:00,Königsplatz,sfv,DHV OG München,Global Marijuana March,500-1000
 2018-05-13 00:00:00,Max-Joseph-Platz,stationär,,Evangelisation Die Menschen auf Jesus Christus aufmerksam machen,70
 2018-05-13 00:00:00,Isarufer,stationär,,Information und Kundgebung zur Meinungsbildung über Sinn- und Glaubensfragen,50
 2018-05-13 00:00:00,Karlsplatz,stationär,,Direct Action Everywhere – gegen Tierversuche,5-20
@@ -591,7 +591,7 @@ Datum Versammlung,Örtlichkeit (ink. AKG + SKG),Stationär / sfv,Organisation,Th
 2018-06-17 00:00:00,Sendlinger Str. 8,stationär,Bündnis 90 / Die Grünen,Sechs Jahre Jubiläum Bürgerentscheid gegen die 3. Startbahn,40
 2018-06-17 00:00:00,Siegestor,stationär,Pax Europa,Solidarität mit Israel,10-20
 2018-06-18 00:00:00,Promenadeplatz Ecke Maffeistr.,stationär,,Für die HDP und Selahattin Demirtas bei der Wahl in der Türkei,10
-2018-06-18 00:00:00,"Theresienstr. 90, ggü. Eingang TU",stationär,Partei MUT,Menschenrechte ,
+2018-06-18 00:00:00,"Theresienstr. 90, ggü. Eingang TU",stationär,Partei MUT,Menschenrechte,
 2018-06-18 00:00:00,"Romanstr. 107, ggüber Chinesischen Konsulat",stationär,,Organraub,2-12
 2018-06-18 00:00:00,"Thomas-Wimmer-Ring 1, 1a",stationär,Falun Gong Gruppe München,Beendigung der Verfolgung FalunGong,6
 2018-06-18 00:00:00,Isartorplatz,stationär,Pegida München e.V.,Islamkritik,10-12
@@ -630,7 +630,7 @@ Datum Versammlung,Örtlichkeit (ink. AKG + SKG),Stationär / sfv,Organisation,Th
 2018-06-23 00:00:00,Opl-MPL-KPL,sfv,Animals United e.V.,Zirkus ohne Tiere,5
 2018-06-24 00:00:00,Marienplatz,stationär,,Gerechtigkeit/Solidarität mit David,1000
 2018-06-24 00:00:00,Leopoldstr. 42,stationär,Initiative Grundeinkommen,Chairwalk zum Thema bedingungsloses Grundeinkommen,5-10
-2018-06-24 00:00:00,Heinrich-Wieland-Str. - Münchner Freiheit ,sfv,,Türkische Wahlen,100
+2018-06-24 00:00:00,Heinrich-Wieland-Str. - Münchner Freiheit,sfv,,Türkische Wahlen,100
 2018-06-24 00:00:00,Theresienwiese,stationär,Umweltinstitut München e.V.,Raus aus der Kohle,50
 2018-06-24 00:00:00,Eringer Straße,stationär,,Kohlekraftwerk,20-30
 2018-06-25 00:00:00,St.-Pauls-Platz bis Geschwister-Scholl-Platz,sfv,Helfer Deutschland e.V.,Lebensschutz,35
@@ -704,7 +704,7 @@ Datum Versammlung,Örtlichkeit (ink. AKG + SKG),Stationär / sfv,Organisation,Th
 2018-07-07 00:00:00,Karl-Stützel-Platz,stationär,,Jordanien soll die Grenzen für die Flüchtlinge aus Süd-Syrien öffnen,150
 2018-07-07 00:00:00,Maximilianstr. (Maxmonument),stationär,,"Solidaritätsbekundung zu den bundesweiten Demonstrationen „Seebrücke, sichere Häfen“",15
 2018-07-08 00:00:00,Isarufer zwischen Braunauer Eisenbahnbrücke und Reichenbachbrücke,sfv,Isarlust e.V.,Big Jump 2018,100-300
-2018-07-08 00:00:00,Theresienwiese (Süd) bis Marienplatz,sfv,BKZ Fedr e. V. ,Gedenken der Opfer des Genozids in Srebrenica,600
+2018-07-08 00:00:00,Theresienwiese (Süd) bis Marienplatz,sfv,BKZ Fedr e. V.,Gedenken der Opfer des Genozids in Srebrenica,600
 2018-07-08 00:00:00,Englischer Garten,stationär,,Anonymous for the Voiceless,10-25
 2018-07-09 00:00:00,Schweizer Platz,stationär,AFD KV München-Süd,Wählen Sie das Original!,200
 2018-07-09 00:00:00,Marienplatz,stationär,,Weg mit Hartz IV,20-30
@@ -775,12 +775,12 @@ Datum Versammlung,Örtlichkeit (ink. AKG + SKG),Stationär / sfv,Organisation,Th
 2018-07-20 00:00:00,Mies van der Rohe bStr. 1,stationär,,Aufstand der Anständigen,5
 2018-07-20 00:00:00,Karlsplatz,stationär,Pegida Förderverein e.V.,Islamkritik,10-12
 2018-07-20 00:00:00,Karlsplatz,stationär,Pegida München e.V.,Islamkritik,wechselnd
-2018-07-21 00:00:00,Marienplatz bis Gärtnerplatz,sfv,,Slutwalk München ,500
+2018-07-21 00:00:00,Marienplatz bis Gärtnerplatz,sfv,,Slutwalk München,500
 2018-07-21 00:00:00,Marienplatz,stationär,"Condops e.V., Prop e.V.",Gedenktag für verstorbene Drogengebraucherinnen,100
 2018-07-21 00:00:00,"Thomas-Wimmer-Ring 1, 1a",stationär,Falun Gong Gruppe München,Beendigung der Verfolgung FalunGong,8
 2018-07-21 00:00:00,Mies van der Rohe bStr. 1,stationär,,Aufstand der Anständigen,5
 2018-07-21 00:00:00,Schützenstr. 5,stationär,,Anonymous for the Voiceless,15-30
-2018-07-21 00:00:00,Neuhauser Str. 8,stationär,Celebrity Center Scientologiy ,Man kann immer etwas tun,20
+2018-07-21 00:00:00,Neuhauser Str. 8,stationär,Celebrity Center Scientologiy,Man kann immer etwas tun,20
 2018-07-21 00:00:00,Münchner Freiheit,stationär,,Freiheit für Katalonien,15
 2018-07-22 00:00:00,Goetheplatz bis Königsplatz,sfv,,Ausgehetzt – Gemeinsam gegen die Politik der Angst,5000
 2018-07-22 00:00:00,Isarufer zwischen Braunauer Eisenbahnbrücke und Reichenbachbrücke,sfv,Isarlust e.V.,Big Jump 2018,100-300
@@ -953,7 +953,7 @@ Datum Versammlung,Örtlichkeit (ink. AKG + SKG),Stationär / sfv,Organisation,Th
 2018-09-10 00:00:00,Schwanthalerstr. 64,stationär,,Gegen das KPD-Verbot,30
 2018-09-10 00:00:00,Karlsplatz,stationär,Pegida München e.V.,Islamkritik,wechselnd
 2018-09-11 00:00:00,Marienplatz,stationär,Falun Gong Gruppe München,Stopp Verfolgung von Falun Gong,15
-2018-09-11 00:00:00,Münchner Freiheit ,stationär,Münchner Mahnwache,Mahnwache der Liebe,6-20
+2018-09-11 00:00:00,Münchner Freiheit,stationär,Münchner Mahnwache,Mahnwache der Liebe,6-20
 2018-09-11 00:00:00,Odeonsplatz – Münchner Freiheit,sfv,,Keine Abschiebungen nach Afghanistan,100
 2018-09-12 00:00:00,Marienplatz,stationär,Pegida München e.V.,Islamkritik,wechselnd
 2018-09-13 00:00:00,Marienplatz,stationär,,Kundgebung Sahra Wagenknecht – DIE LINKE,500-1000
@@ -1095,7 +1095,7 @@ Datum Versammlung,Örtlichkeit (ink. AKG + SKG),Stationär / sfv,Organisation,Th
 2018-10-06 00:00:00,Gärtnerplatz bis Marienplatz,sfv,Leyla e.V.,"Grenzen schließen, mehr Schutz und Sicherheit für Frauen und Mädchen, Nein zu Sharia",150
 2018-10-07 00:00:00,Max-Joseph-Platz,stationär,Pulse of Europe e.V.,Pulse of Europe,150-300
 2018-10-07 00:00:00,Karlsplatz,stationär,Pegida München e.V.,Islamkritik,10-12
-2018-10-07 00:00:00,Münchner Freiheit ,stationär,Greenpeace München,Meinungskundgabe zum Thema Umweltschutz,5-10
+2018-10-07 00:00:00,Münchner Freiheit,stationär,Greenpeace München,Meinungskundgabe zum Thema Umweltschutz,5-10
 2018-10-08 00:00:00,Odeonsplatz (Reiterdenkmal),stationär,,Stoppt den Pflegenotstand,50
 2018-10-08 00:00:00,Erhardtstraße / Bob-van-Benthem-Platz,stationär,,"Kein Patent auf Leben, auf Saatgut und Bier",30
 2018-10-08 00:00:00,Ungererstra 191 – OPL / MPL,sfv,Oskar-von-Miller Gymnasium,Eine Sportstätte für das Gymnasium,1500-2000
