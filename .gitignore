@@ -1,5 +1,4 @@
-# rift
-.aider*
+.cache/
 
 # Coverage.py
 htmlcov/
