@@ -7,7 +7,7 @@ def wuppertal():
     path = Path("data/interim/csv/Wuppertal")
     dfs = []
     for file in path.glob("*.csv"):
-        df = pd.read_csv(file, skiprows=2)
+        df = pd.read_csv(file)
         df = df.rename(
             columns={
                 "Datum": "event_date",
@@ -21,7 +21,7 @@ def wuppertal():
         dfs.append(df)
     df = pd.concat(dfs)
     df = df[["event_date", "organizer", "topic", "location", "participants_registered"]]
-    df["city"] = "Wiesbaden"
+    df["city"] = "Wuppertal"
     return df
 
 
