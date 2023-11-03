@@ -52,7 +52,6 @@ def berlin():
         ]
         dfs.append(df)
     df = pd.concat(dfs)
-    df["event_date"] = pd.to_datetime(df["event_date"], format="%d.%m.%Y").dt.date
     df["city"] = "Berlin"
     return df
 

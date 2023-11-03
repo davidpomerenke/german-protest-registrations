@@ -7,7 +7,6 @@ def karlsruhe():
     path = Path("data/interim/csv/Karlsruhe")
     dfs = []
     for file in path.glob("*.csv"):
-        # skip the first row and use the second row as header
         df = pd.read_csv(file, skiprows=1)
         df = df.rename(
             columns={
@@ -18,9 +17,6 @@ def karlsruhe():
                 "Absage": "cancelled",
             },
         )
-        df["event_date"] = pd.to_datetime(
-            df["event_date"], format="%Y-%m-%d %H:%M:%S", errors="coerce"
-        ).dt.date
         df = df[df["cancelled"] != "x"]
         dfs.append(df)
     df = pd.concat(dfs)

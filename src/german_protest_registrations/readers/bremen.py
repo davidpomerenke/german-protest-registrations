@@ -18,10 +18,9 @@ def bremen():
         )
         df["event_date"] = df["event_date"].str.replace("NV", "")
         df["event_date_end"] = df["event_date_end"].str.replace("NV", "")
-        df["event_date"] = pd.to_datetime(df["event_date"], format="%Y-%m-%d").dt.date
-        df["event_date_end"] = pd.to_datetime(df["event_date_end"], format="%Y-%m-%d").dt.date
         dfs.append(df)
     df = pd.concat(dfs)
+    df = df[["event_date", "topic", "location"]]
     df["city"] = "Bremen"
     return df
 

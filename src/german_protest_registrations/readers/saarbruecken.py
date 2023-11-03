@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import pandas as pd
-from dateparser import parse
 
 
 def saarbruecken():
@@ -35,15 +34,6 @@ def saarbruecken():
     df = pd.concat(dfs)
     df = df.dropna(subset=["event_date"])
     df["event_date"] = df["event_date"].str.replace("erl.", "").str.strip()
-    df["event_date"] = (
-        df["event_date"]
-        .astype(str)
-        .apply(
-            parse, date_formats=["%d.%m.%Y", "%Y-%m-%d %H:%M:%S"], settings={"STRICT_PARSING": True}
-        )
-    )
-    # only keep records after 2021-05-21, prior records contain no topics
-    df = df[df["event_date"] >= "2021-05-21"]
     df = df[["event_date", "topic", "location", "participants_registered"]]
     df["city"] = "Saarbrücken"
     return df

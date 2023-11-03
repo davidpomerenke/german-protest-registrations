@@ -33,7 +33,6 @@ def muenchen():
         # print(len(df), len(df_))
         dfs.append(df_)
     df = pd.concat(dfs)
-    df["event_date"] = pd.to_datetime(df["event_date"], errors="coerce")
     df = df[["event_date", "organizer", "topic", "location", "participants_registered"]]
     df["city"] = "München"
     return df

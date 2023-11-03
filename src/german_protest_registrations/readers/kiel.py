@@ -21,14 +21,8 @@ def kiel():
                 "Personenzahl": "participants_registered",
             },
         )
-        df["event_date"] = pd.to_datetime(
-            df["event_date"], format="%Y-%m-%d %H:%M:%S", errors="coerce"
-        ).dt.date
         dfs.append(df)
     df = pd.concat(dfs)
-    df = df[
-        df["event_date"] >= pd.to_datetime("2021-03-26").date()
-    ]  # event details are only available from this date
     df = df[["event_date", "topic", "location", "participants_registered"]]
     df["city"] = "Kiel"
     return df

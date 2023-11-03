@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import pandas as pd
-from dateparser import parse
 
 
 def wiesbaden():
@@ -19,15 +18,6 @@ def wiesbaden():
             },
         )
         df = df.dropna(subset=["event_date"])
-        df["event_date"] = (
-            df["event_date"]
-            .astype(str)
-            .apply(
-                parse,
-                date_formats=["%d.%m.%Y", "%Y-%m-%d %H:%M:%S"],
-                settings={"STRICT_PARSING": True},
-            )
-        )
         dfs.append(df)
     df = pd.concat(dfs)
     df = df[["event_date", "organizer", "topic", "location", "participants_registered"]]

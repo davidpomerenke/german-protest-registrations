@@ -7,7 +7,6 @@ def koeln():
     path = Path("data/interim/csv/Köln")
     dfs = []
     for file in path.glob("*.csv"):
-        # skip the first row and use the second row as header
         df = pd.read_csv(file)
         df = df.rename(
             columns={
@@ -20,9 +19,6 @@ def koeln():
                 "erwartete TN-Zahl\n": "participants_registered",
             },
         )
-        df["event_date"] = pd.to_datetime(
-            df["event_date"], format="%Y-%m-%d %H:%M:%S", errors="coerce"
-        ).dt.date
         dfs.append(df)
     df = pd.concat(dfs)
     df = df[["event_date", "topic", "location", "participants_registered"]]

@@ -21,9 +21,6 @@ def mainz():
                 "Erwartete TN": "participants_registered",
             },
         )
-        df["event_date"] = pd.to_datetime(
-            df["event_date"], format="%Y-%m-%d %H:%M:%S", errors="coerce"
-        ).dt.date
         dfs.append(df)
     df = pd.concat(dfs)
     df = df[["event_date", "topic", "location", "participants_registered"]]

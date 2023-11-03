@@ -23,9 +23,6 @@ def magdeburg():
     df = pd.concat(dfs)
     df = df[["event_date", "topic", "location", "participants_registered"]]
     df = df.drop_duplicates(subset=["event_date", "topic", "location"], keep="last")
-    df["event_date"] = pd.to_datetime(
-        df["event_date"], format="%Y-%m-%d %H:%M:%S", errors="coerce"
-    ).dt.date
     df["city"] = "Magdeburg"
     return df
 
