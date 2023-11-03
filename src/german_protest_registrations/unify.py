@@ -3,8 +3,9 @@ import warnings
 
 import pandas as pd
 from dateparser import parse
-from tqdm import tqdm
+import swifter
 
+from tqdm import tqdm
 from german_protest_registrations.readers.augsburg import augsburg
 from german_protest_registrations.readers.berlin import berlin
 from german_protest_registrations.readers.bremen import bremen
@@ -104,28 +105,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-#     # replace dates like 01.01. - 01.02.2023 with 01.01.2023
-#     df["event_date"] = df["event_date"].str.replace(
-#         r"(\d{2})\.(\d{2})\.? *- *\d{2}\.\d{2}\.(\d{4})", r"\3-\2-\1 00:00:00", regex=True
-#     )
-#     df["event_date"] = df["event_date"].str.replace(
-#         r"(\d{2})\.(\d{2})\.? *- *\d{2}\.\d{2}\.(\d{2})", r"20\3-\2-\1 00:00:00", regex=True
-#     )
-#     df["event_date"] = df["event_date"].str.replace(
-#         r"(\d{2})\.? *- *\d{2}\.(\d{2})\.(\d{4})", r"\3-\2-\1 00:00:00", regex=True
-#     )
-#     df["event_date"] = df["event_date"].str.replace(
-#         r"(\d{2})\.? *- *\d{2}\.(\d{2})\.(\d{2})", r"20\3-\2-\1 00:00:00", regex=True
-#     )
-#     df["event_date"] = pd.to_datetime(df["event_date"], format="%Y-%m-%d %H:%M:%S").dt.date
-
-# # convert 04.01. - 25.01.2021 (montags) to 2021-01-04
-#         df["event_date"] = df["event_date"].str.replace(
-#             r"(\d{2})\.(\d{2}\.)?(\d{2,4})?\s*(-|\+)\s*(\d{2})\.-?(\d{2})\.(\d{4}).*",
-#             r"\6-\5-\1 00:00:00",
-#             regex=True,
-#         )
 
 
 # TODO: date limits in Kiel and Saarbrücken
