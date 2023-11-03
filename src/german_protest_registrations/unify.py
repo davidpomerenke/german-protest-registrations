@@ -2,6 +2,7 @@ import json
 import warnings
 
 import pandas as pd
+import swifter
 from dateparser import parse
 from joblib import Memory
 from tqdm import tqdm
@@ -24,12 +25,12 @@ from german_protest_registrations.readers.muenchen import muenchen
 from german_protest_registrations.readers.potsdam import potsdam
 from german_protest_registrations.readers.saarbruecken import saarbruecken
 from german_protest_registrations.readers.wiesbaden import wiesbaden
+from german_protest_registrations.readers.wuppertal import wuppertal
 
 warnings.filterwarnings("ignore", module="dateparser")
 cache = Memory(".cache", verbose=0).cache
 
 
-@cache
 def get_df():
     df_readers = [
         augsburg,
@@ -50,6 +51,7 @@ def get_df():
         potsdam,
         saarbruecken,
         wiesbaden,
+        wuppertal,
     ]
     dfs = {read.__name__: read() for read in tqdm(df_readers, mininterval=1)}
     df = pd.concat(dfs, ignore_index=True)
@@ -61,7 +63,8 @@ def parse_dates(df):
     """Automatically parse dates from the event_date column.
     On the original data set, `dateparser` fails to parse 656 of 54246 dates, and the additional rules reduce this to 82.
     """
-    df["event_date_text"] = df["event_date"].copy().astype(str)
+    df["event_date"] = df["event_date"].astype(str)
+    df["event_date_text"] = df["event_date"].copy()
     df = df[~df["event_date"].isna() & (df["event_date"].str.len() > 0)]
     df = df[~df["event_date"].str.lower().str.contains(r"abges|absag|gesamt", regex=True)]
     df["event_date"] = df["event_date"].str.replace("\n", " ")
@@ -77,6 +80,7 @@ def parse_dates(df):
     df["event_date"] = df["event_date"].str.replace(
         r"^[^\d]*(\d?\d)\.[^\d].*\d?\d\.(\d?\d)\.(\d{2,4}).*$", r"\1.\2.\3", regex=True
     )
+    _ = swifter
     df["event_date"] = (
         df["event_date"]
         .astype(str)
@@ -108,6 +112,7 @@ def add_unparsable_dates(df):
 
 def main():
     df = get_df()
+    df = df.dropna(subset=["event_date"])
     df = parse_dates(df)
     df = add_unparsable_dates(df)
     df["event_date"] = df["event_date"].dt.date
