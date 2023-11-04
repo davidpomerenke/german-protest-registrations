@@ -110,8 +110,7 @@ def add_unparsable_dates(df):
     return df
 
 
-def main():
-    df = get_df()
+def process_dates(df):
     df = df.dropna(subset=["event_date"])
     df = parse_dates(df)
     df = add_unparsable_dates(df)
@@ -134,6 +133,75 @@ def main():
         (df["event_date"] < pd.to_datetime("2023-01-01").date())
         & (df["event_date"] >= pd.to_datetime("2010-01-01").date())
     ]
+    return df
+
+
+def parse_participant_numbers(df):
+    df["participants_registered"] = (
+        df["participants_registered"]
+        .astype(str)
+        .str.lower()
+        .str.replace(r"\.0$", "", regex=True)
+        .str.replace(r"\.", "", regex=True)
+        .str.replace(r"^(ca|max|mind|bis zu|bis|unter|<|)|\+|plus|-$", "", regex=True)
+        .str.strip()
+        .str.replace(r"^(.*\D)?(\d+)\s*(personen|tn|menschen|teilnehm.*).*$", r"\2", regex=True)
+        .str.replace(
+            r"^(.*\D)?(\d+)\s*(fahrzeugen?|kfz|autos?|traktor(en)?|fahrrädern?).*$",
+            r"\2",
+            regex=True,
+        )
+        .str.replace(r"\n?neu:\s*(\d+)$", r"\1", regex=True)
+        .astype(int, errors="ignore")
+    )
+    return df
+
+
+def add_unparsable_participant_numbers(df):
+    number_types = (
+        df["participants_registered"]
+        .replace(r"^\d+\s*(-|–|/|bis)\s*\d+$", "SPAN", regex=True)
+        .str.replace(r"^\d+$", "NUMBER", regex=True)
+        .replace(
+            r"^(nan|-+|\?+||/|wechselnd|offen|unbekannt|ka|nb|noch offen|keine\sangaben?|nicht angegeben|nicht bekannt|ohne)$",
+            "UNK",
+            regex=True,
+        )
+        .replace(r"^(?!SPAN|NUMBER|UNK)(.|\n)*$", r"UNPARSABLE", regex=True)
+    )
+    unparsable_participant_numbers = df["participants_registered"][
+        number_types == "UNPARSABLE"
+    ].tolist()
+    # write the original texts of the unparsable participants to a json file
+    file = "data/interim/unparsable_participant_numbers.json"
+    if True:
+        with open(file, "w") as f:
+            json.dump(
+                dict(
+                    zip(unparsable_participant_numbers, [""] * len(unparsable_participant_numbers))
+                ),
+                f,
+                indent=4,
+                ensure_ascii=False,
+            )
+    else:
+        # assume that a human has entered the correct numbers as values into the json file and read them back in
+        with open(file) as f:
+            unparseable_participant_numbers = json.load(f)
+        unparseable_participant_numbers = (
+            pd.Series(unparseable_participant_numbers).astype(str).astype(int).values
+        )
+        df.loc[number_types == "UNPARSABLE", "participants_registered"].update(
+            unparseable_participant_numbers
+        )
+    return df
+
+
+def main():
+    df = get_df()
+    df = process_dates(df)
+    df = parse_participant_numbers(df)
+    df = add_unparsable_participant_numbers(df)
     df = df.sort_values(["city", "event_date"])
     df = df[
         [
