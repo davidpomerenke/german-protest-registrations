@@ -174,7 +174,7 @@ def add_unparsable_participant_numbers(df):
     ].tolist()
     # write the original texts of the unparsable participants to a json file
     file = "data/interim/unparsable_participant_numbers.json"
-    if True:
+    if False:
         with open(file, "w") as f:
             json.dump(
                 dict(
@@ -189,7 +189,10 @@ def add_unparsable_participant_numbers(df):
         with open(file) as f:
             unparseable_participant_numbers = json.load(f)
         unparseable_participant_numbers = (
-            pd.Series(unparseable_participant_numbers).astype(str).astype(int).values
+            pd.Series(unparseable_participant_numbers)
+            .astype(str)
+            .astype(int, errors="ignore")
+            .values
         )
         df.loc[number_types == "UNPARSABLE", "participants_registered"].update(
             unparseable_participant_numbers
