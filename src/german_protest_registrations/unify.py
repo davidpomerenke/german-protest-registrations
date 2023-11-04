@@ -1,4 +1,5 @@
 import json
+import re
 import warnings
 
 import pandas as pd
@@ -29,6 +30,7 @@ from german_protest_registrations.readers.wuppertal import wuppertal
 
 warnings.filterwarnings("ignore", module="dateparser")
 cache = Memory(".cache", verbose=0).cache
+_ = swifter
 
 
 def get_df():
@@ -80,7 +82,6 @@ def parse_dates(df):
     df["event_date"] = df["event_date"].str.replace(
         r"^[^\d]*(\d?\d)\.[^\d].*\d?\d\.(\d?\d)\.(\d{2,4}).*$", r"\1.\2.\3", regex=True
     )
-    _ = swifter
     df["event_date"] = (
         df["event_date"]
         .astype(str)
@@ -154,11 +155,7 @@ def parse_participant_numbers(df):
         .str.replace(r"\n?neu:\s*(\d+)$", r"\1", regex=True)
         .astype(int, errors="ignore")
     )
-    return df
-
-
-def add_unparsable_participant_numbers(df):
-    number_types = (
+    df["participants_registered_type"] = (
         df["participants_registered"]
         .replace(r"^\d+\s*(-|–|/|bis)\s*\d+$", "SPAN", regex=True)
         .str.replace(r"^\d+$", "NUMBER", regex=True)
@@ -169,8 +166,29 @@ def add_unparsable_participant_numbers(df):
         )
         .replace(r"^(?!SPAN|NUMBER|UNK)(.|\n)*$", r"UNPARSABLE", regex=True)
     )
+    df.loc[df["participants_registered_type"] == "UNK", "participants_registered"] = None
+    return df
+
+
+def parse_participant_number_spans(df):
+    # 150 - 200 -> 175
+    def parse_span(s):
+        parts = re.split(r"\s*(-|–|/|bis)\s*", s)
+        if len(parts) == 3:
+            return int((int(parts[0]) + int(parts[2])) / 2)
+        return s
+
+    df.loc[df["participants_registered_type"] == "SPAN", "participants_registered"] = (
+        df.loc[df["participants_registered_type"] == "SPAN", "participants_registered"]
+        .astype(str)
+        .map(parse_span)
+    )
+    return df
+
+
+def add_unparsable_participant_numbers(df):
     unparsable_participant_numbers = df["participants_registered"][
-        number_types == "UNPARSABLE"
+        df["participants_registered_type"] == "UNPARSABLE"
     ].tolist()
     # write the original texts of the unparsable participants to a json file
     file = "data/interim/unparsable_participant_numbers.json"
@@ -188,23 +206,28 @@ def add_unparsable_participant_numbers(df):
         # assume that a human has entered the correct numbers as values into the json file and read them back in
         with open(file) as f:
             unparseable_participant_numbers = json.load(f)
-        unparseable_participant_numbers = (
-            pd.Series(unparseable_participant_numbers)
-            .astype(str)
-            .astype(int, errors="ignore")
-            .values
-        )
-        df.loc[number_types == "UNPARSABLE", "participants_registered"].update(
+        df.loc[
+            df["participants_registered_type"] == "UNPARSABLE", "participants_registered"
+        ] = df.loc[
+            df["participants_registered_type"] == "UNPARSABLE", "participants_registered"
+        ].update(
             unparseable_participant_numbers
         )
+    return df
+
+
+def process_participant_numbers(df):
+    df = parse_participant_numbers(df)
+    df = add_unparsable_participant_numbers(df)
+    df = parse_participant_number_spans(df)
+    df["participants_registered"] = df["participants_registered"].astype(float)
     return df
 
 
 def main():
     df = get_df()
     df = process_dates(df)
-    df = parse_participant_numbers(df)
-    df = add_unparsable_participant_numbers(df)
+
     df = df.sort_values(["city", "event_date"])
     df = df[
         [
