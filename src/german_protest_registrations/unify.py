@@ -87,6 +87,7 @@ def parse_dates(df):
         .astype(str)
         .swifter.apply(
             parse,
+            date_formats=["%d.%m.%Y", "%Y-%m-%d %H:%M:%S"],
             settings={"STRICT_PARSING": True},
         )
     )
