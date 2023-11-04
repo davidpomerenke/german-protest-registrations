@@ -137,6 +137,7 @@ def process_dates(df):
     return df
 
 
+@cache
 def parse_participant_numbers(df):
     df["participants_registered"] = (
         df["participants_registered"]
@@ -170,6 +171,7 @@ def parse_participant_numbers(df):
     return df
 
 
+@cache
 def parse_participant_number_spans(df):
     # 150 - 200 -> 175
     def parse_span(s):
@@ -228,10 +230,12 @@ def main():
     df = get_df()
     df = process_dates(df)
 
-    df = df.sort_values(["city", "event_date"])
+    df = df.sort_values(["region", "city", "event_date"])
     df = df[
         [
+            "region",
             "city",
+            "is_regional_capital",
             "event_date",
             "organizer",
             "topic",

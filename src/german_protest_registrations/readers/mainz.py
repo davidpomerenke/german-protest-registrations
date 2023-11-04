@@ -25,6 +25,8 @@ def mainz():
     df = pd.concat(dfs)
     df = df[["event_date", "topic", "location", "participants_registered"]]
     df["city"] = "Mainz"
+    df["region"] = "Rheinland-Pfalz"
+    df["is_regional_capital"] = True
     return df
 
 

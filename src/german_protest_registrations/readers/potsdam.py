@@ -20,6 +20,8 @@ def potsdam():
     df = pd.concat(dfs)
     df = df[["event_date", "topic", "location", "participants_registered"]]
     df["city"] = "Potsdam"
+    df["region"] = "Brandenburg"
+    df["is_regional_capital"] = True
     return df
 
 

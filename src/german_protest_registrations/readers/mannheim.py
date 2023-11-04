@@ -11,6 +11,8 @@ def mannheim():
         dfs.append(df)
     df = pd.concat(dfs)
     df["city"] = "Mannheim"
+    df["region"] = "Baden-Württemberg"
+    df["is_regional_capital"] = False
     return pd.DataFrame()
 
 

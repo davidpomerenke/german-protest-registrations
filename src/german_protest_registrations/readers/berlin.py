@@ -53,6 +53,8 @@ def berlin():
         dfs.append(df)
     df = pd.concat(dfs)
     df["city"] = "Berlin"
+    df["region"] = "Berlin"
+    df["is_regional_capital"] = True
     return df
 
 

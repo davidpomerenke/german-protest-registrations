@@ -35,6 +35,8 @@ def muenchen():
     df = pd.concat(dfs)
     df = df[["event_date", "organizer", "topic", "location", "participants_registered"]]
     df["city"] = "München"
+    df["region"] = "Bayern"
+    df["is_regional_capital"] = True
     return df
 
 

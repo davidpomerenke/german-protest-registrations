@@ -19,6 +19,8 @@ def dresden():
         dfs.append(df)
     df = pd.concat(dfs)
     df["city"] = "Dresden"
+    df["region"] = "Sachsen"
+    df["is_regional_capital"] = True
     return df
 
 

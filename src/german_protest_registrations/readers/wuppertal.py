@@ -22,6 +22,8 @@ def wuppertal():
     df = pd.concat(dfs)
     df = df[["event_date", "organizer", "topic", "location", "participants_registered"]]
     df["city"] = "Wuppertal"
+    df["region"] = "Nordrhein-Westfalen"
+    df["is_regional_capital"] = False
     return df
 
 

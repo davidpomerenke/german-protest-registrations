@@ -25,6 +25,8 @@ def kiel():
     df = pd.concat(dfs)
     df = df[["event_date", "topic", "location", "participants_registered"]]
     df["city"] = "Kiel"
+    df["region"] = "Schleswig-Holstein"
+    df["is_regional_capital"] = True
     return df
 
 

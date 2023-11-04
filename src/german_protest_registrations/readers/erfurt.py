@@ -29,6 +29,8 @@ def erfurt():
     df = pd.concat(dfs)
     df = df[["event_date", "organizer", "topic", "location"]]
     df["city"] = "Erfurt"
+    df["region"] = "Thüringen"
+    df["is_regional_capital"] = True
     return df
 
 

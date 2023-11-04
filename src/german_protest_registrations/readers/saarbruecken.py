@@ -36,6 +36,8 @@ def saarbruecken():
     df["event_date"] = df["event_date"].str.replace("erl.", "").str.strip()
     df = df[["event_date", "topic", "location", "participants_registered"]]
     df["city"] = "Saarbrücken"
+    df["region"] = "Saarland"
+    df["is_regional_capital"] = True
     return df
 
 

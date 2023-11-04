@@ -24,6 +24,8 @@ def magdeburg():
     df = df[["event_date", "topic", "location", "participants_registered"]]
     df = df.drop_duplicates(subset=["event_date", "topic", "location"], keep="last")
     df["city"] = "Magdeburg"
+    df["region"] = "Sachsen-Anhalt"
+    df["is_regional_capital"] = True
     return df
 
 

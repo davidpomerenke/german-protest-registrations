@@ -22,6 +22,8 @@ def karlsruhe():
     df = pd.concat(dfs)
     df = df[["event_date", "topic", "location", "participants_registered"]]
     df["city"] = "Karlsruhe"
+    df["region"] = "Baden-Württemberg"
+    df["is_regional_capital"] = False
     return df
 
 

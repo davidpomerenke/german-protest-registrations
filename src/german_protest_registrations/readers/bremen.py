@@ -22,6 +22,8 @@ def bremen():
     df = pd.concat(dfs)
     df = df[["event_date", "topic", "location"]]
     df["city"] = "Bremen"
+    df["region"] = "Bremen"
+    df["is_regional_capital"] = True
     return df
 
 

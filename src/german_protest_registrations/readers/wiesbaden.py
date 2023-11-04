@@ -22,6 +22,8 @@ def wiesbaden():
     df = pd.concat(dfs)
     df = df[["event_date", "organizer", "topic", "location", "participants_registered"]]
     df["city"] = "Wiesbaden"
+    df["region"] = "Hessen"
+    df["is_regional_capital"] = True
     return df
 
 

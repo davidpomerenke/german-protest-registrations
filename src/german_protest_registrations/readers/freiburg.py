@@ -19,6 +19,8 @@ def freiburg():
     df = pd.concat(dfs)
     df = df[["event_date", "topic", "location"]]
     df["city"] = "Freiburg"
+    df["region"] = "Baden-Württemberg"
+    df["is_regional_capital"] = False
     return df
 
 

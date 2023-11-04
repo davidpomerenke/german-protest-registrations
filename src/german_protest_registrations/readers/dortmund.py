@@ -15,6 +15,8 @@ def dortmund():
     )
     df = df[["event_date", "participants_registered", "location"]]
     df["city"] = "Dortmund"
+    df["region"] = "Nordrhein-Westfalen"
+    df["is_regional_capital"] = False
     return df
 
 
