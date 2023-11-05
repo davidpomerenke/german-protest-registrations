@@ -1,10 +1,10 @@
-from pathlib import Path
-
 import pandas as pd
+
+from german_protest_registrations.paths import data
 
 
 def erfurt():
-    path = Path("data/interim/csv/Erfurt")
+    path = data / "interim/csv/Erfurt"
     dfs = []
     for file in path.glob("*.csv"):
         df = pd.read_csv(file)

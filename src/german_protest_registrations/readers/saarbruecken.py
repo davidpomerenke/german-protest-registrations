@@ -1,10 +1,10 @@
-from pathlib import Path
-
 import pandas as pd
+
+from german_protest_registrations.paths import data
 
 
 def saarbruecken():
-    path = Path("data/interim/csv/Saarbrücken")
+    path = data / "interim/csv/Saarbrücken"
     dfs = []
     for filename in [
         "2022_2021 V+A.csv",

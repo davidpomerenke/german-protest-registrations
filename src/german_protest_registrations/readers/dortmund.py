@@ -1,10 +1,10 @@
-from pathlib import Path
-
 import pandas as pd
+
+from german_protest_registrations.paths import data
 
 
 def dortmund():
-    path = Path("data/interim/csv/Dortmund")
+    path = data / "interim/csv/Dortmund"
     df = pd.read_csv(path / "2022_2019 - 2022.csv")
     df = df.rename(
         columns={

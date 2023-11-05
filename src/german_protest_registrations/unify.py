@@ -6,8 +6,9 @@ import pandas as pd
 import swifter
 from dateparser import parse
 from joblib import Memory
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
+from german_protest_registrations.paths import data
 from german_protest_registrations.readers.augsburg import augsburg
 from german_protest_registrations.readers.berlin import berlin
 from german_protest_registrations.readers.bremen import bremen
@@ -99,7 +100,7 @@ def parse_dates(df):
 def add_unparsable_dates(df):
     # write the original texts of the unparsable dates to a json file
     keys = df["event_date_text"][df["event_date"].isnull()].tolist()
-    file = "data/interim/unparsable_dates.json"
+    file = data / "interim/unparsable_dates.json"
     if False:
         with open(file, "w") as f:
             json.dump(dict(zip(keys, [""] * len(keys))), f, indent=4, ensure_ascii=False)
@@ -189,7 +190,7 @@ def parse_participant_number_spans(df, column):
 def add_unparsable_participant_numbers(df, column):
     unparsable_participant_numbers = df[column][df[f"{column}_type"] == "UNPARSABLE"].tolist()
     # write the original texts of the unparsable participants to a json file
-    file = "data/interim/unparsable_participant_numbers.json"
+    file = data / "interim/unparsable_participant_numbers.json"
     if False:
         with open(file, "w") as f:
             json.dump(
@@ -222,6 +223,7 @@ def process_participant_numbers(df):
     return df
 
 
+@cache
 def get_unified_dataset() -> pd.DataFrame:
     df = read_dfs()
     df = process_dates(df)

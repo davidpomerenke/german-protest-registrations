@@ -1,10 +1,10 @@
-from pathlib import Path
-
 import pandas as pd
+
+from german_protest_registrations.paths import data
 
 
 def kiel():
-    path = Path("data/interim/csv/Kiel")
+    path = data / "interim/csv/Kiel"
     dfs = []
     for file in path.glob("*.csv"):
         if file.name == "2022_2020.csv":

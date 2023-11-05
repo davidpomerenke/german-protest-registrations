@@ -1,10 +1,10 @@
-from pathlib import Path
-
 import pandas as pd
+
+from german_protest_registrations.paths import data
 
 
 def berlin():
-    path = Path("data/interim/csv/Berlin")
+    path = data / "interim/csv/Berlin"
     dfs = []
     fds_path = path / "2020.csv"
     df = pd.read_csv(fds_path)

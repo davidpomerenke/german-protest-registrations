@@ -1,12 +1,14 @@
 import pandas as pd
 
+from german_protest_registrations.paths import data
+
 
 def muenchen():
     # red color means cancelled event
 
     from openpyxl import load_workbook
 
-    path = "data/raw/München/2022.xlsx"
+    path = data / "raw/München/2022.xlsx"
     wb = load_workbook(path, data_only=True)
 
     dfs = []
