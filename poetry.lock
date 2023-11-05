@@ -3159,6 +3159,23 @@ files = [
 prompt_toolkit = ">=2.0,<=3.0.36"
 
 [[package]]
+name = "qwikidata"
+version = "0.4.2"
+description = "Manipulate Wikidata Objects."
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "qwikidata-0.4.2.tar.gz", hash = "sha256:8ea9bb8c2824e782c581b7e1caeea980d6b63439b433191eeceeed4076b94991"},
+]
+
+[package.dependencies]
+mypy-extensions = "*"
+requests = "*"
+
+[package.extras]
+dev = ["pre-commit", "pytest", "pytest-cov", "sphinx", "sphinx_autodoc_typehints", "sphinx_rtd_theme"]
+
+[[package]]
 name = "referencing"
 version = "0.30.2"
 description = "JSON Referencing + Python"
@@ -4074,4 +4091,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<4.0"
-content-hash = "cd160b5910fadd998f335d42134ba9aa4709910063a6e995661e904e4ecc307f"
+content-hash = "240b742de062534c8c761cfe38ccd31f84ede725bd197970daf1608230411be2"
