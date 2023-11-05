@@ -1,8 +1,10 @@
 .cache/
+reports/_*/
+reports/.cache/
+reports/.quarto/
 
 # Coverage.py
 htmlcov/
-reports/
 
 # cruft
 *.rej
