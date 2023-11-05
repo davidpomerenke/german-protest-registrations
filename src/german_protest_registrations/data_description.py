@@ -101,6 +101,8 @@ def pretty_overview_table(symbol="✓"):
     # reorder columns
     df = df[["kpop", "cap?", "#reg?", "#obs?", *years]]
     df = df.rename(index={"Mecklenburg-Vorpommern": "Meck.-Vorpommern"})
+    df = df.reset_index().rename(columns={"level_0": "region", "level_1": "city"})
+    df = df.rename_axis(None, axis=1)
     return df
 
 
