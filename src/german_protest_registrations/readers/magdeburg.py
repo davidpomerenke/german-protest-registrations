@@ -21,7 +21,7 @@ def magdeburg():
         )
         dfs.append(df)
     df = pd.concat(dfs)
-    df = df[["event_date", "topic", "location", "participants_registered"]]
+    df = df[["event_date", "topic", "location", "participants_registered", "participants_actual"]]
     df = df.drop_duplicates(subset=["event_date", "topic", "location"], keep="last")
     df["city"] = "Magdeburg"
     df["region"] = "Sachsen-Anhalt"

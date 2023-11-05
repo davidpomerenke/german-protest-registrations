@@ -16,6 +16,7 @@ def berlin():
             "Teilnehmende (tatsächlich)": "participants_actual",
         }
     )
+    # there is an overlap between the two files, so we cut off the first file
     df = df[pd.to_datetime(df["event_date"], format="%d.%m.%Y") < pd.to_datetime("2020-07-01")]
     df = df[["event_date", "topic", "participants_registered", "participants_actual"]]
     dfs.append(df)

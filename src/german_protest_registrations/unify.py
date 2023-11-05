@@ -30,10 +30,10 @@ from german_protest_registrations.readers.wuppertal import wuppertal
 
 warnings.filterwarnings("ignore", module="dateparser")
 cache = Memory(".cache", verbose=0).cache
-_ = swifter
+_ = swifter  # just so it doesn't get dropped from the imports
 
 
-def get_df():
+def read_dfs() -> pd.DataFrame:
     df_readers = [
         augsburg,
         berlin,
@@ -63,6 +63,7 @@ def get_df():
 @cache
 def parse_dates(df):
     """Automatically parse dates from the event_date column.
+
     On the original data set, `dateparser` fails to parse 656 of 54246 dates, and the additional rules reduce this to 82.
     """
     df["event_date"] = df["event_date"].astype(str)
@@ -116,32 +117,30 @@ def process_dates(df):
     df = df.dropna(subset=["event_date"])
     df = parse_dates(df)
     df = add_unparsable_dates(df)
-    df["event_date"] = df["event_date"].dt.date
     df = df.drop(columns=["event_date_text"])
     # event details are missing before these dates
     df = df[
-        ~((df["city"] == "Kiel") & (df["event_date"] < pd.to_datetime("2021-04-01").date()))
-        & ~(
-            (df["city"] == "Saarbrücken") & (df["event_date"] < pd.to_datetime("2021-06-01").date())
-        )
-        & ~((df["city"] == "Freiburg") & (df["event_date"] < pd.to_datetime("2013-01-01").date()))
-        & ~((df["city"] == "Bremen") & (df["event_date"] < pd.to_datetime("2019-01-01").date()))
-        & ~((df["city"] == "Dresden") & (df["event_date"] < pd.to_datetime("2020-07-01").date()))
-        & ~((df["city"] == "Köln") & (df["event_date"] < pd.to_datetime("2018-01-01").date()))
-        & ~((df["city"] == "Magdeburg") & (df["event_date"] < pd.to_datetime("2015-01-01").date()))
+        ~((df["city"] == "Kiel") & (df["event_date"] < pd.to_datetime("2021-04-01")))
+        & ~((df["city"] == "Saarbrücken") & (df["event_date"] < pd.to_datetime("2021-06-01")))
+        & ~((df["city"] == "Freiburg") & (df["event_date"] < pd.to_datetime("2013-01-01")))
+        & ~((df["city"] == "Bremen") & (df["event_date"] < pd.to_datetime("2019-01-01")))
+        & ~((df["city"] == "Dresden") & (df["event_date"] < pd.to_datetime("2020-07-01")))
+        & ~((df["city"] == "Köln") & (df["event_date"] < pd.to_datetime("2018-01-01")))
+        & ~((df["city"] == "Magdeburg") & (df["event_date"] < pd.to_datetime("2015-01-01")))
+        & ~((df["city"] == "Erfurt") & (df["event_date"] < pd.to_datetime("2012-01-01")))
     ]
     # remove weird dates
     df = df[
-        (df["event_date"] < pd.to_datetime("2023-01-01").date())
-        & (df["event_date"] >= pd.to_datetime("2010-01-01").date())
+        (df["event_date"] < pd.to_datetime("2023-01-01"))
+        & (df["event_date"] >= pd.to_datetime("2010-01-01"))
     ]
     return df
 
 
 @cache
-def parse_participant_numbers(df):
-    df["participants_registered"] = (
-        df["participants_registered"]
+def parse_participant_numbers(df, column):
+    df[column] = (
+        df[column]
         .astype(str)
         .str.lower()
         .str.replace(r"\.0$", "", regex=True)
@@ -157,8 +156,8 @@ def parse_participant_numbers(df):
         .str.replace(r"\n?neu:\s*(\d+)$", r"\1", regex=True)
         .astype(int, errors="ignore")
     )
-    df["participants_registered_type"] = (
-        df["participants_registered"]
+    df[f"{column}_type"] = (
+        df[column]
         .replace(r"^\d+\s*(-|–|/|bis)\s*\d+$", "SPAN", regex=True)
         .str.replace(r"^\d+$", "NUMBER", regex=True)
         .replace(
@@ -168,12 +167,12 @@ def parse_participant_numbers(df):
         )
         .replace(r"^(?!SPAN|NUMBER|UNK)(.|\n)*$", r"UNPARSABLE", regex=True)
     )
-    df.loc[df["participants_registered_type"] == "UNK", "participants_registered"] = None
+    df.loc[df[f"{column}_type"] == "UNK", column] = None
     return df
 
 
 @cache
-def parse_participant_number_spans(df):
+def parse_participant_number_spans(df, column):
     # 150 - 200 -> 175
     def parse_span(s):
         parts = re.split(r"\s*(-|–|/|bis)\s*", s)
@@ -181,18 +180,14 @@ def parse_participant_number_spans(df):
             return int((int(parts[0]) + int(parts[2])) / 2)
         return s
 
-    df.loc[df["participants_registered_type"] == "SPAN", "participants_registered"] = (
-        df.loc[df["participants_registered_type"] == "SPAN", "participants_registered"]
-        .astype(str)
-        .map(parse_span)
+    df.loc[df[f"{column}_type"] == "SPAN", column] = (
+        df.loc[df[f"{column}_type"] == "SPAN", column].astype(str).map(parse_span)
     )
     return df
 
 
-def add_unparsable_participant_numbers(df):
-    unparsable_participant_numbers = df["participants_registered"][
-        df["participants_registered_type"] == "UNPARSABLE"
-    ].tolist()
+def add_unparsable_participant_numbers(df, column):
+    unparsable_participant_numbers = df[column][df[f"{column}_type"] == "UNPARSABLE"].tolist()
     # write the original texts of the unparsable participants to a json file
     file = "data/interim/unparsable_participant_numbers.json"
     if False:
@@ -209,34 +204,38 @@ def add_unparsable_participant_numbers(df):
         # assume that a human has entered the correct numbers as values into the json file and read them back in
         with open(file) as f:
             unparseable_participant_numbers = json.load(f)
-        df.loc[
-            df["participants_registered_type"] == "UNPARSABLE", "participants_registered"
-        ] = df.loc[
-            df["participants_registered_type"] == "UNPARSABLE", "participants_registered"
-        ].update(
-            unparseable_participant_numbers
-        )
+        df.loc[df[f"{column}_type"] == "UNPARSABLE", column] = df.loc[
+            df[f"{column}_type"] == "UNPARSABLE", column
+        ].update(unparseable_participant_numbers)
     return df
 
 
 def process_participant_numbers(df):
-    df = parse_participant_numbers(df)
-    df = add_unparsable_participant_numbers(df)
-    df = parse_participant_number_spans(df)
+    df = parse_participant_numbers(df, column="participants_registered")
+    df = add_unparsable_participant_numbers(df, column="participants_registered")
+    df = parse_participant_number_spans(df, column="participants_registered")
     df["participants_registered"] = df["participants_registered"].astype(float)
+    df = parse_participant_numbers(df, column="participants_actual")
+    df = add_unparsable_participant_numbers(df, column="participants_actual")
+    df = parse_participant_number_spans(df, column="participants_actual")
+    df["participants_actual"] = df["participants_actual"].astype(float)
     return df
 
 
-def main():
-    df = get_df()
+def get_unified_dataset() -> pd.DataFrame:
+    df = read_dfs()
     df = process_dates(df)
-
+    df = process_participant_numbers(df)
     df = df.sort_values(["region", "city", "event_date"])
+    return df
+
+
+if __name__ == "__main__":
+    df = get_unified_dataset()
     df = df[
         [
             "region",
             "city",
-            "is_regional_capital",
             "event_date",
             "organizer",
             "topic",
@@ -244,9 +243,6 @@ def main():
             "participants_actual",
         ]
     ]
+    df["event_date"] = df["event_date"].dt.strftime("%Y-%m-%d")
     df.to_csv("data/processed/german_protest_registrations.csv", index=False)
     print(df.shape)
-
-
-if __name__ == "__main__":
-    main()
