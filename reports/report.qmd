@@ -91,16 +91,6 @@ __Cleaning.__ I ignore one of the datasets (Augsburg) because I cannot convert t
 
 The resulting dataset contains 49,800 events from 13 cities. For 11 cities the ex-ante number of expected participants are given, and for 2 of them (Berlin and Magdeburg) the ex-post extimates by the police are also included. For all cities the topic of the protest is given in, presumably as specified by the organizers themselves; and for 4 cities the name of the organizing group is also known. Various additional details such as exact specifications of location, time and duration, and distinctions between protest marches and pickets are available for some of the cities but not in any systematic manner. Further statistics about the dataset can be seen in table tbl-official-overview.
 
-```{python}
-# | echo: false
-import pandas as pd
-
-df = pd.read_csv("../data/processed/german_protest_registrations.csv", parse_dates=["event_date"])
-df = df[df["event_date"].dt.year >= 2019]
-# df = df[df["event_date"].dt.year == 2022]
-df = df[~df["city"].isin(["Freiburg", "Erfurt", "Karlsruhe", "Köln", "Wuppertal", "Saarbrücken", "Dresden", "Kiel"])]
-len(df)
-```
 
 ```{python}
 # | echo: false

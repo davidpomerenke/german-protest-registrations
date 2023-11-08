@@ -234,6 +234,15 @@ def get_unified_dataset() -> pd.DataFrame:
 
 if __name__ == "__main__":
     df = get_unified_dataset()
+    df_unfiltered = df.copy()
+    df_unfiltered["event_date"] = df_unfiltered["event_date"].dt.strftime("%Y-%m-%d")
+    df_unfiltered.to_csv(
+        "data/processed/german_protest_registrations_17_cities_2012-2022_inconsistent.csv",
+        index=False,
+    )
+    print(df_unfiltered["city"].nunique())
+    print(df_unfiltered.shape)
+
     df = df[
         [
             "region",
@@ -245,6 +254,43 @@ if __name__ == "__main__":
             "participants_actual",
         ]
     ]
-    df["event_date"] = df["event_date"].dt.strftime("%Y-%m-%d")
-    df.to_csv("data/processed/german_protest_registrations.csv", index=False)
-    print(df.shape)
+
+    df_2022 = df[df["event_date"].dt.year == 2022]
+    df_2022 = df_2022[
+        ~df_2022["city"].isin(
+            [
+                "Bremen",
+                "Freiburg",
+                "Erfurt",
+            ]  # these do not have the number of participants
+        )
+    ]
+    df_2022["event_date"] = df_2022["event_date"].dt.strftime("%Y-%m-%d")
+    print(df_2022["city"].nunique())
+    print(df_2022.shape)
+    df_2022.to_csv(
+        "data/processed/german_protest_registrations_14_cities_2022_consistent.csv", index=False
+    )
+
+    df_2019 = df[df["event_date"].dt.year >= 2019]
+    df_2019 = df_2019[
+        ~df_2019["city"].isin(
+            [
+                "Bremen",
+                "Freiburg",
+                "Erfurt",
+                "Karlsruhe",
+                "Köln",
+                "Wuppertal",
+                "Saarbrücken",
+                "Dresden",
+                "Kiel",
+            ]  # these do not have the number of participants or are not available throughout 2019-2022
+        )
+    ]
+    df_2019["event_date"] = df_2019["event_date"].dt.strftime("%Y-%m-%d")
+    print(df_2019["city"].nunique())
+    print(df_2019.shape)
+    df_2019.to_csv(
+        "data/processed/german_protest_registrations_8_cities_2019-2022_consistent.csv", index=False
+    )
