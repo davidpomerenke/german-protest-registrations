@@ -2,6 +2,7 @@
 reports/_*/
 reports/.cache/
 reports/.quarto/
+mypy.xml
 
 # Coverage.py
 htmlcov/

@@ -59,7 +59,7 @@ def is_capital(city, region):
 
 def overview_table():
     df = get_unified_dataset()
-    df["year"] = df["event_date"].dt.year.astype(str).apply(lambda x: x[-2:])
+    df["year"] = df["date"].dt.year.astype(str).apply(lambda x: x[-2:])
     agg_df = df.groupby(["region", "city", "year"]).size().unstack().fillna(0).astype(int)
     # add column to agg_df whether or not the "Teilnehmer" column is available
     agg_df["registrations"] = df.groupby(["region", "city"]).apply(

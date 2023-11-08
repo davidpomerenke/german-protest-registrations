@@ -2,6 +2,9 @@ import pandas as pd
 
 from german_protest_registrations.paths import data
 
+# Dortmund does not have topics
+# but starting from 2023 they will have them!
+
 
 def dortmund():
     path = data / "interim/csv/Dortmund"
@@ -17,7 +20,7 @@ def dortmund():
     df["city"] = "Dortmund"
     df["region"] = "Nordrhein-Westfalen"
     df["is_regional_capital"] = False
-    return df
+    return pd.DataFrame()
 
 
 if __name__ == "__main__":

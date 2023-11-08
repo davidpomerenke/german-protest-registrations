@@ -228,26 +228,19 @@ def get_unified_dataset() -> pd.DataFrame:
     df = read_dfs()
     df = process_dates(df)
     df = process_participant_numbers(df)
-    df = df.sort_values(["region", "city", "event_date"])
+    df = df.rename(columns={"event_date": "date"})
+    df = df.sort_values(["region", "city", "date"])
     return df
 
 
-if __name__ == "__main__":
+@cache
+def get_all_datasets():
     df = get_unified_dataset()
-    df_unfiltered = df.copy()
-    df_unfiltered["event_date"] = df_unfiltered["event_date"].dt.strftime("%Y-%m-%d")
-    df_unfiltered.to_csv(
-        "data/processed/german_protest_registrations_17_cities_2012-2022_inconsistent.csv",
-        index=False,
-    )
-    print(df_unfiltered["city"].nunique())
-    print(df_unfiltered.shape)
-
     df = df[
         [
             "region",
             "city",
-            "event_date",
+            "date",
             "organizer",
             "topic",
             "participants_registered",
@@ -255,7 +248,14 @@ if __name__ == "__main__":
         ]
     ]
 
-    df_2022 = df[df["event_date"].dt.year == 2022]
+    df_unfiltered = df.copy()
+    df_unfiltered["date"] = df_unfiltered["date"].dt.strftime("%Y-%m-%d")
+    df_unfiltered.to_csv(
+        data / "processed/german_protest_registrations_16_cities_unfiltered.csv",
+        index=False,
+    )
+
+    df_2022 = df[df["date"].dt.year == 2022]
     df_2022 = df_2022[
         ~df_2022["city"].isin(
             [
@@ -265,16 +265,11 @@ if __name__ == "__main__":
             ]  # these do not have the number of participants
         )
     ]
-    df_2022["event_date"] = df_2022["event_date"].dt.strftime("%Y-%m-%d")
-    print(df_2022["city"].nunique())
-    print(df_2022.shape)
-    df_2022.to_csv(
-        "data/processed/german_protest_registrations_14_cities_2022_consistent.csv", index=False
-    )
-
-    df_2019 = df[df["event_date"].dt.year >= 2019]
-    df_2019 = df_2019[
-        ~df_2019["city"].isin(
+    df_2022["date"] = df_2022["date"].dt.strftime("%Y-%m-%d")
+    df_2022.to_csv(data / "processed/german_protest_registrations_13_cities_2022.csv", index=False)
+    df_2018 = df[df["date"].dt.year >= 2018]
+    df_2018 = df_2018[
+        ~df_2018["city"].isin(
             [
                 "Bremen",
                 "Freiburg",
@@ -285,12 +280,24 @@ if __name__ == "__main__":
                 "Saarbrücken",
                 "Dresden",
                 "Kiel",
+                "Potsdam",  # not 2018
+                "Wiesbaden",  # not 2018
             ]  # these do not have the number of participants or are not available throughout 2019-2022
         )
     ]
-    df_2019["event_date"] = df_2019["event_date"].dt.strftime("%Y-%m-%d")
+    df_2018["date"] = df_2018["date"].dt.strftime("%Y-%m-%d")
+    df_2018.to_csv(
+        data / "processed/german_protest_registrations_5_cities_2018-2022.csv",
+        index=False,
+    )
+    return df_2022, df_2018, df_unfiltered
+
+
+if __name__ == "__main__":
+    df_2022, df_2019, df_unfiltered = get_all_datasets()
+    print(df_unfiltered["city"].nunique())
+    print(df_unfiltered.shape)
+    print(df_2022["city"].nunique())
+    print(df_2022.shape)
     print(df_2019["city"].nunique())
     print(df_2019.shape)
-    df_2019.to_csv(
-        "data/processed/german_protest_registrations_8_cities_2019-2022_consistent.csv", index=False
-    )
