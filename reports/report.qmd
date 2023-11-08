@@ -20,7 +20,6 @@ format:
     lang: en
     fontsize: 9pt
   html:
-    toc: true
     toc-depth: 5
     mainfont: "Lato Light"
     sansfont: "Lato Black"
@@ -57,6 +56,29 @@ German protest datasets
   - @DemoHauptstadtBerlin2020
   - @kanolRightWingExtremistMobilization2021 Rechtsextremismus Bundesregierung
 
+| Dataset | Source | Start | End | Topics? | #Reg.? | #Obs.? | #Cities | #Events |
+| ------- | ------ | ----- | --- | ------- | ------ | ------ | ------- | ------- |
+| ACLED | media, social media | 2020 | ongoing | [x] | [ ] | [x] | all | 13.250 |
+| GDELT | online newspapers | ? | ongoing | [ ] | [ ] | [ ] | ? | ? |
+| ProDat | print newspapers: SüZ, FR | 1950 | 2002 | [x] | [ ] | [x] | all | 15.973 |
+| Lokale Konfliktdynamiken im Vergleich | print newspapers: SäZ, LVZ, StZ, WK | 2011 | 2020 | [(x)] | [ ] | [x] | 4 | 4.708 |
+| Lokale Konflikte um Migration | preint newspapers | 2014 | 2018 | [(x)] | [ ] | [x] | 12 | 1.988 |
+| PolDem 30 | newspapers, newswires | 2000 | 2015 | [(x)] | [ ] | [x] | all | 2252 |
+| PolDem 6 | newspapers, newswires | 1975 | 2011 | [x] | [ ] | [x] | all | 8.887 |
+| PolDem EU | newspapers, newswires | 1995 | 2009 | [x] | [ ] | [x] | all | 56 |
+| Mass Mobilization Project | newspapers | 1990 | 2014 | [x] | [ ] | [x] | all | 364 |
+| Right-Wing Extremist Mobilization | government | 2005 | 2020 | [x] | [ ] | [x] | all | 3.290 |
+| Demo-Hauptstadt Berlin | police | 2018 | 2020 | [x] | [x] | [x] | 1 | 12.775 |
+| German Protest Registrations (2022 consistent) | police | 2022 | ongoing | [x] | [x] | [(x)] | 16 | 14.092 |
+| German Protest Registrations (2019-2022 consistent) | police | 2019 | ongoing | [x] | [x] | [(x)] | 8 | 41.009 |
+| German Protest Registrations (all) | police | 2012-2022* | 2022 | [x] | [(x)] | [(x)] | 16 | 59.760 |
+
+* beginning between 2012 and 2022, depending on the city
+
+Lokale Konfliktdynamiken im Vergleich: Bremen 1178, Dresden 1147, Leipzig 1274, Stuttgart 1109
+Lokale Konflikte um Migration: Celle 200, Düren 125, Esslingen 188, Herten 96, Husum 82, Neubrandenburg 219, Neuruppin 155, Offenburg 211, Plauen 376, Rendsburg 90, Weilheim 118, Wismar 128
+
+
 ## Methods
 
 
@@ -68,6 +90,17 @@ __Cleaning.__ I ignore one of the datasets (Augsburg) because I cannot convert t
 ## Results
 
 The resulting dataset contains 49,800 events from 13 cities. For 11 cities the ex-ante number of expected participants are given, and for 2 of them (Berlin and Magdeburg) the ex-post extimates by the police are also included. For all cities the topic of the protest is given in, presumably as specified by the organizers themselves; and for 4 cities the name of the organizing group is also known. Various additional details such as exact specifications of location, time and duration, and distinctions between protest marches and pickets are available for some of the cities but not in any systematic manner. Further statistics about the dataset can be seen in table tbl-official-overview.
+
+```{python}
+# | echo: false
+import pandas as pd
+
+df = pd.read_csv("../data/processed/german_protest_registrations.csv", parse_dates=["event_date"])
+df = df[df["event_date"].dt.year >= 2019]
+# df = df[df["event_date"].dt.year == 2022]
+df = df[~df["city"].isin(["Freiburg", "Erfurt", "Karlsruhe", "Köln", "Wuppertal", "Saarbrücken", "Dresden", "Kiel"])]
+len(df)
+```
 
 ```{python}
 # | echo: false
