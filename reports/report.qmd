@@ -29,14 +29,11 @@ format:
     reference-location: margin
     citation-location: margin
   gfm:
-    citeproc: true
     toc: true
     lang: en
 abstract: |
   The __German Protest Registrations Dataset__ covers protests that have been registered with demonstration authorities in 16 German cities. The data has been compiled from _Freedom of Information_ requests and covers dates, organizers, topics, the number of registered participants, and for some cities the number of observed participants. Covered date ranges vary, with all cities covered in 2022, and 5 cities covered consistently from 2018 to 2022. In comparison to previous datasets that are largely based on newspaper reports, this dataset gives an unprecented level of detail, and is the largest dataset on protest events in Germany to date. This report gives an overview over existing datasets, explains the data retrieval and processing, displays the properties of the dataset, and discusses its limitations. Code and data are available [on Github](https://github.com/davidpomerenke/german-protest-registrations).
 ---
-
-# The German protest registrations dataset
 
 ## Introduction
 
@@ -50,7 +47,7 @@ __Freedom of information platforms.__ Access to public documents has been democr
 
 ## Related work
 
-Multiple approaches have already been used for the creation of datasets on protests in Germany. Table XYZ gives an overview about the existing and new datasets.
+Multiple approaches have already been used for the creation of datasets on protests in Germany. \cref{tbl-related-work} gives an overview about the existing and new datasets.
 
 __Event databases__ provide disaggregated event data, often on a global scale and with constant updates. The database of choice for protest research is the [_Armed Conflict Location and Event Dataset_](https://acleddata.com/) [ACLED; @raleighIntroducingACLEDArmed2010a]. ACLED is a grand effort that keeps track not only of violent conflicts and riots, but also of ordinary protest events. The data is human-curated based on newspaper reports, and contains coded information on dates, locations, actor groups, police interventions, and more, as well as a short free-text summary for each event, containing an estimate of the size as per the newspaper data source. Data for Germany is available starting from 2020 and is continuously updated. Another relevant event database is the [Global Database of Events, Language, and Tone](https://www.gdeltproject.org/) [GDELT; @leetaruGDELTGlobalData]. It relies completely on the automated processing of newspaper articles, and does not have protest-specific information such as organizers, topics, or number of participants.
 
@@ -64,8 +61,25 @@ Protest events in Germany are also part of international protest datasets: [PolD
 
 __Official records__ have been explored only on a small scale: @kanolRightWingExtremistMobilization2021 compiles government responses to opposition requests about right-wing extremist demonstrations in Germany, starting in 2005. And [Demo-Hauptstadt Berlin](https://fragdenstaat.de/dossier/demo‐hauptstadt‐berlin/) has used _Freedom of Information_ requests to obtain data on all demonstrations in Berlin from 2018 to 2022.
 
-<!-- https://tableconvert.com/markdown-to-latex -->
+::: {.content-visible when-format="markdown"}
+| **Dataset** | **Source** | **Start** | **End** | **Topics?** | **Reg?** | **Obs?** | **#Cities** | **#Events** |
+|-------------|------------|-----------|---------|-------------|----------|----------|-------------|-------------|
+| ACLED | newspapers, ... | 2020 | ongoing | ✓ |  | ✓ | all | 13,250 |
+| ProDat | newspapers | 1950 | 2002 | ✓ |  | ✓ | all | 15,973 |
+| Lokale Protestentw. Großstädte | newspapers | 2011 | 2020 | (✓) |  | ✓ | 4 | 4,708 |
+| Lokale Protestentw. Mittelstädte | newspapers | 2014 | 2018 | (✓) |  | ✓ | 12 | 1,988 |
+| PolDem 30 | newspapers | 2000 | 2015 | (✓) |  | ✓ | all | 2,252 |
+| PolDem 6 | newspapers | 1975 | 2011 | ✓ |  | ✓ | all | 8,887 |
+| PolDem EU | newspapers | 1995 | 2009 | ✓ |  | ✓ | all | 56 |
+| Mass Mobilization Project | newspapers | 1990 | 2014 | ✓ |  | ✓ | all | 364 |
+| Right-Wing Extremist Mobilization | government | 2005 | 2020 | ✓ |  | ✓ | all | 3,290 |
+| Demo-Hauptstadt Berlin | dem. auth. | 2018 | 2020 | ✓ | ✓ | ✓ | 1 | 12,775 |
+| German Protest Reg. 2022 | dem. auth. | 2022 | 2022 | ✓ | ✓ | (✓) | 13 | 12,581 |
+| German Protest Reg. 2018-2022 | dem. auth. | 2018 | 2022 | ✓ | ✓ | (✓) | 5 | 39,740 |
+| German Protest Reg. (all) | dem. auth. | 2012/.../2022 | 2022 | ✓ | (✓) | (✓) | 16 | 57,010 |
+:::
 
+::: {.content-visible unless-format="markdown"}
 \begin{table}[!ht]
     \caption{Comparison of existing datasets and the presented dataset.}
     \label{tbl-related-work}
@@ -89,6 +103,7 @@ __Official records__ have been explored only on a small scale: @kanolRightWingEx
         German Protest Reg. (all) & dem. auth. & 2012/.../2022 & 2022 & $\checkmark$ & ($\checkmark$) & ($\checkmark$) & 16 & 57.010 \\ \hline
     \end{tabular}
 \end{table}
+:::
 
 <!-- Lokale Konfliktdynamiken im Vergleich: Bremen 1178, Dresden 1147, Leipzig 1274, Stuttgart 1109
 Lokale Konflikte um Migration: Celle 200, Düren 125, Esslingen 188, Herten 96, Husum 82, Neubrandenburg 219, Neuruppin 155, Offenburg 211, Plauen 376, Rendsburg 90, Weilheim 118, Wismar 128 -->
@@ -116,7 +131,8 @@ from german_protest_registrations.data_description import pretty_overview_table
 
 df = pretty_overview_table(symbol="x")
 df = df.rename(columns={"#reg?": "reg?", "#obs?": "obs?"})
-Latex(df.to_latex(index=False, position="h!"))
+Markdown(df.to_markdown(index=False))
+# Latex(df.to_latex(index=False, position="h!"))
 ```
 \endgroup
 
@@ -214,3 +230,5 @@ The _German Protest Registrations_ dataset presents opportunities for more detai
 ## Contact
 
 Please contact me via email to <firstnamelastname@mailbox.org>, or using the discussion and issue features [on Github](https://github.com/davidpomerenke/german-protest-registrations).
+
+## References
