@@ -2,11 +2,11 @@ type: dataset
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 authors:
-- family-names: "Pomerenke"
-  given-names: "David"
-  orcid: "https://orcid.org/0000-0001-5400-4507"
+  - family-names: "Pomerenke"
+    given-names: "David"
+    orcid: "https://orcid.org/0000-0001-5400-4507"
 title: "The German Protest Registrations Dataset"
 version: 1.0.0
-doi: 10.5281/zenodo.10094143
+doi: 10.5281/zenodo.10094245
 date-released: 2023-11-09
 url: "https://github.com/davidpomerenke/german-protest-registrations"

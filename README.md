@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/716775406.svg)](https://zenodo.org/doi/10.5281/zenodo.10094142)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10094245.svg)](https://doi.org/10.5281/zenodo.10094245)
 
 # The German Protest Registrations Dataset
 

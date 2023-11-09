@@ -10,6 +10,8 @@ url: https://github.com/davidpomerenke/german-protest-registrations
 bibliography: [references.bib]
 csl: chicago-author-date.csl
 echo: false
+citation:
+  doi: 10.5281/zenodo.10094245
 format:
   pdf:
     colorlinks: true
