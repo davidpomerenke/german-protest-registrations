@@ -1,7 +1,11 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10094245.svg)](https://doi.org/10.5281/zenodo.10094245)
-# The German Protest Registrations Dataset
+# 🪧🇩🇪 The German Protest Registrations Dataset
 
-The __German Protest Registrations Dataset__ covers protests that have been registered with demonstration authorities in 16 German cities. The data has been compiled from _Freedom of Information_ requests and covers dates, organizers, topics, the number of registered participants, and for some cities the number of observed participants. Covered date ranges vary, with all cities covered in 2022, and 5 cities covered consistently from 2018 to 2022. In comparison to previous datasets that are largely based on newspaper reports, this dataset gives an unprecented level of detail, and is the largest dataset on protest events in Germany to date. This report gives an overview over existing datasets, explains the data retrieval and processing, displays the properties of the dataset, and discusses its limitations. Code and data are available [on Github](https://github.com/davidpomerenke/german-protest-registrations).
+The __German Protest Registrations Dataset__ covers protests that have been registered with demonstration authorities in 16 German cities. The data has been compiled from _Freedom of Information_ requests and covers dates, organizers, topics, the number of registered participants, and for some cities the number of observed participants. Covered date ranges vary, with all cities covered in 2022, and 5 cities covered consistently from 2018 to 2022. In comparison to previous datasets that are largely based on newspaper reports, this dataset gives an unprecented level of detail, and is the largest dataset on protest events in Germany to date. This report gives an overview over existing datasets, explains the data retrieval and processing, displays the properties of the dataset, and discusses its limitations.
+
+[__Data Download__](https://github.com/davidpomerenke/german-protest-registrations/releases/)
+
+[__PDF Report__](https://github.com/davidpomerenke/german-protest-registrations/releases/download/v1.0.0/report.pdf)
 
 ## Introduction
 
@@ -207,6 +211,7 @@ coverage of the dataset.
 
 <img src="report_files/figure-commonmark/fig-map-output-1.png"
 id="fig-map"
+width=300
 alt="Figure 1: Map of regions that are covered by the dataset. Dark blue region have data for their capital city, including information on the number of participants. Light blue region have some data but do not fulfil both criteria (BW, NRW: capital not covered; TH: no participant info). Grey regions (HH, MV, NI) have no data at all." />
 
 As apparent from [Table 1](#tbl-overview), the covered years vary
@@ -230,7 +235,7 @@ provided in three subsets (see also the bottom of ):
     but it may be used for the creation of alternative consistent
     sub-datasets similar to the two ones above.
 
-<img src="report_files/figure-commonmark/fig-time-output-1.png" id="fig-time" width="200" alt="Figure 2: History of the number of protest events per week in the dataset. Since the various cities have different coverage timespans, the number of events is subject to large systematic changes in the unfiltered datasets. Two subsets have been created where the included cities are constant: One contains all cities that have coverage throughout 2018-2022; and one contains all cities with coverage in 2022." />
+<img src="report_files/figure-commonmark/fig-time-output-1.png" id="fig-time" alt="Figure 2: History of the number of protest events per week in the dataset. Since the various cities have different coverage timespans, the number of events is subject to large systematic changes in the unfiltered datasets. Two subsets have been created where the included cities are constant: One contains all cities that have coverage throughout 2018-2022; and one contains all cities with coverage in 2022." />
 
 ## Discussion and Limitations
 
