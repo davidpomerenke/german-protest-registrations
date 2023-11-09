@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/716775406.svg)](https://zenodo.org/doi/10.5281/zenodo.10094142)
+
 # The German Protest Registrations Dataset
 
 The __German Protest Registrations Dataset__ covers protests that have been registered with demonstration authorities in 16 German cities. The data has been compiled from _Freedom of Information_ requests and covers dates, organizers, topics, the number of registered participants, and for some cities the number of observed participants. Covered date ranges vary, with all cities covered in 2022, and 5 cities covered consistently from 2018 to 2022. In comparison to previous datasets that are largely based on newspaper reports, this dataset gives an unprecented level of detail, and is the largest dataset on protest events in Germany to date. This report gives an overview over existing datasets, explains the data retrieval and processing, displays the properties of the dataset, and discusses its limitations. Code and data are available [on Github](https://github.com/davidpomerenke/german-protest-registrations).
