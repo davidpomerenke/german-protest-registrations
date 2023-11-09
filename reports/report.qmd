@@ -1,10 +1,12 @@
 ---
 license: CC BY-NC
-date: Nov 5, 2023
+date: Nov 9, 2023
+date-meta: "2023-11-09"
 title: The German Protest Registrations Dataset
 author: 
  - name: David Pomerenke
    orcid: 0000-0001-5400-4507
+url: https://github.com/davidpomerenke/german-protest-registrations
 bibliography: [references.bib]
 csl: chicago-author-date.csl
 echo: false
