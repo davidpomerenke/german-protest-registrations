@@ -1,17 +1,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10094245.svg)](https://doi.org/10.5281/zenodo.10094245)
-
 # The German Protest Registrations Dataset
 
 The __German Protest Registrations Dataset__ covers protests that have been registered with demonstration authorities in 16 German cities. The data has been compiled from _Freedom of Information_ requests and covers dates, organizers, topics, the number of registered participants, and for some cities the number of observed participants. Covered date ranges vary, with all cities covered in 2022, and 5 cities covered consistently from 2018 to 2022. In comparison to previous datasets that are largely based on newspaper reports, this dataset gives an unprecented level of detail, and is the largest dataset on protest events in Germany to date. This report gives an overview over existing datasets, explains the data retrieval and processing, displays the properties of the dataset, and discusses its limitations. Code and data are available [on Github](https://github.com/davidpomerenke/german-protest-registrations).
-
-- [Introduction](#introduction)
-- [Related work](#related-work)
-- [Methods](#methods)
-- [Results](#results)
-- [Discussion and Limitations](#discussion-and-limitations)
-- [Conclusion](#conclusion)
-- [Contact](#contact)
-- [References](#references)
 
 ## Introduction
 
@@ -110,6 +100,8 @@ Berlin](https://fragdenstaat.de/dossier/demo‐hauptstadt‐berlin/) has
 used *Freedom of Information* requests to obtain data on all
 demonstrations in Berlin from 2018 to 2022.
 
+<sup>
+    
 | **Dataset**                       | **Source**    | **Start**   | **End** | **Topics?** | **Reg?** | **Obs?** | **\#Cities** | **\#Events** |
 | --------------------------------- | ------------- | ----------- | ------- | ----------- | -------- | -------- | ------------ | ------------ |
 | ACLED                             | newspapers, … | 2020        | ongoing | ✓           |          | ✓        | all          | 13,250       |
@@ -125,6 +117,8 @@ demonstrations in Berlin from 2018 to 2022.
 | German Protest Reg. 2022          | dem. auth.    | 2022        | 2022    | ✓           | ✓        | (✓)      | 13           | 12,581       |
 | German Protest Reg. 2018-2022     | dem. auth.    | 2018        | 2022    | ✓           | ✓        | (✓)      | 5            | 39,740       |
 | German Protest Reg. (all)         | dem. auth.    | 2012/…/2022 | 2022    | ✓           | (✓)      | (✓)      | 16           | 57,010       |
+
+</sup>
 
 <!-- Lokale Konfliktdynamiken im Vergleich: Bremen 1178, Dresden 1147, Leipzig 1274, Stuttgart 1109
 Lokale Konflikte um Migration: Celle 200, Düren 125, Esslingen 188, Herten 96, Husum 82, Neubrandenburg 219, Neuruppin 155, Offenburg 211, Plauen 376, Rendsburg 90, Weilheim 118, Wismar 128 -->
@@ -172,6 +166,7 @@ München, Wiesbaden, Wuppertal) the name of the organizing group is also
 known.
 
 <div id="tbl-overview">
+<sup>
 
 | region              | city        | kpop   | cap? | reg? | obs? | 12   | 13   | 14   | 15   | 16   | 17   | 18    | 19    | 20     | 21     | 22     |
 | :------------------ | :---------- | :----- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---- | :---- | :----- | :----- | :----- |
@@ -197,13 +192,13 @@ known.
 | Thüringen           | Erfurt      | 214    | x    |      |      | 163  | 227  | 319  | 305  | 199  | 198  | 220   | 297   | 342    | 350    | 277    |
 |                     | sum         | 11,057 | 11   | 14   | 2    | 163  | 391  | 486  | 730  | 948  | 813  | 7,477 | 9,759 | 10,758 | 13,342 | 14,893 |
 
+</sup>
 Table 1: Overview of the German Protest Registrations dataset. *kpop* =
 population in 1000; *cap?* = whether the city is the political capital
 of its region; *reg?* = whether the number of registered protesters (as
 per the organizers) is available; *obs?* = whether the number of
 observed protesters (as per the police) is available; *12 … 22* = number
 of records per city from 2012 to 2022.
-
 </div>
 
 Further statistics about the dataset can be seen in table
@@ -235,9 +230,7 @@ provided in three subsets (see also the bottom of ):
     but it may be used for the creation of alternative consistent
     sub-datasets similar to the two ones above.
 
-<img src="report_files/figure-commonmark/fig-time-output-1.png"
-id="fig-time"
-alt="Figure 2: History of the number of protest events per week in the dataset. Since the various cities have different coverage timespans, the number of events is subject to large systematic changes in the unfiltered datasets. Two subsets have been created where the included cities are constant: One contains all cities that have coverage throughout 2018-2022; and one contains all cities with coverage in 2022." />
+<img src="report_files/figure-commonmark/fig-time-output-1.png" id="fig-time" width="200" alt="Figure 2: History of the number of protest events per week in the dataset. Since the various cities have different coverage timespans, the number of events is subject to large systematic changes in the unfiltered datasets. Two subsets have been created where the included cities are constant: One contains all cities that have coverage throughout 2018-2022; and one contains all cities with coverage in 2022." />
 
 ## Discussion and Limitations
 
