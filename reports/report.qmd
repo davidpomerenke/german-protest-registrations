@@ -160,7 +160,7 @@ plt.show()
 
 As apparent from @tbl-overview, the covered years vary between cities. Using the whole dataset unfiltered would therefore lead to inconsistencies in developments over time. Therefore the dataset is provided in three subsets (see also the bottom of \cref{tbl-related-work}):
 
-1. The __2018-2022 dataset__ contains only cities that have coverage throughout 2018-2022, and that also have the number of registered participants available. This results in a large dataset (about 40.000 entries) that strikes a balance between regional diversity (5 cities) and time coverage (4 years).
+1. The __2018-2022 dataset__ contains only cities that have coverage throughout 2018-2022, and that also have the number of registered participants available. This results in a large dataset (about 40.000 entries) that strikes a balance between regional diversity (5 cities) and time coverage (5 years).
 2. The __2022 dataset__ contains all cities that have data available in 2022, and also have the number of registered participants available. With 13 cities covered but only 12.500 overall entries, it is useful especially for the study of geographic variations.
 3. The __unfiltered dataset__ contains all data without restrictions on included cities and time ranges, overall 57.000 entries. It also contains cities where the number of registered participants is not available. This dataset should _not_ be used for direct analysis; but it may be used for the creation of alternative consistent sub-datasets similar to the two ones above.
 
