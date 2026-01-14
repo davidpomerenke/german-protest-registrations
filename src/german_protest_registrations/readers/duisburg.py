@@ -8,15 +8,20 @@ def duisburg():
     dfs = []
     for file in path.glob("*.csv"):
         df = pd.read_csv(file)
+        # Skip files that don't have the Datum column (template/header sheets)
+        if "Datum" not in df.columns:
+            continue
         df = df.rename(
             columns={
                 "Datum": "event_date",
                 "Thema": "topic",
                 "Ort, Aufzugsweg": "location",
                 "TN-Zahl": "participants_registered",
+                "TN-Zahl angezeigt": "participants_registered",  # 2023 column name
             },
         )
-        df["event_date"] = df["event_date"].str.replace(r"^\s*(-|\?)+\s*$", "", regex=True)
+        if "event_date" in df.columns:
+            df["event_date"] = df["event_date"].str.replace(r"^\s*(-|\?)+\s*$", "", regex=True)
         dfs.append(df)
     df = pd.concat(dfs)
     df = df[["event_date", "topic", "location", "participants_registered"]]

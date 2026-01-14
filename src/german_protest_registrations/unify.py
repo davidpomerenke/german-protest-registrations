@@ -132,7 +132,7 @@ def process_dates(df):
     ]
     # remove weird dates
     df = df[
-        (df["event_date"] < pd.to_datetime("2023-01-01"))
+        (df["event_date"] < pd.to_datetime("2024-01-01"))
         & (df["event_date"] >= pd.to_datetime("2010-01-01"))
     ]
     return df
