@@ -36,7 +36,7 @@ format:
     toc: true
     lang: en
 abstract: |
-  The __German Protest Registrations Dataset__ covers protests that have been registered with demonstration authorities in 16 German cities. The data has been compiled from _Freedom of Information_ requests and covers dates, organizers, topics, the number of registered participants, and for some cities the number of observed participants. Covered date ranges vary, with all cities covered in 2022, and 5 cities covered consistently from 2018 to 2022. In comparison to previous datasets that are largely based on newspaper reports, this dataset gives an unprecented level of detail, and is the largest dataset on protest events in Germany to date. This report gives an overview over existing datasets, explains the data retrieval and processing, displays the properties of the dataset, and discusses its limitations. Code and data are available [on Github](https://github.com/davidpomerenke/german-protest-registrations).
+  The __German Protest Registrations Dataset__ covers protests that have been registered with demonstration authorities in 17 German cities. The data has been compiled from _Freedom of Information_ requests and covers dates, organizers, topics, the number of registered participants, and for some cities the number of observed participants. Covered date ranges vary, with all cities covered in 2023, and 5 cities covered consistently from 2018 to 2023. In comparison to previous datasets that are largely based on newspaper reports, this dataset gives an unprecented level of detail, and is the largest dataset on protest events in Germany to date. This report gives an overview over existing datasets, explains the data retrieval and processing, displays the properties of the dataset, and discusses its limitations. Code and data are available [on Github](https://github.com/davidpomerenke/german-protest-registrations).
 ---
 
 ## Introduction
@@ -63,7 +63,7 @@ __Academic datasets__ have been created through the manual coding of newspaper a
 
 Protest events in Germany are also part of international protest datasets: [PolDem](https://poldem.eui.eu/) [@kriesiPoldemProtestDataset2020] provides 3 datasets with different countries and time ranges covered, based on newspaper articles obtained from _NexisLexis_. And the [Mass Mobilization Project](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HTTWYL) [@clarkMassMobilizationProtest2022] records and codes protest events globally from 2014 to 2019.
 
-__Official records__ have been explored only on a small scale: @kanolRightWingExtremistMobilization2021 compiles government responses to opposition requests about right-wing extremist demonstrations in Germany, starting in 2005. And [Demo-Hauptstadt Berlin](https://fragdenstaat.de/dossier/demo‐hauptstadt‐berlin/) has used _Freedom of Information_ requests to obtain data on all demonstrations in Berlin from 2018 to 2022.
+__Official records__ have been explored only on a small scale: @kanolRightWingExtremistMobilization2021 compiles government responses to opposition requests about right-wing extremist demonstrations in Germany, starting in 2005. And [Demo-Hauptstadt Berlin](https://fragdenstaat.de/dossier/demo‐hauptstadt‐berlin/) has used _Freedom of Information_ requests to obtain data on all demonstrations in Berlin from 2018 to 2023.
 
 ::: {.content-visible when-format="markdown"}
 | **Dataset** | **Source** | **Start** | **End** | **Topics?** | **Reg?** | **Obs?** | **#Cities** | **#Events** |
@@ -78,9 +78,9 @@ __Official records__ have been explored only on a small scale: @kanolRightWingEx
 | Mass Mobilization Project | newspapers | 1990 | 2014 | ✓ |  | ✓ | all | 364 |
 | Right-Wing Extremist Mobilization | government | 2005 | 2020 | ✓ |  | ✓ | all | 3,290 |
 | Demo-Hauptstadt Berlin | dem. auth. | 2018 | 2020 | ✓ | ✓ | ✓ | 1 | 12,775 |
-| German Protest Reg. 2022 | dem. auth. | 2022 | 2022 | ✓ | ✓ | (✓) | 13 | 12,581 |
-| German Protest Reg. 2018-2022 | dem. auth. | 2018 | 2022 | ✓ | ✓ | (✓) | 5 | 39,740 |
-| German Protest Reg. (all) | dem. auth. | 2012/.../2022 | 2022 | ✓ | (✓) | (✓) | 16 | 57,010 |
+| German Protest Reg. 2023 | dem. auth. | 2023 | 2023 | ✓ | ✓ | (✓) | 12 | 6,400 |
+| German Protest Reg. 2018-2023 | dem. auth. | 2018 | 2023 | ✓ | ✓ | (✓) | 4 | 14,548 |
+| German Protest Reg. (all) | dem. auth. | 2012/.../2023 | 2023 | ✓ | (✓) | (✓) | 17 | 70,330 |
 :::
 
 ::: {.content-visible unless-format="markdown"}
@@ -102,9 +102,9 @@ __Official records__ have been explored only on a small scale: @kanolRightWingEx
         Mass Mobilization Project & newspapers & 1990 & 2014 & $\checkmark$ &  & $\checkmark$ & all & 364 \\
         Right-Wing Extremist Mobilization & government & 2005 & 2020 & $\checkmark$ &  & $\checkmark$ & all & 3.290 \\
         Demo-Hauptstadt Berlin & dem. auth. & 2018 & 2020 & $\checkmark$ & $\checkmark$ & $\checkmark$ & 1 & 12.775 \\
-        German Protest Reg. 2022 & dem. auth. & 2022 & 2022 & $\checkmark$ & $\checkmark$ & ($\checkmark$) & 13 & 12.581 \\
-        German Protest Reg. 2018-2022 & dem. auth. & 2018 & 2022 & $\checkmark$ & $\checkmark$ & ($\checkmark$) & 5 & 39.740 \\
-        German Protest Reg. (all) & dem. auth. & 2012/.../2022 & 2022 & $\checkmark$ & ($\checkmark$) & ($\checkmark$) & 16 & 57.010 \\ \hline
+        German Protest Reg. 2023 & dem. auth. & 2023 & 2023 & $\checkmark$ & $\checkmark$ & ($\checkmark$) & 12 & 6.400 \\
+        German Protest Reg. 2018-2023 & dem. auth. & 2018 & 2023 & $\checkmark$ & $\checkmark$ & ($\checkmark$) & 4 & 14.548 \\
+        German Protest Reg. (all) & dem. auth. & 2012/.../2023 & 2023 & $\checkmark$ & ($\checkmark$) & ($\checkmark$) & 17 & 70.330 \\ \hline
     \end{tabular}
 \end{table}
 :::
@@ -122,13 +122,13 @@ __Processing.__ I convert all files to CSV using the _pandas_ library [@reback20
 
 ## Results
 
-The resulting dataset contains 57.010 events from 16 cities. For 13 cities the ex-ante number of expected participants are given, and for 2 of them (Berlin and Magdeburg) the ex-post extimates by the police are also included. For all cities the topic of the protest is given, as specified by the organizers themselves; and for 4 cities (Erfurt, München, Wiesbaden, Wuppertal) the name of the organizing group is also known.
+The resulting dataset contains 70.330 events from 17 cities. For 14 cities the ex-ante number of expected participants are given, and for 2 of them (Berlin and Magdeburg) the ex-post extimates by the police are also included. For all cities the topic of the protest is given, as specified by the organizers themselves; and for 4 cities (Erfurt, München, Wiesbaden, Wuppertal) the name of the organizing group is also known.
 
 \begingroup
 \scriptsize\selectfont
 ```{python}
 # | label: tbl-overview
-# | tbl-cap: Overview of the German Protest Registrations dataset. _kpop_ = population in 1000; _cap?_ = whether the city is the political capital of its region; _reg?_ = whether the number of registered protesters (as per the organizers) is available; _obs?_ = whether the number of observed protesters (as per the police) is available; _12 ... 22_ = number of records per city from 2012 to 2022.
+# | tbl-cap: Overview of the German Protest Registrations dataset. _kpop_ = population in 1000; _cap?_ = whether the city is the political capital of its region; _reg?_ = whether the number of registered protesters (as per the organizers) is available; _obs?_ = whether the number of observed protesters (as per the police) is available; _12 ... 23_ = number of records per city from 2012 to 2023.
 import pandas as pd
 from IPython.display import Markdown, Latex
 from german_protest_registrations.data_description import pretty_overview_table
@@ -160,13 +160,13 @@ plt.show()
 
 As apparent from @tbl-overview, the covered years vary between cities. Using the whole dataset unfiltered would therefore lead to inconsistencies in developments over time. Therefore the dataset is provided in three subsets (see also the bottom of \cref{tbl-related-work}):
 
-1. The __2018-2022 dataset__ contains only cities that have coverage throughout 2018-2022, and that also have the number of registered participants available. This results in a large dataset (about 40.000 entries) that strikes a balance between regional diversity (5 cities) and time coverage (5 years).
-2. The __2022 dataset__ contains all cities that have data available in 2022, and also have the number of registered participants available. With 13 cities covered but only 12.500 overall entries, it is useful especially for the study of geographic variations.
-3. The __unfiltered dataset__ contains all data without restrictions on included cities and time ranges, overall 57.000 entries. It also contains cities where the number of registered participants is not available. This dataset should _not_ be used for direct analysis; but it may be used for the creation of alternative consistent sub-datasets similar to the two ones above.
+1. The __2018-2023 dataset__ contains only cities that have coverage throughout 2018-2023, and that also have the number of registered participants available. This results in a dataset of about 14.500 entries that strikes a balance between regional diversity (4 cities) and time coverage (6 years).
+2. The __2023 dataset__ contains all cities that have data available in 2023, and also have the number of registered participants available. With 12 cities covered and 6.400 overall entries, it is useful especially for the study of geographic variations.
+3. The __unfiltered dataset__ contains all data without restrictions on included cities and time ranges, overall 70.330 entries. It also contains cities where the number of registered participants is not available. This dataset should _not_ be used for direct analysis; but it may be used for the creation of alternative consistent sub-datasets similar to the two ones above.
 
 ```{python}
 # | label: fig-time
-# | fig-cap: "History of the number of protest events per week in the dataset. Since the various cities have different coverage timespans, the number of events is subject to large systematic changes in the unfiltered datasets. Two subsets have been created where the included cities are constant: One contains all cities that have coverage throughout 2018-2022; and one contains all cities with coverage in 2022."
+# | fig-cap: "History of the number of protest events per week in the dataset. Since the various cities have different coverage timespans, the number of events is subject to large systematic changes in the unfiltered datasets. Two subsets have been created where the included cities are constant: One contains all cities that have coverage throughout 2018-2023; and one contains all cities with coverage in 2023."
 # | column: page
 
 import matplotlib.pyplot as plt
@@ -175,9 +175,9 @@ import numpy as np
 from german_protest_registrations.unify import get_all_datasets
 
 dfs = get_all_datasets()
-dfs[0]["dataset"] = "2022"
-dfs[1]["dataset"] = "2018 - 2022"
-dfs[2]["dataset"] = "2012/.../2022 - 2022 (inconsistent)"
+dfs[0]["dataset"] = "2023"
+dfs[1]["dataset"] = "2018 - 2023"
+dfs[2]["dataset"] = "2012/.../2023 - 2023 (inconsistent)"
 df = pd.concat(dfs)
 df = (
     df

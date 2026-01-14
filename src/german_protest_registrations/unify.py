@@ -251,13 +251,13 @@ def get_all_datasets():
     df_unfiltered = df.copy()
     df_unfiltered["date"] = df_unfiltered["date"].dt.strftime("%Y-%m-%d")
     df_unfiltered.to_csv(
-        data / "processed/german_protest_registrations_16_cities_unfiltered.csv",
+        data / "processed/german_protest_registrations_17_cities_unfiltered.csv",
         index=False,
     )
 
-    df_2022 = df[df["date"].dt.year == 2022]
-    df_2022 = df_2022[
-        ~df_2022["city"].isin(
+    df_2023 = df[df["date"].dt.year == 2023]
+    df_2023 = df_2023[
+        ~df_2023["city"].isin(
             [
                 "Bremen",
                 "Freiburg",
@@ -265,8 +265,8 @@ def get_all_datasets():
             ]  # these do not have the number of participants
         )
     ]
-    df_2022["date"] = df_2022["date"].dt.strftime("%Y-%m-%d")
-    df_2022.to_csv(data / "processed/german_protest_registrations_13_cities_2022.csv", index=False)
+    df_2023["date"] = df_2023["date"].dt.strftime("%Y-%m-%d")
+    df_2023.to_csv(data / "processed/german_protest_registrations_12_cities_2023.csv", index=False)
     df_2018 = df[df["date"].dt.year >= 2018]
     df_2018 = df_2018[
         ~df_2018["city"].isin(
@@ -274,23 +274,25 @@ def get_all_datasets():
                 "Bremen",
                 "Freiburg",
                 "Erfurt",
+                "Berlin",  # ends in 2022
+                "Dortmund",  # starts in 2019, inconsistent 2018
                 "Karlsruhe",
-                "Köln",
+                "Köln",  # missing years
                 "Wuppertal",
                 "Saarbrücken",
                 "Dresden",
                 "Kiel",
                 "Potsdam",  # not 2018
                 "Wiesbaden",  # not 2018
-            ]  # these do not have the number of participants or are not available throughout 2019-2022
+            ]  # these do not have the number of participants or are not available throughout 2018-2023
         )
     ]
     df_2018["date"] = df_2018["date"].dt.strftime("%Y-%m-%d")
     df_2018.to_csv(
-        data / "processed/german_protest_registrations_5_cities_2018-2022.csv",
+        data / "processed/german_protest_registrations_4_cities_2018-2023.csv",
         index=False,
     )
-    return df_2022, df_2018, df_unfiltered
+    return df_2023, df_2018, df_unfiltered
 
 
 if __name__ == "__main__":

@@ -12,7 +12,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-01-07 00:00:00,17.15,20.15,Hauptbahnhof / Zwischengeschoss,stationär,Anonymous für the voiceless,Anonymous for the Voiceless,10-35
 2020-01-07 00:00:00,19.00,20.30,Schillerstr. 11 a,stationär,,Gedenken zum Jahrestag des Anschlags auf Diskothek „Liverpool“,100
 2020-01-08 00:00:00,15.40,17.00,Rosenstraße 1-5,stationär,PETA Deutschland e.V.,Canada Goose,10
-2020-01-09 00:00:00,offen,offen,Gärtnerplatz – Rosental,sfv,Parents for Future,Umweltschutz / Klimaschutz,offen
+2020-01-09 00:00:00,offen,offen,Gärtnerplatz – Rosental ,sfv,Parents for Future,Umweltschutz / Klimaschutz,offen
 2020-01-09 00:00:00,16.00,18.00,Heimeranstr. 31,stationär,,"Wir fordern Aufklärung der Morde an Sakine Cansiz, Fidan Dogan und Leyla Saylemez",10
 2020-01-10 00:00:00,13.00,14.00,Sendlinger Str. 8,stationär,,Frauen in schwarz,10-15
 2020-01-10 00:00:00,18.00,19.30,Obere Grasstr. 1,stationär,,illegaler Abriss,20-30
@@ -24,12 +24,12 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-01-11 00:00:00,14.45,17.45,Eiszauber,stationär,Anonymous für the voiceless,Anonymous for the Voiceless,10-35
 2020-01-11 00:00:00,14.00,17.00,Sendlinger Str. 19,stationär,,Chinesische Regierung aufzufordern die KZ-artigen Lager ist Ostturkestan (Xinjiang) sofort zu schließen,10-50
 2020-01-11 00:00:00,15.00,17.00,Odeonsplatz,stationär,,Save Idlib,150
-2020-01-11 00:00:00,11:00:00,13:00:00,Rotkreuzplatz,stationär,,Die-In,30
+2020-01-11 00:00:00,11:00:00,13:00:00,Rotkreuzplatz,stationär,,Die-In ,30
 2020-01-11 00:00:00,12.00,14.00,Odeonsplatz,stationär,,Indien,100
 2020-01-11 00:00:00,12.30,15.30,Max-Joseph-Platz,stationär,,Gegen USA,100
 2020-01-13 00:00:00,18.00,20.00,Marienplatz,stationär,,Weg mit Hartz IV,20-30
 2020-01-13 00:00:00,18.30,20.00,Sendlinger Str. 8,stationär,,walking for future,ca. 15
-2020-01-13 00:00:00,15:00:00,16:00:00,Wittelsbacherpl.,stationär,,FFF – gegen Siemens,50
+2020-01-13 00:00:00,15:00:00,16:00:00,Wittelsbacherpl. ,stationär,,FFF – gegen Siemens,50
 2020-01-14 00:00:00,17.15,20.15,Hauptbahnhof / Zwischengeschoss,stationär,Anonymous für the voiceless,Anonymous for the Voiceless,10-35
 2020-01-14 00:00:00,18:00:00,20:00:00,Marienplatz,stationär,,Die-In,30
 2020-01-14 00:00:00,17.00,19.00,Odeonsplatz 4,stationär,,Abschiebung,50
@@ -69,7 +69,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-01-24 00:00:00,17.00,19.00,Marienplatz,stationär,,Altersarmut,200
 2020-01-24 00:00:00,13.00,14.00,Odeonsplatz,stationär,,Frauen in schwarz,10-15
 2020-01-24 00:00:00,16.00,18.00,Knorrstraße 83c,stationär,,Infos für Arbeiter und Werktätige,10
-2020-01-24 00:00:00,12:00:00,15.00,GSP – Lothstr. Ecke Dachauer Str.,sfv,,Students for Future – Klimaschutz,500
+2020-01-24 00:00:00,12:00:00,15.00,GSP – Lothstr. Ecke Dachauer Str. ,sfv,,Students for Future – Klimaschutz,500
 2020-01-24 00:00:00,09.30,12.00,Kistlerhofstraße 60,stationär,Falun Gong,Falun Gong,5
 2020-01-24 00:00:00,09.30,12.00,Marienplatz,stationär,Zusammen Bayern,Wahlantritt Zusammen Bayern,5-10
 2020-01-24 00:00:00,11.00,20.00,Karlsplatz,stationär,Cannabis Verband München,Ja zum Hanf,10-20
@@ -96,7 +96,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-01-26 00:00:00,17.30,18.30,Marsstraße 43,stationär,,Tierhaltung,2
 2020-01-27 00:00:00,11.00,20.00,Marienplatz,stationär,Cannabis Verband München,Ja zum Hanf,10-20
 2020-01-27 00:00:00,12.00,19.30,Marienplatz,stationär,FAIR,Kommunalwahl,5-8
-2020-01-27 00:00:00,1904-08-26 00:00:00,19.00,St.-Jakobs-Platz,stationär,,Lichterkette gegen Antisemitismus,10-20
+2020-01-27 00:00:00,00:00:00,19.00,St.-Jakobs-Platz,stationär,,Lichterkette gegen Antisemitismus,10-20
 2020-01-28 00:00:00,17.15,20.15,Hauptbahnhof / Zwischengeschoss,stationär,Anonymous für the voiceless,Anonymous for the Voiceless,10-35
 2020-01-28 00:00:00,15.10,16.10,Hultschiner Str. 8,stationär,,Freiheit für Journalisten Aserbaidschan,10-20
 2020-01-28 00:00:00,16.00,22.00,Marienplatz,stationär,Volt Deutschland,Kommunalwahlunterstützung,30
@@ -111,7 +111,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-01-29 00:00:00,11.00,16.00,Karlsplatz,stationär,Cannabis Verband München,Ja zum Hanf,10-20
 2020-01-30 00:00:00,09:00:00,20:00:00,Marienplatz,stationär,Zusammen Bayern,Wahlantritt Zusammen Bayern,5-10
 2020-01-30 00:00:00,18.00,19:20:00,Münchner Freiheit – Kurfürstenplatz,sfv,,Parents for future – Klimaschutz,50-100
-2020-01-30 00:00:00,12.00,1900-01-01 00:30:00,Marienplatz,stationär,FAIR,Kommunalwahl,5-8
+2020-01-30 00:00:00,12.00,00:30:00,Marienplatz,stationär,FAIR,Kommunalwahl,5-8
 2020-01-30 00:00:00,09.00,12.00,Kistlerhofstraße 60,stationär,Falun Gong,Falun Gong,5
 2020-01-30 00:00:00,11.00,21.00,Odeonsplatz,stationär,Cannabis Verband München,Ja zum Hanf,10-20
 2020-01-31 00:00:00,14:30:00,18:30:00,Marienplatz,stationär,,gegen die SiKo,50-100
@@ -133,12 +133,12 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-02-01 00:00:00,11.00,21.00,Sendlinger Str. 8,stationär,Cannabis Verband München,Ja zum Hanf,10-20
 2020-02-01 00:00:00,13.00,19.00,Zenettistraße 10,stationär,,Tierschutz,keine Angaben
 2020-02-02 00:00:00,14.00,17.30,Wittelsbacherpl. 1- offen,sfv,,"gegen Kohlekraft, Klimawandel, …",offen
-2020-02-02 00:00:00,13:00:00,14:30:00,Stefansplatz – Gärtnerplatz,sfv,Viva Selbsthilfe München e.V.,gegen transfeindliche Gewalt,100-150
+2020-02-02 00:00:00,13:00:00,14:30:00,Stefansplatz – Gärtnerplatz,sfv,Viva Selbsthilfe München e.V.,gegen transfeindliche Gewalt ,100-150
 2020-02-02 00:00:00,14.00,15.00,Max-Joseph-Platz,stationär,Pulse of Europe e.V.,Pulse of Europe,400-600
 2020-02-02 00:00:00,12.00,15.00,Marienplatz,stationär,,Lehrermangel,10-50
 2020-02-02 00:00:00,15.30,19.00,Marienplatz,stationär,,Pashtun Befreiung,200
-2020-02-02 00:00:00,15.00,16.00,Bauseweinallee (bei Erdbeerfeld),stationär,Grünflächenverein OM,Gegen Zerstörung Erdbeerfeld,30
-2020-02-02 00:00:00,15.00,16.00,Bauseweinallee (bei Erdbeerfeld) – Prof.-Eichmann-Str. / Wöhlerstr. (Erdbeerfeld),stationär,Grünflächenverein OM,Gegen Zerstörung Erdbeerfeld,30
+2020-02-02 00:00:00,15.00,16.00,Bauseweinallee (bei Erdbeerfeld),stationär,Grünflächenverein OM,Gegen Zerstörung Erdbeerfeld ,30
+2020-02-02 00:00:00,15.00,16.00,Bauseweinallee (bei Erdbeerfeld) – Prof.-Eichmann-Str. / Wöhlerstr. (Erdbeerfeld),stationär,Grünflächenverein OM,Gegen Zerstörung Erdbeerfeld ,30
 2020-02-03 00:00:00,18.00,20.00,Marienplatz,stationär,,Weg mit Hartz IV,20-30
 2020-02-03 00:00:00,08.00,12.00,Marienplatz,stationär,Zusammen Bayern,Wahlantritt Zusammen Bayern,5-10
 2020-02-03 00:00:00,11.00,21.00,Odeonsplatz,stationär,Cannabis Verband München,Ja zum Hanf,10-20
@@ -154,9 +154,9 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-02-05 00:00:00,11.00,21.00,Sendlinger Str. 8,stationär,BIA,Wahlversprechen,10
 2020-02-06 00:00:00,14.00,15.00,Manchesterplatz,stationär,FCB München Fanclub Red Docs e.V.,OB Dieter Reiter legt den Grundstein zur Vitrine am Manchesterplatz,50-100
 2020-02-06 00:00:00,11.00,21.00,Marienplatz,stationär,Cannabis Verband München,Ja zum Hanf,10-20
-2020-02-06 00:00:00,17:45:00,1900-01-07 21:20:00,Sendlinger-Tor-Platz – Gärtnerplatz,sfv,Parents for Future,Klimaschutz,50
+2020-02-06 00:00:00,17:45:00,21:20:00,Sendlinger-Tor-Platz – Gärtnerplatz,sfv,Parents for Future,Klimaschutz,50
 2020-02-06 00:00:00,11.00,21.00,Pasinger Bahnhofsplatz 9,stationär,BIA,Wahlversprechen,10
-2020-02-06 00:00:00,16:15:00,20:30:00,Goethestr. 17,stationär,München ist bunt! e.V.,Nie wieder!,500
+2020-02-06 00:00:00,16:15:00,20:30:00,Goethestr. 17,stationär,München ist bunt! e.V. ,Nie wieder!,500
 2020-02-07 00:00:00,18.00,19.30,Einsteinstr./ Ecke Trogerstraße,stationär,,Mahnwache vor dem Versuchslabor,20
 2020-02-07 00:00:00,12.00,13.00,Karlsplatz,stationär,Gewerkschaft NGG,Tarifverhandlungen,30
 2020-02-07 00:00:00,11.00,21.00,Marienplatz,stationär,Cannabis Verband München,Ja zum Hanf,10-20
@@ -181,7 +181,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-02-12 00:00:00,18.00,19.30,Odeonsplatz,stationär,,Klimaschutz,40
 2020-02-12 00:00:00,17.00,19.00,Max-Joseph-Platz,stationär,,Julian Assange,20
 2020-02-12 00:00:00,11.00,21.00,Pasinger Bahnhofsplatz 9,stationär,,Wahlversprechen,5-10
-2020-02-12 00:00:00,20.55,21.35,Geschwister-Scholl-Platz,stationär,,Gedenken an Dr. Li Wenliang,ca. 30
+2020-02-12 00:00:00,20.55,21.35,Geschwister-Scholl-Platz ,stationär,,Gedenken an Dr. Li Wenliang,ca. 30
 2020-02-12 00:00:00,12.30,13.00,Hofgartenstraße,stationär,ÖDP München,Rettet die Bienen,50
 2020-02-12 00:00:00,11.00,21.00,,stationär,,Wahlversprechen,5
 2020-02-13 00:00:00,11.00,21.00,Sendlinger Str. 8,stationär,,Wahlversprechen,5-10
@@ -192,7 +192,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-02-14 00:00:00,13.00,14.00,Max-Joseph-Platz,stationär,,Frauen in schwarz,10-15
 2020-02-14 00:00:00,18.00,19.30,Obere Grasstr. 1,stationär,,illegaler Abriss,20-30
 2020-02-14 00:00:00,18.00,19.30,Obere Grasstr. 1,stationär,,illegaler Abriss,40-50
-2020-02-14 00:00:00,14.00,1900-06-13 00:00:00,Bergmannstraße 47-49,stationär,SPD Schwanthalerhöhe,OBACHT 30!,4-5
+2020-02-14 00:00:00,14.00,00:00:00,Bergmannstraße 47-49,stationär,SPD Schwanthalerhöhe,OBACHT 30!,4-5
 2020-02-14 00:00:00,17.00,21.00,Marienplatz am Fischbrunnen,stationär,ALLE,Int. Münchner Friedenskonferenz,50
 2020-02-14 00:00:00,08.00,17:45:00,Marienplatz – Marienplatz,sfv,NWRI-Deutschland e.V.,Iranisches Regime – MSC,400-500
 2020-02-14 00:00:00,13.30,19.30,Promenadepl. 7-11,stationär,,"Gegen Kapitalismus und seine Profitmaximierung auf Kosten von (Menschen-)Leben! Beendet die Munich Security Conference heute und in Zukunft!! Gegen Antisemitismus, Rassismus, Sexismus oder andere gruppenbezogene Menschenfeindlichkeit(en)",nicht bekannt
@@ -214,14 +214,14 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-02-15 00:00:00,11.00,21.00,,stationär,,Wahlversprechen,5
 2020-02-15 00:00:00,12.00,13.00,Morassistr. 2,stationär,Albert Schweitzer Stiftung,Tierschutz,8
 2020-02-16 00:00:00,09.00,16.00,Lenbachplatz,stationär,,Freilassung von politischen Gefangenen im Iran,30
-2020-02-16 00:00:00,12.00,15.00,Geschwister-Scholl-Platz,stationär,,Lehrermangel,10-50
+2020-02-16 00:00:00,12.00,15.00,Geschwister-Scholl-Platz ,stationär,,Lehrermangel,10-50
 2020-02-17 00:00:00,11.00,14.00,Blumenstr. 28B,stationär,,Masslose Naturzerstörung,50-100
 2020-02-18 00:00:00,17.15,20.15,Marienplatz,stationär,Anonymous für the voiceless,Tierschutz,10-30
 2020-02-18 00:00:00,10.00,10.45,Reiterdenkmal,stationär,Bündnis 90 / Die Grünen KV München,Schutz für Lesbos geflüchtetet,15
 2020-02-19 00:00:00,11.30,13.00,Promenadeplatz,stationär,,Netzwerk,10
 2020-02-19 00:00:00,17.00,19.00,Odeonsplatz,stationär,,Julian Assange,20
 2020-02-19 00:00:00,18:30:00,21:00:00,Marienplatz,stationär,,Solitarität mit iranischem Volk,15
-2020-02-19 00:00:00,13.30,15.00,Promenadeplatz,stationär,Initiative Stille Wut München,Netwerk,20
+2020-02-19 00:00:00,13.30,15.00,Promenadeplatz,stationär,Initiative Stille Wut München ,Netwerk,20
 2020-02-20 00:00:00,18:00:00,19:45:00,Rotkreuzplatz – Rotkreuzplatz,sfv,,Parents for future – Klimaschutz,50-100
 2020-02-20 00:00:00,19.00,21.00,Odeonsplatz,stationär,,Hanau,50
 2020-02-20 00:00:00,18.00,18.30,Karlsplatz,stationär,keine,Hanau,50-70
@@ -246,7 +246,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-02-24 00:00:00,07.00,23.00,Tegernseer Landstr. 210,stationär,DIE PARTEI,Fasching statt Faschos,5
 2020-02-24 00:00:00,07.00,23.00,Arcisstr. 12,stationär,DIE PARTEI,Fasching statt Faschos,5
 2020-02-24 00:00:00,07.00,23.00,Prinzregentenpl 16,stationär,DIE PARTEI,Fasching statt Faschos,5
-2020-02-24 00:00:00,07.00,23.00,Geschwister-Scholl-Platz,stationär,DIE PARTEI,Fasching statt Faschos,5
+2020-02-24 00:00:00,07.00,23.00,Geschwister-Scholl-Platz ,stationär,DIE PARTEI,Fasching statt Faschos,5
 2020-02-24 00:00:00,07.00,23.00,Prinzregentenstr. 28,stationär,DIE PARTEI,Fasching statt Faschos,5
 2020-02-24 00:00:00,07.00,23.00,Prinzregentenstr. 1,stationär,DIE PARTEI,Fasching statt Faschos,5
 2020-02-24 00:00:00,07.00,23.00,Ludwigstr. 28,stationär,DIE PARTEI,Fasching statt Faschos,5
@@ -301,7 +301,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-03-06 00:00:00,18.00,19.30,Wittelbacherbrunnen – Wittelsbacherbrunnen,sfv,Frauen Union München,beleuchtete Laufstrecke,150
 2020-03-06 00:00:00,18.00,20.30,Lassallestraße / Ecke Wilhelmine-Reichard-Straße,stationär,,Eggarten,50-100
 2020-03-06 00:00:00,10.00,11.30,OPL – Reiterdenkmal,stationär,,Mietenstopp,20-40
-2020-03-07 00:00:00,08.00,1900-01-01 00:00:00,Sendlinger Str. 8,stationär,,Klimawandel,50
+2020-03-07 00:00:00,08.00,00:00:00,Sendlinger Str. 8,stationär,,Klimawandel,50
 2020-03-07 00:00:00,15.00,18.00,Marienplatz,stationär,,Uiguren,300
 2020-03-07 00:00:00,12.00,16.00,Odeonsplatz,stationär,Volt Deutschland,Wahlkampfkundgebung,150
 2020-03-07 00:00:00,18.00,19.00,Karlsplatz,stationär,AFD,Kommunalwahl 2020,3
@@ -309,7 +309,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-03-07 00:00:00,14:30:00,18:00:00,Karlsplatz,stationär,,Anonymous for the Voiceless,10-35
 2020-03-07 00:00:00,12.00,13.00,Morassistr. 2,stationär,Albert Schweitzer Stiftung,Tierschutz – Subway,8
 2020-03-07 00:00:00,10.30,11.50,offen,sfv,,Gebet?,offen
-2020-03-07 00:00:00,11.00,13.00,Ungererstr. Ecke Leopoldstraße,sfv,Bündnis 90 / Die Grünen,Verkehrswende,100
+2020-03-07 00:00:00,11.00,13.00,Ungererstr. Ecke Leopoldstraße,sfv,Bündnis 90 / Die Grünen ,Verkehrswende,100
 2020-03-07 00:00:00,10.30,14.00,Bunzlauer Platz,stationär,,FDP-Kandidaten,6
 2020-03-08 00:00:00,13.00,17.30,MPL – MPL,sfv,,Internationaler Frauentag: Wenn Frauen streiken steht die Welt still,1000
 2020-03-08 00:00:00,14.30,16.00,Neuhauser Str. 14 – Frauenplatz,sfv,,Frauen erheben ihre Stimme – Frauenwallfahrt zum Dom,50-300
@@ -339,7 +339,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-03-12 00:00:00,11.00,21.00,Pasinger Bahnhofsplatz 9,stationär,BIA,Wahlversprechen,5-10
 2020-03-12 00:00:00,11:00:00,15.00,Blumenstr. 28B,stationär,,Baumschutz vor Bauschutz,30
 2020-03-12 00:00:00,16.30,18.15,Curt-Metzger-Pl – Curt-Mezger-Pl,sfv,,gegen Rassismus,30
-2020-03-12 00:00:00,1904-12-04 00:00:00,21.00,Sendlinger Str. 19,stationär,,Parents for future – Klimaschutz,50
+2020-03-12 00:00:00,00:00:00,21.00,Sendlinger Str. 19,stationär,,Parents for future – Klimaschutz,50
 2020-03-13 00:00:00,18.00,19.30,Obere Grasstr. 1,stationär,,illegaler Abriss,40-50
 2020-03-13 00:00:00,13.00,14.00,Sendlinger-Tor-Platz,stationär,,"Für einen gerechten Frieden im Nahen Osten, Schluß mit der Besatzung",10-15
 2020-03-13 00:00:00,15.00,20.00,Marienplatz,stationär,SPD München,Wahlkampfabschluss der SPD München,ca. 500
@@ -349,7 +349,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-03-13 00:00:00,12.00,19.00,Sendlinger Str. 19,stationär,Migrationsbeirat der Stadt München,Aktion kommunales Wahlrecht für Drittstaatler*innen,2-10
 2020-03-13 00:00:00,11.00,21.00,Thomas-Dehler-Str. 12,stationär,BIA,Wahlversprechen,5-10
 2020-03-13 00:00:00,12.00,14.00,Karlsplatz,stationär,"Extinction Rebellion, Fridays for Future",Klimaschutz – Kommunalwahl,200
-2020-03-13 00:00:00,1900-01-05 15:30:00,19:30:00,Karlsplatz,stationär,ÖDP München,ÖDP-Klimatanz,20-50
+2020-03-13 00:00:00,15:30:00,19:30:00,Karlsplatz,stationär,ÖDP München,ÖDP-Klimatanz,20-50
 2020-03-13 00:00:00,12.00,22.00,Königsplatz  ,stationär,Fridays for Future,Klimaschutz,150
 2020-03-13 00:00:00,12.00,14.00,Max-Joseph-Platz,stationär,Extinction Rebellion,Klimaschutz,200
 2020-03-13 00:00:00,12.00,15.00,Gärtnerplatz,stationär,,Klimawahl,100
@@ -373,12 +373,12 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-03-14 00:00:00,15.00,16.00,OPL bis MPL,sfv,Junge Union München,Kristina Frank,20
 2020-03-15 00:00:00,16.00,20.00,Sankt-Jakobs-Platz,stationär,Pegida München e.V.,Beschneidung,10
 2020-03-15 00:00:00,10.30,11.00,Hauptbahnhof,stationär,Weimarer Republik e.V.,100n Jahre Putsch,200
-2020-03-15 00:00:00,16.00,21.00,Sankt-Jakobs-Platz,stationär,München ist bunt! e.V.,Gegen Antisemitismus,500
+2020-03-15 00:00:00,16.00,21.00,Sankt-Jakobs-Platz,stationär,München ist bunt! e.V. ,Gegen Antisemitismus,500
 2020-03-15 00:00:00,14.00,16.00,Unterer Anger,stationär,DGB München,Für Demokratie,50
 2020-03-15 00:00:00,14.00,16.00,Prälat-Zistl-Straße,stationär,KJR,Jugend für Demokratie,25
 2020-03-15 00:00:00,14.00,16.00,Oberanger Str. 6,stationär,noPAG,Solidarisch mit Synagoge,50-100
-2020-03-15 00:00:00,14.00,16.00,Sebastiansplatz,stationär,München ist bunt! e.V.,"Für Demokratie, gegen Antsemitismus",500
-2020-03-15 00:00:00,16.00,21.00,Sankt-Jakaobs-Platz,stationär,München ist bunt! e.V.,Menschenkette gegen Antisemitismus,100
+2020-03-15 00:00:00,14.00,16.00,Sebastiansplatz,stationär,München ist bunt! e.V. ,"Für Demokratie, gegen Antsemitismus",500
+2020-03-15 00:00:00,16.00,21.00,Sankt-Jakaobs-Platz,stationär,München ist bunt! e.V. ,Menschenkette gegen Antisemitismus,100
 2020-03-16 00:00:00,09:00:00,12.00,Königsplatz – Max-Joseph-Str. 5,sfv,IG Metall,Fairwandel,2500
 2020-03-17 00:00:00,17:00:00,20:30:00,Marienplatz,stationär,,Anonymous for the Voiceless,10-35
 2020-03-17 00:00:00,18.00,19:30:00,Max-Joseph-Platz,stationär,Extinction Rebellion,Die-In,30
@@ -389,7 +389,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-03-21 00:00:00,11.30,17.30,OPL – OPL,sfv,Netzwerk Impfentscheid Deutschland,Für gesundheitliche Selbstbestimmung und freien Impfentscheid,10000
 2020-03-21 00:00:00,13.00,18.00,Karlspl. - Marienpl.,sfv,,Aktion anlässlich des internationalen Tag gegen Rassismus 2020,600
 2020-03-21 00:00:00,11.00,14.00,Sendlinger Str. 8,stationär,,psychische Gesundheit,15
-2020-03-21 00:00:00,11.30,16.00,Wittelsbacherpl.,stationär,,"Unterstützung des Masernschutzgesetzes, Informationen zu Schutzimpfungen",ca. 50
+2020-03-21 00:00:00,11.30,16.00,Wittelsbacherpl. ,stationär,,"Unterstützung des Masernschutzgesetzes, Informationen zu Schutzimpfungen",ca. 50
 2020-03-21 00:00:00,11.30,14.30,Odeonsplatz,stationär,Wissen wie Leben e.V.,Impfentscheid,100-200
 2020-03-22 00:00:00,14.30,15.15,KPL bis Bavariaparh,sfv,Radentscheid München,Kidical Mass,300
 2020-03-22 00:00:00,14:30:00,18:00:00,Karlsplatz,stationär,,Anonymous for the Voiceless,10-35
@@ -402,33 +402,33 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-03-27 00:00:00,14.00,19.00,Marienplatz,stationär,Verein für vedische Kultur e.V.,Vegetarismus,10-15
 2020-03-28 00:00:00,11.00,,Königspl – Lenbachpl,sfv,,Mieten,5000
 2020-03-28 00:00:00,14:30:00,18:00:00,Marienplatz,stationär,,Anonymous for the Voiceless,10-35
-2020-03-28 00:00:00,14.30,22.00,Wörthstr bis Wörthstr,sfv,Interessengemeinschaft Nomiya,Genrifizierung,100
+2020-03-28 00:00:00,14.30,22.00,Wörthstr bis Wörthstr ,sfv,Interessengemeinschaft Nomiya,Genrifizierung,100
 2020-03-28 00:00:00,12.00,14.00,Thomas-Dehler-Str. 10-12,stationär,,Arbeiter,10-12
 2020-03-28 00:00:00,16.00,18.00,Neuhauser Str. / Marienplatz / Kaufingerstr.,stationär,Faith Love Hope,Acitve Love,7
 2020-03-28 00:00:00,12.30,14.00,Thomas-Dehler-Str. 10-12,stationär,Faith Love Hope,Acitve Love,7
 2020-03-31 00:00:00,17.30,18.30,Europaplatz,stationär,Amensty International,Menschenrechte in Russland,6
 2020-03-31 00:00:00,17:00:00,20:30:00,Karlsplatz,stationär,,Anonymous for the Voiceless,10-35
-2020-04-03 00:00:00,1900-01-14 00:00:00,16.00,US Konsulat bis MPL,sfv,Münchner Friedensbüro,Defender 2020,10-20
+2020-04-03 00:00:00,00:00:00,16.00,US Konsulat bis MPL,sfv,Münchner Friedensbüro,Defender 2020,10-20
 2020-04-04 00:00:00,06:00:00,23:00:00,Marienplatz,stationär,Community Activism To Save Nature Cats.org e.V.,Veganismus,200
 2020-04-06 00:00:00,18.00,20.00,Marienplatz,stationär,,Weg mit Hartz IV,20-30
 2020-04-08 00:00:00,14.00,17.00,Karlsplatz,stationär,,Gegen Grundrechtseinschränkung,4
 2020-04-09 00:00:00,16.00,19.00,Isarauen zwischen Wiittelsbacherbrücke und Braunauer,stationär,,Gegen Grundrechtseinschränkung,10
 2020-04-10 00:00:00,13.00,14.00,Odeonsplatz,stationär,,"Für einen gerechten Frieden im Nahen Osten, Schluß mit der Besatzung",10-15
 2020-04-11 00:00:00,15.00,18.00,Marienplatz,stationär,,Gegen den Shut-Down,unbekannt
-2020-04-11 00:00:00,11.00,14.00,offen,sfv,Münchner Friedensbündnis,Ostermarsch,2
+2020-04-11 00:00:00,11.00,14.00,offen,sfv,Münchner Friedensbündnis ,Ostermarsch,2
 2020-04-12 00:00:00,15.00,17.00,Theresienwiese,stationär,,Einstehen für die deutsche Verfassung,unbekannt
 2020-04-15 00:00:00,16.00,18.00,Giesinger Bahnhofsplatz,stationär,,Protest gegen Grundrechtsaussetzungen,10-15
 2020-04-17 00:00:00,12.00,13.00,Marienplatz,stationär,ÖDP München,Lesen für die Demokratie,12
 2020-04-18 00:00:00,10.00,13.00,Marienplatz,stationär,,Verteidigung der Grundrechte,1
 2020-04-19 00:00:00,00:00:00,23:59:00,Königsplatz – Königsplatz,sfv,ADFC,Radsternfahrt,5000
-2020-04-19 00:00:00,15.00,18.00,Odeonsplatz,stationär,,Für die Wahrung der Grundrechte,10-20
+2020-04-19 00:00:00,15.00,18.00,Odeonsplatz ,stationär,,Für die Wahrung der Grundrechte,10-20
 2020-04-20 00:00:00,11.00,11.20,Marienplatz,stationär,Dein Sternenkind,Flashmob,100
 2020-04-22 00:00:00,11.00,13.00,Spiridon-Louis-Ring 3 – Maximilianeum,sfv,,Abitur 2020,500 Autos
 2020-04-24 00:00:00,13.00,14.00,Marienplatz,stationär,,"Für einen gerechten Frieden im Nahen Osten, Schluß mit der Besatzung",10-15
 2020-04-24 00:00:00,09.00,10.00,Marienplatz,stationär,,Unterstützung von FFF,15
 2020-04-24 00:00:00,10.30,11.30,Marienplatz,stationär,,Rettungsschirm zum Klimarettungsschirm machen,15
 2020-04-24 00:00:00,17.00,18.00,Odeonsplatz,stationär,,für mehr Musik in der derzeitigen Corona-Krise,50
-2020-04-24 00:00:00,10.00,15.00,Odeonsplatz,stationär,,"Leere Stühle, Corona in der Gastronomie Pandie",20
+2020-04-24 00:00:00,10.00,15.00,Odeonsplatz ,stationär,,"Leere Stühle, Corona in der Gastronomie Pandie",20
 2020-04-24 00:00:00,08.00,22.00,Odeonsplatz – Odeonsplatz,sfv,,Großdemo für Klimaschutz,20000
 2020-04-25 00:00:00,13.00,13.30,Giesinger Bahnhofsplatz,stationär,Zukunft erkämpfen,Grundrechte verteidigen,20
 2020-04-25 00:00:00,13.00,18.00,Karlsplatz,stationär,Tierversuchsgegner München,Internationaler Tag gegen Tierversuche,50
@@ -442,7 +442,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-04-25 00:00:00,10.30,14.30,Türkenstr. Ggü. Hausnr. 103,stationär,,Ihr könnt uns immer noch kreuzweise,20
 2020-04-26 00:00:00,12.00,14.00,Karlsplatz,stationär,,Coronoia 2020,20
 2020-04-26 00:00:00,12.00,14.00,Marienplatz,stationär,,Dank an alle Helfer,80
-2020-04-27 00:00:00,12.00,1900-01-15 00:00:00,Marienplatz,stationär,,Corona Pandemie,500
+2020-04-27 00:00:00,12.00,00:00:00,Marienplatz,stationär,,Corona Pandemie,500
 2020-04-27 00:00:00,11:30:00,16:30:00,Marienplatz,stationär,Mütter gegen Atomkraft e.V.,Tschernobyl,5
 2020-04-29 00:00:00,15.00,17.00,Marienplatz,stationär,,Freiheit für die Kinder von Natascha Lavente,20
 2020-04-29 00:00:00,09.30,10.00,Platz der Opfer des Nationalsozialismus,stationär,Grüne Fraktion Landtag Bayern,Gedenken an den 75. Jahrestag der Befreiung des KZ Dachau,5
@@ -451,8 +451,8 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-04-30 00:00:00,11.00,18.00,Wiesentfelser Str.,stationär,,Freiheit für die Kinder von Natascha Lavente,20
 2020-04-30 00:00:00,16.00,18.00,Marienplatz,stationär,,Julian Assange,6-10
 2020-04-30 00:00:00,15.00,16.00,noch offen,sfv,Hanse Mondial GmbH,Rettung der flexiblen und individuellen Reise-Busbranche,400-500
-2020-05-01 00:00:00,10.00,18.00,Rindermarkt,stationär,,1. Mai – Kampftag der Arbeiterinnen und Arbeiter,100
-2020-05-01 00:00:00,11.15,12.00,Marienplatz,stationär,,1. Mai – Kampftag der Arbeiterinnen und Arbeiter,100
+2020-05-01 00:00:00,10.00,18.00,Rindermarkt,stationär,,1. Mai – Kampftag der Arbeiterinnen und Arbeiter ,100
+2020-05-01 00:00:00,11.15,12.00,Marienplatz,stationär,,1. Mai – Kampftag der Arbeiterinnen und Arbeiter ,100
 2020-05-01 00:00:00,09.30,12.15,Schwanthaler Str. 64 – MPL,sfv,DGB München,1. Mai – Tag der Arbeit,50-60
 2020-05-01 00:00:00,10.00,12.00,Schwanthaler Str. 64 – MPL,sfv,,Am 1. Mai wird demonstriert,200
 2020-05-01 00:00:00,12.00,13.00,Karlsplatz,stationär,Extinction Rebellion,Klimarettungsschirm,20
@@ -543,7 +543,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-05-16 00:00:00,15.00,16.00,Isartorplatz am Fortunabrunnen,stationär,Greenpeace,Fordern Sie einen grünen Wirtschaftsplan,50
 2020-05-16 00:00:00,10.30,11.30,Englischer Garten,stationär,,Kräuterkunde,10
 2020-05-16 00:00:00,17.30,18.30,Marienplatz,stationär,,"Tierschutz, Kastenstand Muttersauen",50
-2020-05-16 00:00:00,14.00,15.00,Geschwister-Scholl-Platz,stationär,,"Soloselbständige, … ohne ausreichende finanzielle Unterstützung",50
+2020-05-16 00:00:00,14.00,15.00,Geschwister-Scholl-Platz,stationär,,"Soloselbständige, … ohne ausreichende finanzielle Unterstützung ",50
 2020-05-16 00:00:00,14.00,16.00,Münchner Freiheit,stationär,,Grundrechte,100
 2020-05-16 00:00:00,16.30,17.30,Odeonsplatz,stationär,,Anonymous for the Voiceless,10-12
 2020-05-16 00:00:00,10.30,12.00,Odeonsplatz,stationär,,Yoga-MeditationsDemo,60
@@ -562,7 +562,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-05-20 00:00:00,19.00,20.00,Mariahilfplatz Kirche Südseite,stationär,,Kunst braucht viele Stimmen,50
 2020-05-20 00:00:00,10.00,11.00,Bob-van-Benthem-Platz,stationär,,Pestizide,10
 2020-05-20 00:00:00,19.00,20.00,Königsplatz  ,stationär,Go Brazil e.V.,"Lockerung der Corona Schutzmaßnahmen, Musikprobe im Freien",Max. 40
-2020-05-20 00:00:00,18.00,19.00,Papa-Schmid-Str.,stationär,Isarlust e.V.,Kulturlieferdienst,36-50
+2020-05-20 00:00:00,18.00,19.00,Papa-Schmid-Str. ,stationär,Isarlust e.V.,Kulturlieferdienst,36-50
 2020-05-20 00:00:00,13.00,14.00,Barer Str. 19 auf der öffentl. Gehwegfl.,stationär,,Palästinasolidarität,20
 2020-05-21 00:00:00,16.00,17.00,Hans-Preißinger Str. 40,stationär,Kreiskultur e.V.,Gesundheit und Gesang,20-49
 2020-05-21 00:00:00,17.00,18.00,Mariahilfplatz 10-12,stationär,,Breitensport,50
@@ -733,7 +733,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-06-17 00:00:00,12.00,13.30,Odeonsplatz,stationär,VBS e.V.,Tag der Müllabfuhr,50
 2020-06-17 00:00:00,16.00,17.00,Marienplatz,stationär,,Friedensdemonstration,80
 2020-06-17 00:00:00,11.00,12.00,Hofgartenstraße,stationär,BUND Naturschutz in Bayern e.V.,8. Jahrestag Bürgerentscheid „Bürgerbegehren zur Verhinderung der 3. Startbahn“,Max. 50
-2020-06-17 00:00:00,8.15,9.00,Vor Gasteig/Rosenheimerstr. 5),stationär,Fossil Free München,Erdgas- und Erdölförderung,12-15
+2020-06-17 00:00:00,8.15,9.00,Vor Gasteig/Rosenheimerstr. 5) ,stationär,Fossil Free München,Erdgas- und Erdölförderung,12-15
 2020-06-17 00:00:00,12.00,13.00,Max II Denkmal,stationär,,Die Initiative Familien in der Krise…,20
 2020-06-17 00:00:00,8.00,10.00,Marienplatz,stationär,,Forst Kasten,50
 2020-06-17 00:00:00,18.15,21.00,Mariahilfplatz,stationär,,Kunst braucht viele Stimmen,50
@@ -752,9 +752,9 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-06-20 00:00:00,15.00,17.00,Königsplatz  ,stationär,,Corona Grundrechte,5000
 2020-06-20 00:00:00,10.30,12.00,Odeonsplatz,stationär,,Meditationsdemo,50
 2020-06-20 00:00:00,15.00,17.00,Karl-Stützel-Platz,stationär,,Stoppt den erneuten völkerrechtswidrigen Angriffskrieg des türkischen Staates in Kurdistan,100
-2020-06-20 00:00:00,17.00,18.00,Adams-Lehmann-Straße,stationär,Bürgerinitiative Ausspekuliert,Protest gegen Dawonia,100
+2020-06-20 00:00:00,17.00,18.00,Adams-Lehmann-Straße ,stationär,Bürgerinitiative Ausspekuliert,Protest gegen Dawonia,100
 2020-06-20 00:00:00,19.30,20.30,Hans-Mielich-Platz,stationär,,Tango Argentino tanzen ist gesund…,50
-2020-06-20 00:00:00,16.00,17.30,Pasinger Marienplatz,stationär,Identitäre Bewegung,Gedenken   ,15
+2020-06-20 00:00:00,16.00,17.30,Pasinger Marienplatz,stationär,Identitäre Bewegung ,Gedenken   ,15
 2020-06-21 00:00:00,18.00,19.00,Donnersbergerstr. Zwischen Wilderich-Lang-Str. Und Hirschbergstr.,stationär,Isarlust e.V.,Kulturlieferdienst,86-100
 2020-06-21 00:00:00,14.00,15.30,Odeonsplatz,stationär,,"Demo zur Rettung von Kultur, Konzerten…",99
 2020-06-21 00:00:00,20.00,22.00,Professor-Huber-Pl,stationär,Mehr Lärm für München,Krachparade,200
@@ -812,7 +812,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-07-02 00:00:00,18.00,19.00,Kiesstraße,stationär,Isarlust e.V.,Kulturlieferdienst,86-100
 2020-07-02 00:00:00,15.30,18.00,Kistlerhofstr. 60,stationär,,Falun Gong,12
 2020-07-02 00:00:00,19.30,22.00,Waldkindergaarten Trudering,stationär,,Mitglieerversammlung,15
-2020-07-03 00:00:00,15.00,18.00,Karlsplatz,stationär,Animal Rights Watch e.V.,Tierschutz,20
+2020-07-03 00:00:00,15.00,18.00,Karlsplatz,stationär,Animal Rights Watch e.V. ,Tierschutz,20
 2020-07-03 00:00:00,10.00,11.00,Mariahilfplatz,stationär,,1 Jahr Radentscheid,20
 2020-07-03 00:00:00,18.00,20.00,Odeonsplatz,stationär,,Unabhängigkeit in Belarus,100
 2020-07-03 00:00:00,18.00,19.00,Türkenstraße  zwischen Blütenstraßen und Schellingstraße,stationär,Isarlust e.V.,Kulturlieferdienst,36-50
@@ -823,7 +823,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-07-04 00:00:00,16.00,18.00,Karlsplatz,stationär,Ostturkestanische Union in Europa,Menschenrechtsverletzungen an Uiguren,25
 2020-07-04 00:00:00,13.00,15.00,Karlsplatz,stationär,Baloch Republican Party,Baloch missing person and human rights violations in balochistn,20
 2020-07-04 00:00:00,15.00,17.00,Königsplatz  ,stationär,,,5000
-2020-07-04 00:00:00,12.00,20.00,Marienplatz – Marienplatz,sfv,Animal Rights Watch e.V.,Tierschutz,300
+2020-07-04 00:00:00,12.00,20.00,Marienplatz – Marienplatz,sfv,Animal Rights Watch e.V. ,Tierschutz,300
 2020-07-04 00:00:00,16.00,22.00,noch offen,stationär,,"Love, Beats & HappyBass",300
 2020-07-04 00:00:00,16.00,18.00,Odeonsplatz,stationär,ISKCON München Verein für vedische Kultur e.V.,Vegetarismus,20
 2020-07-04 00:00:00,offen,offen,Odeonsplatz,stationär,,CVJM,2000
@@ -832,7 +832,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-07-04 00:00:00,15.00,18.00,Sendlinger Straße 19,stationär,,Anonymous for the Voiceless,15-35
 2020-07-04 00:00:00,11.00,14.30,Theresienwiese,sfv,Blue Peers,Fahrverbote Motorräder,400
 2020-07-04 00:00:00,19.00,20.00,Wittelsbacherplatz,stationär,,Tango tanzen ist gesund,100
-2020-07-04 00:00:00,10.00,11.00,Wittelsbacherplatz,stationär,,Familien in der Krise,50
+2020-07-04 00:00:00,10.00,11.00,Wittelsbacherplatz,stationär,,Familien in der Krise ,50
 2020-07-04 00:00:00,15.00,17.00,,stationär,,Ein Zeichen für die Club-Kultur,100
 2020-07-05 00:00:00,18.00,19.00,Wilhelm-Hey-Str.,stationär,,Erhaltet den Wilhelm-Hey-Platz,40
 2020-07-06 00:00:00,18.00,19.00,Kurfürstenstr. Zwischen Konradstr. Und Hohenstaufenstr.,stationär,Isarlust e.V.,Kulturlieferdienst,100
@@ -846,12 +846,12 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-07-08 00:00:00,18.00,19.00,Georgenstr. Zwischen Kurfürstenstr. Und Nordendstr.,stationär,Isarlust e.V.,Kulturlieferdienst,100
 2020-07-09 00:00:00,18.00,19.00,Karlsplatz,stationär,Extinction Rebellion,"Klimakrise, Artensterben",50
 2020-07-09 00:00:00,15.30,17.30,Kistlerhofstr. 60,stationär,,Falun Gong,10
-2020-07-09 00:00:00,17.35,19.25,Odeonsplatz,stationär,,Gleichstellung,20
+2020-07-09 00:00:00,17.35,19.25,Odeonsplatz,stationär,,Gleichstellung ,20
 2020-07-09 00:00:00,14.00,16.00,Odeonsplatz,stationär,BLV-Marktkaufleute-Schausteller,Hilfeersuchen Marktkaufleute und Schausteller,600
 2020-07-09 00:00:00,18.00,19.00,Professor-Huber-Platz,stationär,Isarlust e.V.,Kulturlieferdienst,86-100
 2020-07-09 00:00:00,12.00,,Theresienwiese – Leopoldstr. / Schenkendorfstr.,sfv,BLV Marktkaufleute Schausteller,Hilfeersuchen Marktkaufleute und Schausteller,150 Fahrzeuge
 2020-07-10 00:00:00,18.00,19.00,Herzogstr. Zwischen Fallmerayer- u. Apianstr.,stationär,Isarlust e.V.,Kulturlieferdienst,86-100
-2020-07-10 00:00:00,15.00,18.00,Marienplatz,stationär,Animal Rights Watch e.V.,Tierschutz,20
+2020-07-10 00:00:00,15.00,18.00,Marienplatz,stationär,Animal Rights Watch e.V. ,Tierschutz,20
 2020-07-10 00:00:00,11:50:00,13:50:00,Marienplatz,sfb,,"Klimaschutz, Steinkohleausstieg München",50
 2020-07-10 00:00:00,19.00,21.30,MJP-Gärtnerplatz,sfv,Die Grünen,CSD Radln,30-40
 2020-07-10 00:00:00,18.00,19.30,Obere Grasstr. 1,stationär,,illegaler Abriss,40-50
@@ -926,7 +926,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-07-20 00:00:00,14.00,18.00,Stachus-Salvatorpl.,sfv,,Kinderleiden,50-100
 2020-07-21 00:00:00,11.00,17.00,Karlsplatz bis Hofgartenstr.,sfv,,Fragen an Politik,20
 2020-07-21 00:00:00,11.00,13.30,Marienplatz,stationär,Condrobs e.V.,Gedenken für verstorbene DrogengebraucherInnen,100-150
-2020-07-21 00:00:00,19.00,20.15,Schleißheimerstr. - Kuglerstr.,sfv,ADFC,Mahnwache Radfahrer,20
+2020-07-21 00:00:00,19.00,20.15,Schleißheimerstr. - Kuglerstr. ,sfv,ADFC,Mahnwache Radfahrer,20
 2020-07-21 00:00:00,18.00,19.00,Schrenkstr.,stationär,Isarlust e.V.,Kulturlieferdienst,150-200
 2020-07-22 00:00:00,08.00,10.00,"Gasteig, Philharmonie",stationär,GEW München,Für bessere Ausstattung der sozialen Dienste,50
 2020-07-22 00:00:00,20.00,20.30,Hanauer Str. 64-69/Gehwegfläche,stationär,,"Gedenken an die Opfer, OEZ",50
@@ -938,7 +938,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-07-22 00:00:00,11.00,13.00,Karlsplatz,stationär,Verein für vedische Kultur e.V.,Veganismus,15-20
 2020-07-23 00:00:00,18.00,19.00,Donnersbergerstr. Zwischen Arnulf- und Wilderich-Lang-Str.,stationär,Isarlust e.V.,Kulturlieferdienst,150-200
 2020-07-23 00:00:00,18.00,19.00,Marienplatz,stationär,,"Klimakrise, Artensterben",50
-2020-07-23 00:00:00,17.30,19.30,Odeonsplatz,stationär,,Gleichstellung,ca. 30
+2020-07-23 00:00:00,17.30,19.30,Odeonsplatz,stationär,,Gleichstellung ,ca. 30
 2020-07-23 00:00:00,18.30,19.30,Wittelsbacherbrücke,stationär,,Solidarität mit Geflüchteten Menschen,8
 2020-07-24 00:00:00,17.51,18.51,Forstenrieder Allee 180/Pfarrhaus,stationär,,Mahnwache am Derzbachhof,50
 2020-07-24 00:00:00,20.00,21.30,KPS bis Georg-Freundorferstr,sfv,Karawane München,gegen Abschiebung,200
@@ -985,7 +985,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-07-29 00:00:00,18.00,20.00,Karlsplatz,stationär,Bundesverband der Migranten e.V.,Gewalt gegen Frauen,30-50
 2020-07-29 00:00:00,18.00,19.00,Odeonsplatz,stationär,,Klima- und Artenschutz,50
 2020-07-29 00:00:00,13.00,15.00,Marienplatz,stationär,,Veganismus,15-20
-2020-07-30 00:00:00,10.00,11.00,Max II Denkmal,stationär,JugendorganisationBUNDNaturschutz,Forderungen der Jugend an die Politik,15
+2020-07-30 00:00:00,10.00,11.00,Max II Denkmal,stationär,JugendorganisationBUNDNaturschutz ,Forderungen der Jugend an die Politik,15
 2020-07-30 00:00:00,15.30,04.00,Tegernseer Landstraße 39,stationär,Greencity e.V.,flächendeckende Fahrradabstellmöglichkeiten,5
 2020-07-30 00:00:00,15.00,18.00,Kistlerhofstr. 60,stationär,,Falun Gong,10-15
 2020-07-31 00:00:00,17.30,18.30,Europaplatz,stationär,Amensty International,Menschenrechte in Russland,6
@@ -1004,7 +1004,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-08-03 00:00:00,16.00,17.00,Mariahilfplatz,stationär,,Musik braucht viele Stimmen,100
 2020-08-03 00:00:00,18.00,20.00,Marienplatz,stationär,,Weg mit Hartz IV,20-30
 2020-08-03 00:00:00,17.15,18.30,Max-Joseph-Platz,stationär,,Meditation,200
-2020-08-04 00:00:00,10.30,12.30,Adamstraße bis  Mies-van-der-Rohe-Str.,sfv,DFG-VK,Atomwaffen Abschaffen,15-20
+2020-08-04 00:00:00,10.30,12.30,Adamstraße bis  Mies-van-der-Rohe-Str. ,sfv,DFG-VK,Atomwaffen Abschaffen,15-20
 2020-08-05 00:00:00,13.30,15.30,Karlsplatz,stationär,Verein für vedische Kultur e.V.,Veganismus,15-20
 2020-08-05 00:00:00,16.00,18.00,Mariahilfplatz,stationär,,Beendigung Aufenthalt Frauen Bayernkaserne,40
 2020-08-06 00:00:00,18.00,21.15,Marienplatz,stationär,,Hiroshima mahnt,100
@@ -1114,7 +1114,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-09-01 00:00:00,07:15:00,08:30:00,Deroystraße 22,stationär,ver.di,Arbeitsbeginn,8
 2020-09-01 00:00:00,18.00,18.30,Schwanthalerstr. 64,stationär,DGB München,Antikriegstag,50-70
 2020-09-01 00:00:00,17.30,19.30,Obere Grasstr. 1,stationär,,Uhrmacherhäusel,80-100
-2020-09-01 00:00:00,16.45,17.30,KPS – Schwanthalerstr.,sfv,,Antikriegstag 2020,150
+2020-09-01 00:00:00,16.45,17.30,KPS – Schwanthalerstr. ,sfv,,Antikriegstag 2020,150
 2020-09-01 00:00:00,17.15,20.45,MPL,stationär,,Acitivists for the Victims,10-35
 2020-09-01 00:00:00,15.00,17.00,Marienplatz,stationär,,Demo Verbot Berlin,5-15
 2020-09-02 00:00:00,18.30,19.45,Bob-van-Benthem-Platz 1,stationär,,Akt der Solidarität mit den Protesten in Bulgarien,100
@@ -1127,10 +1127,10 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-09-04 00:00:00,14.00,18.00,Kistlerhofstr. 60,stationär,,Falun Gong,10-15
 2020-09-04 00:00:00,07.30,08.30,Olympiapark – Zenettistr. 13 (FFB),sfv,ADFC München,Olympiattentat,20-50
 2020-09-04 00:00:00,12.00,13.30,Marienplatz,stationär,,Klimaschutz,20-30
-2020-09-05 00:00:00,12.00,14.00,Marienplatz – Marienplatz,sfv,Animal Rights Watch e.V.,Tierschutz,300
-2020-09-05 00:00:00,15.00,17.00,Max-Joseph-Platz,stationär,,Freiheitsversammlung,200
+2020-09-05 00:00:00,12.00,14.00,Marienplatz – Marienplatz,sfv,Animal Rights Watch e.V. ,Tierschutz,300
+2020-09-05 00:00:00,15.00,17.00,Max-Joseph-Platz,stationär,,Freiheitsversammlung ,200
 2020-09-05 00:00:00,10.30,20.00,Thomas-Dehler-Str. 10-12,stationär,,Christlicher Büchertisch,3-5
-2020-09-05 00:00:00,15.00,00.00,Feldmochinger See,stationär,,Geburtstagsfeier,-
+2020-09-05 00:00:00,15.00,00.00,Feldmochinger See ,stationär,,Geburtstagsfeier,-
 2020-09-05 00:00:00,09.00,12.00,Thalkirchnerstraße,stationär,,Mercosur Abkommen,3-10
 2020-09-05 00:00:00,14.00,17.30,Frankfurter Ring 200,stationär,,Für ein Ende der Lagerpflicht – v.a. während Corona,Max. 80
 2020-09-05 00:00:00,14.30,18.30,Hohenzollernplatz,stationär,Falun Gong Gruppe München,Falun Gong,20
@@ -1145,7 +1145,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-09-08 00:00:00,7.45,8.30,Bergmannstr. 35 gegenüber Grundschule,stationär,SPD Schwanthalerhöhe,Schulstart: OBACHT 30!,4-5
 2020-09-08 00:00:00,9.00,10.00,Mies-van-der-Rohe-Str. 1,stationär,Greenpeace München,Aktion zum Autogipfel,30
 2020-09-08 00:00:00,18.20,20.00,Max-Joseph-Platz,stationär,,Julien Assange,20
-2020-09-08 00:00:00,11.00,14.00,"Kapuzinerstr. 26, ARGE",stationär,,"Warnstreik, Tarifverhandlungen",20-25
+2020-09-08 00:00:00,11.00,14.00,"Kapuzinerstr. 26, ARGE",stationär,,"Warnstreik, Tarifverhandlungen ",20-25
 2020-09-09 00:00:00,18.00,19.00,Marienplatz,stationär,Extinction Rebellion,Klimakrise,50
 2020-09-09 00:00:00,14.30,17.30,Kistlerhofstr. 60,stationär,,Falun Gong,10
 2020-09-09 00:00:00,18.00,19.30,MPL-Hofgarten-Wittelsbacherplatz,sfv,Extinction Rebellion,Moria evakuieren,200
@@ -1168,7 +1168,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-09-12 00:00:00,15.00,18.00,Maria-Hilf-Platz,stationär,,Aufmerksamkeit und Menschenrechte,200
 2020-09-12 00:00:00,12.00,15.00,Geschwister-Scholl-Platz,stationär,,"Bunt statt Braun – Für Frieden, Freiheit und Demokratie",170
 2020-09-12 00:00:00,12.00,18.00,Rosenstr. 1,stationär,,Solidarität mit Weißrussland,100
-2020-09-12 00:00:00,12.00,16.00,Sendllinger Tor-Sonnenstr.-Karlspl.-MPL-Viktualienmarkt-Isartor,sfv,,WE ALL LIVES MATTER,150
+2020-09-12 00:00:00,12.00,16.00,Sendllinger Tor-Sonnenstr.-Karlspl.-MPL-Viktualienmarkt-Isartor,sfv,,WE ALL LIVES MATTER ,150
 2020-09-12 00:00:00,15.00,17.00,Karlsplatz/Stachus,stationär,Ehe-Familie-Leben e.V.,Kindesmissbrauch,40
 2020-09-12 00:00:00,19.00,21.00,Max-Joseph-Platz/Odeonsplatz,sfv,,Mahnwache für Meinungsfreiheit,100
 2020-09-12 00:00:00,16.00,20.00,Wittelsbacherplatz,stationär,Menschen Zusammen Stark,Aktuelle Politik und deren Einfluss auf Gesundheit,199
@@ -1177,7 +1177,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-09-12 00:00:00,13.00,15.00,Karl-Stützel-Platz,stationär,,Senioren in der Coronakrise,100
 2020-09-12 00:00:00,12.00,18.00,Odeonsplatz,stationär,Bella-Konservative-Frauen,Keine Maskenpflicht für Kinder,10
 2020-09-12 00:00:00,12.00,18.00,Englischer Garten,stationär,,WIR für unsere Kinder und Alten,150
-2020-09-12 00:00:00,12.00,19.00,Kriegerdenkmal im Hofgarten,stationär,,Fest für Freiheit und Frieden,100
+2020-09-12 00:00:00,12.00,19.00,Kriegerdenkmal im Hofgarten ,stationär,,Fest für Freiheit und Frieden,100
 2020-09-12 00:00:00,12.00,15.00,Theresienwiese-Theresienwiese,sfv,,Recht auf freie Atmung in Schulen und auf Demos,199
 2020-09-12 00:00:00,16.00,20.00,Marienplatz,stationär,Menschen Zusammen Stark,Aktuelle Politik und deren Einfluss auf Gesundheit,199
 2020-09-12 00:00:00,16.00,20.00,Theresienwiese,stationär,Menschen Zusammen Stark,Aktuelle Politik und deren Einfluss auf Gesundheit,199
@@ -1208,7 +1208,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-09-12 00:00:00,12.00,17.30,Rudi-Hierl-Platz,stationär,,Gelebte Demokratie im 21. Jh,150
 2020-09-12 00:00:00,18.00,21.00,Friedensengel / Luitpold Terrassen,stationär,,Mahnwache für Meinungsfreiheit,150
 2020-09-12 00:00:00,12.00,19.00,"Candidplatz, Ecke Hans-Mielich-Str.",stationär,,Maskenpflicht bei Großveranstaltungen,50-100
-2020-09-12 00:00:00,14.30,17.00,Friedensengel / Luitpold Terrassen,stationär,,Beendigung der epidemischen Lage,180
+2020-09-12 00:00:00,14.30,17.00,Friedensengel / Luitpold Terrassen,stationär,,Beendigung der epidemischen Lage ,180
 2020-09-12 00:00:00,12.00,15.00,Geschwister-Scholl-Platz,stationär,,"Bunt statt Braun – Für Frieden, Freiheit und Demokratie",170
 2020-09-12 00:00:00,14.00,15.00,Pasinger Bahnhofsplatz,stationär,,Beendigung der Maskenpflicht an Schulen,75
 2020-09-12 00:00:00,12.15,18.00,Hohenzollernplatz,stationär,,Gegen Beschränkungen der Demonstrierendenzahl und gegen das Verbot von Demos,150
@@ -1220,7 +1220,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-09-14 00:00:00,19.00,20.30,Marienplatz,stationär,,Tanz-Demo,200
 2020-09-15 00:00:00,17.15,20.45,Marienplatz,stationär,,Acitivists for the Victims,35
 2020-09-15 00:00:00,16.30,19.00,Hermann-Lingg-Str. 3,stationär,,Tarifrunde ist Frauenkampf,70
-2020-09-15 00:00:00,15.00,19.00,Karlsplatz/Stachus,stationär,Volt München,"#EuropeCares, Initiative zur Sammlung von Sach- und Geldspenden",30
+2020-09-15 00:00:00,15.00,19.00,Karlsplatz/Stachus,stationär,Volt München,"#EuropeCares, Initiative zur Sammlung von Sach- und Geldspenden ",30
 2020-09-16 00:00:00,16.00,19.00,Hanauer Str. 68,stationär,,Rechter Terror in Deutschland,10
 2020-09-16 00:00:00,09.00,11.00,Theresienwiese,stationär,ver.di,Tarifverhandlungen,1000
 2020-09-17 00:00:00,17.00,18.00,Marienplatz,stationär,Extinction Rebellion,Klimakrise,50
@@ -1286,7 +1286,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-09-28 00:00:00,18.00,19.30,OPL,stationär,,Musik braucht viele Stimmen,120
 2020-09-28 00:00:00,14.00,22.00,Marienplatz,stationär,,Weg mit §218,10-100
 2020-09-28 00:00:00,08.30,12.00,Kölner Platz,stationär,,Warnstreif aufgrund der Tarifrunde öffentlicher Dienst,130
-2020-09-28 00:00:00,08:00:00,14.00,Odeonsplatz,stationär,GEW München,"Warnstreik, Tarifverhandlungen",50-200
+2020-09-28 00:00:00,08:00:00,14.00,Odeonsplatz,stationär,GEW München,"Warnstreik, Tarifverhandlungen ",50-200
 2020-09-28 00:00:00,8.30,11.00,"Gasteig, Rosenheimer Str. 5, oben",stationär,ver.di,Tarifrunde Öffentlicher Dienst,20
 2020-09-28 00:00:00,09.30,11.00,Marienplatz,stationär,ver.di,Tarifrunde Öffentlicher Dienst,100
 2020-09-28 00:00:00,18.00,19.30,Sendlinger Str. 8,stationär,Stimme der Stillen,Jedes Leben ist wertvoll,50
@@ -1331,7 +1331,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-10-07 00:00:00,14.30,17.30,Kistlerhofst. 60,stationär,,Falun Gong,10
 2020-10-08 00:00:00,11.30,13.30,Mauerkircherstr. Ggü. Hausnr. 59,stationär,Internationale Gesellschaft für Menschenrechte e.V.,Freiheit für Nasrin Sotoudeh und alle anderen politischen Gefangenen im Iran,ca. 10
 2020-10-08 00:00:00,07.25,07.50,Feldmochinger Str. 251 Seite Am Schnepfenweg,stationär,Grundschule Feldmochinger Str. 251,Für die Einhaltung der Verkehrsregeln,12
-2020-10-08 00:00:00,18.00,19.00,Kufsteiner Platz,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
+2020-10-08 00:00:00,18.00,19.00,Kufsteiner Platz ,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
 2020-10-08 00:00:00,18.15,20.15,Karlsplatz,stationär,,Gleichstellung,20
 2020-10-08 00:00:00,17.00,18.00,Maxmonument,stationär,Alevitische Gemeinde,Freiheit für politisch Gefangene,30
 2020-10-09 00:00:00,17.00,22.00,Theresienwiese,stationär,,Förderung der Bayerischen Staatsregierung,150
@@ -1353,13 +1353,13 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-10-10 00:00:00,14.30,17.30,Frauenplatz bis Marienplatz,sfv,EuroProLife e.V.,Gebet für lebende und tote ungeborene Kinder,ca. 200
 2020-10-10 00:00:00,11.30,15.30,Sendlinger Str. 19,stationär,Falun Gong Gruppe München,Falun Gong,30
 2020-10-10 00:00:00,11.30,17.30,Theresienwiese,sfv,"Netzwerk Impfentscheid, Deutschland",Für medizinische Selbstbestimmung,10000
-2020-10-10 00:00:00,14.00,17.30,Theresienwiese,stationär,Menschen Zusammen Stark,Für medizinische Selbstbestimmung,10000
+2020-10-10 00:00:00,14.00,17.30,Theresienwiese ,stationär,Menschen Zusammen Stark,Für medizinische Selbstbestimmung,10000
 2020-10-10 00:00:00,13.30,15.00,Karlsplatz,stationär,,Freiheit für Abdullah Öcalan,50
 2020-10-11 00:00:00,15.00,18.30,"Tal 13, Merkur Brunnen",stationär,,Wenn das TAL….,18
-2020-10-11 00:00:00,17.00,18.30,Odeonsplatz,stationär,,Solidarität mit Bulgarien,80
+2020-10-11 00:00:00,17.00,18.30,Odeonsplatz,stationär,,Solidarität mit Bulgarien ,80
 2020-10-12 00:00:00,17.15,18.30,Marienplatz,stationär,,Meditation,200
 2020-10-13 00:00:00,10.00,13.00,Schwanthalerstr. 64 – Hermann Lingg Straße 3,sfv,ver.di Jugend München,Jugendstreik,300
-2020-10-13 00:00:00,16.00,17.00,Maxmonument,stationär,,Bayerisches Klimaschutzgesetz,15
+2020-10-13 00:00:00,16.00,17.00,Maxmonument ,stationär,,Bayerisches Klimaschutzgesetz,15
 2020-10-14 00:00:00,17.30,19.30,Rotkreuzplatz,stationär,,Klimakrise,50
 2020-10-14 00:00:00,14.30,17.30,Kistlerhofst. 60,stationär,,Falun Gong,10
 2020-10-14 00:00:00,11.00,15.00,Arnulfstr. 42 – Hultschinerstr 8,sfv,,Berichterstattund von ARD und SZ über den Krieg in Berg-Karabach,60
@@ -1384,7 +1384,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-10-18 00:00:00,14.00,15.20,"Isarufer, Reichenbachbrücke",stationär,ÖDP,ZAMRAMMA,40
 2020-10-18 00:00:00,12.00,17.00,Marienplatz,stationär,,#OpAwakening,25
 2020-10-18 00:00:00,15.00,18.30,Tal 13,stationär,,Wenn das TAL….,18-20
-2020-10-18 00:00:00,14.00,18.00,Odeonspl.,stationär,,Berg-Karabach,200
+2020-10-18 00:00:00,14.00,18.00,Odeonspl. ,stationär,,Berg-Karabach,200
 2020-10-18 00:00:00,18.00,19.00,Max-Joseph-Platz,stationär,,Bulgarien,50
 2020-10-19 00:00:00,08.00,12.00,Theresienwiese,sfv,ver.di,Tarfifrunde öffentlicher Dienst,1000
 2020-10-19 00:00:00,17.15,18.30,Marienplatz,stationär,,Meditation,200
@@ -1392,13 +1392,13 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-10-19 00:00:00,8.30,9.30,"Kapuzinerstr. 26, Agentur für Arbeit",stationär,,Streikkundgebung,50-150
 2020-10-19 00:00:00,16.00,17.00,Karlsplatz,stationär,,Freiheit für Abdullah Öcalan,15
 2020-10-19 00:00:00,14.15,18.15,Pasinger Bahnhofplatz,stationär,Falun Gong Gruppe München,Falun Gong,15
-2020-10-19 00:00:00,16.00,18.00,Königsplatz,stationär,,Nigerianische Proteste,offen
+2020-10-19 00:00:00,16.00,18.00,Königsplatz ,stationär,,Nigerianische Proteste,offen
 2020-10-20 00:00:00,14.45,18.15,Marienplatz,stationär,Anonymous for the Voicless,Anonymous for the Voicless,10 – 35
 2020-10-20 00:00:00,,,Oberanger,stationär,,Gedenkveranstaltung,
 2020-10-20 00:00:00,16.00,17.00,Karlsplatz,stationär,,Freiheit für Abdullah Öcalan,15
 2020-10-20 00:00:00,17.00,19.00,Theresienstr. 154 – Heßstr. 121,sfv,Empfangshalle GbR,Raumnot für Kunst und Kultur,50
 2020-10-21 00:00:00,17.30,19.00,Weißenburger Platz,stationär,,Klimakrise,50
-2020-10-21 00:00:00,18.00,19.00,Odeonspl.,stationär,Migrationsbeirat,Mahnwache gegen Gewalt,199
+2020-10-21 00:00:00,18.00,19.00,Odeonspl. ,stationär,Migrationsbeirat,Mahnwache gegen Gewalt,199
 2020-10-21 00:00:00,14.30,17.30,Kistlerhofst. 60,stationär,,Falun Gong,10
 2020-10-21 00:00:00,16.00,17.00,Karlsplatz,stationär,,Freiheit für Abdullah Öcalan,15
 2020-10-21 00:00:00,16.30,18.00,Mannheimer Str und Sulzbacher Str.,stationär,,Verkehrsberuhigung,5-50
@@ -1420,14 +1420,14 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-10-23 00:00:00,16.00,17.00,Karlsplatz,stationär,,Freiheit für Abdullah Öcalan,15
 2020-10-23 00:00:00,17.00,18.00,Marienplatz,stationär,,Demokratie Leben,50
 2020-10-24 00:00:00,14.00,18.00,Thalkirchner Str. 80,stationär,,Leerstand,50
-2020-10-24 00:00:00,15.00,17.00,Odeonspl.,stationär,Nigerian Community Bayern,Brutalität nigerinaischer Polizei,100-150
+2020-10-24 00:00:00,15.00,17.00,Odeonspl. ,stationär,Nigerian Community Bayern,Brutalität nigerinaischer Polizei,100-150
 2020-10-24 00:00:00,15.00,16.00,Sedanstr/zwischen Milchstr./Comeniusstr.,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
 2020-10-24 00:00:00,18.00,19.00,Atelierstr.,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
-2020-10-24 00:00:00,12.00,14.00,Königsplatz,stationär,,Coronamaßnahmen bedrohen Kulturleben,1000
+2020-10-24 00:00:00,12.00,14.00,Königsplatz ,stationär,,Coronamaßnahmen bedrohen Kulturleben,1000
 2020-10-24 00:00:00,14.15,16.30,Königsplatz – Königsplatz,sfv,,Internationaler March for Freedom,1000
 2020-10-24 00:00:00,15.00,16.00,Theresienwiese,stationär,,International March…,1000
 2020-10-24 00:00:00,10.30,14.30,Türkenstr. Ggü. Hausnr. 103,stationär,,Ihr könnt uns immer noch kreuzweise,20
-2020-10-24 00:00:00,14.00,16.30,Max-Joseph-Platz,stationär,Ärzte gegen Tierversuche,Ausstieg aus dem Tierversuch,12
+2020-10-24 00:00:00,14.00,16.30,Max-Joseph-Platz,stationär,Ärzte gegen Tierversuche,Ausstieg aus dem Tierversuch ,12
 2020-10-24 00:00:00,13.00,17.00,Marienplatz,stationär,Falun Gong Gruppe München,Falun Gong,200
 2020-10-24 00:00:00,14.45,18.15,Karlsplatz,stationär,,Activists for the Victims,10-35
 2020-10-24 00:00:00,14.00,17.00,Marienplatz,stationär,,Berg-Karabach,200
@@ -1465,7 +1465,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-10-31 00:00:00,10.00,12.15,Sankt-Pauls-Platz – GSP,sfv,Helfer Deutschland e.V.,vorgeburtliche Tötung,25
 2020-10-31 00:00:00,18.45,22.00,Karlsplatz,stationär,,Horrorshow Ausstellung,20
 2020-10-31 00:00:00,16.00,17.00,Sendlinger Str. 8,stationär,,Wiedereröffnung von Bordellen trotz Corona,10 – 35
-2020-10-31 00:00:00,12.00,13.15,Odeonspl.,stationär,,Musik braucht viele Stimmen,120
+2020-10-31 00:00:00,12.00,13.15,Odeonspl. ,stationär,,Musik braucht viele Stimmen,120
 2020-10-31 00:00:00,15.00,16.00,Maximilianstr. 26 – Brienner Str.,stationär,,unbewegte Menschenkette der Kulturschaffenden,200
 2020-11-01 00:00:00,12.00,13.45,Stadelheimer Str.,stationär,,Gedenken an alle ermordeten,100
 2020-11-01 00:00:00,14.30,16.00,Stadelheimer Str. bis Theresienwiese,sfv,,Trauermarsch,150
@@ -1486,7 +1486,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-11-04 00:00:00,14.15,17.30,Kistlerhofstraße 60,stationär,Falun Gong,Falun Gong,5
 2020-11-05 00:00:00,15.00,20.00,Karlsplatz,stationär,,Exit Spirit Energy,50
 2020-11-06 00:00:00,10.00,12.00,Theresienwiese,stationär,Die Grünen,Aufnahmeprogramm,30
-2020-11-06 00:00:00,15.00,20.00,Odeonspl.,stationär,,Exit Spirit Energy,50
+2020-11-06 00:00:00,15.00,20.00,Odeonspl. ,stationär,,Exit Spirit Energy,50
 2020-11-06 00:00:00,16.30,18.30,Partnachplatz,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
 2020-11-06 00:00:00,17.00,20.00,Marienplatz,stationär,,Demokratie leben,50
 2020-11-07 00:00:00,14.00,15.00,Orleansplatz,stationär,,Nicht auf unserem Rücken,50
@@ -1503,7 +1503,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-11-07 00:00:00,14.00,15.00,Geschwister-Scholl-Platz,stationär,,Count all the Votes,100
 2020-11-08 00:00:00,15.00,16.00,"Bordeauxplatz ,",stationär,Aktionsgruppe Indianer & M e.V.,Indigene Frauen,20
 2020-11-08 00:00:00,15.30,18.00,Tannhäuserplatz,stationär,,Aufhebung der Coronaregeln,10
-2020-11-08 00:00:00,12.00,15.00,Odeonspl.,stationär,,Belarus,150-200
+2020-11-08 00:00:00,12.00,15.00,Odeonspl. ,stationär,,Belarus,150-200
 2020-11-08 00:00:00,17.00,18.10,Weißenseestr. Bis Ella-Lingens-Pl,sfv,Bezirksausschuss 17,Gedenktag,10-20
 2020-11-08 00:00:00,14.00,14.45,Isenschmidstraße,stationär,Mehr Platz am Leben,Gedenken,15-20
 2020-11-08 00:00:00,11.00,12.30,Granatstaße 10,stationär,BA 24,Gedenken,10-20
@@ -1512,7 +1512,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-11-08 00:00:00,15.00,16.00,Fraunbergplatz,stationär,Isarlust e.V.,Kulturlieferdienst,130-150
 2020-11-08 00:00:00,16.00,22.00,Theresienwiese,stationär,Querdenken 731,"Wir feiern das Ende der Pandemie […] Wir fordern, dass ohne Nachweis einer Infektion gem. § 2 Ziff. 2 IfSG […]",120000
 2020-11-08 00:00:00,13.00,18.00,Englischer Garten,stationär,,Kunst ist systemrelevant,1
-2020-11-08 00:00:00,16.00,20.00,St.-Pauls-Platz,stationär,,Weltfrieden,50
+2020-11-08 00:00:00,16.00,20.00,St.-Pauls-Platz,stationär,,Weltfrieden ,50
 2020-11-09 00:00:00,17.15,18.30,Marienplatz,stationär,,Meditation,200
 2020-11-09 00:00:00,14.00,16.00,Rotkreuzplatz,stationär,Bezirksausschuss 9,Namenslesung zum 9. November,50
 2020-11-09 00:00:00,15.00,17.30,Maxburgstr / Herzog-Max-Str.,stationär,Gegen Vergessen – Für Demokratie,Gedenken an die Kristallnacht,200
@@ -1524,20 +1524,20 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-11-11 00:00:00,17:30:00,18:45:00,OPL,stationär,,Kinderrechte,20-100
 2020-11-11 00:00:00,14.15,17.30,Kistlerhofstraße 60,stationär,Falun Gong,Falun Gong,5
 2020-11-11 00:00:00,12.00,20.00,Theresienwiese,stationär,Querdenken 731,"Wir feiern das Ende der Pandemie […] Wir fordern, dass ohne Nachweis einer Infektion gem. § 2 Ziff. 2 IfSG […]",10000
-2020-11-11 00:00:00,12.50,13.50,Mühlbaurstr. Ecke Beetzstr.,stationär,SDAJ,Corona und Krise an Schulen,2-5
-2020-11-12 00:00:00,16.00,17.00,Odeonspl.,stationär,Weltkongress der Uiguren,Stop Uyghur Genocide,25
+2020-11-11 00:00:00,12.50,13.50,Mühlbaurstr. Ecke Beetzstr.,stationär,SDAJ ,Corona und Krise an Schulen,2-5
+2020-11-12 00:00:00,16.00,17.00,Odeonspl. ,stationär,Weltkongress der Uiguren,Stop Uyghur Genocide,25
 2020-11-12 00:00:00,12.00,20.00,Theresienwiese,stationär,Querdenken 731,"Wir feiern das Ende der Pandemie […] Wir fordern, dass ohne Nachweis einer Infektion gem. § 2 Ziff. 2 IfSG […]",10000
 2020-11-12 00:00:00,10.30,11.30,Marienplatz,stationär,,Für Freiheit für Klarheit,5
-2020-11-12 00:00:00,12.50,13.50,Lazarettstr. Ecke Albrechtstr.,stationär,SDAJ,Corona und Krise an Schulen,2-5
+2020-11-12 00:00:00,12.50,13.50,Lazarettstr. Ecke Albrechtstr.,stationär,SDAJ ,Corona und Krise an Schulen,2-5
 2020-11-12 00:00:00,19.00,19.30,Odeonsplatz,stationär,,gegen den abrupten Regierungswechsel in Peru,20
-2020-11-13 00:00:00,12.50,13.50,Ungsteiner Straße,stationär,SDAJ,Corona und Krise an Schulen,2-5
+2020-11-13 00:00:00,12.50,13.50,Ungsteiner Straße,stationär,SDAJ ,Corona und Krise an Schulen,2-5
 2020-11-13 00:00:00,18.00,19.30,Obere Grasstr. 1,stationär,,illegaler Abriss,20-30
 2020-11-13 00:00:00,18.00,19.30,Obere Grasstr. 1,stationär,,illegaler Abriss,40-50
 2020-11-13 00:00:00,13.00,14.00,Max-Joseph-Platz,stationär,,"Für einen gerechten Frieden im Nahen Osten, Schluß mit der Besatzung",10-15
 2020-11-13 00:00:00,12.00,20.00,Theresienwiese,stationär,Querdenken 731,"Wir feiern das Ende der Pandemie […] Wir fordern, dass ohne Nachweis einer Infektion gem. § 2 Ziff. 2 IfSG […]",10000
 2020-11-13 00:00:00,16.00,17.00,Elisabeth-Mann-Borghese-Str.,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
 2020-11-13 00:00:00,17.00,19.30,Marienplatz,stationär,,Demokratie leben,4
-2020-11-13 00:00:00,14.30,16.00,MPL – Oberanger/an der Hauptfeuerwache,sfv,,Fridays for Future – Danni bleibt,60
+2020-11-13 00:00:00,14.30,16.00,MPL – Oberanger/an der Hauptfeuerwache,sfv,,Fridays for Future – Danni bleibt ,60
 2020-11-13 00:00:00,18:15:00,19:00:00,KPS,stationär,,Schärfere Maßnahmen,5-10
 2020-11-14 00:00:00,11.00,13.00,OPL(MPL),stationär,Umweltgewerkschaft München,Welt-Umwelt-Aktionstag,30
 2020-11-14 00:00:00,13.30,14.30,Mauerkircherstr. 59 gegenüberl.Gehwegf.,stationär,,Gedenken Proteste im Iran,30
@@ -1548,11 +1548,11 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-11-14 00:00:00,14.30,18.30,Odeonsplatz,stationär,,Berg-Karabach,200
 2020-11-14 00:00:00,12.00,13.00,Hönigschmidplatz,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
 2020-11-14 00:00:00,14.00,15.00,Willibaldstrr. Zwischen Böcksteinerstr. Und Agnes-Bernauerstr.,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
-2020-11-14 00:00:00,17.00,18.00,Rothuberweg zwischen Truderingerstr. Und Kurzhuberstr.,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
+2020-11-14 00:00:00,17.00,18.00,Rothuberweg zwischen Truderingerstr. Und Kurzhuberstr. ,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
 2020-11-14 00:00:00,13.00,18.00,Englischer Garten,stationär,,Kunst ist auch systemrelevant,1
 2020-11-14 00:00:00,15.00,16.00,Karlsplatz,stationär,,Peru,100
 2020-11-15 00:00:00,10.00,12.00,Hofgarten,stationär,Verein Das andere Bayern e.V.,Kundgebung für Frieden und demokratische,100
-2020-11-15 00:00:00,109.30,10.10,Pippingerstraße / Ecke Dorfstraße,stationär,VRK-Obermenzing e.V.,Für Frieden und Freiheit,20-25-
+2020-11-15 00:00:00,109.30,10.10,Pippingerstraße / Ecke Dorfstraße,stationär,VRK-Obermenzing e.V.,Für Frieden und Freiheit ,20-25-
 2020-11-15 00:00:00,12.00,20.00,Theresienwiese,stationär,Querdenken 731,"Wir feiern das Ende der Pandemie […] Wir fordern, dass ohne Nachweis einer Infektion gem. § 2 Ziff. 2 IfSG […]",50000
 2020-11-15 00:00:00,14.00,17.00,Gollierplatz – Bavariaring 5,sfv,,Türkischer Rassismus,100
 2020-11-15 00:00:00,14.00,16.30,Grasweg 74 – Leopoldstr. / Münchner Freiheit,sfv,,Friedensschließung im Berg-Karabach-Konflikt,25 Fahrzeuge
@@ -1594,17 +1594,17 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-11-28 00:00:00,10.00,16.00,Rotkreuzplatz,stationär,KDP,"Bundestagswahl, Gesundheit, Krieg",20
 2020-11-28 00:00:00,11.00,15.00,Sendlinger Str. 8,stationär,Falun Gong,Falun Gong,30
 2020-11-28 00:00:00,13.00,14.00,Baumkirchner Str. zwischen Berg-am-Laim-Str. Und Neumarkter Str.,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
-2020-11-28 00:00:00,16.00,17.30,Karlsplatz/Stachus,stationär,,Für Wahrheit / Für Klarheit,20
+2020-11-28 00:00:00,16.00,17.30,Karlsplatz/Stachus,stationär,,Für Wahrheit / Für Klarheit ,20
 2020-11-29 00:00:00,14.00,16.00,Marienplatz,stationär,,Wir wollen schönes Wetter,20-30
 2020-11-29 00:00:00,11.50,14.10,Hans-Mielich-Platz,stationär,,Tango verbindet,30
 2020-11-30 00:00:00,17.15,18.30,Max-Joseph-Platz,stationär,,Meditation,100
-2020-12-01 00:00:00,19.00,20.00,Odeonspl.,stationär,Münchener Aids Hilfe,Candle-Light-Walk,100-150
-2020-12-01 00:00:00,15.00,17.00,Odeonspl.,stationär,Initiative Geistes-und Sozialwissenschaft,Geistes und Sozialwissenschaft,100
+2020-12-01 00:00:00,19.00,20.00,Odeonspl. ,stationär,Münchener Aids Hilfe,Candle-Light-Walk ,100-150
+2020-12-01 00:00:00,15.00,17.00,Odeonspl. ,stationär,Initiative Geistes-und Sozialwissenschaft,Geistes und Sozialwissenschaft,100
 2020-12-03 00:00:00,17.00,18.00,Marienplatz,stationär,Parents4Future München,Klimaschutz der Münchner Future Bewegungen,ca. 10
 2020-12-03 00:00:00,13.15,16.15,Kistlerhofstraße 60,stationär,,Falun Gong,5-10
 2020-12-03 00:00:00,8.20,8.45,Atelierstr. 14-18,stationär,FDP Bayernpartei,Verkehrspolitik,20-25
 2020-12-04 00:00:00,17.00,19.00,Marienplatz,stationär,,Demokratie leben,50
-2020-12-04 00:00:00,16.30,17.30,Odeonspl.,stationär,,Dannenröder Forst,10
+2020-12-04 00:00:00,16.30,17.30,Odeonspl. ,stationär,,Dannenröder Forst,10
 2020-12-05 00:00:00,15.00,17.00,Prälat-Miller-Weg,stationär,,Abrüsten statt Aufrüsten,30
 2020-12-05 00:00:00,12.00,13.00,Bauseweinallee zwischen Heerstr. Und Karwinskistr.,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
 2020-12-05 00:00:00,15.00,16.00,Guido-Schneble-Str. Zwischen Aindorferstr. Und Camerloherstr,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
@@ -1625,14 +1625,14 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-12-08 00:00:00,10.00,18.00,Marienplatz,stationär,,Internationaler Tag gegen Gewalt an Frauen,10
 2020-12-08 00:00:00,17.00,18.00,Donnersbergerstr. Zwischen Hirschberg und Wilderich-Lang-Str.,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
 2020-12-08 00:00:00,19.00,21.00,Marienplatz/Stachus,stationär,,Für Frieden für Wahrheit Für Klarheit,199
-2020-12-08 00:00:00,14.30,noch offen,Odeonspl.,stationär,,Gewalt gegen Frauen,30
+2020-12-08 00:00:00,14.30,noch offen,Odeonspl. ,stationär,,Gewalt gegen Frauen,30
 2020-12-09 00:00:00,18.00,20.00,Erlbachstr. - Franz-Joseph-Strauß-Ring,sfv (Autokorso),,Stoppt Söder,50-100
 2020-12-10 00:00:00,17.00,18.00,Marienplatz,stationär,Parents4Future München,Klimaschutz der Münchner Future Bewegungen,ca. 10
 2020-12-10 00:00:00,10.00,12.00,Gleichmannstr. 10,stationär,Junge Liberale München e.V.,Demonstration gegen Konfuzius Institut,15
 2020-12-10 00:00:00,13.15,16.15,Kistlerhofstraße 60,stationär,,Falun Gong,5-10
 2020-12-10 00:00:00,12.00,13.30,Hofmannstraße 62,stationär,,Uiguren,20-25
 2020-12-10 00:00:00,18.00,19.30,Karlsplatz,stationär,Internationalistisches Bündnis München,Tag der Menschenrechte,50-100
-2020-12-10 00:00:00,16:30:00,19.00,Odeonspl.,stationär,,Tag der Menschenrechte und Klima,50
+2020-12-10 00:00:00,16:30:00,19.00,Odeonspl. ,stationär,,Tag der Menschenrechte und Klima,50
 2020-12-10 00:00:00,12.00,16.00,Karlsplatz,stationär,,Aufnahme von Geflüchteten,20-30
 2020-12-11 00:00:00,17.00,18.00,Theresienwiese,stationär,,Die Erde Brennt,30
 2020-12-11 00:00:00,18.00,19.30,Obere Grasstr. 1,stationär,,illegaler Abriss,40-50
@@ -1640,17 +1640,17 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-12-11 00:00:00,13.00,14.00,Marienplatz,stationär,,"Für einen gerechten Frieden im Nahen Osten, Schluß mit der Besatzung",10-15
 2020-12-11 00:00:00,17.00,18.15,Limesstr.-Limesstr.,sfv,,Weihnachtlicher Lichterumzug,30
 2020-12-11 00:00:00,08.00,10.00,Marienplatz,stationär,,Petition Exit Spirit Energy,50
-2020-12-11 00:00:00,16.00,18.00,Karlsplatz – Isartorplatz,sfv,SDAJ,"Corona, Krise und die Situation an Schulen",100
+2020-12-11 00:00:00,16.00,18.00,Karlsplatz – Isartorplatz,sfv,SDAJ ,"Corona, Krise und die Situation an Schulen",100
 2020-12-11 00:00:00,19.00,04.00,Westsee – Westpark (noch in Abklärung),stationär,,Meinungsfreiheit,10
 2020-12-11 00:00:00,17.00,19.00,Marienplatz,stationär,,Demokratie leben,50
 2020-12-11 00:00:00,12.30,16.30,Münchner Freiheit,stationär,Falun Gong Gruppe München,Falun Gong,20
-2020-12-11 00:00:00,16.45,17.45,Sendlinger Str. 8,stationär,Parents4Future,Klimaschutz der Münchner Future Bewegungen,10
+2020-12-11 00:00:00,16.45,17.45,Sendlinger Str. 8,stationär,Parents4Future ,Klimaschutz der Münchner Future Bewegungen,10
 2020-12-12 00:00:00,15.00,16.00,Otto-Engl-Platz zwischen Weinbergerstr. Und Gräfstr.,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
 2020-12-12 00:00:00,12.00,13.00,Pfanzeltplatz,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
 2020-12-12 00:00:00,11.00,12.00,Bordeauxplatz,stationär,,Baum- und Klimaschutz,50
-2020-12-12 00:00:00,17.00,18.00,Gelände Aubinger Wochenmarkt,stationär,,Kulturlieferdienst,120-150
+2020-12-12 00:00:00,17.00,18.00,Gelände Aubinger Wochenmarkt ,stationär,,Kulturlieferdienst,120-150
 2020-12-12 00:00:00,11.00,14.00,Karlsplatz,stationär,1bis19 e.V.,Grundrechte erhalten,10
-2020-12-12 00:00:00,14.00,15.00,Odeonspl.,stationär,Matteo Kirche & Asyl,keine Abschiebungen,100
+2020-12-12 00:00:00,14.00,15.00,Odeonspl. ,stationär,Matteo Kirche & Asyl,keine Abschiebungen,100
 2020-12-12 00:00:00,12.30,13.30,Gyßlingstr. Bis Widenmayerstr.,sfv,,Proteste gegen Gesetzesänderung der indischen Regierung im Agrarsektor,ca. 35 Autos
 2020-12-13 00:00:00,12.00,16.00,Reichenbachbrücke,stationär,,Wärme für Alle – Öffnet die Hotels – Evakuierung der Lager in Griechenladn,10
 2020-12-13 00:00:00,noch offen,noch offen,Hochbrückenstraße bis Reiterdenkmal,sfv,DIE PARTEI,Koksskandal,20-50
@@ -1659,7 +1659,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-12-14 00:00:00,18.00,19.00,St.-Pauls-Pl.,stationär,,Gedenkzeit für die Opfer (wirtschaftlich sowie psychisch) des erneuten Lockdowns ab 16.12.20 sowie alle bisherigen,100
 2020-12-15 00:00:00,18.00,20.00,Marienplatz,stationär,,Marsch für den Frieden und die Freiheit,100
 2020-12-15 00:00:00,16.00,17.00,Wartburgplatz,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
-2020-12-15 00:00:00,17.30,19.30,Marienplatz,stationär,,Für Wahrheit / Für Klarheit,30
+2020-12-15 00:00:00,17.30,19.30,Marienplatz,stationär,,Für Wahrheit / Für Klarheit ,30
 2020-12-15 00:00:00,17.30,20.00,Lottlisa-Behling-Weg bis Theresienwiese,sfv,,gegen Maßnahmen,100 KFZ 200 Personen
 2020-12-16 00:00:00,16.00,17.00,Ohmstraße,stationär,Isarlust e.V.,Kulturlieferdienst,120-150
 2020-12-16 00:00:00,08:30:00,09:30:00,Stiglmaierplatz,stationär,GEW München,gegen Stellenabbau,50
@@ -1673,10 +1673,10 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-12-19 00:00:00,17.00,19.30,Karlsplatz,stationär,,Solidarität mit Geflüchteten,10
 2020-12-19 00:00:00,15.00,19.00,Königsplatz – Königsplatz,sfv,,Adventspaziergang gegen die Einsamkeit,1000
 2020-12-19 00:00:00,16.00,18.00,Marienplatz,stationär,,kulturelle Kälte,150
-2020-12-19 00:00:00,15.00,19.00,Odeonspl.,stationär,,Gastro,200
+2020-12-19 00:00:00,15.00,19.00,Odeonspl. ,stationär,,Gastro,200
 2020-12-19 00:00:00,10.00,14.00,"Weißenburger Str., zwischen Rosenheimer und Weißenburger Platz",stationär,DKP,Mehr Personal in den Krankenhäusern,5
 2020-12-19 00:00:00,13.00,15.30,Theresienwiese,stationär,WIR 2020,"Frieden, Freiheit Selbstbestimmung",700
-2020-12-19 00:00:00,15.00,16.00,Mariahilfplatz,stationär,Lassus-Musikkreis,Ohne Musik wird es still!,60
+2020-12-19 00:00:00,15.00,16.00,Mariahilfplatz,stationär,Lassus-Musikkreis ,Ohne Musik wird es still!,60
 2020-12-19 00:00:00,10.30,14.30,Karlsplatz,stationär,Falun Gong,Falun Gong,20
 2020-12-19 00:00:00,15.00,17.00,Max-Joseph-Platz,stationär,,Freiheitsversammlung,200
 2020-12-20 00:00:00,11.30,14.30,Frauenplatz – Odeonsplatz,sfv,Helfer Deutschland e.V.,Gebet für von vorgeburtlicher Tötung bedrohte Menschen,20-25
@@ -1686,14 +1686,14 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-12-23 00:00:00,13.15,16.15,Kistlerhofstraße 60,stationär,,Falun Gong,5-10
 2020-12-23 00:00:00,14.30,16.30,Marienplatz,stationär,,Demokratie leben,ca. 50
 2020-12-24 00:00:00,12.00,12.30,Dorfstr. Höhe Hausnr. 39,stationär,D‘Würmtaler Menzing e.V.,Kultur in Zeiten von Corona,80
-2020-12-24 00:00:00,11.00,12.00,Marienplatz,stationär,Parents4Future,Klimaschutz der Münchner Future Bewegungen,ca. 10
+2020-12-24 00:00:00,11.00,12.00,Marienplatz,stationär,Parents4Future ,Klimaschutz der Münchner Future Bewegungen,ca. 10
 2020-12-24 00:00:00,23.00,23.45,Pretzfelderstr. 5B – Barer Str. 3,sfv,,Kampf gegen Rechts,1
 2020-12-25 00:00:00,13.00,14.00,Karlsplatz,stationär,,"Für einen gerechten Frieden im Nahen Osten, Schluß mit der Besatzung",10-15
 2020-12-26 00:00:00,15.00,16.30,Odeonsplatz,stationär,,Musik braucht eine Stimme,120
 2020-12-27 00:00:00,14.00,16.00,Marienplatz,stationär,,"Frieden, Freiheit, Liebe, Gleichheit",100
 2020-12-28 00:00:00,15.00,17.00,Ruppertstr. 19,stationär,,Friedensversammlung für mehr Bürgernähe und Transparenz seitens der Behörden,8-52
 2020-12-28 00:00:00,17.00,18.00,Laimer Platz,stationär,,Keine Impfpflicht für Polizei,4-20
-2020-12-28 00:00:00,14.00,16.00,Bayerstr. Vor RGU,stationär,,Impfungen und Maskenpflicht,6-33
+2020-12-28 00:00:00,14.00,16.00,Bayerstr. Vor RGU,stationär,,Impfungen und Maskenpflicht ,6-33
 2020-12-28 00:00:00,11.00,13.00,Knorrstr. - Schleißheimer Str.,sfv,Freie Deutsche Jugend München,Sozialismus ist die beste Prophylaxe,20
 2020-12-28 00:00:00,11.00,13.00,Alter Messeplatz – Ligsalzstr. / Tulbeckstr.,sfv,Freie Deutsche Jugend München,Sozialismus ist die beste Prophylaxe,20
 2020-12-29 00:00:00,12.00,16.00,Pasinger Bahnhofplatz,stationär,,Falun Gong,20
@@ -1703,15 +1703,15 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2020-12-30 00:00:00,13.15,16.15,Kistlerhofstraße 60,stationär,,Falun Gong,5-10
 2020-12-30 00:00:00,14.30,18.00,Viktualienmarkt,stationär,,Umweltschutz,30
 2020-12-31 00:00:00,17.30,18.30,Europaplatz,stationär,Amensty International,Menschenrechte in Russland,6
-2020-12-31 00:00:00,16.30,19.00,Ludwigstr.  ,stationär,,Für Wahrheit / Für Klarheit,500
+2020-12-31 00:00:00,16.30,19.00,Ludwigstr.  ,stationär,,Für Wahrheit / Für Klarheit ,500
 2020-12-31 00:00:00,13.15,16.15,Kistlerhofstraße 60,stationär,,Falun Gong,5-10
-2020-12-31 00:00:00,11.00,12.00,Marienplatz,stationär,Parents4Future,Klimaschutz der Münchner Future Bewegungen,ca. 10
+2020-12-31 00:00:00,11.00,12.00,Marienplatz,stationär,Parents4Future ,Klimaschutz der Münchner Future Bewegungen,ca. 10
 04.-05.10.2020,20.00,16.30,Zenettistr./Schlachthof,stationär,,Dauermahnwache für die Tiere,50
 06.09.-07.09-2020,17.00,19.00,Karlsplatz,stationär,,Extinction Rebellion,200
 07.-08.07.2020,10.00,10.00,Steinsdorferstr/Maximilianstr.,stationär,Münchner Flüchtlingsrat e.V.,Landesaufnahmeprogramm Bayern,20
 09.-10.07.2020,20.00,17.00,Zenettistr./Schlachthof,stationär,,Tierschutz,50
 09.09.20 – 10.09.20,06.00,02.00,Arnulfstr. 195,stationär,ver.di,Arbeitskampfmaßnahmen,50-100
-10.01.2020-11.01.2020,13.30,14.00,Wittelsbacherpl.,stationär,,Buschbrände in Australien,50
+10.01.2020-11.01.2020,13.30,14.00,Wittelsbacherpl. ,stationär,,Buschbrände in Australien,50
 14.08.-15.08.2020,17.00,17.00,Einstein-Ecke Trogerstraße,stationär,Tierversuchsgegner München,Mahnwache gegen Tierversuche,10
 15. - 16.02.20,08.30,14.00,Promenadepl. 7-11,stationär,,"Gegen Kapitalismus und seine Profitmaximierung auf Kosten von (Menschen-)Leben! Beendet die Munich Security Conference heute und in Zukunft!! Gegen Antisemitismus, Rassismus, Sexismus oder andere gruppenbezogene Menschenfeindlichkeit(en)",nicht bekannt
 16.12.20 – 27.12.20,08.00,24.00,Theresienwiese,stationär,,Gegen Terrorstaat,3

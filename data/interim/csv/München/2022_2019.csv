@@ -119,7 +119,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-02-18 00:00:00,18.00,20.00,Marienplatz,stationär,,Weg mit Hartz IV,20-30
 2019-02-18 00:00:00,18.00,20.30,Karl-Stützel-Pl. - Karl-Stützel-Pl.,sfv,,Keine Abschiebungen nach Afghanistan – und Nirgendwohin,100-150
 2019-02-19 00:00:00,17.10,20.15,Hauptbahnhof Zwischengeschoss,stationär,,Anonymous for the Voiceless,10-35
-2019-02-20 00:00:00,9.30,1900-01-10 00:00:00,Hofgartenstraße / Karl Scharnagl Ring,stationär,Bund Naturschutz Bayern,Rettet die Bienen und Bauern,25
+2019-02-20 00:00:00,9.30,00:00:00,Hofgartenstraße / Karl Scharnagl Ring,stationär,Bund Naturschutz Bayern,Rettet die Bienen und Bauern,25
 2019-02-20 00:00:00,18.00,0.00,Zenettistraße 6,stationär,,"Tierrechte, Mahnwache",40
 2019-02-20 00:00:00,7.30,8.15,Max-Pröbstlstr. 7,stationär,,Umweltschutz durch Parkplatzsperrung,7
 2019-02-22 00:00:00,13.00,14.00,Sendlinger Str. 8,stationär,,Für einen gerechten Frieden im Nahen Osten,10-15
@@ -209,7 +209,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-03-22 00:00:00,nicht bekannt,nicht bekannt,Goethestraße bis OPL,sfv,,nicht bekannt,nicht bekannt
 2019-03-23 00:00:00,13.00,17.00,Sendlinger Str. 8,stationär,ver.di,Soziales Europa,15
 2019-03-23 00:00:00,13.30,18.00,Marienplatz – Odeonsplatz,sfv,Bündnis für soziales Europa,Europaweiter Protesttag – Demo gegen Uploadfilter,2000
-2019-03-23 00:00:00,13.00,1904-06-17 00:00:00,Max-Joseph-Platz – Lenbachplatz,sfv,,Kohleausstieg,100
+2019-03-23 00:00:00,13.00,00:00:00,Max-Joseph-Platz – Lenbachplatz,sfv,,Kohleausstieg,100
 2019-03-23 00:00:00,13.00,16.30,Max-Joseph-Platz – Lenbachplatz,sfv,Greenpeace e.V.,Kohleausstieg,100
 2019-03-23 00:00:00,11.00,15.00,Schützenstraße 5,stationär,Scientology,Man kann immer etwas tun,10
 2019-03-23 00:00:00,14.45,17.45,Hauptbahnhof Zwischengeschoss,stationär,,Anonymous for the Voiceless,10-35
@@ -231,7 +231,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-03-29 00:00:00,09.00,12.00,Kistlerhostraße 60,stationär,,Falun Gong,6
 2019-03-29 00:00:00,16.00,18.00,Weißenburger Str.,stationär,DKP München,soziales und friedliches Europa,5
 2019-03-29 00:00:00,11.00,15.00,MPL – GSP,sfv,,Junge Menschen gehen für Maßnahmen gegen die Klimakrise auf die Straße,800
-2019-03-29 00:00:00,7.30,8.00,Seeaustraße,stationär,,ÖPNV und Fahrrad statt Elterntaxi,30
+2019-03-29 00:00:00,7.30,8.00,Seeaustraße ,stationär,,ÖPNV und Fahrrad statt Elterntaxi,30
 2019-03-30 00:00:00,14.00,18.00,Marienplatz,stationär,,Anonymous for the Voiceless,80-100
 2019-03-30 00:00:00,20.00,22.00,Marienplatz,stationär,WWF Deutschland,Earth Hour 2019,20
 2019-03-30 00:00:00,17.00,23.00,Fendstr. 1,stationär,,"Anonymous – Dark Chanology, Nachtdemo gegen Scientology",20
@@ -347,7 +347,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-05-01 00:00:00,14.00,17.00,St.-Pauls-Platz,stationär,,Schützen der Kirchen in München,10
 2019-05-01 00:00:00,9.30,12.15,Schwanthalerstraße 64 – Marienplatz,sfv,DGB München,1. Mai – Tag der Arbeit,1500 – 5000
 2019-05-01 00:00:00,12.30,14.30,Schützenstraße 5,stationär,,1. Mai Tag der Arbeit,10
-2019-05-01 00:00:00,10.00,18.00,Rindermarkt,stationär,,1. Mai – Kampftag der Arbeiterinnen und Arbeiter,100
+2019-05-01 00:00:00,10.00,18.00,Rindermarkt,stationär,,1. Mai – Kampftag der Arbeiterinnen und Arbeiter ,100
 2019-05-01 00:00:00,12.15,14.00,Odeonsplatz,stationär,,Gedenkveranstaltung 1. Mai 1919,25
 2019-05-01 00:00:00,09.00,09.30,Müllerstr.-Rindermarkt,sfv,Bellevue di Monaco,Lass mas halt arbeiten!,300
 2019-05-01 00:00:00,14.00,16.00,Max-Joseph-Platz,stationär,,Venezuela,100
@@ -358,7 +358,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-05-03 00:00:00,15.00,20.00,Theresienhöhe – Landsbergerstr. 81,sfv,Green City e.V.,Baumbegrünung,50
 2019-05-03 00:00:00,16.00,18.00,Tegernseer Platz,stationär,DKP München,Räterepublik 1919,6
 2019-05-03 00:00:00,16.50,17.35,Schrenkstr. 8 – Ligsalzstr. 44-46,sfv,Commit München e.V.,Ein gutes Leben für Alle in München,20
-2019-05-03 00:00:00,1904-03-09 00:00:00,17.30,Odeonsplatz,stationär,,100 Jahre Abschiebungshaft,5-10
+2019-05-03 00:00:00,00:00:00,17.30,Odeonsplatz,stationär,,100 Jahre Abschiebungshaft,5-10
 2019-05-03 00:00:00,09.00,14.00,Kistlerhofstraße 60,stationär,,Beendigung der Verfolgung und des Organraubs an Falungong,6
 2019-05-03 00:00:00,07:30:00,08:15:00,Ichostr,stationär,GS + MS Ichostr 2,Tempo 30,150
 2019-05-03 00:00:00,11.00,14.00,Geschwister-Scholl-Platz -Königsplatz,sfv,,Junge Menschen gehen für Maßnahmen gegen die Klimakrise auf die Straße,500
@@ -437,7 +437,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-05-15 00:00:00,17.00,19.00,Marienplatz,stationär,,Freiheit für Öcalan,20
 2019-05-15 00:00:00,17.00,19.00,Marienplatz,stationär,,Freiheit für Öcalan,20
 2019-05-16 00:00:00,10.30,15.00,Sankt Anna Platz,stationär,Europäische Union München e.V.,Aufruf zur Europawahl,2
-2019-05-16 00:00:00,16.00,19.00,Rathaus Pasing,stationär,,EU Wahlen,2-10
+2019-05-16 00:00:00,16.00,19.00,Rathaus Pasing,stationär,,EU Wahlen ,2-10
 2019-05-16 00:00:00,17.00,19.00,Marienplatz,stationär,TEAM MÜNCHEN,Tango for Equality,60
 2019-05-16 00:00:00,12.30,15.30,Marienplatz,stationär,,Ukraine,30
 2019-05-16 00:00:00,14.00,22.00,Ludwigsbrücke,stationär,Isarlust e.V.,"#wehretdenanfängen – Demonstration für Demokratie, Frieden, Freiheit und Menschenrechte Europa",5000
@@ -530,13 +530,13 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-06-01 00:00:00,13.30,16.30,Möhlstr. - Reiterdenkmal,sfv,Leben und Leben Lassen e.V.,Iran,100-200
 2019-06-01 00:00:00,14.45,17.45,Marienplatz,stationär,,Anonymous for the Voiceless,10-40
 2019-06-01 00:00:00,15.00,18.00,Krauss-Maffei-Str. Ggü. Hausnr. 11,stationär,,Anti War – gegen Krieg,20
-2019-06-01 00:00:00,16.00,18.00,Karl-Stützel-Pl.,stationär,,China,15
+2019-06-01 00:00:00,16.00,18.00,Karl-Stützel-Pl. ,stationär,,China,15
 2019-06-01 00:00:00,10.00,14.00,Effnerplatz,stationär,,Rumänische Politik,2-20
 2019-06-01 00:00:00,11.00,15.00,Dachauer Str. 665,stationär,,Anti War – gegen Krieg,20
 2019-06-02 00:00:00,15.00,17.30,OPL – Am Bavariapark,sfv,,Fahrradsicherheit im Straßenverkehr für Kinder,150
 2019-06-02 00:00:00,14.00,15.00,Max-Joseph-Platz,stationär,Pulse of Europe e.V.,Pulse of Europe,300-500
-2019-06-02 00:00:00,08.00,09.00,Karl-Stützel-Pl.,stationär,,China,10
-2019-06-02 00:00:00,13.00,16.00,Karl-Stützel-Pl.,stationär,,China,10
+2019-06-02 00:00:00,08.00,09.00,Karl-Stützel-Pl. ,stationär,,China,10
+2019-06-02 00:00:00,13.00,16.00,Karl-Stützel-Pl. ,stationär,,China,10
 2019-06-02 00:00:00,10.00,14.00,Effnerplatz,stationär,,Rumänische Politik,2-20
 2019-06-03 00:00:00,08.30,10.30,Odeonsplatz (Reiterdenkmal),stationär,,Mehr Platz für`s Rad am Weltfahrradtag,15
 2019-06-03 00:00:00,09.00,21.00,Mauerkircherstr. 59,stationär,,Iran,5
@@ -601,7 +601,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-06-21 00:00:00,13.00,14.00,Mies-van-der-Rohe-Str. 1,stationär,Extinction Rebellion München,Klimaschutz,5-40
 2019-06-21 00:00:00,11.00,13.00,Europaplatz,stationär,Georgischer Verein in Deutschland e.V.,Friedliche Demonstration gegen russische Okkupation in Georgien,60
 2019-06-22 00:00:00,09.50,19.30,Thomas-Wimmer-Ring 1a,stationär,Falun Gong,Falun Gong,10
-2019-06-22 00:00:00,12.00,16.00,Sendlinger Str. 8,stationär,Verein „Sag Nein zu Drogen“,Sag Nein zu Drogen,15
+2019-06-22 00:00:00,12.00,16.00,Sendlinger Str. 8,stationär,Verein „Sag Nein zu Drogen“ ,Sag Nein zu Drogen,15
 2019-06-22 00:00:00,14.45,17.45,Marienplatz,stationär,,Anonymous for the Voiceless,10-40
 2019-06-22 00:00:00,17:30:00,19:00:00,gegenüber Königinstraße 5,stationär,,Recht auf Abtreibung in den USA,12-20
 2019-06-22 00:00:00,09:30:00,23.00,Marienplatz,stationär,CATS Nature,"Veganismus, Fleisch, Umwelt",200
@@ -702,7 +702,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-07-20 00:00:00,10.30,16.00,Hofmannstraße 62-64,stationär,,Falun Gong,35
 2019-07-20 00:00:00,14.00,16.00,Sendlinger Str. 8,stationär,,Katalonien,8
 2019-07-20 00:00:00,11.00,16.00,Sendlinger Str. 8,stationär,Pax Europa,Erinnerung an 20. Juli 1944,10-20
-2019-07-20 00:00:00,15.00,22.00,MPL – MPL,sfv,,Slutwalk München,700
+2019-07-20 00:00:00,15.00,22.00,MPL – MPL,sfv,,Slutwalk München ,700
 2019-07-20 00:00:00,11.00,14.00,Karl-Stützel-Pl. - Odeonspl.,sfv,,Schulgeldfreiheit für Heilmittelberufe,500
 2019-07-20 00:00:00,11.00,14.00,Karl-Stützel-Pl. - Odeonspl.,sfv,,Schulgeldfreiheit für Heilmittelberufe,500
 2019-07-20 00:00:00,18.00,22.00,GSP – Ungererstr. 56,sfv,,Völkische Verbindungen zerschlagen! Demo gegen das Stiftungsfest der Burschenschaft Danubia,100
@@ -727,7 +727,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-07-26 00:00:00,13.00,17.00,Geschwister-Scholl-Platz,stationär,UNICEF-JuniorTeam München,Ein Schritt für Bildung,15
 2019-07-26 00:00:00,15:50:00,19:10:00,Sendlinger Str. 8,stationär,,Plastik im Meer,8
 2019-07-26 00:00:00,11.00,11.30,noch offen,sfv,,,
-2019-07-27 00:00:00,11.00,1900-01-17 00:00:00,Theresienwiese – Theresienwiese,sfv,,Klimaschutz,40000
+2019-07-27 00:00:00,11.00,00:00:00,Theresienwiese – Theresienwiese,sfv,,Klimaschutz,40000
 2019-07-27 00:00:00,10:00:00,22:00:00,Max-MPL,sfv,München Ablaze GmbH,Förderung christlicher Werte,1000-2000
 2019-07-28 00:00:00,12.00,13.00,Leopoldstr. 36 – Leopoldstr. 18,sfv,Grundeinkommen München e.V.,Das bedingungslose Grundeinkommen,10
 2019-07-28 00:00:00,12:00:00,17.00,Max-Joseph-Platz,stationär,,Uiguren,10-100
@@ -747,7 +747,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-08-03 00:00:00,15:00:00,16:00:00,Am Bavariapark – Ligsalzstr.,sfv,,Für eine offene inklusive Stadt,50
 2019-08-03 00:00:00,14.00,16.00,Pasinger Bahnhofspl. 7-9,stationär,(AfD),Mahnwache der Opfer auf Bahnhöfen,80-100
 2019-08-03 00:00:00,14.00,16.00,Odeonsplatz,stationär,,Ezidischer Völkermord,100-150
-2019-08-03 00:00:00,1900-01-08 06:15:00,21:15:00,SendlingerStr. 8,stationär,,Anonymous for the Voiceless,10-40
+2019-08-03 00:00:00,06:15:00,21:15:00,SendlingerStr. 8,stationär,,Anonymous for the Voiceless,10-40
 2019-08-04 00:00:00,14.00,18.00,Karl-Stützel-Pl. - Odeonspl.,sfv,,Senegal,300
 2019-08-04 00:00:00,12:00:00,17:00:00,Marienplatz,stationär,,Uiguren,10-100
 2019-08-05 00:00:00,18.00,20.00,Marienplatz,stationär,,Weg mit Hartz IV,20-30
@@ -760,7 +760,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-08-08 00:00:00,14.00,15.30,Marienplatz,stationär,,Informieren über die Veröffentlichung des IPCC Berichts und hinweisenauf die jetzige Klimakrise,30
 2019-08-08 00:00:00,15.30,20.00,Tal 13,stationär,Falun Gong,Falun Gong,6
 2019-08-09 00:00:00,13.00,14.00,Odeonsplatz,stationär,Frauen in schwarz,Für einen gerechten Frieden im Nahen Osten,10-15
-2019-08-09 00:00:00,16.00,20.00,Amalienstraße / Ecke Schellingstr.,stationär,Grüne,Umbau Parkplätze,20
+2019-08-09 00:00:00,16.00,20.00,Amalienstraße / Ecke Schellingstr.,stationär,Grüne ,Umbau Parkplätze,20
 2019-08-09 00:00:00,11.00,15.45,Marienplatz – Marienplatz,sfv,,Menschen demonstrieren gegen Klimakrise,700
 2019-08-09 00:00:00,11.00,15.45,Marienplatz – Marienplatz,sfv,,Menschen demonstrieren gegen Klimakrise,700
 2019-08-10 00:00:00,19.00,22.00,Marienplatz,stationär,Animal Rights Watch e.V.,Tierschutz,50
@@ -922,7 +922,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-09-28 00:00:00,14.30,18.00,Sendlinger Str. 8,stationär,,Anonymous for the Voiceless,10-30
 2019-09-28 00:00:00,14.00,17.00,Max-Joseph-Platz,stationär,Aktionsbündnis „Weg mit §218“,Deutschlandweiter Aktionstag für sexuelle Selbstbestimmung,50-100
 2019-09-28 00:00:00,13.00,18.00,"Prinzregentenstr., Fläche westlich der Eisbachwelle",stationär,IGSM e.V.,Mehr Wellen für München,20-100
-2019-09-28 00:00:00,08:15:00,09:30:00,Frauenplatz,stationär,,Diakonat für Frauen,25
+2019-09-28 00:00:00,08:15:00,09:30:00,Frauenplatz ,stationär,,Diakonat für Frauen,25
 2019-09-28 00:00:00,13:00:00,19:30:00,Landsbergerstr. 486,stationär,,Politik in Deutschland,2-5
 2019-09-28 00:00:00,15.00,17.00,"Augustenstr. 53, Gabelberger Str. 57, Türkenstr. 36, Amalienstr. 57, Türkenstr. 47",stationär,OG Extinction Rebellion,XR Swarming,20-30
 2019-09-29 00:00:00,16:00:00,17:00:00,Max-Joseph-Platz,stationär,,Demokratie für Ägypten,100
@@ -954,7 +954,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-10-10 00:00:00,13.15,14.00,Regerpl. - Corneliusstr.,sfv,Schülermitverantwortung des MTG,Solidarität wg. des Anschlags in Halle „Wir sind alle anders – wir sind alle gleich viel wert“,k.A.
 2019-10-10 00:00:00,17:00:00,20:00:00,Weißenburger Platz   ,stationär,Extinction Rebellion,Solidarität zur Berlin Blockade,20-50
 2019-10-10 00:00:00,10.30,19.00,Geschwister-Scholl-Platz,stationär,,Falun Gong,4-8
-2019-10-10 00:00:00,18.00,20:00:00,Karlsplatz – von-der-Tann-Str.,sfv,,Stoppt die türkische Invasion in Nordsyrien,100
+2019-10-10 00:00:00,18.00,20:00:00,Karlsplatz – von-der-Tann-Str. ,sfv,,Stoppt die türkische Invasion in Nordsyrien,100
 2019-10-11 00:00:00,18.00,19.30,Obere Grasstr. 1,stationär,,illegaler Abriss,20-30
 2019-10-11 00:00:00,14.00,18.00,Marienplatz,stationär,IMMA e.V.,Rechte von Frauen und Mädchen weltweit,50
 2019-10-11 00:00:00,17.30,19.15,Oberanger – Klosterhofstraße,stationär,Evang.-Luth. Kirche in Bayern,Ein Zeichen gegen Antisemitismus,2000
@@ -998,7 +998,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-10-18 00:00:00,09.15,12.15,Kistlerhofstr. 60,stationär,Falun Gong,Falun Gong,6
 2019-10-18 00:00:00,14.00,16.00,Max-II-Denkmal,stationär,AABF Landesvertretung Bayern,Syrien,100
 2019-10-19 00:00:00,14.00,16:15:00,MAX-MAX,sfv,Hillsong Church Germany e.V.,Schweigemarsch,150-170
-2019-10-19 00:00:00,1900-01-07 00:00:00,11.00,noch offen,stationär,Greenpeace e.V.,Gegen CSU Parteitag,ca. 10
+2019-10-19 00:00:00,00:00:00,11.00,noch offen,stationär,Greenpeace e.V.,Gegen CSU Parteitag,ca. 10
 2019-10-19 00:00:00,13.00,16.00,Sendlinger Str. 8,stationär,,Uiguren,10-50
 2019-10-19 00:00:00,13.30,17.00,Karlsplatz,stationär,Kreisverband NPD München,Schluss mit Hass und Hetze gegen Rechts!,2-20
 2019-10-20 00:00:00,19.00,19.45,Dultstr. - Müllerstr.,sfv,Forum Homosexualität München e.V.,Gedenken an die Verfolgung der Homosexuellen in der NS-Zeit,60
@@ -1041,7 +1041,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-10-30 00:00:00,17.00,19.00,Karlsplatz,stationär,,Stoppt die türkische Invasion in Nordsyrien,50
 2019-10-30 00:00:00,15.00,21.00,Max-Joseph-Platz,stationär,Pax Europa,politischer Islam,10-20
 2019-10-31 00:00:00,17.30,18.30,Europaplatz,stationär,Amnesty International,Menschenrechte in Russland,6
-2019-10-31 00:00:00,11.40,14.00,Geschwister-Scholl-Platz,stationär,,Students for Future,30
+2019-10-31 00:00:00,11.40,14.00,Geschwister-Scholl-Platz ,stationär,,Students for Future,30
 2019-11-01 00:00:00,12.00,16.00,Königsplatz – Karlsplatz,sfv,,Klimaschutz,500
 2019-11-01 00:00:00,18.00,21.00,Marienplatz,stationär,,Chile,40
 2019-11-02 00:00:00,,,Marienplatz,stationär,Community Activism To Save Nature e.V.,"Veganismus, Fleisch, Umwelt",100
@@ -1124,8 +1124,8 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-11-21 00:00:00,18.00,20.30,Weyprechtstr. 75 – Troppauerstr. Ecke Knorrstr.,sfv,Gemeinschaft Sant Egidio,Gedenken an die 1. Deportation der Münchner Juden am 20.11.1941,150
 2019-11-21 00:00:00,19.30,20.30,Baumstraße 21,stationär,,Klimaschutz,50
 2019-11-21 00:00:00,17.30,19.30,Max-Joseph-Platz,stationär,Aluna Minga e.V.,Kolumbien,60
-2019-11-21 00:00:00,18.00,20.00,Geschwister-Scholl-Platz,sfv,Parents for Future,Klimaschutz,250
-2019-11-21 00:00:00,10.30,11.00,Hofgartenstr. 8,stationär,Bund Naturschutz,5 Jahre 10H Regelung,20
+2019-11-21 00:00:00,18.00,20.00,Geschwister-Scholl-Platz ,sfv,Parents for Future,Klimaschutz,250
+2019-11-21 00:00:00,10.30,11.00,Hofgartenstr. 8,stationär,Bund Naturschutz ,5 Jahre 10H Regelung,20
 2019-11-22 00:00:00,12.00,14.00,Geschwister-Scholl-Platz – Dachauer strsf,sfv,,Klimaschatz,500
 2019-11-22 00:00:00,13.00,14.00,Odeonsplatz,stationär,,Frauen in schwarz,10-15
 2019-11-22 00:00:00,18.00,19.00,Fürstenrieder Straße /Aindorferstraße,stationär,Pfarramt Laim,Mahnwache Verkehrsunfall,30-40
@@ -1135,17 +1135,17 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-11-23 00:00:00,13.00,17.00,Odeonsplatz,stationär,,Grausamen Umerziehungslager in der uigurischen Region,10
 2019-11-23 00:00:00,14.30,16.30,Schützenstr. 5,stationär,,Iran,15
 2019-11-23 00:00:00,12.00,16.00,Riem -Einsteinring,sfv,FFF?,Klimaschutz,500
-2019-11-23 00:00:00,9.00,10.30,Schwanthaler Str. 64,stationär,,"Große Koalition, Klimaschutz, SPD",15
+2019-11-23 00:00:00,9.00,10.30,Schwanthaler Str. 64 ,stationär,,"Große Koalition, Klimaschutz, SPD",15
 2019-11-23 00:00:00,18.00,18.30,Willy-Brandt-Platz 1,sfv,,gegen EIKE i.S. Klimaschut7z,50
 2019-11-24 00:00:00,14.00,20.00,Max-Joseph-Platz,stationär,,Libanon,150-200
 2019-11-24 00:00:00,15:00:00,16:00:00,Königsplatz,stationär,,Prager Demonstration,50-60
 2019-11-25 00:00:00,16.30,19.00,Münchner Freiheit – Max-Joseph-Platz,sfv,Aktionsgruppe Indianer & Menschenrechte,Internationaler Tag gegen Gewalt an Frauen,43657
 2019-11-25 00:00:00,18.00,20.00,Max-Joseph-Platz,stationär,,Weg mit Hartz IV,20-30
 2019-11-25 00:00:00,18.00,20.30,Pfanzeltplatz,stationär,SPD,München ist bunt!,50
-2019-11-25 00:00:00,10.00,10.30,Max-Joseph-Platz,stationär,Bund Naturschutz,save the bees,20
+2019-11-25 00:00:00,10.00,10.30,Max-Joseph-Platz,stationär,Bund Naturschutz ,save the bees,20
 2019-11-25 00:00:00,10.30,14.30,Türkenstr. Ggü. Hausnr. 103,stationär,,Ihr könnt uns immer noch kreuzweise,20
 2019-11-26 00:00:00,17.00,20.30,Hauptbahnhof Zwischengeschoss,stationär,,Anonymous for the Voiceless,10-30
-2019-11-26 00:00:00,11.00,15.00,Geschwister-Scholl-Platz,stationär,,Vollversammlung fürs Klima,30
+2019-11-26 00:00:00,11.00,15.00,Geschwister-Scholl-Platz ,stationär,,Vollversammlung fürs Klima,30
 2019-11-27 00:00:00,08.30,11.00,Nymphenburgerstraße 16,stationär,,Gegen Repression Geflüchteter,10-15
 2019-11-27 00:00:00,18.30,20.30,Schützenstr. 5,stationär,,Iran,15
 2019-11-27 00:00:00,18.00,19.30,Odeonsplatz,stationär,Aluna Minga e.V.,Kolumbien,60
@@ -1176,10 +1176,10 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-12-04 00:00:00,16.00,21.00,U-Bahn Theresienwiese/Tollwood,stationär,,"Umwelt, Polarkappenschnelzen, Klimatote",
 2019-12-05 00:00:00,12:30:00,15:00:00,Karl-Stützel-Platz – Ruppertstraße 19,sfv,Indigenous People of Biafra,Biafra,150-200
 2019-12-05 00:00:00,18.00,20.00,Kistlerhofstr. 60,stationär,Amnesty International,Mahnwache Amnesty,10
-2019-12-05 00:00:00,18.00,19.30,Gärtnerpltz – Rosental,sfv,Parents for Future,Umweltschutz/Klimaschutz,50
+2019-12-05 00:00:00,18.00,19.30,Gärtnerpltz – Rosental ,sfv,Parents for Future,Umweltschutz/Klimaschutz,50
 2019-12-06 00:00:00,12.00,16.00,noch offen,sfV,,Klimaschutz,5000
 2019-12-06 00:00:00,12.00,20.00,offen,sfv,,Klimaschutz,5000
-2019-12-06 00:00:00,11.30,13.00,Geschwister-Scholl-Platz,stationär,Extinction Rebellion,Flyern bzgl. des Klimawandels,
+2019-12-06 00:00:00,11.30,13.00,Geschwister-Scholl-Platz ,stationär,Extinction Rebellion,Flyern bzgl. des Klimawandels,
 2019-12-06 00:00:00,09.30,12.00,Kistlerhofstr. 60,stationär,Falun Gong,Falun Gong,6
 2019-12-06 00:00:00,15.00,17.00,Arnulfstraße 42,stationär,,ARD Pressemitteilung über Attatürk,30
 2019-12-07 00:00:00,11:00:00,13:00:00,Max-Joseph-Platz,stationär,Umweltgewerkschaft,Internationaler Klimaaktionstag,200
@@ -1188,7 +1188,7 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-12-07 00:00:00,12.00,14.00,Max-Joseph-Platz -Maximiliansplatz,sfv,,Umweltaktionstag,250-200
 2019-12-07 00:00:00,11.00,17.00,Prinz-Carl-Palais,stationär,Ashana Kultur Verein,Iran,30-60
 2019-12-07 00:00:00,13.45,16.30,Karl-Stützel-Platz – Karls-Stütze-Pl,sfv,,Folter und Menschenrechte,50
-2019-12-07 00:00:00,13.00,14.30,Geschwister-Scholl-Platz,stationär,Frau-kunst-politik,Chile,50
+2019-12-07 00:00:00,13.00,14.30,Geschwister-Scholl-Platz ,stationär,Frau-kunst-politik,Chile,50
 2019-12-07 00:00:00,16:30:00,17:30:00,Max-Joseph-Platz,stationär,,Freiheit für Aserbaidschanisches Volk, 10-20
 2019-12-07 00:00:00,14.00,16.30,Schützenstraße – Schützenstraße,sfv,,Nordsyrien,100
 2019-12-07 00:00:00,13:00:00,14:00:00,Max-Joseph-Platz,stationär,,WalkIn for future,20-30
@@ -1250,22 +1250,22 @@ Datum Versammlung,Versammlungsbeginn,Versammlungsende,Örtlichkeit (ink. AKG + S
 2019-12-20 00:00:00,12.00,14.00,Königsplatz – Köigsplatz,sfv,,"Fridays for future, Regenwaldbrände",300
 2019-12-21 00:00:00,12.00,14.00,Max-Joseph-Platz,stationär,,Die Kirche hat die Tiere vergessen,ca. 50
 2019-12-21 00:00:00,13.00,16.00,Weißenburgerstr. 5,stationär,,Die -In: Klimakrise,30
-2019-12-21 00:00:00,10.00,20.00,Geschwister-Scholl-Platz,stationär,Freunde in Not e.V.,Iran,4-6
+2019-12-21 00:00:00,10.00,20.00,Geschwister-Scholl-Platz ,stationär,Freunde in Not e.V.,Iran,4-6
 2019-12-21 00:00:00,14.45,17.45,Hauptbahnhof / Zwischengeschoss,stationär,Anonymous für the voiceless,Anonymous for the Voiceless,10-35
 2019-12-21 00:00:00,12.00,19.00,Sendlinger Str. 19,stationär,,Zeichensetzung gegen Erziehungslager in China,ca. 30
 2019-12-21 00:00:00,10.00,13.00,Odeonsplatz,stationär,,Gegen faschistische und rassistische Reden – Berate des afgh. Präsidenten,200-400
 2019-12-21 00:00:00,11:00:00,11:45:00,Königsplatz am Propyläen,stationär,,discriminatory Citizenship Amendment,20-30
-2019-12-21 00:00:00,12.00,14.00,Geschwister-Scholl-Platz,stationär,,Indien,30
+2019-12-21 00:00:00,12.00,14.00,Geschwister-Scholl-Platz ,stationär,,Indien,30
 2019-12-21 00:00:00,12.00,14.00,Maximilianstr. 25,stationär,,Echtpelzverkauf bei Escada,4
 2019-12-22 00:00:00,10.00,20.00,Max-Joseph-Platz,stationär,Freunde in Not e.V.,Iran,4-6
-2019-12-22 00:00:00,10:30:00,13:45:00,Frauenplatz – Odeonsplatz,sfv,Helfer Deutschland e.V.,Lebensschutz ungeborener Kinder,25
+2019-12-22 00:00:00,10:30:00,13:45:00,Frauenplatz – Odeonsplatz,sfv,Helfer Deutschland e.V.,Lebensschutz ungeborener Kinder ,25
 2019-12-23 00:00:00,17.15,20.15,Hauptbahnhof / Zwischengeschoss,stationär,Anonymous für the voiceless,Anonymous for the Voiceless,10-35
 2019-12-23 00:00:00,16.00,17.30,Odeonsplatz,stationär,,Mahnwache zu Opfern staatlicher Gewalt,20
 2019-12-24 00:00:00,10.00,16.00,Marienplatz (Altes Rathaus),stationär,,Gemeinsamkeit,2
 2019-12-25 00:00:00,16.00,18.30,Marsstraße 43 noch ändern,stationär,Lacey Fund e.V.,Für den Erhalt des gut geführten Tircircus,6
 2019-12-25 00:00:00,17:30:00,18:45:00,Marsstraße 43,stationär,,gegen den Einsatz von Tieren bei Zirkus Krone,15
 2019-12-25 00:00:00,10.30,14.30,Türkenstr. Ggü. Hausnr. 103,stationär,,Ihr könnt uns immer noch kreuzweise,20
-2019-12-26 00:00:00,offen,offen,Gärtnerpltz – Rosental,sfv,Parents for Future,Umweltschutz / Klimaschutz,offen
+2019-12-26 00:00:00,offen,offen,Gärtnerpltz – Rosental ,sfv,Parents for Future,Umweltschutz / Klimaschutz,offen
 2019-12-27 00:00:00,13.00,14.00,Odeonsplatz,stationär,,Frauen in schwarz,10-15
 2019-12-27 00:00:00,12:00:00,16:00:00,Odeonsplatz – Gärtnerplatz,sfv,,Klimaschutz,600
 2019-12-28 00:00:00,14.45,17.45,Eiszauber,stationär,Anonymous für the voiceless,Anonymous for the Voiceless,10-35
