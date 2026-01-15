@@ -1,0 +1,25 @@
+[Unit]
+Description=FragDenStaat Request Monitor
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=david
+Group=david
+WorkingDirectory=/home/david/german-protest-registrations
+ExecStart=/home/david/german-protest-registrations/scripts/monitor.sh
+
+# Logging
+StandardOutput=append:/home/david/german-protest-registrations/monitoring.log
+StandardError=append:/home/david/german-protest-registrations/monitoring.log
+
+# Security
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/david/german-protest-registrations
+
+[Install]
+WantedBy=multi-user.target

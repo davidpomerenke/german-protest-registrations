@@ -1,0 +1,969 @@
+{
+  "version": "1.0",
+  "description": "Categorization schema for German protest registration data (2012-2022). This schema includes recurring protest groups/organizers and thematic categories with associated keywords for automated classification using Azure OpenAI GPT-4-mini.",
+  "date_created": "2026-01-15",
+  "data_source": "german_protest_registrations_16_cities_unfiltered.csv (57,010 protests across 16 German cities)",
+
+  "groups": [
+    {
+      "name": "Fridays for Future",
+      "category": "Climate Movement",
+      "variations": [
+        "Fridays for Future",
+        "FridaysForFuture",
+        "Fridays4Future",
+        "FFF",
+        "F4F",
+        "Fridays For Future"
+      ],
+      "keywords": ["fridays", "fff", "f4f", "klimastreik"],
+      "description": "Youth climate strike movement"
+    },
+    {
+      "name": "Extinction Rebellion",
+      "category": "Climate Movement",
+      "variations": [
+        "Extinction Rebellion",
+        "XR"
+      ],
+      "keywords": ["extinction rebellion", "xr"],
+      "description": "Climate activism group using civil disobedience"
+    },
+    {
+      "name": "Greenpeace",
+      "category": "Environmental NGO",
+      "variations": [
+        "Greenpeace",
+        "Greenpeace e.V.",
+        "Greenpeace München",
+        "Greenpeace Deutschland"
+      ],
+      "keywords": ["greenpeace"],
+      "description": "International environmental organization"
+    },
+    {
+      "name": "Parents for Future",
+      "category": "Climate Movement",
+      "variations": [
+        "Parents for Future",
+        "Parents4Future",
+        "ParentsForFuture",
+        "Parents For Future München"
+      ],
+      "keywords": ["parents for future", "parents4future"],
+      "description": "Parent support group for Fridays for Future"
+    },
+    {
+      "name": "Ver.di",
+      "category": "Labor Union",
+      "variations": [
+        "ver.di",
+        "Verdi",
+        "ver.di Thüringen",
+        "Ver.di Thüringen"
+      ],
+      "keywords": ["ver.di", "verdi"],
+      "description": "United Services Union (Vereinte Dienstleistungsgewerkschaft)"
+    },
+    {
+      "name": "IG Metall",
+      "category": "Labor Union",
+      "variations": [
+        "IG Metall",
+        "IGM",
+        "IG Metall München",
+        "IG Metall Erfurt"
+      ],
+      "keywords": ["ig metall", "igm"],
+      "description": "Metalworkers' Union"
+    },
+    {
+      "name": "DGB",
+      "category": "Labor Union",
+      "variations": [
+        "DGB",
+        "DGB Thüringen",
+        "DGB München",
+        "DGB Region Thüringen"
+      ],
+      "keywords": ["dgb"],
+      "description": "German Trade Union Confederation (Deutscher Gewerkschaftsbund)"
+    },
+    {
+      "name": "Querdenker",
+      "category": "COVID Skepticism",
+      "variations": [
+        "Querdenken",
+        "Querdenker",
+        "München steht auf",
+        "München-steht-auf",
+        "Bündnis um München steht auf"
+      ],
+      "keywords": ["querdenk", "steht auf"],
+      "description": "COVID-19 measures skepticism movement"
+    },
+    {
+      "name": "PEGIDA",
+      "category": "Far-Right",
+      "variations": [
+        "PEGIDA",
+        "Pegida",
+        "Pegida München e.V.",
+        "Pegida Förderverein e.V."
+      ],
+      "keywords": ["pegida"],
+      "description": "Patriotic Europeans Against the Islamisation of the Occident"
+    },
+    {
+      "name": "AfD",
+      "category": "Political Party (Right-Wing)",
+      "variations": [
+        "AfD",
+        "AFD",
+        "AfD Thüringen",
+        "AfD-Thüringen",
+        "AfD "
+      ],
+      "keywords": ["afd"],
+      "description": "Alternative for Germany (Alternative für Deutschland)"
+    },
+    {
+      "name": "Der III. Weg",
+      "category": "Far-Right",
+      "variations": [
+        "Der III. Weg",
+        "Der III. Weg ",
+        "Der 3. Weg"
+      ],
+      "keywords": ["iii. weg", "dritte weg"],
+      "description": "Neo-Nazi political party"
+    },
+    {
+      "name": "Die Linke",
+      "category": "Political Party (Left-Wing)",
+      "variations": [
+        "Die Linke",
+        "DIE LINKE",
+        "DIE LINKE Erfurt",
+        "Die LINKE"
+      ],
+      "keywords": ["die linke"],
+      "description": "The Left Party"
+    },
+    {
+      "name": "SPD",
+      "category": "Political Party (Social Democratic)",
+      "variations": [
+        "SPD"
+      ],
+      "keywords": ["spd"],
+      "description": "Social Democratic Party of Germany"
+    },
+    {
+      "name": "CDU",
+      "category": "Political Party (Conservative)",
+      "variations": [
+        "CDU",
+        "CDU Erfurt"
+      ],
+      "keywords": ["cdu"],
+      "description": "Christian Democratic Union"
+    },
+    {
+      "name": "Bündnis 90/Die Grünen",
+      "category": "Political Party (Green)",
+      "variations": [
+        "Bündnis 90 / Die Grünen",
+        "Die Grünen",
+        "Grüne Jugend",
+        "Grüne Jugend München",
+        "Grüne Jugend Erfurt",
+        "Grüne Jugend Thüringen"
+      ],
+      "keywords": ["grüne", "bündnis 90"],
+      "description": "Green Party and youth organization"
+    },
+    {
+      "name": "MLPD",
+      "category": "Political Party (Far-Left)",
+      "variations": [
+        "MLPD"
+      ],
+      "keywords": ["mlpd"],
+      "description": "Marxist-Leninist Party of Germany"
+    },
+    {
+      "name": "DKP",
+      "category": "Political Party (Communist)",
+      "variations": [
+        "DKP",
+        "DKP München",
+        "Deutsche Kommunistische Partei"
+      ],
+      "keywords": ["dkp"],
+      "description": "German Communist Party (Deutsche Kommunistische Partei)"
+    },
+    {
+      "name": "DIE PARTEI",
+      "category": "Political Party (Satire)",
+      "variations": [
+        "DIE PARTEI"
+      ],
+      "keywords": ["die partei"],
+      "description": "Satirical political party"
+    },
+    {
+      "name": "Seebrücke",
+      "category": "Refugee/Migration Rights",
+      "variations": [
+        "Seebrücke",
+        "Seebruecke",
+        "Seebrücke Erfurt"
+      ],
+      "keywords": ["seebrücke", "seebruecke"],
+      "description": "Sea rescue and refugee rights movement"
+    },
+    {
+      "name": "Amnesty International",
+      "category": "Human Rights NGO",
+      "variations": [
+        "Amnesty International",
+        "Amnesty International Jugendgruppe München"
+      ],
+      "keywords": ["amnesty"],
+      "description": "International human rights organization"
+    },
+    {
+      "name": "Anonymous for the Voiceless",
+      "category": "Animal Rights",
+      "variations": [
+        "Anonymous for the Voiceless",
+        "Anonymous for the voiceles",
+        "Anonymous für the voiceless",
+        "Anonymous For The Voiceless"
+      ],
+      "keywords": ["anonymous", "voiceless"],
+      "description": "Vegan animal rights activism"
+    },
+    {
+      "name": "PETA",
+      "category": "Animal Rights",
+      "variations": [
+        "PETA",
+        "PETA Deutschland e.V."
+      ],
+      "keywords": ["peta"],
+      "description": "People for the Ethical Treatment of Animals"
+    },
+    {
+      "name": "Albert Schweitzer Stiftung",
+      "category": "Animal Welfare",
+      "variations": [
+        "Albert Schweitzer Stiftung für unsere Mitwelt",
+        "Albert Schweitzer Stiftung"
+      ],
+      "keywords": ["albert schweitzer stiftung"],
+      "description": "Animal welfare foundation"
+    },
+    {
+      "name": "Critical Mass",
+      "category": "Bicycle Advocacy",
+      "variations": [
+        "Critical Mass",
+        "Critical Mass Erfurt"
+      ],
+      "keywords": ["critical mass"],
+      "description": "Bicycle advocacy movement"
+    },
+    {
+      "name": "ADFC",
+      "category": "Bicycle Advocacy",
+      "variations": [
+        "ADFC",
+        "ADFC München e.V.",
+        "ADFC Wiesbaden"
+      ],
+      "keywords": ["adfc"],
+      "description": "German Bicycle Club (Allgemeiner Deutscher Fahrrad-Club)"
+    },
+    {
+      "name": "Falun Gong",
+      "category": "Religious/Spiritual Movement",
+      "variations": [
+        "Falun Gong",
+        "Falun Dafa",
+        "Falun Gong Gruppe München",
+        "Deutscher Falun Dafa Verein e. V.",
+        "Deutscher Falun Dafa Verein"
+      ],
+      "keywords": ["falun gong", "falun dafa"],
+      "description": "Chinese spiritual practice protesting persecution in China"
+    },
+    {
+      "name": "Pulse of Europe",
+      "category": "Pro-EU Movement",
+      "variations": [
+        "Pulse of Europe",
+        "Pulse of Europe e.V.",
+        "Pulse of Europe Erfurt"
+      ],
+      "keywords": ["pulse of europe"],
+      "description": "Pro-European Union grassroots movement"
+    },
+    {
+      "name": "Frauen in Schwarz",
+      "category": "Peace Movement",
+      "variations": [
+        "Frauen in Schwarz",
+        "Frauen in schwarz"
+      ],
+      "keywords": ["frauen in schwarz"],
+      "description": "Women in Black peace movement"
+    },
+    {
+      "name": "Scientology",
+      "category": "Religious Organization",
+      "variations": [
+        "Scientology",
+        "Celebrity Centre Scientology Kirche München"
+      ],
+      "keywords": ["scientology"],
+      "description": "Church of Scientology"
+    },
+    {
+      "name": "Antifa",
+      "category": "Anti-Fascist",
+      "variations": [
+        "Antifa",
+        "Antifaschistische Aktion"
+      ],
+      "keywords": ["antifa"],
+      "description": "Anti-fascist movement"
+    },
+    {
+      "name": "One Billion Rising",
+      "category": "Feminist Movement",
+      "variations": [
+        "One Billion Rising",
+        "One Billion Rising München e.V."
+      ],
+      "keywords": ["one billion rising"],
+      "description": "Global feminist movement against violence against women"
+    },
+    {
+      "name": "Maria 2.0",
+      "category": "Religious Reform",
+      "variations": [
+        "Maria 2.0"
+      ],
+      "keywords": ["maria 2.0"],
+      "description": "Catholic women's reform movement"
+    }
+  ],
+
+  "topics": [
+    {
+      "name": "Climate Protection",
+      "keywords": [
+        "klima",
+        "climate",
+        "klimaschutz",
+        "klimawandel",
+        "klimakrise",
+        "klimastreik",
+        "erderwärmung",
+        "treibhausgas",
+        "co2",
+        "klimagerechtigkeit",
+        "klimapolitik",
+        "1.5 grad"
+      ],
+      "description": "Climate change, climate protection, climate justice"
+    },
+    {
+      "name": "Energy Transition",
+      "keywords": [
+        "energiewende",
+        "erneuerbare energie",
+        "kohleausstieg",
+        "atomausstieg",
+        "windkraft",
+        "solar",
+        "fossil"
+      ],
+      "description": "Energy policy, coal exit, renewable energy"
+    },
+    {
+      "name": "Nuclear Issues",
+      "keywords": [
+        "atom",
+        "nuclear",
+        "fukushima",
+        "tschernobyl",
+        "chernobyl",
+        "atomkraft",
+        "akw",
+        "atomwaffen",
+        "atomwaffenverbot"
+      ],
+      "description": "Nuclear power, nuclear weapons, nuclear disasters"
+    },
+    {
+      "name": "COVID-19 Measures",
+      "keywords": [
+        "corona",
+        "covid",
+        "pandemie",
+        "lockdown",
+        "maske",
+        "maskenpflicht",
+        "impfpflicht",
+        "impfzwang",
+        "impfung",
+        "quarantäne",
+        "inzidenz",
+        "hygiene",
+        "2g",
+        "3g"
+      ],
+      "description": "COVID-19 pandemic measures, lockdowns, masks, vaccination"
+    },
+    {
+      "name": "COVID-19 Skepticism",
+      "keywords": [
+        "querdenk",
+        "grundrechte",
+        "freiheit",
+        "corona-maßnahmen kritik",
+        "impfkritik",
+        "schwurbler",
+        "verschwörung"
+      ],
+      "description": "Criticism of COVID measures, conspiracy theories"
+    },
+    {
+      "name": "Anti-War / Peace",
+      "keywords": [
+        "frieden",
+        "peace",
+        "krieg",
+        "war",
+        "antikrieg",
+        "antimilitär",
+        "abrüstung",
+        "bundeswehr",
+        "rüstung",
+        "waffenexport",
+        "nato",
+        "pazifismus"
+      ],
+      "description": "Peace movement, anti-war, disarmament, anti-militarism"
+    },
+    {
+      "name": "Ukraine Conflict",
+      "keywords": [
+        "ukraine",
+        "russland",
+        "putin",
+        "solidarität ukraine",
+        "stoppt putin"
+      ],
+      "description": "Russia-Ukraine war and related protests"
+    },
+    {
+      "name": "Syria Conflict",
+      "keywords": [
+        "syrien",
+        "syria",
+        "assad",
+        "idlib",
+        "rojava"
+      ],
+      "description": "Syrian civil war and related conflicts"
+    },
+    {
+      "name": "Afghanistan",
+      "keywords": [
+        "afghanistan",
+        "taliban",
+        "kabul"
+      ],
+      "description": "Afghanistan conflict and humanitarian issues"
+    },
+    {
+      "name": "Labor Rights / Strikes",
+      "keywords": [
+        "streik",
+        "strike",
+        "tarif",
+        "lohn",
+        "arbeitsbedingungen",
+        "arbeitsrecht",
+        "gewerkschaft",
+        "betriebsrat",
+        "mindestlohn",
+        "warnstreik"
+      ],
+      "description": "Labor strikes, collective bargaining, wages, working conditions"
+    },
+    {
+      "name": "Healthcare Workers",
+      "keywords": [
+        "pflege",
+        "pflegenotstand",
+        "krankenhaus",
+        "gesundheit",
+        "pflegekräfte",
+        "pflegeaufstand"
+      ],
+      "description": "Healthcare and nursing staff conditions and protests"
+    },
+    {
+      "name": "Education",
+      "keywords": [
+        "bildung",
+        "schule",
+        "lehrer",
+        "student",
+        "universität",
+        "hochschule",
+        "bildungspolitik",
+        "schulfinanzierung",
+        "bildungsstreik"
+      ],
+      "description": "Education policy, school funding, student protests"
+    },
+    {
+      "name": "Migration / Refugees",
+      "keywords": [
+        "flüchtling",
+        "refugee",
+        "asyl",
+        "abschiebung",
+        "deportation",
+        "migration",
+        "geflüchtet",
+        "seenotrettung",
+        "mittelmeer",
+        "grenze",
+        "bleiberecht",
+        "aufnahme"
+      ],
+      "description": "Refugee rights, migration, deportation, sea rescue"
+    },
+    {
+      "name": "Housing / Rent",
+      "keywords": [
+        "miete",
+        "wohnung",
+        "housing",
+        "mietpreise",
+        "gentrifizierung",
+        "wohnungsnot",
+        "bezahlbarer wohnraum",
+        "zwangsräumung",
+        "enteignung",
+        "deutsche wohnen"
+      ],
+      "description": "Housing crisis, rent control, gentrification"
+    },
+    {
+      "name": "Animal Rights",
+      "keywords": [
+        "tierrecht",
+        "animal rights",
+        "tierschutz",
+        "massentierhaltung",
+        "factory farming",
+        "schlachthof",
+        "tierversuch",
+        "pelz",
+        "jagd",
+        "zirkus"
+      ],
+      "description": "Animal rights, factory farming, animal testing"
+    },
+    {
+      "name": "Veganism",
+      "keywords": [
+        "vegan",
+        "veganismus",
+        "pflanzlich",
+        "fleischkonsum",
+        "milchindustrie"
+      ],
+      "description": "Vegan advocacy and plant-based lifestyle"
+    },
+    {
+      "name": "Environment / Nature",
+      "keywords": [
+        "umwelt",
+        "natur",
+        "wald",
+        "biodiversität",
+        "artenschutz",
+        "pestizid",
+        "insektensterben",
+        "bienen",
+        "naturschutz",
+        "arktis",
+        "regenwald"
+      ],
+      "description": "Environmental protection, forests, biodiversity"
+    },
+    {
+      "name": "Anti-Racism",
+      "keywords": [
+        "antirassismus",
+        "anti-racism",
+        "rassismus",
+        "racism",
+        "black lives matter",
+        "blm",
+        "racial justice",
+        "diskriminierung"
+      ],
+      "description": "Anti-racism protests and racial justice"
+    },
+    {
+      "name": "Anti-Fascism",
+      "keywords": [
+        "antifa",
+        "antifascism",
+        "gegen nazis",
+        "gegen rechts",
+        "kein platz für nazis",
+        "faschismus",
+        "neonazi"
+      ],
+      "description": "Anti-fascist and anti-Nazi protests"
+    },
+    {
+      "name": "Far-Right / PEGIDA / AfD",
+      "keywords": [
+        "pegida",
+        "afd",
+        "rechtsextrem",
+        "identitär",
+        "iii. weg",
+        "hooligans",
+        "reichsbürger"
+      ],
+      "description": "Far-right movements and counter-protests"
+    },
+    {
+      "name": "Feminism / Women's Rights",
+      "keywords": [
+        "feminismus",
+        "feminist",
+        "frauen",
+        "women",
+        "frauenrechte",
+        "gender",
+        "sexismus",
+        "gewalt gegen frauen",
+        "femizid",
+        "abtreibung",
+        "§218",
+        "paragraph 218",
+        "schwangerschaftsabbruch",
+        "one billion rising",
+        "frauentag"
+      ],
+      "description": "Feminism, women's rights, abortion rights, violence against women"
+    },
+    {
+      "name": "LGBTQ+ Rights",
+      "keywords": [
+        "lgbtq",
+        "queer",
+        "csd",
+        "pride",
+        "christopher street day",
+        "homosexuell",
+        "trans",
+        "transgender",
+        "regenbogen",
+        "rainbow",
+        "gleichstellung",
+        "ehe für alle"
+      ],
+      "description": "LGBTQ+ rights, Pride events, equality"
+    },
+    {
+      "name": "Social Justice / Poverty",
+      "keywords": [
+        "soziale gerechtigkeit",
+        "armut",
+        "hartz iv",
+        "hartz 4",
+        "grundeinkommen",
+        "umverteilung",
+        "ungleichheit",
+        "reichtum",
+        "sozialabbau"
+      ],
+      "description": "Social justice, poverty, welfare reform, wealth inequality"
+    },
+    {
+      "name": "Democracy / Civil Rights",
+      "keywords": [
+        "demokratie",
+        "democracy",
+        "grundrecht",
+        "verfassung",
+        "meinungsfreiheit",
+        "versammlungsfreiheit",
+        "bürgerrecht",
+        "civil rights",
+        "rechtsstaat"
+      ],
+      "description": "Democratic rights, freedom of speech and assembly"
+    },
+    {
+      "name": "Surveillance / Privacy",
+      "keywords": [
+        "überwachung",
+        "surveillance",
+        "datenschutz",
+        "privacy",
+        "nsa",
+        "snowden",
+        "assange",
+        "vorratsdatenspeicherung",
+        "polizeigesetz"
+      ],
+      "description": "Mass surveillance, data protection, privacy rights"
+    },
+    {
+      "name": "Palestine / Israel",
+      "keywords": [
+        "palästina",
+        "palestine",
+        "israel",
+        "gaza",
+        "westbank",
+        "besatzung",
+        "occupation",
+        "nahost",
+        "middle east"
+      ],
+      "description": "Israeli-Palestinian conflict"
+    },
+    {
+      "name": "Kurdistan / PKK",
+      "keywords": [
+        "kurdistan",
+        "kurdisch",
+        "kurd",
+        "pkk",
+        "öcalan",
+        "ocalan",
+        "rojava",
+        "hdp",
+        "türkei angriff"
+      ],
+      "description": "Kurdish rights, PKK, Turkey-Kurdistan conflict"
+    },
+    {
+      "name": "Turkey Politics",
+      "keywords": [
+        "türkei",
+        "turkey",
+        "erdogan",
+        "erdoğan",
+        "türkische regierung"
+      ],
+      "description": "Turkish government and politics"
+    },
+    {
+      "name": "Iran",
+      "keywords": [
+        "iran",
+        "iranian",
+        "teheran",
+        "mahsa amini",
+        "frau leben freiheit",
+        "hinrichtung iran"
+      ],
+      "description": "Iranian politics and human rights"
+    },
+    {
+      "name": "China / Hong Kong",
+      "keywords": [
+        "china",
+        "hongkong",
+        "hong kong",
+        "peking",
+        "beijing",
+        "xi jinping",
+        "uigur",
+        "uyghur",
+        "xinjiang"
+      ],
+      "description": "Chinese politics, Hong Kong protests, Uyghur rights"
+    },
+    {
+      "name": "Tibet",
+      "keywords": [
+        "tibet",
+        "tibetan",
+        "dalai lama",
+        "free tibet"
+      ],
+      "description": "Tibetan independence and human rights"
+    },
+    {
+      "name": "Latin America",
+      "keywords": [
+        "venezuela",
+        "kuba",
+        "cuba",
+        "kolumbien",
+        "colombia",
+        "brasilien",
+        "brazil",
+        "chile",
+        "bolivien"
+      ],
+      "description": "Latin American politics and solidarity"
+    },
+    {
+      "name": "Religious Issues",
+      "keywords": [
+        "kirche",
+        "church",
+        "islam",
+        "muslim",
+        "christ",
+        "religion",
+        "glaube",
+        "missbrauch kirche",
+        "säkular",
+        "atheist"
+      ],
+      "description": "Religious matters, church abuse, secularism"
+    },
+    {
+      "name": "Antisemitism",
+      "keywords": [
+        "antisemitismus",
+        "antisemitism",
+        "jüdisch",
+        "jewish",
+        "judentum",
+        "synagoge",
+        "holocaust",
+        "shoah"
+      ],
+      "description": "Antisemitism and Jewish community issues"
+    },
+    {
+      "name": "Remembrance / Memorial",
+      "keywords": [
+        "gedenken",
+        "memorial",
+        "erinnern",
+        "opfer",
+        "jahrestag",
+        "kranzniederlegung"
+      ],
+      "description": "Memorial events and remembrance"
+    },
+    {
+      "name": "May Day / Labor Day",
+      "keywords": [
+        "1. mai",
+        "1 mai",
+        "tag der arbeit",
+        "erster mai",
+        "maifeiertag",
+        "may day"
+      ],
+      "description": "International Workers' Day celebrations"
+    },
+    {
+      "name": "Gentrification / Urban Development",
+      "keywords": [
+        "gentrifizierung",
+        "gentrification",
+        "stadtentwicklung",
+        "öffentlicher raum",
+        "kiez",
+        "viertel"
+      ],
+      "description": "Gentrification and urban development issues"
+    },
+    {
+      "name": "Transportation / Mobility",
+      "keywords": [
+        "verkehr",
+        "mobilität",
+        "fahrrad",
+        "bicycle",
+        "radweg",
+        "öpnv",
+        "verkehrswende",
+        "auto",
+        "diesel"
+      ],
+      "description": "Transportation policy, bicycle infrastructure, public transit"
+    },
+    {
+      "name": "Agriculture / Farming",
+      "keywords": [
+        "landwirtschaft",
+        "bauern",
+        "farmer",
+        "agrar",
+        "glyphosat",
+        "monsanto",
+        "gentechnik",
+        "gmo"
+      ],
+      "description": "Agricultural policy, GMOs, pesticides"
+    },
+    {
+      "name": "EU Politics",
+      "keywords": [
+        "europa",
+        "european union",
+        "eu-politik",
+        "brexit",
+        "europawahl"
+      ],
+      "description": "European Union politics and integration"
+    },
+    {
+      "name": "Elections / Campaigns",
+      "keywords": [
+        "wahl",
+        "election",
+        "wahlkampf",
+        "bundestagswahl",
+        "landtagswahl",
+        "kommunalwahl",
+        "campaign"
+      ],
+      "description": "Election campaigns and political rallies"
+    }
+  ],
+
+  "usage_notes": {
+    "classification_approach": "Use keyword matching combined with contextual understanding. Multiple categories may apply to a single protest.",
+    "organizer_matching": "Check both the 'organizer' field and 'topic' field for group identification, as groups may self-identify in either field.",
+    "keyword_priority": "Keywords are ordered roughly by importance within each category. Use fuzzy matching for variations (e.g., umlauts, compound words).",
+    "ambiguity_handling": "When a protest matches multiple categories, assign all relevant categories. Prioritize the most specific category when possible.",
+    "language": "Keywords include both German and English terms. German compound nouns may appear as single words or hyphenated.",
+    "time_context": "Be aware of temporal context - COVID protests are primarily 2020-2022, Fridays for Future increased from 2019 onwards.",
+    "regional_context": "Some organizers may be city-specific (e.g., 'Fridays for Future Berlin' vs 'Fridays for Future München')."
+  },
+
+  "special_cases": {
+    "individual_organizers": "Many protests list 'Einzelperson' (individual person) as organizer - these require topic-based classification only.",
+    "recurring_events": "Some protests are recurring (e.g., weekly Mahnwache). Look for date patterns like '(vom ... bis ...)' in topic field.",
+    "counter_protests": "Watch for 'gegen' (against) or 'Gegendemo' indicating counter-protests to other movements.",
+    "solidarity_protests": "Many protests express solidarity with international movements - classify by both local and international context.",
+    "hybrid_topics": "Climate protests often include social justice elements; labor protests may include migration issues."
+  }
+}

@@ -1,0 +1,22 @@
+# FragDenStaat Monitoring Cron Configuration
+#
+# This cron job runs the FragDenStaat monitoring script every 2 hours
+# to check for new replies to FOI requests.
+#
+# Installation:
+#   crontab -e
+#   Then add the following line (adjust path if needed):
+#
+#   0 */2 * * * /home/david/german-protest-registrations/scripts/monitor.sh
+#
+# This will run at: 00:00, 02:00, 04:00, 06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00, 22:00
+#
+# Alternative schedules:
+#   - Every hour:        0 * * * * /home/david/german-protest-registrations/scripts/monitor.sh
+#   - Every 4 hours:     0 */4 * * * /home/david/german-protest-registrations/scripts/monitor.sh
+#   - Business hours:    0 8-18/2 * * 1-5 /home/david/german-protest-registrations/scripts/monitor.sh
+#   - Twice daily:       0 8,20 * * * /home/david/german-protest-registrations/scripts/monitor.sh
+#
+
+# Run every 2 hours
+0 */2 * * * /home/david/german-protest-registrations/scripts/monitor.sh

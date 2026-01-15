@@ -1,0 +1,382 @@
+[
+  {
+    "city": "Berlin",
+    "region": "Berlin",
+    "years_covered": "2018-2022",
+    "request_id": 265731,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-den-jahren-2020-2022/",
+    "request_status": "resolved",
+    "total_records": 28078,
+    "data_quality": {
+      "fields": ["date", "topic", "participants_registered", "participants_actual", "start_time", "end_time", "street", "zip", "route"],
+      "participants_registered": true,
+      "participants_actual": true,
+      "organizer": false,
+      "location": true,
+      "time_info": true
+    },
+    "format": "CSV (2020), XLSX (other years)",
+    "conversion_quality": "Good - clean CSV/XLSX conversion",
+    "code_notes": "Handles overlap between 2020 file and others by cutting off at 2020-07-01. Fixes 24:00 time format to 23:59. One of the most complete datasets."
+  },
+  {
+    "city": "München",
+    "region": "Bayern",
+    "years_covered": "2018-2022",
+    "request_id": 265859,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-den-jahren-2020-2022-2/",
+    "request_status": "resolved",
+    "total_records": 6841,
+    "data_quality": {
+      "fields": ["date", "topic", "organizer", "location", "participants_registered"],
+      "participants_registered": true,
+      "participants_actual": false,
+      "organizer": true,
+      "location": true,
+      "time_info": false
+    },
+    "format": "XLSX",
+    "conversion_quality": "Good - with special handling",
+    "code_notes": "UNIQUE: Uses openpyxl to check Excel cell font color - red color indicates cancelled events which are filtered out. Multiple worksheets per file. Has organizer information."
+  },
+  {
+    "city": "Dresden",
+    "region": "Sachsen",
+    "years_covered": "2020-2022",
+    "request_id": 266526,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-dresden/",
+    "request_status": "resolved",
+    "total_records": 861,
+    "data_quality": {
+      "fields": ["date", "topic", "location", "participants_registered"],
+      "participants_registered": true,
+      "participants_actual": false,
+      "organizer": false,
+      "location": true,
+      "time_info": false
+    },
+    "format": "XLSX converted to CSV",
+    "conversion_quality": "Good",
+    "code_notes": "Simple reader with standard fields. Location field specifically notes 'ausschließlich Dresden' (exclusively Dresden)."
+  },
+  {
+    "city": "Erfurt",
+    "region": "Thüringen",
+    "years_covered": "2012-2022",
+    "request_id": 268576,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-erfurt/",
+    "request_status": "resolved",
+    "total_records": 2897,
+    "data_quality": {
+      "fields": ["date", "topic", "organizer", "location"],
+      "participants_registered": false,
+      "participants_actual": false,
+      "organizer": true,
+      "location": true,
+      "time_info": false
+    },
+    "format": "XLSX converted to CSV",
+    "conversion_quality": "Moderate - inconsistent column names",
+    "code_notes": "INCONSISTENT: Maps 10+ different column name variations (e.g., 'Datum der Vers.', 'Datum der Versammlung', 'Datum der\\nVersammlung' with newlines). Longest historical coverage starting from 2012. No participant numbers but has organizer info."
+  },
+  {
+    "city": "Magdeburg",
+    "region": "Sachsen-Anhalt",
+    "years_covered": "2015-2022",
+    "request_id": 268459,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-magdeburg/",
+    "request_status": "resolved",
+    "total_records": 2057,
+    "data_quality": {
+      "fields": ["date", "topic", "location", "participants_registered", "participants_actual"],
+      "participants_registered": true,
+      "participants_actual": true,
+      "organizer": false,
+      "location": true,
+      "time_info": false
+    },
+    "format": "XLSX converted to CSV",
+    "conversion_quality": "Poor - unnamed columns",
+    "code_notes": "POOR STRUCTURE: Uses 'Unnamed: 6' and 'Unnamed: 7' for participant columns because headers are missing. Skips second row. Has duplicates that are removed. One of only 2 cities with actual participant counts."
+  },
+  {
+    "city": "Mainz",
+    "region": "Rheinland-Pfalz",
+    "years_covered": "2018-2022",
+    "request_id": 268573,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-mainz/",
+    "request_status": "resolved",
+    "total_records": 1531,
+    "data_quality": {
+      "fields": ["date", "topic", "location", "participants_registered"],
+      "participants_registered": true,
+      "participants_actual": false,
+      "organizer": false,
+      "location": true,
+      "time_info": false
+    },
+    "format": "XLSX converted to CSV",
+    "conversion_quality": "Moderate",
+    "code_notes": "Skips first 2 rows, then skips row 1 again. Drops 'Lfd Nr.' column. Has column name with newline: 'Datum\\n'."
+  },
+  {
+    "city": "Freiburg",
+    "region": "Baden-Württemberg",
+    "years_covered": "2013-2022",
+    "request_id": 269444,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-freiburg/",
+    "request_status": "resolved",
+    "total_records": 3165,
+    "data_quality": {
+      "fields": ["date", "topic", "location"],
+      "participants_registered": false,
+      "participants_actual": false,
+      "organizer": false,
+      "location": true,
+      "time_info": false
+    },
+    "format": "XLSX converted to CSV",
+    "conversion_quality": "Good",
+    "code_notes": "Simple reader. No participant numbers. Has separate files for each year from 2013-2022."
+  },
+  {
+    "city": "Karlsruhe",
+    "region": "Baden-Württemberg",
+    "years_covered": "2021-2022",
+    "request_id": 269443,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-karlsruhe/",
+    "request_status": "resolved",
+    "total_records": 954,
+    "data_quality": {
+      "fields": ["date", "topic", "location", "participants_registered", "cancelled"],
+      "participants_registered": true,
+      "participants_actual": false,
+      "organizer": false,
+      "location": true,
+      "time_info": false
+    },
+    "format": "XLSX converted to CSV",
+    "conversion_quality": "Good",
+    "code_notes": "Has 'Absage' (cancelled) column with 'x' markers - these events are filtered out. Skips first row."
+  },
+  {
+    "city": "Potsdam",
+    "region": "Brandenburg",
+    "years_covered": "2019-2022",
+    "request_id": 268447,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-potsdam/",
+    "request_status": "resolved",
+    "total_records": 1064,
+    "data_quality": {
+      "fields": ["date", "time", "city", "topic", "participants_registered", "location"],
+      "participants_registered": true,
+      "participants_actual": false,
+      "organizer": false,
+      "location": true,
+      "time_info": true
+    },
+    "format": "PDF + XLSX converted to CSV",
+    "conversion_quality": "Good - manual column naming",
+    "code_notes": "No column headers in source, so columns are manually assigned by position. Has both PDF and XLSX versions of files."
+  },
+  {
+    "city": "Wiesbaden",
+    "region": "Hessen",
+    "years_covered": "2019-2022",
+    "request_id": 268455,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-wiesbaden/",
+    "request_status": "resolved",
+    "total_records": 952,
+    "data_quality": {
+      "fields": ["date", "organizer", "topic", "location", "participants_registered"],
+      "participants_registered": true,
+      "participants_actual": false,
+      "organizer": true,
+      "location": true,
+      "time_info": false
+    },
+    "format": "XLSX converted to CSV",
+    "conversion_quality": "Good",
+    "code_notes": "Skips first 2 rows. Drops rows without dates. Has organizer field with format 'Organisation / verantwortliche Person'."
+  },
+  {
+    "city": "Kiel",
+    "region": "Schleswig-Holstein",
+    "years_covered": "2021-2022",
+    "request_id": 268575,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-kiel/",
+    "request_status": "resolved",
+    "total_records": 602,
+    "data_quality": {
+      "fields": ["date", "topic", "location", "participants_registered"],
+      "participants_registered": true,
+      "participants_actual": false,
+      "organizer": false,
+      "location": true,
+      "time_info": false
+    },
+    "format": "XLSX converted to CSV",
+    "conversion_quality": "Moderate",
+    "code_notes": "INCONSISTENT: Different files have different structures. Skips '2022_2020.csv', and '2022_2021.csv' requires skiprows=1."
+  },
+  {
+    "city": "Wuppertal",
+    "region": "Nordrhein-Westfalen",
+    "years_covered": "2022",
+    "request_id": 269446,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-wuppertal/",
+    "request_status": "resolved",
+    "total_records": 207,
+    "data_quality": {
+      "fields": ["date", "organizer", "topic", "location", "participants_registered"],
+      "participants_registered": true,
+      "participants_actual": false,
+      "organizer": true,
+      "location": true,
+      "time_info": false
+    },
+    "format": "CSV",
+    "conversion_quality": "Good",
+    "code_notes": "Already in CSV format. Has organizer information. Drops rows without dates."
+  },
+  {
+    "city": "Saarbrücken",
+    "region": "Saarland",
+    "years_covered": "2021-2022",
+    "request_id": 268574,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-saarbruecken/",
+    "request_status": "resolved",
+    "total_records": 633,
+    "data_quality": {
+      "fields": ["date", "topic", "location", "participants_registered"],
+      "participants_registered": true,
+      "participants_actual": false,
+      "organizer": false,
+      "location": true,
+      "time_info": false
+    },
+    "format": "XLS converted to CSV",
+    "conversion_quality": "Complex - split format",
+    "code_notes": "COMPLEX: Each file has TWO datasets side-by-side (columns :9 for gatherings 'Versammlungen', columns 9: for marches 'Aufzüge'). Different column names for each. Cleans 'erl.' from dates."
+  },
+  {
+    "city": "Köln",
+    "region": "Nordrhein-Westfalen",
+    "years_covered": "2018, 2022",
+    "request_id": 265868,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-koeln/",
+    "request_status": "resolved",
+    "total_records": 2112,
+    "data_quality": {
+      "fields": ["date", "topic", "location", "participants_registered"],
+      "participants_registered": true,
+      "participants_actual": false,
+      "organizer": false,
+      "location": true,
+      "time_info": false
+    },
+    "format": "PDF + XLSX converted to CSV",
+    "conversion_quality": "Moderate - column name issues",
+    "code_notes": "INCONSISTENT: Multiple column name variations with newlines and spaces: 'Zahl der Teilnehm er / -\\ninnen', 'erwartete TN-Zahl\\n', 'Datum\\n'. Large gap - only 2018 and 2022 covered."
+  },
+  {
+    "city": "Dortmund",
+    "region": "Nordrhein-Westfalen",
+    "years_covered": "2019-2022",
+    "request_id": 268577,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-dortmund/",
+    "request_status": "resolved",
+    "total_records": 0,
+    "data_quality": {
+      "fields": ["date", "location", "participants_registered"],
+      "participants_registered": true,
+      "participants_actual": false,
+      "organizer": false,
+      "location": true,
+      "time_info": false
+    },
+    "format": "XLSX converted to CSV",
+    "conversion_quality": "Excluded",
+    "code_notes": "EXCLUDED: Returns empty DataFrame. Report states it does not have topic information, which is a requirement. Code comment says starting from 2023 topics will be available."
+  },
+  {
+    "city": "Duisburg",
+    "region": "Nordrhein-Westfalen",
+    "years_covered": "2016-2022",
+    "request_id": 268602,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-duisburg/",
+    "request_status": "resolved",
+    "total_records": 2110,
+    "data_quality": {
+      "fields": ["date", "topic", "location", "participants_registered"],
+      "participants_registered": true,
+      "participants_actual": false,
+      "organizer": false,
+      "location": true,
+      "time_info": false
+    },
+    "format": "XLSX converted to CSV",
+    "conversion_quality": "Moderate - data cleaning needed",
+    "code_notes": "DATA CLEANING: Removes dates that are only dashes or question marks using regex: '^\\s*(-|\\?)+\\s*$'. Otherwise standard format."
+  },
+  {
+    "city": "Bremen",
+    "region": "Bremen",
+    "years_covered": "2019-2022",
+    "request_id": 270596,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-bremen-1/",
+    "request_status": "resolved",
+    "total_records": 2641,
+    "data_quality": {
+      "fields": ["date_start", "date_end", "topic", "location"],
+      "participants_registered": false,
+      "participants_actual": false,
+      "organizer": false,
+      "location": true,
+      "time_info": false
+    },
+    "format": "CSV",
+    "conversion_quality": "Good",
+    "code_notes": "Has both start and end dates (Beginn/Ende). Cleans 'NV' from date fields. No participant numbers."
+  },
+  {
+    "city": "Augsburg",
+    "region": "Bayern",
+    "years_covered": "2022",
+    "request_id": 268603,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-augsburg/",
+    "request_status": "resolved",
+    "total_records": 0,
+    "data_quality": {
+      "fields": [],
+      "participants_registered": false,
+      "participants_actual": false,
+      "organizer": false,
+      "location": false,
+      "time_info": false
+    },
+    "format": "PDF + XLSX",
+    "conversion_quality": "Failed",
+    "code_notes": "EXCLUDED: Returns empty DataFrame. Report states dataset cannot be converted from PDF to CSV."
+  },
+  {
+    "city": "Mannheim",
+    "region": "Baden-Württemberg",
+    "years_covered": "2022",
+    "request_id": 269440,
+    "request_url": "https://fragdenstaat.de/anfrage/demonstrationen-in-mannheim/",
+    "request_status": "resolved",
+    "total_records": 0,
+    "data_quality": {
+      "fields": [],
+      "participants_registered": false,
+      "participants_actual": false,
+      "organizer": false,
+      "location": false,
+      "time_info": false
+    },
+    "format": "XLS converted to CSV",
+    "conversion_quality": "Failed",
+    "code_notes": "EXCLUDED: Returns empty DataFrame despite reading CSV. Report states dataset is poorly structured."
+  }
+]

@@ -1,0 +1,394 @@
+{
+  "research_date": "2026-01-14",
+  "research_focus": "Freedom of Information requests about demonstration/protest data for 2024 and 2025",
+  "platform": "FragDenStaat.de",
+  "cities_researched": 17,
+  "summary": {
+    "cities_with_2024_2025_data": 2,
+    "cities_with_2023_data_only": 7,
+    "cities_with_older_data_only": 6,
+    "cities_with_no_specific_requests": 2
+  },
+  "findings": {
+    "Berlin": {
+      "requests_found": true,
+      "data_for_2024": true,
+      "data_for_2025": false,
+      "requests": [
+        {
+          "request_id": "308169",
+          "title": "Versammlungen 2023 und 2024",
+          "url": "https://fragdenstaat.de/en/request/versammlungen-2023-und-2024/",
+          "status": "successful",
+          "data_provided": true,
+          "years_covered": ["2023", "2024"],
+          "requester": "Arne Semsrott, Open Knowledge Foundation Deutschland e.V.",
+          "request_date": "2024-05-04",
+          "response_date": "2024-05-21",
+          "public_body": "Polizei Berlin",
+          "data_format": "Excel (XLSX) and PDF",
+          "data_files": ["auswertungzuifg64-24semsrott.xlsx (737.7 KB)", "auswertungzuifg64-24semsrott_konvertiert.pdf (5.4 MB)"],
+          "data_includes": [
+            "Event dates and routes",
+            "Topics and attendance figures (announced vs. actual)",
+            "Police deployment numbers",
+            "Criminal offenses recorded",
+            "Arrests and identity checks",
+            "Seizures and use-of-force incidents"
+          ],
+          "notes": "Comprehensive data for entire years 2023 and 2024"
+        }
+      ]
+    },
+    "Bremen": {
+      "requests_found": true,
+      "data_for_2024": false,
+      "data_for_2025": false,
+      "requests": [
+        {
+          "request_id": "270596",
+          "title": "Demonstrationen in Bremen",
+          "url": "https://fragdenstaat.de/en/request/demonstrationen-in-bremen-1/",
+          "status": "successful",
+          "data_provided": true,
+          "years_covered": ["2019", "2020", "2021", "2022", "2023 (partial)"],
+          "requester": "Anonymous",
+          "request_date": "2023-02-17",
+          "response_date": "2023-04-04",
+          "public_body": "Bremen authority",
+          "data_format": "CSV",
+          "data_includes": [
+            "2700 events total (2019-2022)",
+            "Assembly topics",
+            "Registered participant numbers",
+            "Assembly locations"
+          ],
+          "notes": "Covers data until January 2023 only. Actual participant numbers were not provided."
+        }
+      ]
+    },
+    "Dortmund": {
+      "requests_found": false,
+      "data_for_2024": false,
+      "data_for_2025": false,
+      "requests": [],
+      "notes": "No specific requests found for Dortmund demonstrations covering 2024 or 2025"
+    },
+    "Dresden": {
+      "requests_found": true,
+      "data_for_2024": false,
+      "data_for_2025": false,
+      "requests": [
+        {
+          "request_id": "300342",
+          "title": "Demonstrationen in Dresden 2023",
+          "url": "https://fragdenstaat.de/en/request/demonstrationen-in-dresden-2023/",
+          "status": "successful",
+          "data_provided": true,
+          "years_covered": ["2023"],
+          "requester": "Anonymous",
+          "request_date": "2024-02-16",
+          "response_date": "2024-03-13",
+          "public_body": "Sächsisches Staatsministerium des Innern (Saxon State Ministry of the Interior)",
+          "data_format": "Excel spreadsheet",
+          "data_includes": [
+            "Assembly topics",
+            "Registered participant numbers",
+            "Estimated actual attendance",
+            "Locations"
+          ],
+          "notes": "Data covers March-December 2023 only"
+        }
+      ]
+    },
+    "Duisburg": {
+      "requests_found": true,
+      "data_for_2024": false,
+      "data_for_2025": false,
+      "requests": [
+        {
+          "request_id": "unknown",
+          "title": "Angemeldete Versammlungen in Duisburg am 01.05.2019",
+          "url": "https://fragdenstaat.de/en/request/angemeldete-versammlungen-in-duisburg-am-01052019/",
+          "status": "unknown",
+          "data_provided": "unknown",
+          "years_covered": ["2019"],
+          "notes": "Only older data found, no requests for 2024/2025"
+        }
+      ]
+    },
+    "Erfurt": {
+      "requests_found": true,
+      "data_for_2024": false,
+      "data_for_2025": false,
+      "requests": [
+        {
+          "request_id": "268576",
+          "title": "Demonstrationen in Erfurt",
+          "url": "https://fragdenstaat.de/en/request/demonstrationen-in-erfurt/",
+          "status": "successful",
+          "data_provided": true,
+          "years_covered": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+          "requester": "Anonymous",
+          "request_date": "2023-01-24",
+          "response_date": "2023 (successful)",
+          "public_body": "Stadt Erfurt",
+          "data_format": "Excel (available on Zenodo: https://zenodo.org/records/10094245)",
+          "data_includes": [
+            "Approximately 2,700 events (2012-2022)",
+            "Protest themes",
+            "Registered participant numbers",
+            "Location data"
+          ],
+          "fees": "€42.00 processing fee charged",
+          "notes": "Covers 2012-2022 only. Actual attendance figures were stated as unavailable."
+        }
+      ]
+    },
+    "Freiburg": {
+      "requests_found": true,
+      "data_for_2024": false,
+      "data_for_2025": false,
+      "requests": [
+        {
+          "request_id": "269444",
+          "title": "Demonstrationen in Freiburg",
+          "url": "https://fragdenstaat.de/en/request/demonstrationen-in-freiburg/",
+          "status": "successful",
+          "data_provided": true,
+          "years_covered": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+          "requester": "Anonymous",
+          "request_date": "2023-02-04",
+          "response_date": "2023-03-01",
+          "public_body": "Stadt Freiburg im Breisgau",
+          "data_format": "Excel (XLSX) and PDF",
+          "data_includes": [
+            "Assembly topics",
+            "Assembly locations",
+            "Basic event data"
+          ],
+          "notes": "Covers 2013-2022. Organizer information removed for data protection. Registered/actual participant numbers stated as not available."
+        }
+      ]
+    },
+    "Karlsruhe": {
+      "requests_found": true,
+      "data_for_2024": false,
+      "data_for_2025": false,
+      "requests": [
+        {
+          "request_id": "unknown",
+          "title": "Demonstrationen in Karlsruhe",
+          "url": "https://fragdenstaat.de/en/request/demonstrationen-in-karlsruhe/",
+          "status": "partial response",
+          "data_provided": "partial",
+          "years_covered": ["2021", "2022", "2023"],
+          "notes": "City offered to provide overview of registered assemblies 2021-2023 with assembly topics, participant numbers, locations, and types."
+        }
+      ]
+    },
+    "Kiel": {
+      "requests_found": true,
+      "data_for_2024": false,
+      "data_for_2025": false,
+      "requests": [
+        {
+          "request_id": "268575",
+          "title": "Demonstrationen in Kiel",
+          "url": "https://fragdenstaat.de/en/request/demonstrationen-in-kiel/",
+          "status": "successful",
+          "data_provided": true,
+          "years_covered": ["2020", "2021", "2022"],
+          "requester": "Anonymous",
+          "request_date": "2023-01-24",
+          "response_date": "2023-02-17",
+          "public_body": "City of Kiel",
+          "data_format": "Excel",
+          "data_includes": [
+            "Event themes (from April 2021 onward)",
+            "Registered attendance figures",
+            "Location data"
+          ],
+          "notes": "Data from 2020-2022, with more comprehensive data from April 2021 onward. Actual participant numbers stated as unknown."
+        }
+      ]
+    },
+    "Köln": {
+      "requests_found": true,
+      "data_for_2024": false,
+      "data_for_2025": true,
+      "requests": [
+        {
+          "request_id": "265868",
+          "title": "Demonstrationen in Köln",
+          "url": "https://fragdenstaat.de/en/request/demonstrationen-in-koeln/",
+          "status": "successful",
+          "data_provided": true,
+          "years_covered": ["2022"],
+          "requester": "Anonymous",
+          "request_date": "2022-12-18",
+          "response_date": "2023-01-25",
+          "public_body": "Polizei Köln",
+          "data_format": "Excel",
+          "data_includes": [
+            "2022 demonstration data",
+            "Protest themes",
+            "Registered attendance",
+            "Estimated actual attendance",
+            "Location data"
+          ],
+          "notes": "Only 2022 data provided. Police stated records retained for maximum one year. Earlier years declined due to retention policies."
+        },
+        {
+          "request_id": "unknown",
+          "title": "Demonstration gegen Krieg und Aufrüstung in Köln am 30.08.2025",
+          "url": "https://fragdenstaat.de/en/request/demonstration-gegen-krieg-und-aufruestung-in-koeln-am-30-08-2025/",
+          "status": "submitted",
+          "data_provided": false,
+          "years_covered": ["2025"],
+          "requester": "Unknown",
+          "request_date": "2025-09-04",
+          "public_body": "Polizei Köln",
+          "notes": "Request about specific anti-war demonstration on August 30, 2025, regarding police violence. Request submitted after the event."
+        }
+      ]
+    },
+    "Magdeburg": {
+      "requests_found": true,
+      "data_for_2024": false,
+      "data_for_2025": false,
+      "requests": [
+        {
+          "request_id": "unknown",
+          "title": "Demonstrationen in Magdeburg",
+          "url": "https://fragdenstaat.de/en/request/demonstrationen-in-magdeburg/",
+          "status": "successful",
+          "data_provided": true,
+          "years_covered": ["2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+          "request_date": "2023-01",
+          "public_body": "Polizeiinspektion Magdeburg",
+          "data_includes": [
+            "Assembly day, time, location",
+            "Theme",
+            "Registration date",
+            "Registered participant numbers",
+            "Estimated or counted attendees"
+          ],
+          "notes": "Data from 2015 onwards through end of 2022. No 2024/2025 data."
+        }
+      ]
+    },
+    "Mainz": {
+      "requests_found": false,
+      "data_for_2024": false,
+      "data_for_2025": false,
+      "requests": [],
+      "notes": "No specific demonstration data requests found for Mainz covering 2024 or 2025"
+    },
+    "München": {
+      "requests_found": true,
+      "data_for_2024": true,
+      "data_for_2025": true,
+      "requests": [
+        {
+          "request_id": "289741",
+          "title": "Versammlungen Heute bis 2035 - München",
+          "url": "https://fragdenstaat.de/en/request/versammlungen-heute-bis-2035-muenchen-1/",
+          "status": "successful",
+          "data_provided": true,
+          "years_covered": ["2023", "2024", "2025 (partial)"],
+          "requester": "Otto (Demos Berlin e.V.)",
+          "request_date": "2023-10-07",
+          "response_date": "2024-01-29",
+          "public_body": "Landeshauptstadt München - Kreisverwaltungsreferat",
+          "data_format": "Excel (vs-liste-muc-ab29-01-2024.xlsx, 32.2 KB)",
+          "data_includes": [
+            "Event names",
+            "Dates and times",
+            "Participant counts",
+            "Locations and routes"
+          ],
+          "notes": "Data provided from January 29, 2024 onwards. Assemblies can only be registered up to 2 years in advance in Bavaria. Internal document with abbreviations."
+        }
+      ]
+    },
+    "Potsdam": {
+      "requests_found": false,
+      "data_for_2024": false,
+      "data_for_2025": false,
+      "requests": [],
+      "notes": "No specific demonstration data requests found for Potsdam covering 2024 or 2025"
+    },
+    "Saarbrücken": {
+      "requests_found": true,
+      "data_for_2024": false,
+      "data_for_2025": false,
+      "requests": [
+        {
+          "request_id": "unknown",
+          "title": "Demonstrationen in Saarbrücken",
+          "url": "https://fragdenstaat.de/en/request/demonstrationen-in-saarbruecken/",
+          "status": "not answered within legal timeframe",
+          "data_provided": false,
+          "years_covered": ["up to 2022"],
+          "request_date": "2023-01-24",
+          "public_body": "Stadt Saarbrücken",
+          "notes": "Request from January 2023 for data through end of 2022. Not answered within legally required timeframe (exceeded deadline by 1 day as of February 28, 2023)."
+        }
+      ]
+    },
+    "Wiesbaden": {
+      "requests_found": true,
+      "data_for_2024": false,
+      "data_for_2025": false,
+      "requests": [
+        {
+          "request_id": "300334",
+          "title": "Demonstrationen in Wiesbaden 2023",
+          "url": "https://fragdenstaat.de/en/request/demonstrationen-in-wiesbaden-2023/",
+          "status": "successful",
+          "data_provided": true,
+          "years_covered": ["2023"],
+          "requester": "Anonymous",
+          "request_date": "2024-02-16",
+          "response_date": "2024-02-26",
+          "public_body": "Stadt Wiesbaden",
+          "data_format": "PDF",
+          "data_includes": [
+            "Assembly topics",
+            "Registered attendance estimates",
+            "Locations"
+          ],
+          "notes": "2023 data only. Actual attendance figures not collected in Wiesbaden."
+        }
+      ]
+    },
+    "Wuppertal": {
+      "requests_found": false,
+      "data_for_2024": false,
+      "data_for_2025": false,
+      "requests": [],
+      "notes": "No specific demonstration data requests found for Wuppertal covering 2024 or 2025"
+    }
+  },
+  "key_observations": [
+    "Only 2 cities (Berlin and München) have successfully obtained demonstration data covering 2024 and/or 2025",
+    "Berlin has comprehensive data for both 2023 and 2024 from Polizei Berlin",
+    "München has data from January 2024 onwards, with limited future data (Bavaria allows registration up to 2 years in advance)",
+    "One request about a specific 2025 event in Köln was found (August 30, 2025 anti-war demonstration)",
+    "Most cities only have historical data through 2022 or 2023",
+    "Several cities (Dortmund, Mainz, Potsdam, Wuppertal) have no specific demonstration data requests on FragDenStaat",
+    "Data retention policies vary: Köln police stated records are kept for maximum one year",
+    "Actual participant numbers are often not collected or not provided (Bremen, Wiesbaden, Kiel, Freiburg)",
+    "Common data fields requested include: assembly topics, registered participants, actual participants, locations, dates, routes",
+    "Most successful requests were made in early 2023 (for 2022 data) or early 2024 (for 2023 data)"
+  ],
+  "recommendations": [
+    "For cities without 2024/2025 data, new FOI requests should be submitted",
+    "Berlin appears to be the most transparent, providing comprehensive demonstration data",
+    "München's approach of providing forward-looking data (registered assemblies) is valuable for planning",
+    "Consider submitting requests in Q1 2026 to obtain full 2024 and 2025 data for cities that don't have it yet",
+    "Focus on cities with demonstrated responsiveness: Berlin, München, Dresden, Wiesbaden, Erfurt, Kiel",
+    "Be aware that some cities don't collect actual participant numbers, only registered/estimated numbers"
+  ]
+}

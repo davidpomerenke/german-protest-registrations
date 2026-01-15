@@ -1,0 +1,14 @@
+[Unit]
+Description=FragDenStaat Request Monitor Timer
+Requires=fragdenstaat-monitor.service
+
+[Timer]
+# Run every 2 hours
+OnCalendar=00/2:00:00
+# Run on boot if missed
+Persistent=true
+# Randomize start time by up to 5 minutes to avoid load spikes
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target

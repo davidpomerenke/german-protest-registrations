@@ -1,0 +1,59 @@
+{
+  "file": "data/raw/Berlin/2023_2024.xlsx",
+  "rows": 9536,
+  "columns": [
+    "Datum",
+    "Von",
+    "Bis",
+    "Thema",
+    "Strasse",
+    "Nr",
+    "PLZ",
+    "Aufzugsstrecke",
+    "Teilnehmende (angemeldet)",
+    "Teilnehmende (tats\u00e4chlich)"
+  ],
+  "date_range": "2022-12-31 00:00:00 to 2024-04-30 00:00:00",
+  "sample": {
+    "Datum": {
+      "0": "2022-12-31 00:00:00",
+      "1": "2023-01-01 00:00:00"
+    },
+    "Von": {
+      "0": "0 days 22:30:00",
+      "1": "0 days 00:00:00"
+    },
+    "Bis": {
+      "0": "0 days 02:00:00",
+      "1": "0 days 23:59:00"
+    },
+    "Thema": {
+      "0": "\"Sylvester vor dem Knast\"",
+      "1": "\"Revolutionsgarden des Islamischen Regime auf die Terrorliste der EU einsetzen\" (vom 23.12.2022 bis 20.01.2023 - t\u00e4glich)"
+    },
+    "Strasse": {
+      "0": NaN,
+      "1": "Platz der Republik"
+    },
+    "Nr": {
+      "0": NaN,
+      "1": 1
+    },
+    "PLZ": {
+      "0": NaN,
+      "1": 10557.0
+    },
+    "Aufzugsstrecke": {
+      "0": "Alt-Moabit/Rathenower Str. - Alt-Moabit - Wilsnacker Str. - Turmstr. - Rathenower Str. - Rathenower Str./Alt-Moabit",
+      "1": NaN
+    },
+    "Teilnehmende (angemeldet)": {
+      "0": 100.0,
+      "1": 4.0
+    },
+    "Teilnehmende (tats\u00e4chlich)": {
+      "0": 7.0,
+      "1": NaN
+    }
+  }
+}
