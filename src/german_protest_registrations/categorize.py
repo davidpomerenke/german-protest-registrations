@@ -118,15 +118,18 @@ Important:
         return {"groups": [], "topics": []}
 
 
-async def categorize_dataset(df: pd.DataFrame) -> pd.DataFrame:
+async def categorize_dataset(df: pd.DataFrame, max_concurrent: int = 50, save_interval: int = 1000, output_path: str | None = None) -> pd.DataFrame:
     """
     Categorize all events in a dataset using Azure OpenAI.
 
     Only processes events that don't have categories yet.
-    Uses async processing with progress bar.
+    Uses async processing with semaphore for rate limiting.
 
     Args:
         df: DataFrame with columns: topic, organizer (optional), city (optional)
+        max_concurrent: Maximum concurrent API requests (default 50)
+        save_interval: Save progress every N events (default 1000)
+        output_path: Path to save incremental progress (optional)
 
     Returns:
         DataFrame with added columns: protest_groups, protest_topics
@@ -138,53 +141,80 @@ async def categorize_dataset(df: pd.DataFrame) -> pd.DataFrame:
         df["protest_topics"] = None
 
     needs_processing = df["protest_groups"].isna() | df["protest_topics"].isna()
-    indices_to_process = df[needs_processing].index
+    indices_to_process = list(df[needs_processing].index)
 
     if len(indices_to_process) == 0:
         print("All events already categorized!")
         return df
 
-    print(f"Categorizing {len(indices_to_process)} events...")
+    print(f"Categorizing {len(indices_to_process)} events (max {max_concurrent} concurrent)...")
 
-    # Create tasks for all events that need processing
-    tasks = []
-    for idx in indices_to_process:
-        row = df.loc[idx]
-        task = classify_event(
-            topic=str(row.get("topic", "")),
-            organizer=str(row.get("organizer", "")) if pd.notna(row.get("organizer")) else None,
-            city=str(row.get("city", "")) if pd.notna(row.get("city")) else None,
-        )
-        tasks.append((idx, task))
+    # Semaphore to limit concurrent requests
+    semaphore = asyncio.Semaphore(max_concurrent)
 
-    # Process all tasks concurrently with progress bar
-    results = await tqdm_asyncio.gather(
-        *[task for _, task in tasks],
-        desc="Categorizing events"
-    )
+    async def classify_with_semaphore(idx):
+        async with semaphore:
+            row = df.loc[idx]
+            result = await classify_event(
+                topic=str(row.get("topic", "")),
+                organizer=str(row.get("organizer", "")) if pd.notna(row.get("organizer")) else None,
+                city=str(row.get("city", "")) if pd.notna(row.get("city")) else None,
+            )
+            return idx, result
 
-    # Update dataframe with results
-    for (idx, _), result in zip(tasks, results):
-        df.at[idx, "protest_groups"] = json.dumps(result.get("groups", []))
-        df.at[idx, "protest_topics"] = json.dumps(result.get("topics", []))
+    # Process with progress bar
+    from tqdm.asyncio import tqdm
+    pbar = tqdm(total=len(indices_to_process), desc="Categorizing events")
+    processed = 0
 
+    # Process in batches to allow incremental saves
+    batch_size = save_interval
+    for i in range(0, len(indices_to_process), batch_size):
+        batch_indices = indices_to_process[i:i + batch_size]
+        tasks = [classify_with_semaphore(idx) for idx in batch_indices]
+
+        # Gather results for this batch
+        batch_results = await asyncio.gather(*tasks)
+
+        # Update dataframe with batch results
+        for idx, result in batch_results:
+            df.at[idx, "protest_groups"] = json.dumps(result.get("groups", []))
+            df.at[idx, "protest_topics"] = json.dumps(result.get("topics", []))
+
+        processed += len(batch_results)
+        pbar.update(len(batch_results))
+
+        # Save incremental progress
+        if output_path:
+            df.to_csv(output_path, index=False)
+            pbar.set_postfix(saved=processed)
+
+    pbar.close()
     return df
 
 
-def categorize_dataset_sync(input_path: str | Path, output_path: str | Path) -> None:
+def categorize_dataset_sync(input_path: str | Path, output_path: str | Path, resume: bool = True) -> None:
     """
     Synchronous wrapper for categorizing a dataset.
 
     Args:
         input_path: Path to input CSV
         output_path: Path to output CSV with categories
+        resume: If True and output exists, resume from previous progress
     """
-    df = pd.read_csv(input_path)
+    output_path = Path(output_path)
 
-    # Run async categorization
-    df = asyncio.run(categorize_dataset(df))
+    # Resume from previous progress if exists
+    if resume and output_path.exists():
+        print(f"Resuming from {output_path}...")
+        df = pd.read_csv(output_path)
+    else:
+        df = pd.read_csv(input_path)
 
-    # Save result
+    # Run async categorization with incremental saves
+    df = asyncio.run(categorize_dataset(df, output_path=str(output_path)))
+
+    # Save final result
     df.to_csv(output_path, index=False)
     print(f"✓ Categorized dataset saved to {output_path}")
 
