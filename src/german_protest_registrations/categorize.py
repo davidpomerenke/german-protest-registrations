@@ -41,7 +41,6 @@ client = AsyncAzureOpenAI(
 )
 
 
-@cache.memoize()
 async def classify_event(
     topic: str,
     organizer: str | None = None,
@@ -60,6 +59,12 @@ async def classify_event(
     Returns:
         Dictionary with 'groups' (list) and 'topics' (list) classifications
     """
+    # Check cache first
+    cache_key = f"classify_v1:{topic}:{organizer}:{city}"
+    cached = cache.get(cache_key)
+    if cached is not None:
+        return cached
+
     # Create prompt
     prompt = f"""Analyze this German protest/demonstration registration and classify it.
 
@@ -104,6 +109,8 @@ Important:
         )
 
         result = json.loads(response.choices[0].message.content)
+        # Cache the result
+        cache.set(cache_key, result)
         return result
 
     except Exception as e:
