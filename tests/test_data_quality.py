@@ -253,6 +253,158 @@ class TestVisualization:
         # Should have at least 50,000 events
         assert len(viz_data) >= 50000, f"Visualization data seems too small: {len(viz_data)}"
 
+    def test_viz_data_has_protest_topics(self, viz_data):
+        """Visualization data should have protest_topics column."""
+        assert "protest_topics" in viz_data.columns, "Missing protest_topics column"
+
+    def test_protest_topics_valid_json(self, viz_data):
+        """All protest_topics values should be valid JSON arrays."""
+        invalid_count = 0
+        for idx, val in viz_data["protest_topics"].items():
+            if pd.notna(val):
+                try:
+                    parsed = json.loads(val)
+                    if not isinstance(parsed, list):
+                        invalid_count += 1
+                except (json.JSONDecodeError, TypeError):
+                    invalid_count += 1
+
+        error_rate = invalid_count / len(viz_data)
+        assert error_rate < 0.01, f"Too many invalid protest_topics: {invalid_count} ({error_rate:.1%})"
+
+    def test_protest_topics_coverage(self, viz_data):
+        """Most events should have at least one topic categorized."""
+        def has_topics(val):
+            if pd.isna(val):
+                return False
+            try:
+                parsed = json.loads(val)
+                return isinstance(parsed, list) and len(parsed) > 0
+            except Exception:
+                return False
+
+        has_topic = viz_data["protest_topics"].apply(has_topics)
+        coverage = has_topic.sum() / len(viz_data)
+        # At least 70% of events should have topics
+        assert coverage >= 0.70, f"Topic coverage too low: {coverage:.1%}"
+
+
+class TestTopicCategories:
+    """Tests for topic category consistency."""
+
+    @pytest.fixture
+    def schema(self):
+        """Load the categorization schema."""
+        path = ROOT / "categorization_schema.json"
+        if not path.exists():
+            pytest.skip("Categorization schema not found")
+        with open(path) as f:
+            return json.load(f)
+
+    @pytest.fixture
+    def viz_constants(self):
+        """Parse topic categories from visualization constants.js."""
+        path = ROOT / "viz" / "src" / "constants.js"
+        if not path.exists():
+            pytest.skip("Visualization constants not found")
+        content = path.read_text()
+
+        # Extract TOPIC_CATEGORIES array
+        import re
+        match = re.search(r'export const TOPIC_CATEGORIES = \[(.*?)\];', content, re.DOTALL)
+        if not match:
+            pytest.skip("Could not parse TOPIC_CATEGORIES from constants.js")
+
+        # Parse the array contents
+        array_content = match.group(1)
+        topics = re.findall(r'"([^"]+)"', array_content)
+        return topics
+
+    def test_schema_topics_match_viz_constants(self, schema, viz_constants):
+        """Topics in schema should match visualization constants."""
+        schema_topics = set(t["name"] for t in schema["topics"])
+        viz_topics = set(viz_constants)
+
+        missing_in_viz = schema_topics - viz_topics
+        extra_in_viz = viz_topics - schema_topics
+
+        if missing_in_viz:
+            import warnings
+            warnings.warn(f"Topics in schema but not in viz: {missing_in_viz}")
+        if extra_in_viz:
+            import warnings
+            warnings.warn(f"Topics in viz but not in schema: {extra_in_viz}")
+
+        # Allow some mismatch but not too much
+        total_mismatch = len(missing_in_viz) + len(extra_in_viz)
+        assert total_mismatch < 10, f"Too many topic mismatches: {total_mismatch}"
+
+    def test_all_viz_topics_have_colors(self, viz_constants):
+        """All topic categories should have a color defined."""
+        path = ROOT / "viz" / "src" / "constants.js"
+        content = path.read_text()
+
+        # Extract TOPIC_COLORS object
+        import re
+        colors_match = re.search(r'export const TOPIC_COLORS = \{(.*?)\};', content, re.DOTALL)
+        if not colors_match:
+            pytest.skip("Could not parse TOPIC_COLORS from constants.js")
+
+        colors_content = colors_match.group(1)
+        colored_topics = set(re.findall(r'"([^"]+)":\s*"#', colors_content))
+
+        missing_colors = set(viz_constants) - colored_topics
+        if missing_colors:
+            import warnings
+            warnings.warn(f"Topics without colors: {missing_colors}")
+
+        # Allow a few topics without colors (they'll use default)
+        assert len(missing_colors) <= 3, f"Too many topics without colors: {missing_colors}"
+
+    def test_viz_data_topics_mostly_valid(self):
+        """Most topic assignments should be from known categories."""
+        viz_data_path = ROOT / "docs" / "data.csv"
+        constants_path = ROOT / "viz" / "src" / "constants.js"
+
+        if not viz_data_path.exists() or not constants_path.exists():
+            pytest.skip("Required files not found")
+
+        # Get valid topics from constants
+        import re
+        content = constants_path.read_text()
+        match = re.search(r'export const TOPIC_CATEGORIES = \[(.*?)\];', content, re.DOTALL)
+        valid_topics = set(re.findall(r'"([^"]+)"', match.group(1)))
+
+        # Count topic assignments by validity
+        viz_data = pd.read_csv(viz_data_path)
+        valid_count = 0
+        invalid_count = 0
+        all_invalid_topics = set()
+
+        for val in viz_data["protest_topics"].dropna():
+            try:
+                topics = json.loads(val)
+                if isinstance(topics, list):
+                    for t in topics:
+                        if t in valid_topics:
+                            valid_count += 1
+                        else:
+                            invalid_count += 1
+                            all_invalid_topics.add(t)
+            except Exception:
+                pass
+
+        total = valid_count + invalid_count
+        if total > 0:
+            valid_rate = valid_count / total
+            # At least 60% of topic assignments should be from known categories
+            # (GPT-4 generates additional specific topics, which is acceptable)
+            assert valid_rate >= 0.60, f"Known topic rate too low: {valid_rate:.1%}"
+
+            if len(all_invalid_topics) > 0:
+                import warnings
+                warnings.warn(f"Found {len(all_invalid_topics)} unknown topic types ({invalid_count} occurrences, {1-valid_rate:.1%})")
+
 
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])

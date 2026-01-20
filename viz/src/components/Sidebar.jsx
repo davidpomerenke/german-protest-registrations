@@ -1,133 +1,108 @@
-export default function Sidebar({ selectedEvent, hoveredEvent, stats }) {
+import { TOPIC_COLORS, DEFAULT_COLOR, TOPIC_CATEGORIES } from '../constants'
+
+export default function Sidebar({ selectedEvent, hoveredEvent, stats, topicCounts }) {
   const event = selectedEvent || hoveredEvent
+
+  // Get top topics
+  const topTopics = TOPIC_CATEGORIES
+    .filter(t => topicCounts[t] > 0)
+    .sort((a, b) => (topicCounts[b] || 0) - (topicCounts[a] || 0))
+    .slice(0, 12)
 
   return (
     <aside className="sidebar">
-      <section className="stats-section">
-        <h3>Statistics</h3>
-        <div className="stats-grid">
-          <div className="stat">
-            <span className="value">{stats.total.toLocaleString()}</span>
-            <span className="label">Total Events</span>
-          </div>
-          <div className="stat">
-            <span className="value">{stats.filtered.toLocaleString()}</span>
-            <span className="label">Filtered</span>
-          </div>
-          <div className="stat">
-            <span className="value">{stats.cities}</span>
-            <span className="label">Cities</span>
-          </div>
-          <div className="stat">
-            <span className="value">{stats.yearRange}</span>
-            <span className="label">Date Range</span>
-          </div>
-        </div>
-      </section>
+      {event ? (
+        <section className="event-detail">
+          <h3>Event Details</h3>
 
-      <section className="event-section">
-        <h3>Event Details</h3>
-        {event ? (
-          <div className="event-detail">
-            <div className="detail-row">
-              <span className="label">City</span>
-              <span className="value city-badge" style={{ '--city-color': getCityColor(event.city) }}>
-                {event.city}
-              </span>
+          <div className="detail-row">
+            <span className="label">City</span>
+            <span className="value">{event.city}</span>
+          </div>
+
+          <div className="detail-row">
+            <span className="label">Date</span>
+            <span className="value">{event.date.toLocaleDateString('de-DE', {
+              weekday: 'short',
+              year: 'numeric',
+              month: 'short',
+              day: 'numeric'
+            })}</span>
+          </div>
+
+          <div className="detail-row full">
+            <span className="label">Topic</span>
+            <span className="value topic-text">{event.topic}</span>
+          </div>
+
+          {event.organizer && (
+            <div className="detail-row full">
+              <span className="label">Organizer</span>
+              <span className="value">{event.organizer}</span>
             </div>
+          )}
+
+          {event.topics && event.topics.length > 0 && (
+            <div className="detail-row full">
+              <span className="label">Categories</span>
+              <div className="category-tags">
+                {event.topics.map((t, i) => (
+                  <span
+                    key={i}
+                    className="category-tag"
+                    style={{ backgroundColor: TOPIC_COLORS[t] || DEFAULT_COLOR }}
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {(event.participants_registered || event.participants_actual) && (
             <div className="detail-row">
-              <span className="label">Date</span>
+              <span className="label">Participants</span>
               <span className="value">
-                {event.date.toLocaleDateString('de-DE', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric'
-                })}
+                {event.participants_registered && `${event.participants_registered.toLocaleString()} registered`}
+                {event.participants_registered && event.participants_actual && ' / '}
+                {event.participants_actual && `${event.participants_actual.toLocaleString()} actual`}
               </span>
             </div>
-            <div className="detail-row">
-              <span className="label">Topic</span>
-              <span className="value topic">{event.topic || 'Not specified'}</span>
-            </div>
-            {event.organizer && (
-              <div className="detail-row">
-                <span className="label">Organizer</span>
-                <span className="value">{event.organizer}</span>
-              </div>
-            )}
-            {event.participants_registered && (
-              <div className="detail-row">
-                <span className="label">Registered</span>
-                <span className="value">{event.participants_registered.toLocaleString()} participants</span>
-              </div>
-            )}
-            {event.participants_actual && (
-              <div className="detail-row">
-                <span className="label">Actual</span>
-                <span className="value">{event.participants_actual.toLocaleString()} participants</span>
-              </div>
-            )}
-            <div className="detail-row">
-              <span className="label">Region</span>
-              <span className="value">{event.region}</span>
-            </div>
-          </div>
-        ) : (
-          <p className="placeholder">Click or hover on a bubble to see details</p>
-        )}
-      </section>
+          )}
 
-      <section className="legend-section">
-        <h3>City Legend</h3>
-        <div className="legend-grid">
-          {Object.entries(cityColors).map(([city, color]) => (
-            <div key={city} className="legend-item">
-              <span className="color-dot" style={{ backgroundColor: color }}></span>
-              <span className="city-name">{city}</span>
-            </div>
-          ))}
-        </div>
-      </section>
+          <div className="detail-row">
+            <span className="label">Region</span>
+            <span className="value">{event.region}</span>
+          </div>
+        </section>
+      ) : (
+        <section className="topic-legend">
+          <h3>Top Categories</h3>
+          <p className="legend-hint">Click on a bubble to see details</p>
+
+          <div className="topic-list">
+            {topTopics.map(topic => (
+              <div key={topic} className="topic-item">
+                <span
+                  className="topic-dot"
+                  style={{ backgroundColor: TOPIC_COLORS[topic] || DEFAULT_COLOR }}
+                />
+                <span className="topic-name">{topic}</span>
+                <span className="topic-count">{(topicCounts[topic] || 0).toLocaleString()}</span>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="about-section">
         <h3>About</h3>
         <p>
-          This dataset leverages Freedom of Information laws to collect official protest
-          data from 17 German cities. Data compiled via{' '}
-          <a href="https://fragdenstaat.de" target="_blank" rel="noopener noreferrer">FragDenStaat</a>.
-        </p>
-        <p>
-          Visualization inspired by{' '}
-          <a href="https://webkid.io/projects/fragdenstaat-berlin-demonstrations/" target="_blank" rel="noopener noreferrer">
-            webkid's Berlin Demonstrations project
-          </a>.
+          Official protest registration data from 17 German cities, collected via{' '}
+          <a href="https://fragdenstaat.de" target="_blank" rel="noopener noreferrer">FragDenStaat</a>{' '}
+          Freedom of Information requests. AI-categorized using GPT-4.
         </p>
       </section>
     </aside>
   )
-}
-
-// City colors for legend
-const cityColors = {
-  'Berlin': '#e63946',
-  'München': '#457b9d',
-  'Köln': '#2a9d8f',
-  'Dresden': '#e9c46a',
-  'Bremen': '#f4a261',
-  'Freiburg': '#264653',
-  'Mainz': '#a8dadc',
-  'Erfurt': '#1d3557',
-  'Kiel': '#f77f00',
-  'Magdeburg': '#d62828',
-  'Karlsruhe': '#003049',
-  'Wiesbaden': '#588157',
-  'Duisburg': '#bc6c25',
-  'Saarbrücken': '#606c38',
-  'Dortmund': '#283618',
-  'Wuppertal': '#9b2226',
-  'Potsdam': '#005f73'
-}
-
-function getCityColor(city) {
-  return cityColors[city] || '#6c757d'
 }

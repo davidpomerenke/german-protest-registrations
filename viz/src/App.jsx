@@ -1,8 +1,9 @@
 import { useState, useEffect, useMemo } from 'react'
 import * as d3 from 'd3'
-import BubbleChart from './components/BubbleChart'
+import CanvasChart from './components/CanvasChart'
 import FilterPanel from './components/FilterPanel'
 import Sidebar from './components/Sidebar'
+import { TOPIC_CATEGORIES, getTopicColor } from './constants'
 import './App.css'
 
 function App() {
@@ -10,10 +11,9 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [filters, setFilters] = useState({
     city: '',
+    topic: '',
     yearStart: 2012,
     yearEnd: 2024,
-    search: '',
-    viewMode: 'timeline' // 'timeline', 'city', 'topic'
   })
   const [selectedEvent, setSelectedEvent] = useState(null)
   const [hoveredEvent, setHoveredEvent] = useState(null)
@@ -21,20 +21,43 @@ function App() {
   // Load data on mount
   useEffect(() => {
     d3.csv(import.meta.env.BASE_URL + 'data.csv').then(rawData => {
-      const parsed = rawData.map((d, i) => ({
-        id: i,
-        region: d.region,
-        city: d.city,
-        date: new Date(d.date),
-        year: new Date(d.date).getFullYear(),
-        month: new Date(d.date).getMonth(),
-        organizer: d.organizer || null,
-        topic: d.topic || 'Unknown',
-        participants_registered: d.participants_registered ? +d.participants_registered : null,
-        participants_actual: d.participants_actual ? +d.participants_actual : null
-      })).filter(d => !isNaN(d.date.getTime()))
+      const parsed = rawData.map((d, i) => {
+        // Parse protest_topics JSON
+        let topics = []
+        try {
+          if (d.protest_topics) {
+            topics = JSON.parse(d.protest_topics)
+          }
+        } catch (e) {
+          topics = []
+        }
+
+        const date = new Date(d.date)
+        return {
+          id: i,
+          region: d.region,
+          city: d.city,
+          date: date,
+          year: date.getFullYear(),
+          month: date.getMonth(),
+          organizer: d.organizer || null,
+          topic: d.topic || 'Unknown',
+          topics: topics, // Array of categorized topics
+          primaryTopic: topics[0] || null,
+          participants_registered: d.participants_registered ? +d.participants_registered : null,
+          participants_actual: d.participants_actual ? +d.participants_actual : null,
+          color: getTopicColor(topics)
+        }
+      }).filter(d => !isNaN(d.date.getTime()))
 
       setData(parsed)
+
+      // Set year range from data
+      const years = parsed.map(d => d.year)
+      const minYear = Math.min(...years)
+      const maxYear = Math.max(...years)
+      setFilters(f => ({ ...f, yearStart: minYear, yearEnd: maxYear }))
+
       setLoading(false)
     })
   }, [])
@@ -44,7 +67,7 @@ function App() {
     return data.filter(d => {
       if (filters.city && d.city !== filters.city) return false
       if (d.year < filters.yearStart || d.year > filters.yearEnd) return false
-      if (filters.search && !d.topic?.toLowerCase().includes(filters.search.toLowerCase())) return false
+      if (filters.topic && !d.topics.includes(filters.topic)) return false
       return true
     })
   }, [data, filters])
@@ -62,6 +85,17 @@ function App() {
       min: Math.min(...years),
       max: Math.max(...years)
     }
+  }, [data])
+
+  // Topic counts for the filter
+  const topicCounts = useMemo(() => {
+    const counts = {}
+    data.forEach(d => {
+      d.topics.forEach(t => {
+        counts[t] = (counts[t] || 0) + 1
+      })
+    })
+    return counts
   }, [data])
 
   // Stats
@@ -86,7 +120,9 @@ function App() {
       <header className="header">
         <h1>German Protest Registrations</h1>
         <p className="subtitle">
-          Interactive visualization of {stats.total.toLocaleString()} demonstrations across {stats.cities} cities ({stats.yearRange})
+          {stats.filtered.toLocaleString()} of {stats.total.toLocaleString()} demonstrations
+          {filters.topic && ` • ${filters.topic}`}
+          {filters.city && ` • ${filters.city}`}
         </p>
       </header>
 
@@ -95,29 +131,30 @@ function App() {
         setFilters={setFilters}
         cities={cities}
         yearRange={yearRange}
-        stats={stats}
+        topicCounts={topicCounts}
       />
 
       <main className="main">
-        <BubbleChart
+        <CanvasChart
           data={filteredData}
-          viewMode={filters.viewMode}
+          yearRange={yearRange}
+          filters={filters}
           onSelect={setSelectedEvent}
           onHover={setHoveredEvent}
-          hoveredEvent={hoveredEvent}
         />
         <Sidebar
           selectedEvent={selectedEvent}
           hoveredEvent={hoveredEvent}
           stats={stats}
+          topicCounts={topicCounts}
         />
       </main>
 
       <footer className="footer">
         <p>
-          Data compiled from <a href="https://fragdenstaat.de" target="_blank" rel="noopener noreferrer">FragDenStaat</a> Freedom of Information requests.
-          <a href="https://github.com/davidpomerenke/german-protest-registrations" target="_blank" rel="noopener noreferrer">View on GitHub</a> |
-          <a href="https://zenodo.org/records/10094245" target="_blank" rel="noopener noreferrer">Dataset (Zenodo)</a>
+          Data from <a href="https://fragdenstaat.de" target="_blank" rel="noopener noreferrer">FragDenStaat</a> FOI requests •
+          <a href="https://github.com/davidpomerenke/german-protest-registrations" target="_blank" rel="noopener noreferrer">GitHub</a> •
+          <a href="https://zenodo.org/records/10094245" target="_blank" rel="noopener noreferrer">Zenodo</a>
         </p>
       </footer>
     </div>
