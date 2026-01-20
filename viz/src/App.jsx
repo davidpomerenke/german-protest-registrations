@@ -15,6 +15,8 @@ function App() {
     yearStart: 2012,
     yearEnd: 2024,
   })
+  const [viewMode, setViewMode] = useState('all') // 'all' or 'by-city'
+  const [viewRange, setViewRange] = useState({ start: 2012, end: 2024 }) // For zoom slider
   const [selectedEvent, setSelectedEvent] = useState(null)
   const [hoveredEvent, setHoveredEvent] = useState(null)
 
@@ -32,6 +34,16 @@ function App() {
           topics = []
         }
 
+        // Parse protest_groups JSON
+        let groups = []
+        try {
+          if (d.protest_groups) {
+            groups = JSON.parse(d.protest_groups)
+          }
+        } catch (e) {
+          groups = []
+        }
+
         const date = new Date(d.date)
         return {
           id: i,
@@ -44,6 +56,8 @@ function App() {
           topic: d.topic || 'Unknown',
           topics: topics, // Array of categorized topics
           primaryTopic: topics[0] || null,
+          groups: groups, // Array of organizations/groups
+          primaryGroup: groups[0] || d.organizer || null,
           participants_registered: d.participants_registered ? +d.participants_registered : null,
           participants_actual: d.participants_actual ? +d.participants_actual : null,
           color: getTopicColor(topics)
@@ -57,16 +71,16 @@ function App() {
       const minYear = Math.min(...years)
       const maxYear = Math.max(...years)
       setFilters(f => ({ ...f, yearStart: minYear, yearEnd: maxYear }))
+      setViewRange({ start: minYear, end: maxYear })
 
       setLoading(false)
     })
   }, [])
 
-  // Filter data based on current filters
+  // Filter data based on current filters (NOT by year - that's handled by view zoom)
   const filteredData = useMemo(() => {
     return data.filter(d => {
       if (filters.city && d.city !== filters.city) return false
-      if (d.year < filters.yearStart || d.year > filters.yearEnd) return false
       if (filters.topic && !d.topics.includes(filters.topic)) return false
       return true
     })
@@ -97,6 +111,17 @@ function App() {
     })
     return counts
   }, [data])
+
+  // Organization counts (for coloring when topic is selected)
+  const organizationCounts = useMemo(() => {
+    const counts = {}
+    filteredData.forEach(d => {
+      if (d.primaryGroup) {
+        counts[d.primaryGroup] = (counts[d.primaryGroup] || 0) + 1
+      }
+    })
+    return counts
+  }, [filteredData])
 
   // Stats
   const stats = useMemo(() => ({
@@ -131,6 +156,10 @@ function App() {
         setFilters={setFilters}
         cities={cities}
         yearRange={yearRange}
+        viewRange={viewRange}
+        setViewRange={setViewRange}
+        viewMode={viewMode}
+        setViewMode={setViewMode}
         topicCounts={topicCounts}
       />
 
@@ -138,7 +167,10 @@ function App() {
         <CanvasChart
           data={filteredData}
           yearRange={yearRange}
+          viewRange={viewRange}
+          viewMode={viewMode}
           filters={filters}
+          organizationCounts={organizationCounts}
           onSelect={setSelectedEvent}
           onHover={setHoveredEvent}
         />

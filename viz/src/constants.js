@@ -113,6 +113,24 @@ export const getTopicColor = (topics) => {
   return TOPIC_COLORS[topics[0]] || DEFAULT_COLOR;
 };
 
+// Generate organization colors using a hash-based color scheme
+export const getOrganizationColor = (organization, organizationCounts) => {
+  if (!organization) return DEFAULT_COLOR;
+
+  // Use a deterministic hash to generate consistent colors for organizations
+  let hash = 0;
+  for (let i = 0; i < organization.length; i++) {
+    hash = organization.charCodeAt(i) + ((hash << 5) - hash);
+  }
+
+  // Generate pleasant colors using golden ratio for good distribution
+  const hue = Math.abs(hash % 360);
+  const saturation = 65 + (Math.abs(hash >> 8) % 20); // 65-85%
+  const lightness = 45 + (Math.abs(hash >> 16) % 15); // 45-60%
+
+  return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+};
+
 // Cities list
 export const CITIES = [
   "Berlin", "München", "Köln", "Dresden", "Bremen", "Freiburg",
