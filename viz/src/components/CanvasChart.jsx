@@ -16,25 +16,45 @@ export default function CanvasChart({
   const canvasRef = useRef(null)
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 })
   const [tooltip, setTooltip] = useState(null)
+  const [precomputedPositions, setPrecomputedPositions] = useState(null)
 
-  // Precompute force-based layout positions once when data changes
-  const { nodes, xScale, yearPositions, cityLanes } = useMemo(() => {
-    if (data.length === 0) return { nodes: [], xScale: null, yearPositions: [], cityLanes: [] }
+  // Load precomputed positions once on mount
+  useEffect(() => {
+    fetch(import.meta.env.BASE_URL + 'positions.json')
+      .then(res => res.json())
+      .then(positions => {
+        console.log('Loaded precomputed positions:', positions.meta)
+        setPrecomputedPositions(positions)
+      })
+      .catch(err => console.error('Failed to load precomputed positions:', err))
+  }, [])
+
+  // Map data to precomputed positions and apply filters via visibility
+  const { nodes, xScale, yearPositions, cityLanes, margin } = useMemo(() => {
+    if (data.length === 0 || !precomputedPositions) {
+      return { nodes: [], xScale: null, yearPositions: [], cityLanes: [], margin: null }
+    }
 
     const margin = viewMode === 'by-city'
-      ? { top: 50, right: 20, bottom: 40, left: 120 } // More left margin for city labels
+      ? { top: 50, right: 20, bottom: 40, left: 120 }
       : { top: 50, right: 20, bottom: 40, left: 20 }
-    const width = dimensions.width - margin.left - margin.right
-    const height = dimensions.height - margin.top - margin.bottom
 
-    // Time scale (use viewRange for zoom, not yearRange)
+    // Get precomputed positions for current view mode
+    const positions = viewMode === 'by-city'
+      ? precomputedPositions.byCity
+      : precomputedPositions.all
+
+    // Create position lookup
+    const positionMap = new Map(positions.map(p => [p.id, p]))
+
+    // Time scale for zooming
     const minDate = new Date(viewRange.start, 0, 1)
     const maxDate = new Date(viewRange.end, 11, 31)
     const xScale = d3.scaleTime()
       .domain([minDate, maxDate])
       .range([margin.left, dimensions.width - margin.right])
 
-    // Create year positions for labels (based on view range)
+    // Create year positions for labels
     const years = []
     for (let y = viewRange.start; y <= viewRange.end; y++) {
       years.push({
@@ -43,25 +63,11 @@ export default function CanvasChart({
       })
     }
 
-    // Sample if too many points (for performance)
-    let displayData = data
-    if (data.length > 15000) {
-      // Stratified sample: take proportionally from each year
-      const byYear = d3.group(data, d => d.year)
-      const sampleRate = 15000 / data.length
-      displayData = []
-      byYear.forEach((events, year) => {
-        const sampleSize = Math.ceil(events.length * sampleRate)
-        const sampled = d3.shuffle([...events]).slice(0, sampleSize)
-        displayData.push(...sampled)
-      })
-    }
-
     // Create city lanes for by-city mode
     let cityLanes = []
     if (viewMode === 'by-city') {
-      const cities = [...new Set(displayData.map(d => d.city))].sort()
-      const laneHeight = height / cities.length
+      const cities = [...new Set(data.map(d => d.city))].sort()
+      const laneHeight = (dimensions.height - margin.top - margin.bottom) / cities.length
       cityLanes = cities.map((city, i) => ({
         city,
         y: margin.top + i * laneHeight + laneHeight / 2,
@@ -69,80 +75,39 @@ export default function CanvasChart({
       }))
     }
 
-    // Create nodes with radius based on participant count (area proportional to participants)
-    // Area = π*r², so for area ∝ participants: r = sqrt(participants) * scale
-    const nodes = displayData.map(d => {
-      const participants = d.participants_registered || 50
-      // Area-based sizing: radius = sqrt(participants) * scale + minimum
-      const r = Math.max(2.5, Math.min(15, Math.sqrt(participants) * 0.12))
+    // Map data to nodes with precomputed positions
+    const nodes = data.map(d => {
+      const pos = positionMap.get(d.id)
+      if (!pos) {
+        console.warn(`No precomputed position for event ${d.id}`)
+        return null
+      }
 
-      // Determine target Y position based on view mode
-      let targetY
-      if (viewMode === 'by-city') {
-        const lane = cityLanes.find(l => l.city === d.city)
-        targetY = lane ? lane.y : margin.top + height / 2
+      // Determine visibility based on filters
+      const visible =
+        d.year >= viewRange.start &&
+        d.year <= viewRange.end
+
+      // Apply colors based on context
+      let displayColor
+      if (filters.topic) {
+        displayColor = getOrganizationColor(d.primaryGroup, organizationCounts)
       } else {
-        targetY = margin.top + height / 2
+        displayColor = d.color // Topic color
       }
 
       return {
         ...d,
-        r,
-        targetX: xScale(d.date), // Target x position for force
-        targetY, // Target y position (city lane or center)
-        x: xScale(d.date), // Initial position
-        y: targetY, // Start at target Y
-        vx: 0,
-        vy: 0
+        x: pos.x,
+        y: pos.y,
+        r: pos.r,
+        displayColor,
+        visible
       }
-    })
-
-    // Run force simulation to completion (precompute positions for streamgraph)
-    const yStrength = viewMode === 'by-city' ? 0.2 : 0.02 // Stronger Y force for city lanes
-    const simulation = d3.forceSimulation(nodes)
-      .force('x', d3.forceX(d => d.targetX).strength(1)) // Strong force to lock to timeline position
-      .force('y', d3.forceY(d => d.targetY).strength(yStrength)) // Center within lane/view
-      .force('collide', d3.forceCollide(d => d.r + 0.8).iterations(3).strength(0.9)) // Prevent overlap with good separation
-      .force('charge', d3.forceManyBody().strength(-1).distanceMax(50)) // Slight repulsion for better distribution
-      .velocityDecay(0.3) // Slower velocity decay for smoother settling
-      .stop()
-
-    // Run simulation synchronously to full completion for smooth streamgraph
-    const iterations = Math.ceil(Math.log(simulation.alphaMin()) / Math.log(1 - simulation.alphaDecay()))
-    for (let i = 0; i < iterations; ++i) {
-      simulation.tick()
-    }
-
-    // Clamp y positions to canvas bounds
-    if (viewMode === 'by-city') {
-      // Clamp within city lanes
-      nodes.forEach(node => {
-        const lane = cityLanes.find(l => l.city === node.city)
-        if (lane) {
-          const laneTop = lane.y - lane.height / 2
-          const laneBottom = lane.y + lane.height / 2
-          node.y = Math.max(laneTop + node.r, Math.min(laneBottom - node.r, node.y))
-        }
-      })
-    } else {
-      // Clamp to overall bounds
-      nodes.forEach(node => {
-        node.y = Math.max(margin.top + node.r, Math.min(dimensions.height - margin.bottom - node.r, node.y))
-      })
-    }
-
-    // Apply colors based on context
-    nodes.forEach(node => {
-      // If a topic is selected, color by organization; otherwise color by topic
-      if (filters.topic) {
-        node.displayColor = getOrganizationColor(node.primaryGroup, organizationCounts)
-      } else {
-        node.displayColor = node.color // Already set to topic color
-      }
-    })
+    }).filter(n => n !== null)
 
     return { nodes, xScale, yearPositions: years, cityLanes, margin }
-  }, [data, dimensions, viewRange, viewMode, filters, organizationCounts])
+  }, [data, precomputedPositions, dimensions, viewRange, viewMode, filters, organizationCounts])
 
   // Update dimensions on resize
   useEffect(() => {
@@ -226,8 +191,10 @@ export default function CanvasChart({
       ctx.fillText(year.toString(), x, 30)
     })
 
-    // Draw bubbles
+    // Draw bubbles (only visible ones)
     nodes.forEach(node => {
+      if (!node.visible) return
+
       ctx.beginPath()
       ctx.arc(node.x, node.y, node.r, 0, 2 * Math.PI)
       ctx.fillStyle = node.displayColor + 'bb' // Add transparency
@@ -251,11 +218,13 @@ export default function CanvasChart({
     const x = e.clientX - rect.left
     const y = e.clientY - rect.top
 
-    // Find closest node within threshold
+    // Find closest visible node within threshold
     let closest = null
     let minDist = 20 // Pixel threshold
 
     for (const node of nodes) {
+      if (!node.visible) continue
+
       const dist = Math.sqrt((node.x - x) ** 2 + (node.y - y) ** 2)
       if (dist < minDist && dist < node.r + 10) {
         minDist = dist
@@ -283,8 +252,10 @@ export default function CanvasChart({
     const x = e.clientX - rect.left
     const y = e.clientY - rect.top
 
-    // Find clicked node
+    // Find clicked visible node
     for (const node of nodes) {
+      if (!node.visible) continue
+
       const dist = Math.sqrt((node.x - x) ** 2 + (node.y - y) ** 2)
       if (dist <= node.r + 5) {
         onSelect(node)
@@ -299,6 +270,17 @@ export default function CanvasChart({
     onHover(null)
   }, [onHover])
 
+  if (!precomputedPositions) {
+    return (
+      <div className="canvas-chart" ref={containerRef}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%' }}>
+          <div className="spinner"></div>
+          <p style={{ marginLeft: '1rem' }}>Loading precomputed layout...</p>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <div className="canvas-chart" ref={containerRef}>
       <canvas
@@ -308,12 +290,6 @@ export default function CanvasChart({
         onMouseLeave={handleMouseLeave}
         style={{ cursor: tooltip ? 'pointer' : 'default' }}
       />
-
-      {data.length > 15000 && (
-        <div className="sample-notice">
-          Showing ~15,000 of {data.length.toLocaleString()} events
-        </div>
-      )}
 
       {tooltip && (
         <div
