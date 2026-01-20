@@ -8,7 +8,7 @@ export default function CanvasChart({ data, yearRange, filters, onSelect, onHove
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 })
   const [tooltip, setTooltip] = useState(null)
 
-  // Precompute positions once when data changes
+  // Precompute force-based layout positions once when data changes
   const { nodes, xScale, yearPositions } = useMemo(() => {
     if (data.length === 0) return { nodes: [], xScale: null, yearPositions: [] }
 
@@ -32,7 +32,7 @@ export default function CanvasChart({ data, yearRange, filters, onSelect, onHove
       })
     }
 
-    // Sample if too many points (for initial render performance)
+    // Sample if too many points (for performance)
     let displayData = data
     if (data.length > 15000) {
       // Stratified sample: take proportionally from each year
@@ -46,24 +46,40 @@ export default function CanvasChart({ data, yearRange, filters, onSelect, onHove
       })
     }
 
-    // Position nodes using a simple beeswarm-like algorithm
-    // Group by month for vertical distribution
+    // Create nodes with radius based on participant count (area proportional to participants)
+    // Area = π*r², so for area ∝ participants: r = sqrt(participants) * scale
     const nodes = displayData.map(d => {
-      const x = xScale(d.date)
-      // Use deterministic pseudo-random y based on id for consistency
-      const yOffset = ((d.id * 2654435761) % 1000) / 1000 // Knuth's multiplicative hash
-      const y = margin.top + yOffset * height
-
-      // Size based on participants (log scale, capped)
       const participants = d.participants_registered || 50
-      const r = Math.max(2, Math.min(8, Math.sqrt(participants) * 0.15 + 1.5))
+      // Area-based sizing: radius = sqrt(participants) * scale + minimum
+      const r = Math.max(2.5, Math.min(15, Math.sqrt(participants) * 0.12))
 
       return {
         ...d,
-        x, y, r,
-        screenX: x,
-        screenY: y
+        r,
+        targetX: xScale(d.date), // Target x position for force
+        x: xScale(d.date), // Initial position
+        y: margin.top + height / 2, // Start in middle
+        vx: 0,
+        vy: 0
       }
+    })
+
+    // Run force simulation to completion (precompute positions)
+    const simulation = d3.forceSimulation(nodes)
+      .force('x', d3.forceX(d => d.targetX).strength(0.5))
+      .force('y', d3.forceY(margin.top + height / 2).strength(0.05))
+      .force('collide', d3.forceCollide(d => d.r + 0.5).iterations(2))
+      .stop()
+
+    // Run simulation synchronously to completion
+    const iterations = Math.ceil(Math.log(simulation.alphaMin()) / Math.log(1 - simulation.alphaDecay()))
+    for (let i = 0; i < iterations; ++i) {
+      simulation.tick()
+    }
+
+    // Clamp y positions to canvas bounds
+    nodes.forEach(node => {
+      node.y = Math.max(margin.top + node.r, Math.min(dimensions.height - margin.bottom - node.r, node.y))
     })
 
     return { nodes, xScale, yearPositions: years }
@@ -126,6 +142,13 @@ export default function CanvasChart({ data, yearRange, filters, onSelect, onHove
       ctx.arc(node.x, node.y, node.r, 0, 2 * Math.PI)
       ctx.fillStyle = node.color + 'bb' // Add transparency
       ctx.fill()
+
+      // Add border for small circles to ensure visibility
+      if (node.r < 4) {
+        ctx.strokeStyle = node.color + 'ee'
+        ctx.lineWidth = 0.8
+        ctx.stroke()
+      }
     })
 
   }, [nodes, dimensions, yearPositions])
